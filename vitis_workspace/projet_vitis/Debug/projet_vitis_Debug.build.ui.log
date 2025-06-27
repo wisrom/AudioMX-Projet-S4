@@ -1,0 +1,121 @@
+2025-06-05T16:18:43.86855800255-16:18:45 **** Build of configuration Debug for project projet_vitis ****
+000-make all 
+000-'Building file: ../src/cyclone_tcp/std_services/echo.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -IC:/Users/gabma/ProjetS4/labo1_final/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/sw/main_design_wrapper/standalone_domain/bspinclude/include -I"C:\Users\gabma\ProjetS4\labo1_final\labo1\vitis_workspace\projet_vitis\src" -c -fmessage-length=0 -MT"src/cyclone_tcp/std_services/echo.o" -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/std_services/echo.d" -MT"src/cyclone_tcp/std_services/echo.o" -o "src/cyclone_tcp/std_services/echo.o" "../src/cyclone_tcp/std_services/echo.c"
+000-'Finished building: ../src/cyclone_tcp/std_services/echo.c'
+000-' '
+000-'Building file: ../src/cyclone_tcp/ipv4/arp.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -IC:/Users/gabma/ProjetS4/labo1_final/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/sw/main_design_wrapper/standalone_domain/bspinclude/include -I"C:\Users\gabma\ProjetS4\labo1_final\labo1\vitis_workspace\projet_vitis\src" -c -fmessage-length=0 -MT"src/cyclone_tcp/ipv4/arp.o" -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/ipv4/arp.d" -MT"src/cyclone_tcp/ipv4/arp.o" -o "src/cyclone_tcp/ipv4/arp.o" "../src/cyclone_tcp/ipv4/arp.c"
+000-'Finished building: ../src/cyclone_tcp/ipv4/arp.c'
+000-' '
+000-'Building file: ../src/cyclone_tcp/ipv4/ipv4.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -IC:/Users/gabma/ProjetS4/labo1_final/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/sw/main_design_wrapper/standalone_domain/bspinclude/include -I"C:\Users\gabma\ProjetS4\labo1_final\labo1\vitis_workspace\projet_vitis\src" -c -fmessage-length=0 -MT"src/cyclone_tcp/ipv4/ipv4.o" -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/ipv4/ipv4.d" -MT"src/cyclone_tcp/ipv4/ipv4.o" -o "src/cyclone_tcp/ipv4/ipv4.o" "../src/cyclone_tcp/ipv4/ipv4.c"
+000-'Finished building: ../src/cyclone_tcp/ipv4/ipv4.c'
+000-' '
+000-'Building file: ../src/cyclone_tcp/drivers/eth/enc624j600_driver.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -IC:/Users/gabma/ProjetS4/labo1_final/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/sw/main_design_wrapper/standalone_domain/bspinclude/include -I"C:\Users\gabma\ProjetS4\labo1_final\labo1\vitis_workspace\projet_vitis\src" -c -fmessage-length=0 -MT"src/cyclone_tcp/drivers/eth/enc624j600_driver.o" -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/drivers/eth/enc624j600_driver.d" -MT"src/cyclone_tcp/drivers/eth/enc624j600_driver.o" -o "src/cyclone_tcp/drivers/eth/enc624j600_driver.o" "../src/cyclone_tcp/drivers/eth/enc624j600_driver.c"
+000-../src/cyclone_tcp/drivers/eth/enc624j600_driver.c: In function 'enc624j600UpdateMacConfig':
+000/projet_vitis/src/cyclone_tcp/drivers/eth/enc624j600_driver.c565-1-1control reaches end of non-void function [-Wreturn-type]1-../src/cyclone_tcp/drivers/eth/enc624j600_driver.c:565:1: warning: control reaches end of non-void function [-Wreturn-type]
+000-  565 | }
+000-      | ^
+000-'Finished building: ../src/cyclone_tcp/drivers/eth/enc624j600_driver.c'
+000-' '
+000-'Building file: ../src/cyclone_tcp/core/ethernet.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -IC:/Users/gabma/ProjetS4/labo1_final/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/sw/main_design_wrapper/standalone_domain/bspinclude/include -I"C:\Users\gabma\ProjetS4\labo1_final\labo1\vitis_workspace\projet_vitis\src" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/ethernet.o" -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/ethernet.d" -MT"src/cyclone_tcp/core/ethernet.o" -o "src/cyclone_tcp/core/ethernet.o" "../src/cyclone_tcp/core/ethernet.c"
+000-'Finished building: ../src/cyclone_tcp/core/ethernet.c'
+000-' '
+000-'Building file: ../src/cyclone_tcp/core/ip.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -IC:/Users/gabma/ProjetS4/labo1_final/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/sw/main_design_wrapper/standalone_domain/bspinclude/include -I"C:\Users\gabma\ProjetS4\labo1_final\labo1\vitis_workspace\projet_vitis\src" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/ip.o" -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/ip.d" -MT"src/cyclone_tcp/core/ip.o" -o "src/cyclone_tcp/core/ip.o" "../src/cyclone_tcp/core/ip.c"
+000-'Finished building: ../src/cyclone_tcp/core/ip.c'
+000-' '
+000-'Building file: ../src/cyclone_tcp/core/net.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -IC:/Users/gabma/ProjetS4/labo1_final/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/sw/main_design_wrapper/standalone_domain/bspinclude/include -I"C:\Users\gabma\ProjetS4\labo1_final\labo1\vitis_workspace\projet_vitis\src" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/net.o" -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/net.d" -MT"src/cyclone_tcp/core/net.o" -o "src/cyclone_tcp/core/net.o" "../src/cyclone_tcp/core/net.c"
+000-'Finished building: ../src/cyclone_tcp/core/net.c'
+000-' '
+000-'Building file: ../src/cyclone_tcp/core/net_mem.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -IC:/Users/gabma/ProjetS4/labo1_final/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/sw/main_design_wrapper/standalone_domain/bspinclude/include -I"C:\Users\gabma\ProjetS4\labo1_final\labo1\vitis_workspace\projet_vitis\src" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/net_mem.o" -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/net_mem.d" -MT"src/cyclone_tcp/core/net_mem.o" -o "src/cyclone_tcp/core/net_mem.o" "../src/cyclone_tcp/core/net_mem.c"
+000-'Finished building: ../src/cyclone_tcp/core/net_mem.c'
+000-' '
+000-'Building file: ../src/cyclone_tcp/core/nic.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -IC:/Users/gabma/ProjetS4/labo1_final/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/sw/main_design_wrapper/standalone_domain/bspinclude/include -I"C:\Users\gabma\ProjetS4\labo1_final\labo1\vitis_workspace\projet_vitis\src" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/nic.o" -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/nic.d" -MT"src/cyclone_tcp/core/nic.o" -o "src/cyclone_tcp/core/nic.o" "../src/cyclone_tcp/core/nic.c"
+000-'Finished building: ../src/cyclone_tcp/core/nic.c'
+000-' '
+000-'Building file: ../src/cyclone_tcp/core/socket.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -IC:/Users/gabma/ProjetS4/labo1_final/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/sw/main_design_wrapper/standalone_domain/bspinclude/include -I"C:\Users\gabma\ProjetS4\labo1_final\labo1\vitis_workspace\projet_vitis\src" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/socket.o" -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/socket.d" -MT"src/cyclone_tcp/core/socket.o" -o "src/cyclone_tcp/core/socket.o" "../src/cyclone_tcp/core/socket.c"
+000-../src/cyclone_tcp/core/socket.c: In function 'getHostByName':
+000/projet_vitis/src/cyclone_tcp/core/socket.c1071-1-1variable 'protocol' set but not used [-Wunused-but-set-variable]1-../src/cyclone_tcp/core/socket.c:1071:21: warning: variable 'protocol' set but not used [-Wunused-but-set-variable]
+000- 1071 |    HostnameResolver protocol = HOST_NAME_RESOLVER_ANY;
+000-      |                     ^~~~~~~~
+000-'Finished building: ../src/cyclone_tcp/core/socket.c'
+000-' '
+000-'Building file: ../src/cyclone_tcp/core/udp.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -IC:/Users/gabma/ProjetS4/labo1_final/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/sw/main_design_wrapper/standalone_domain/bspinclude/include -I"C:\Users\gabma\ProjetS4\labo1_final\labo1\vitis_workspace\projet_vitis\src" -c -fmessage-length=0 -MT"src/cyclone_tcp/core/udp.o" -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/core/udp.d" -MT"src/cyclone_tcp/core/udp.o" -o "src/cyclone_tcp/core/udp.o" "../src/cyclone_tcp/core/udp.c"
+000-'Finished building: ../src/cyclone_tcp/core/udp.c'
+000-' '
+000-'Building file: ../src/cyclone_tcp/ext_int_driver.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -IC:/Users/gabma/ProjetS4/labo1_final/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/sw/main_design_wrapper/standalone_domain/bspinclude/include -I"C:\Users\gabma\ProjetS4\labo1_final\labo1\vitis_workspace\projet_vitis\src" -c -fmessage-length=0 -MT"src/cyclone_tcp/ext_int_driver.o" -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/ext_int_driver.d" -MT"src/cyclone_tcp/ext_int_driver.o" -o "src/cyclone_tcp/ext_int_driver.o" "../src/cyclone_tcp/ext_int_driver.c"
+000-'Finished building: ../src/cyclone_tcp/ext_int_driver.c'
+000-' '
+000-'Building file: ../src/cyclone_tcp/spi_driver.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -IC:/Users/gabma/ProjetS4/labo1_final/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/sw/main_design_wrapper/standalone_domain/bspinclude/include -I"C:\Users\gabma\ProjetS4\labo1_final\labo1\vitis_workspace\projet_vitis\src" -c -fmessage-length=0 -MT"src/cyclone_tcp/spi_driver.o" -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/spi_driver.d" -MT"src/cyclone_tcp/spi_driver.o" -o "src/cyclone_tcp/spi_driver.o" "../src/cyclone_tcp/spi_driver.c"
+000-'Finished building: ../src/cyclone_tcp/spi_driver.c'
+000-' '
+000-'Building file: ../src/common/cpu_endian.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -IC:/Users/gabma/ProjetS4/labo1_final/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/sw/main_design_wrapper/standalone_domain/bspinclude/include -I"C:\Users\gabma\ProjetS4\labo1_final\labo1\vitis_workspace\projet_vitis\src" -c -fmessage-length=0 -MT"src/common/cpu_endian.o" -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/common/cpu_endian.d" -MT"src/common/cpu_endian.o" -o "src/common/cpu_endian.o" "../src/common/cpu_endian.c"
+000-'Finished building: ../src/common/cpu_endian.c'
+000-' '
+000-'Building file: ../src/common/date_time.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -IC:/Users/gabma/ProjetS4/labo1_final/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/sw/main_design_wrapper/standalone_domain/bspinclude/include -I"C:\Users\gabma\ProjetS4\labo1_final\labo1\vitis_workspace\projet_vitis\src" -c -fmessage-length=0 -MT"src/common/date_time.o" -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/common/date_time.d" -MT"src/common/date_time.o" -o "src/common/date_time.o" "../src/common/date_time.c"
+000-'Finished building: ../src/common/date_time.c'
+000-' '
+000-'Building file: ../src/common/os_port_none.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -IC:/Users/gabma/ProjetS4/labo1_final/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/sw/main_design_wrapper/standalone_domain/bspinclude/include -I"C:\Users\gabma\ProjetS4\labo1_final\labo1\vitis_workspace\projet_vitis\src" -c -fmessage-length=0 -MT"src/common/os_port_none.o" -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/common/os_port_none.d" -MT"src/common/os_port_none.o" -o "src/common/os_port_none.o" "../src/common/os_port_none.c"
+000-'Finished building: ../src/common/os_port_none.c'
+000-' '
+000-'Building file: ../src/main.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -IC:/Users/gabma/ProjetS4/labo1_final/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/sw/main_design_wrapper/standalone_domain/bspinclude/include -I"C:\Users\gabma\ProjetS4\labo1_final\labo1\vitis_workspace\projet_vitis\src" -c -fmessage-length=0 -MT"src/main.o" -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+000-../src/main.c: In function 'systemInit':
+000/projet_vitis/src/main.c86-1-1variable 'error' set but not used [-Wunused-but-set-variable]1-../src/main.c:86:12: warning: variable 'error' set but not used [-Wunused-but-set-variable]
+000-   86 |    error_t error;
+000-      |            ^~~~~
+000-../src/main.c: In function 'SetupInterruptSystem':
+000/projet_vitis/src/main.c168-1-1variable 'Status' set but not used [-Wunused-but-set-variable]1-../src/main.c:168:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+000-  168 |  int Status;
+000-      |      ^~~~~~
+000-../src/main.c: In function 'uartInit':
+000/projet_vitis/src/main.c225-1-1variable 'Status' set but not used [-Wunused-but-set-variable]1-../src/main.c:225:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+000-  225 |  int Status;
+000-      |      ^~~~~~
+000-'Finished building: ../src/main.c'
+000-' '
+000-'Building target: projet_vitis.elf'
+000-'Invoking: MicroBlaze gcc linker'
+000-mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/gabma/ProjetS4/labo1_final/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/sw/main_design_wrapper/standalone_domain/bsplib/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "projet_vitis.elf"  ./src/cyclone_tcp/std_services/echo.o  ./src/cyclone_tcp/ipv4/arp.o ./src/cyclone_tcp/ipv4/ipv4.o  ./src/cyclone_tcp/drivers/eth/enc624j600_driver.o  ./src/cyclone_tcp/core/ethernet.o ./src/cyclone_tcp/core/ip.o ./src/cyclone_tcp/core/net.o ./src/cyclone_tcp/core/net_mem.o ./src/cyclone_tcp/core/nic.o ./src/cyclone_tcp/core/socket.o ./src/cyclone_tcp/core/udp.o  ./src/cyclone_tcp/ext_int_driver.o ./src/cyclone_tcp/spi_driver.o  ./src/common/cpu_endian.o ./src/common/date_time.o ./src/common/os_port_none.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: projet_vitis.elf'
+000-' '
+000-'Invoking: MicroBlaze Print Size'
+000-mb-size projet_vitis.elf  |tee "projet_vitis.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000- 113628	   1860	2100560	2216048	 21d070	projet_vitis.elf
+000-'Finished building: projet_vitis.elf.size'
+000-' '
+00255-
+16:18:50 Build Finished (took 4s.717ms)
+
