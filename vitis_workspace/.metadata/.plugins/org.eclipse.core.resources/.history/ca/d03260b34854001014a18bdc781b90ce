@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="projet_vitis" location="C:/Users/gabma/ProjetS4/labo1_final/labo1/vitis_workspace/projet_vitis" platform="C:/Users/gabma/ProjetS4/labo1_final/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/main_design_wrapper.xpfm" platformUID="xilinx:zybo-z7-10::0.0(custom)" systemProject="projet_vitis_system" sysConfig="main_design_wrapper" runtime="cpp" cpu="standalone_domain" cpuInstance="microblaze_0" os="standalone" mssSignature="d9c11e850b1684b48686e097c0982754">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.1011558306">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.646621773" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>

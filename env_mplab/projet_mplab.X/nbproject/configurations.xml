@@ -16,6 +16,7 @@
           <itemPath>../src/rgbled.h</itemPath>
           <itemPath>../src/timers.h</itemPath>
           <itemPath>../src/output_compare.h</itemPath>
+          <itemPath>../src/Adafruit7830.h</itemPath>
         </logicalFolder>
         <logicalFolder name="f1" displayName="system_config" projectFiles="true">
           <logicalFolder name="f1" displayName="default" projectFiles="true">
@@ -219,6 +220,7 @@
           <itemPath>../src/rgbled.c</itemPath>
           <itemPath>../src/timers.c</itemPath>
           <itemPath>../src/output_compare.c</itemPath>
+          <itemPath>../src/Adafruit7830.c</itemPath>
         </logicalFolder>
         <logicalFolder name="f1" displayName="system_config" projectFiles="true">
           <logicalFolder name="f1" displayName="default" projectFiles="true">

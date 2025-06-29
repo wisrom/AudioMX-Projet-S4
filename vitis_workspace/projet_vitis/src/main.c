@@ -44,7 +44,8 @@
 #include "cyclone_tcp/spi_driver.h"
 #include "cyclone_tcp/ext_int_driver.h"
 #include <stdbool.h>
-
+#include "fft.h"
+#include "xil_io.h"
 
 //Application configuration
 #define APP_USE_DEFAULT_MAC_ADDR ENABLED
@@ -223,7 +224,6 @@ u8 RecvBuffer[TEST_BUFFER_SIZE];	/* Buffer for Receiving Data */
 
 void uartInit(){
 	int Status;
-
 	Status = XUartLite_Initialize(&UartLite, XPAR_AXI_UARTLITE_0_DEVICE_ID);
 	Status = XUartLite_SelfTest(&UartLite);
 }

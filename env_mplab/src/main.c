@@ -68,6 +68,8 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 #include "rgbled.h"
 #include <sys/attribs.h>
 #include "timers.h"
+#include "Adafruit7830.h"
+//#include "output_compare.h"
 //Moyenne est faite direct sur la MX3 (GestionMoyenne dans accel.c)
 //La switch qui fait afficher Moyenne sur le LCD dans accel.C
 
@@ -236,6 +238,7 @@ void MAIN_Initialize ( void )
     //Interupt_ACL_Init(); //Initialisation de l'interuption de l'accéléromètre
     RGBLED_Init();
     Init_GestionDonnees();
+    I2C_Init(100000);
     //initialize_timer_interrupt();
     //macro_enable_interrupts();
     
@@ -289,6 +292,8 @@ void MAIN_Tasks ( void )
             RGB_Task();
             UDP_Tasks();
             ManageSwitches();
+            Affichage_param_audio_button();
+            Affiche_EXTERN_ADC_LCD();
         	JB1Toggle();
             LED0Toggle();
             break;

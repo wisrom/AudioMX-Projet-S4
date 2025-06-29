@@ -3299,3 +3299,928 @@ TRACE::2025-06-05.16:18:43::SCWMssOS::DEBUG:  swdes dump  C:/Users/gabma/ProjetS
 C:/Users/gabma/ProjetS4/labo1_final/labo1/vitis_workspace/main_design_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
 
 TRACE::2025-06-05.16:18:43::SCWMssOS::Sw design exists and opened at  C:/Users/gabma/ProjetS4/labo1_final/labo1/vitis_workspace/main_design_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2025-06-28.13:51:51::SCWPlatform::Trying to open the hw design at C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:51::SCWPlatform::DSA given C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:51::SCWPlatform::DSA absoulate path C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:55::SCWPlatform::DSA directory C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw
+TRACE::2025-06-28.13:51:55::SCWPlatform:: Platform Path C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:55::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2025-06-28.13:51:55::SCWPlatform::Do not have an existing db opened. 
+TRACE::2025-06-28.13:51:57::SCWPlatform::Opened new HwDB with name main_design_wrapper
+TRACE::2025-06-28.13:51:57::SCWReader::Active system found as  main_design_wrapper
+TRACE::2025-06-28.13:51:57::SCWReader::Handling sysconfig main_design_wrapper
+TRACE::2025-06-28.13:51:57::SCWDomain::checking for install qemu data   : 
+TRACE::2025-06-28.13:51:57::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2025-06-28.13:51:57::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2025-06-28.13:51:57::SCWPlatform::Trying to open the hw design at C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform::DSA given C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform::DSA absoulate path C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform::DSA directory C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw
+TRACE::2025-06-28.13:51:57::SCWPlatform:: Platform Path C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2025-06-28.13:51:57::SCWPlatform::Trying to set the existing hwdb with name main_design_wrapper
+TRACE::2025-06-28.13:51:57::SCWPlatform::Opened existing hwdb main_design_wrapper
+TRACE::2025-06-28.13:51:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-28.13:51:57::SCWPlatform::Trying to open the hw design at C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform::DSA given C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform::DSA absoulate path C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform::DSA directory C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw
+TRACE::2025-06-28.13:51:57::SCWPlatform:: Platform Path C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2025-06-28.13:51:57::SCWPlatform::Trying to set the existing hwdb with name main_design_wrapper
+TRACE::2025-06-28.13:51:57::SCWPlatform::Opened existing hwdb main_design_wrapper
+TRACE::2025-06-28.13:51:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-28.13:51:57::SCWPlatform::Trying to open the hw design at C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform::DSA given C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform::DSA absoulate path C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform::DSA directory C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw
+TRACE::2025-06-28.13:51:57::SCWPlatform:: Platform Path C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2025-06-28.13:51:57::SCWPlatform::Trying to set the existing hwdb with name main_design_wrapper
+TRACE::2025-06-28.13:51:57::SCWPlatform::Opened existing hwdb main_design_wrapper
+TRACE::2025-06-28.13:51:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-28.13:51:57::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2025-06-28.13:51:57::SCWPlatform::Trying to open the hw design at C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform::DSA given C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform::DSA absoulate path C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform::DSA directory C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw
+TRACE::2025-06-28.13:51:57::SCWPlatform:: Platform Path C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2025-06-28.13:51:57::SCWPlatform::Trying to set the existing hwdb with name main_design_wrapper
+TRACE::2025-06-28.13:51:57::SCWPlatform::Opened existing hwdb main_design_wrapper
+TRACE::2025-06-28.13:51:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-28.13:51:57::SCWMssOS::Checking the sw design at  C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-28.13:51:57::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2025-06-28.13:51:57::SCWMssOS::No sw design opened at  C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-28.13:51:57::SCWMssOS::mss exists loading the mss file  C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-28.13:51:57::SCWMssOS::Opened the sw design from mss  C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-28.13:51:57::SCWMssOS::Adding the swdes entry C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2025-06-28.13:51:57::SCWMssOS::updating the scw layer about changes
+TRACE::2025-06-28.13:51:57::SCWMssOS::Opened the sw design.  C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-28.13:51:57::SCWPlatform::Trying to open the hw design at C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform::DSA given C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform::DSA absoulate path C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform::DSA directory C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw
+TRACE::2025-06-28.13:51:57::SCWPlatform:: Platform Path C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2025-06-28.13:51:57::SCWPlatform::Trying to set the existing hwdb with name main_design_wrapper
+TRACE::2025-06-28.13:51:57::SCWPlatform::Opened existing hwdb main_design_wrapper
+TRACE::2025-06-28.13:51:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-28.13:51:57::SCWMssOS::Checking the sw design at  C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-28.13:51:57::SCWMssOS::DEBUG:  swdes dump  C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-28.13:51:57::SCWMssOS::Sw design exists and opened at  C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-28.13:51:57::SCWMssOS:: library already available in sw design:  xilffs:4.4
+TRACE::2025-06-28.13:51:57::SCWPlatform::Trying to open the hw design at C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform::DSA given C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform::DSA absoulate path C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform::DSA directory C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw
+TRACE::2025-06-28.13:51:57::SCWPlatform:: Platform Path C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2025-06-28.13:51:57::SCWPlatform::Trying to set the existing hwdb with name main_design_wrapper
+TRACE::2025-06-28.13:51:57::SCWPlatform::Opened existing hwdb main_design_wrapper
+TRACE::2025-06-28.13:51:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-28.13:51:57::SCWMssOS::Checking the sw design at  C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-28.13:51:57::SCWMssOS::DEBUG:  swdes dump  C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-28.13:51:57::SCWMssOS::Sw design exists and opened at  C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-28.13:51:57::SCWMssOS:: library already available in sw design:  xilrsa:1.6
+TRACE::2025-06-28.13:51:57::SCWMssOS::Saving the mss changes C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-28.13:51:57::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-06-28.13:51:57::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-06-28.13:51:57::SCWMssOS::Commit changes completed.
+TRACE::2025-06-28.13:51:57::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2025-06-28.13:51:57::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2025-06-28.13:51:57::SCWPlatform::Trying to open the hw design at C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform::DSA given C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform::DSA absoulate path C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform::DSA directory C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw
+TRACE::2025-06-28.13:51:57::SCWPlatform:: Platform Path C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2025-06-28.13:51:57::SCWPlatform::Trying to set the existing hwdb with name main_design_wrapper
+TRACE::2025-06-28.13:51:57::SCWPlatform::Opened existing hwdb main_design_wrapper
+TRACE::2025-06-28.13:51:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-28.13:51:57::SCWMssOS::Checking the sw design at  C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-28.13:51:57::SCWMssOS::DEBUG:  swdes dump  C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-28.13:51:57::SCWMssOS::Sw design exists and opened at  C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-28.13:51:57::SCWReader::No isolation master present  
+TRACE::2025-06-28.13:51:57::SCWDomain::checking for install qemu data   : 
+TRACE::2025-06-28.13:51:57::SCWPlatform::Trying to open the hw design at C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform::DSA given C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform::DSA absoulate path C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform::DSA directory C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw
+TRACE::2025-06-28.13:51:57::SCWPlatform:: Platform Path C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2025-06-28.13:51:57::SCWPlatform::Trying to set the existing hwdb with name main_design_wrapper
+TRACE::2025-06-28.13:51:57::SCWPlatform::Opened existing hwdb main_design_wrapper
+TRACE::2025-06-28.13:51:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-28.13:51:57::SCWPlatform::Trying to open the hw design at C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform::DSA given C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform::DSA absoulate path C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform::DSA directory C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw
+TRACE::2025-06-28.13:51:57::SCWPlatform:: Platform Path C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2025-06-28.13:51:57::SCWPlatform::Trying to set the existing hwdb with name main_design_wrapper
+TRACE::2025-06-28.13:51:57::SCWPlatform::Opened existing hwdb main_design_wrapper
+TRACE::2025-06-28.13:51:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-28.13:51:57::SCWPlatform::Trying to open the hw design at C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform::DSA given C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform::DSA absoulate path C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform::DSA directory C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw
+TRACE::2025-06-28.13:51:57::SCWPlatform:: Platform Path C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2025-06-28.13:51:57::SCWPlatform::Trying to set the existing hwdb with name main_design_wrapper
+TRACE::2025-06-28.13:51:57::SCWPlatform::Opened existing hwdb main_design_wrapper
+TRACE::2025-06-28.13:51:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-28.13:51:57::SCWMssOS::Checking the sw design at  C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2025-06-28.13:51:57::SCWMssOS::DEBUG:  swdes dump  C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-28.13:51:57::SCWMssOS::No sw design opened at  C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2025-06-28.13:51:57::SCWMssOS::mss exists loading the mss file  C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2025-06-28.13:51:57::SCWMssOS::Opened the sw design from mss  C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2025-06-28.13:51:57::SCWMssOS::Adding the swdes entry C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/microblaze_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2025-06-28.13:51:57::SCWMssOS::updating the scw layer about changes
+TRACE::2025-06-28.13:51:57::SCWMssOS::Opened the sw design.  C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2025-06-28.13:51:57::SCWMssOS::Saving the mss changes C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2025-06-28.13:51:57::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-06-28.13:51:57::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-06-28.13:51:57::SCWMssOS::Commit changes completed.
+TRACE::2025-06-28.13:51:57::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2025-06-28.13:51:57::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2025-06-28.13:51:57::SCWPlatform::Trying to open the hw design at C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform::DSA given C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform::DSA absoulate path C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform::DSA directory C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw
+TRACE::2025-06-28.13:51:57::SCWPlatform:: Platform Path C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2025-06-28.13:51:57::SCWPlatform::Trying to set the existing hwdb with name main_design_wrapper
+TRACE::2025-06-28.13:51:57::SCWPlatform::Opened existing hwdb main_design_wrapper
+TRACE::2025-06-28.13:51:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-28.13:51:57::SCWMssOS::Checking the sw design at  C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2025-06-28.13:51:57::SCWMssOS::DEBUG:  swdes dump  C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-28.13:51:57::SCWMssOS::Sw design exists and opened at  C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2025-06-28.13:51:57::SCWReader::No isolation master present  
+LOG::2025-06-28.13:51:57::SCWPlatform::Started generating the artifacts platform main_design_wrapper
+TRACE::2025-06-28.13:51:57::SCWPlatform::Sanity checking of platform is completed
+LOG::2025-06-28.13:51:57::SCWPlatform::Started generating the artifacts for system configuration main_design_wrapper
+LOG::2025-06-28.13:51:57::SCWSystem::Checking the domain zynq_fsbl
+LOG::2025-06-28.13:51:57::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2025-06-28.13:51:57::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2025-06-28.13:51:57::SCWDomain::Building the domain as part of full build :  zynq_fsbl
+TRACE::2025-06-28.13:51:57::SCWPlatform::Trying to open the hw design at C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform::DSA given C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform::DSA absoulate path C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform::DSA directory C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw
+TRACE::2025-06-28.13:51:57::SCWPlatform:: Platform Path C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:51:57::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2025-06-28.13:51:57::SCWPlatform::Trying to set the existing hwdb with name main_design_wrapper
+TRACE::2025-06-28.13:51:57::SCWPlatform::Opened existing hwdb main_design_wrapper
+TRACE::2025-06-28.13:51:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-28.13:51:57::SCWMssOS::Checking the sw design at  C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-28.13:51:57::SCWMssOS::DEBUG:  swdes dump  C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-28.13:51:57::SCWMssOS::Sw design exists and opened at  C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-28.13:51:57::SCWBDomain::Completed writing the mss file at C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2025-06-28.13:51:57::SCWBDomain::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2025-06-28.13:51:57::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2025-06-28.13:51:57::SCWBDomain::System Command Ran  C:&  cd  C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/zynq_fsbl& make -C  zynq_fsbl_bsp & make 
+TRACE::2025-06-28.13:51:57::SCWBDomain::make: Entering directory 'C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/zynq_fsbl/zynq_fsbl_bsp'
+
+TRACE::2025-06-28.13:51:57::SCWBDomain::make --no-print-directory seq_libs
+
+TRACE::2025-06-28.13:51:57::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src"
+
+TRACE::2025-06-28.13:51:57::SCWBDomain::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none
+TRACE::2025-06-28.13:51:57::SCWBDomain::-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=h
+TRACE::2025-06-28.13:51:57::SCWBDomain::ard -nostartfiles -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:51:57::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_10/src"
+
+TRACE::2025-06-28.13:51:57::SCWBDomain::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-e
+TRACE::2025-06-28.13:51:57::SCWBDomain::abi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=har
+TRACE::2025-06-28.13:51:57::SCWBDomain::d -nostartfiles -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:51:58::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_2/src"
+
+TRACE::2025-06-28.13:51:58::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2025-06-28.13:51:58::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2025-06-28.13:51:58::SCWBDomain::rtfiles -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:51:58::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_7/src"
+
+TRACE::2025-06-28.13:51:58::SCWBDomain::make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-06-28.13:51:58::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-06-28.13:51:58::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:51:58::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_7/src"
+
+TRACE::2025-06-28.13:51:58::SCWBDomain::make -C ps7_cortexa9_0/libsrc/dmaps_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2025-06-28.13:51:58::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2025-06-28.13:51:58::SCWBDomain::rtfiles -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:51:58::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_8/src"
+
+TRACE::2025-06-28.13:51:58::SCWBDomain::make -C ps7_cortexa9_0/libsrc/gpiops_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-06-28.13:51:58::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-06-28.13:51:58::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:51:58::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_8/src"
+
+TRACE::2025-06-28.13:51:58::SCWBDomain::make -C ps7_cortexa9_0/libsrc/qspips_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-06-28.13:51:58::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-06-28.13:51:58::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:51:58::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_3/src"
+
+TRACE::2025-06-28.13:51:58::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scugic_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-06-28.13:51:58::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-06-28.13:51:58::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:51:58::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_3/src"
+
+TRACE::2025-06-28.13:51:58::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scutimer_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2025-06-28.13:51:58::SCWBDomain::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2025-06-28.13:51:58::SCWBDomain::startfiles -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:51:58::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_3/src"
+
+TRACE::2025-06-28.13:51:58::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-06-28.13:51:58::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-06-28.13:51:58::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:51:58::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_3/src"
+
+TRACE::2025-06-28.13:51:58::SCWBDomain::make -C ps7_cortexa9_0/libsrc/standalone_v7_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2025-06-28.13:51:58::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2025-06-28.13:51:58::SCWBDomain::nostartfiles -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:51:59::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_10/src"
+
+TRACE::2025-06-28.13:51:59::SCWBDomain::make -C ps7_cortexa9_0/libsrc/uartps_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2025-06-28.13:51:59::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2025-06-28.13:51:59::SCWBDomain::tartfiles -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:51:59::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_5/src"
+
+TRACE::2025-06-28.13:51:59::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xadcps_v2_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-06-28.13:51:59::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-06-28.13:51:59::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:51:59::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xilffs_v4_4/src"
+
+TRACE::2025-06-28.13:51:59::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilffs_v4_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-06-28.13:51:59::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-06-28.13:51:59::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:51:59::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xilrsa_v1_6/src"
+
+TRACE::2025-06-28.13:51:59::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilrsa_v1_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-06-28.13:51:59::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-06-28.13:51:59::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:51:59::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/xilrsa_v1_6/src"
+
+TRACE::2025-06-28.13:51:59::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilrsa_v1_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2025-06-28.13:51:59::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2025-06-28.13:51:59::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:51:59::SCWBDomain::'Finished building libraries sequentially.'
+
+TRACE::2025-06-28.13:51:59::SCWBDomain::make -j --no-print-directory par_libs
+
+TRACE::2025-06-28.13:51:59::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src"
+
+TRACE::2025-06-28.13:51:59::SCWBDomain::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none
+TRACE::2025-06-28.13:51:59::SCWBDomain::-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=h
+TRACE::2025-06-28.13:51:59::SCWBDomain::ard -nostartfiles -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:51:59::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_10/src"
+
+TRACE::2025-06-28.13:51:59::SCWBDomain::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-e
+TRACE::2025-06-28.13:51:59::SCWBDomain::abi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=har
+TRACE::2025-06-28.13:51:59::SCWBDomain::d -nostartfiles -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:51:59::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_2/src"
+
+TRACE::2025-06-28.13:51:59::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2025-06-28.13:51:59::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2025-06-28.13:51:59::SCWBDomain::rtfiles -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:51:59::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_7/src"
+
+TRACE::2025-06-28.13:51:59::SCWBDomain::make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-06-28.13:51:59::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-06-28.13:51:59::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:51:59::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_7/src"
+
+TRACE::2025-06-28.13:51:59::SCWBDomain::make -C ps7_cortexa9_0/libsrc/dmaps_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2025-06-28.13:51:59::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2025-06-28.13:51:59::SCWBDomain::rtfiles -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:51:59::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_8/src"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::make -C ps7_cortexa9_0/libsrc/gpiops_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-06-28.13:52:00::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-06-28.13:52:00::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_8/src"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::make -C ps7_cortexa9_0/libsrc/qspips_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-06-28.13:52:00::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-06-28.13:52:00::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_3/src"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scugic_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-06-28.13:52:00::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-06-28.13:52:00::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_3/src"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scutimer_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2025-06-28.13:52:00::SCWBDomain::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2025-06-28.13:52:00::SCWBDomain::startfiles -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_3/src"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-06-28.13:52:00::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-06-28.13:52:00::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_3/src"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::make -C ps7_cortexa9_0/libsrc/standalone_v7_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2025-06-28.13:52:00::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2025-06-28.13:52:00::SCWBDomain::nostartfiles -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_10/src"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::make -C ps7_cortexa9_0/libsrc/uartps_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2025-06-28.13:52:00::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2025-06-28.13:52:00::SCWBDomain::tartfiles -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_5/src"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xadcps_v2_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-06-28.13:52:00::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-06-28.13:52:00::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xilffs_v4_4/src"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilffs_v4_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-06-28.13:52:00::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-06-28.13:52:00::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xilrsa_v1_6/src"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilrsa_v1_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-06-28.13:52:00::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-06-28.13:52:00::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2025-06-28.13:52:00::SCWBDomain::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2025-06-28.13:52:00::SCWBDomain:: -nostartfiles -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_10/src"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2025-06-28.13:52:00::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2025-06-28.13:52:00::SCWBDomain::nostartfiles -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_2/src"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2025-06-28.13:52:00::SCWBDomain::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2025-06-28.13:52:00::SCWBDomain::iles -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_7/src"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2025-06-28.13:52:00::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2025-06-28.13:52:00::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_7/src"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::make -C ps7_cortexa9_0/libsrc/dmaps_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2025-06-28.13:52:00::SCWBDomain::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2025-06-28.13:52:00::SCWBDomain::iles -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_8/src"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::make -C ps7_cortexa9_0/libsrc/gpiops_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2025-06-28.13:52:00::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2025-06-28.13:52:00::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_8/src"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::make -C ps7_cortexa9_0/libsrc/qspips_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2025-06-28.13:52:00::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2025-06-28.13:52:00::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_3/src"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scugic_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2025-06-28.13:52:00::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2025-06-28.13:52:00::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_3/src"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scutimer_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2025-06-28.13:52:00::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2025-06-28.13:52:00::SCWBDomain::rtfiles -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_3/src"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2025-06-28.13:52:00::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2025-06-28.13:52:00::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_3/src"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::make -C ps7_cortexa9_0/libsrc/standalone_v7_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2025-06-28.13:52:00::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2025-06-28.13:52:00::SCWBDomain::tartfiles -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_10/src"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::make -C ps7_cortexa9_0/libsrc/uartps_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2025-06-28.13:52:00::SCWBDomain::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2025-06-28.13:52:00::SCWBDomain::tfiles -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_5/src"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xadcps_v2_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2025-06-28.13:52:00::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2025-06-28.13:52:00::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/xilffs_v4_4/src"
+
+TRACE::2025-06-28.13:52:00::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilffs_v4_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2025-06-28.13:52:00::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2025-06-28.13:52:00::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:01::SCWBDomain::'Finished building libraries parallelly.'
+
+TRACE::2025-06-28.13:52:01::SCWBDomain::make --no-print-directory archive
+
+TRACE::2025-06-28.13:52:01::SCWBDomain::arm-none-eabi-ar -r  ps7_cortexa9_0/lib/libxil.a ps7_cortexa9_0/lib/xadcps_selftest.o ps7_cortexa9_0/lib/kill.o ps7_cortexa9_0/
+TRACE::2025-06-28.13:52:01::SCWBDomain::lib/xscuwdt_g.o ps7_cortexa9_0/lib/xplatform_info.o ps7_cortexa9_0/lib/xqspips_options.o ps7_cortexa9_0/lib/xil_mmu.o ps7_corte
+TRACE::2025-06-28.13:52:01::SCWBDomain::xa9_0/lib/xscugic_selftest.o ps7_cortexa9_0/lib/_exit.o ps7_cortexa9_0/lib/xdmaps_g.o ps7_cortexa9_0/lib/xil_testio.o ps7_corte
+TRACE::2025-06-28.13:52:01::SCWBDomain::xa9_0/lib/isatty.o ps7_cortexa9_0/lib/sleep.o ps7_cortexa9_0/lib/boot.o ps7_cortexa9_0/lib/xdevcfg_hw.o ps7_cortexa9_0/lib/xadc
+TRACE::2025-06-28.13:52:01::SCWBDomain::ps_intr.o ps7_cortexa9_0/lib/xpm_counter.o ps7_cortexa9_0/lib/xscutimer_g.o ps7_cortexa9_0/lib/xdmaps_sinit.o ps7_cortexa9_0/li
+TRACE::2025-06-28.13:52:01::SCWBDomain::b/xil_cache.o ps7_cortexa9_0/lib/xil_util.o ps7_cortexa9_0/lib/inbyte.o ps7_cortexa9_0/lib/xdmaps_selftest.o ps7_cortexa9_0/lib
+TRACE::2025-06-28.13:52:01::SCWBDomain::/xscutimer_selftest.o ps7_cortexa9_0/lib/xil_misc_psreset_api.o ps7_cortexa9_0/lib/cpputest_time.o ps7_cortexa9_0/lib/print.o p
+TRACE::2025-06-28.13:52:01::SCWBDomain::s7_cortexa9_0/lib/xgpiops_g.o ps7_cortexa9_0/lib/close.o ps7_cortexa9_0/lib/xuartps_g.o ps7_cortexa9_0/lib/xscugic_intr.o ps7_c
+TRACE::2025-06-28.13:52:01::SCWBDomain::ortexa9_0/lib/xscugic_hw.o ps7_cortexa9_0/lib/xgpiops_sinit.o ps7_cortexa9_0/lib/xgpiops_selftest.o ps7_cortexa9_0/lib/xqspips_
+TRACE::2025-06-28.13:52:01::SCWBDomain::selftest.o ps7_cortexa9_0/lib/translation_table.o ps7_cortexa9_0/lib/write.o ps7_cortexa9_0/lib/xil_mem.o ps7_cortexa9_0/lib/cp
+TRACE::2025-06-28.13:52:01::SCWBDomain::u_init.o ps7_cortexa9_0/lib/xscugic_g.o ps7_cortexa9_0/lib/xscutimer_sinit.o ps7_cortexa9_0/lib/usleep.o ps7_cortexa9_0/lib/xua
+TRACE::2025-06-28.13:52:01::SCWBDomain::rtps_sinit.o ps7_cortexa9_0/lib/xil_sleepcommon.o ps7_cortexa9_0/lib/xil_printf.o ps7_cortexa9_0/lib/unlink.o ps7_cortexa9_0/li
+TRACE::2025-06-28.13:52:01::SCWBDomain::b/xadcps.o ps7_cortexa9_0/lib/xdmaps_hw.o ps7_cortexa9_0/lib/xgpiops_intr.o ps7_cortexa9_0/lib/xscugic_sinit.o ps7_cortexa9_0/l
+TRACE::2025-06-28.13:52:01::SCWBDomain::ib/xil_sleeptimer.o ps7_cortexa9_0/lib/open.o ps7_cortexa9_0/lib/outbyte.o ps7_cortexa9_0/lib/xuartps_selftest.o ps7_cortexa9_0
+TRACE::2025-06-28.13:52:01::SCWBDomain::/lib/xuartps_hw.o ps7_cortexa9_0/lib/read.o ps7_cortexa9_0/lib/xqspips_hw.o ps7_cortexa9_0/lib/xil_testmem.o ps7_cortexa9_0/lib
+TRACE::2025-06-28.13:52:01::SCWBDomain::/xgpiops.o ps7_cortexa9_0/lib/xl2cc_counter.o ps7_cortexa9_0/lib/xtime_l.o ps7_cortexa9_0/lib/asm_vectors.o ps7_cortexa9_0/lib/
+TRACE::2025-06-28.13:52:01::SCWBDomain::xdevcfg_intr.o ps7_cortexa9_0/lib/abort.o ps7_cortexa9_0/lib/xdevcfg_g.o ps7_cortexa9_0/lib/xuartps_intr.o ps7_cortexa9_0/lib/x
+TRACE::2025-06-28.13:52:01::SCWBDomain::uartps.o ps7_cortexa9_0/lib/getpid.o ps7_cortexa9_0/lib/xil_testcache.o ps7_cortexa9_0/lib/xqspips_g.o ps7_cortexa9_0/lib/xdevc
+TRACE::2025-06-28.13:52:01::SCWBDomain::fg_sinit.o ps7_cortexa9_0/lib/xdmaps.o ps7_cortexa9_0/lib/xscutimer.o ps7_cortexa9_0/lib/xscuwdt.o ps7_cortexa9_0/lib/xdevcfg_s
+TRACE::2025-06-28.13:52:01::SCWBDomain::elftest.o ps7_cortexa9_0/lib/xqspips.o ps7_cortexa9_0/lib/xscuwdt_sinit.o ps7_cortexa9_0/lib/sbrk.o ps7_cortexa9_0/lib/xgpiops_
+TRACE::2025-06-28.13:52:01::SCWBDomain::hw.o ps7_cortexa9_0/lib/fstat.o ps7_cortexa9_0/lib/errno.o ps7_cortexa9_0/lib/lseek.o ps7_cortexa9_0/lib/xuartps_options.o ps7_
+TRACE::2025-06-28.13:52:01::SCWBDomain::cortexa9_0/lib/_sbrk.o ps7_cortexa9_0/lib/vectors.o ps7_cortexa9_0/lib/xil_exception.o ps7_cortexa9_0/lib/putnum.o ps7_cortexa9
+TRACE::2025-06-28.13:52:01::SCWBDomain::_0/lib/xil_clocking.o ps7_cortexa9_0/lib/xil_assert.o ps7_cortexa9_0/lib/xscuwdt_selftest.o ps7_cortexa9_0/lib/xcoresightpsdcc.
+TRACE::2025-06-28.13:52:01::SCWBDomain::o ps7_cortexa9_0/lib/xscugic.o ps7_cortexa9_0/lib/xadcps_g.o ps7_cortexa9_0/lib/xil-crt0.o ps7_cortexa9_0/lib/xqspips_sinit.o p
+TRACE::2025-06-28.13:52:01::SCWBDomain::s7_cortexa9_0/lib/xadcps_sinit.o ps7_cortexa9_0/lib/fcntl.o ps7_cortexa9_0/lib/_open.o ps7_cortexa9_0/lib/xdevcfg.o
+
+TRACE::2025-06-28.13:52:01::SCWBDomain::'Finished building libraries'
+
+TRACE::2025-06-28.13:52:01::SCWBDomain::make: Leaving directory 'C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/zynq_fsbl/zynq_fsbl_bsp'
+
+TRACE::2025-06-28.13:52:01::SCWBDomain::arm-none-eabi-gcc -o fsbl.elf  sd.o  nand.o  image_mover.o  md5.o  fsbl_hooks.o  main.o  nor.o  qspi.o  rsa.o  ps7_init.o  pcap
+TRACE::2025-06-28.13:52:01::SCWBDomain::.o  fsbl_handoff.o -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2025-06-28.13:52:01::SCWBDomain::Wl,-build-id=none -specs=Xilinx.spec  -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgc
+TRACE::2025-06-28.13:52:01::SCWBDomain::c,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group                                -Wl,--gc-sections -Lzynq_f
+TRACE::2025-06-28.13:52:01::SCWBDomain::sbl_bsp/ps7_cortexa9_0/lib -L./ -Tlscript.ld
+
+LOG::2025-06-28.13:52:02::SCWSystem::Checking the domain standalone_domain
+LOG::2025-06-28.13:52:02::SCWSystem::Not a boot domain 
+LOG::2025-06-28.13:52:02::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2025-06-28.13:52:02::SCWDomain::Generating domain artifcats
+TRACE::2025-06-28.13:52:02::SCWMssOS::Generating standalone artifcats
+TRACE::2025-06-28.13:52:02::SCWMssOS:: Copying the user libraries. 
+TRACE::2025-06-28.13:52:02::SCWPlatform::Trying to open the hw design at C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:52:02::SCWPlatform::DSA given C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:52:02::SCWPlatform::DSA absoulate path C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:52:02::SCWPlatform::DSA directory C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw
+TRACE::2025-06-28.13:52:02::SCWPlatform:: Platform Path C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:52:02::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2025-06-28.13:52:02::SCWPlatform::Trying to set the existing hwdb with name main_design_wrapper
+TRACE::2025-06-28.13:52:02::SCWPlatform::Opened existing hwdb main_design_wrapper
+TRACE::2025-06-28.13:52:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-28.13:52:02::SCWMssOS::Checking the sw design at  C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2025-06-28.13:52:02::SCWMssOS::DEBUG:  swdes dump  C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-28.13:52:02::SCWMssOS::Sw design exists and opened at  C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2025-06-28.13:52:02::SCWMssOS::Completed writing the mss file at C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/microblaze_0/standalone_domain/bsp
+TRACE::2025-06-28.13:52:02::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2025-06-28.13:52:02::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2025-06-28.13:52:02::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2025-06-28.13:52:02::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2025-06-28.13:52:02::SCWMssOS::doing bsp build ... 
+TRACE::2025-06-28.13:52:02::SCWMssOS::System Command Ran  C: & cd  C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/microblaze_0/standalone_domain/bsp & make 
+TRACE::2025-06-28.13:52:02::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2025-06-28.13:52:02::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_12/src"
+
+TRACE::2025-06-28.13:52:02::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-06-28.13:52:02::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt"
+TRACE::2025-06-28.13:52:02::SCWMssOS:: "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:02::SCWMssOS::"Running Make include in microblaze_0/libsrc/ddrps_v1_2/src"
+
+TRACE::2025-06-28.13:52:02::SCWMssOS::make -C microblaze_0/libsrc/ddrps_v1_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2025-06-28.13:52:02::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt
+TRACE::2025-06-28.13:52:02::SCWMssOS::" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:02::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpiops_v3_8/src"
+
+TRACE::2025-06-28.13:52:02::SCWMssOS::make -C microblaze_0/libsrc/gpiops_v3_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2025-06-28.13:52:02::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqr
+TRACE::2025-06-28.13:52:02::SCWMssOS::t" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:02::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_7/src"
+
+TRACE::2025-06-28.13:52:02::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-06-28.13:52:02::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt"
+TRACE::2025-06-28.13:52:02::SCWMssOS:: "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:02::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_12/src"
+
+TRACE::2025-06-28.13:52:02::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2025-06-28.13:52:02::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt
+TRACE::2025-06-28.13:52:02::SCWMssOS::" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:02::SCWMssOS::"Running Make include in microblaze_0/libsrc/myip_S4e_4reg_v1_0/src"
+
+TRACE::2025-06-28.13:52:02::SCWMssOS::make -C microblaze_0/libsrc/myip_S4e_4reg_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar"
+TRACE::2025-06-28.13:52:02::SCWMssOS:: "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-fl
+TRACE::2025-06-28.13:52:02::SCWMssOS::oat-sqrt" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:03::SCWMssOS::"Running Make include in microblaze_0/libsrc/qspips_v3_8/src"
+
+TRACE::2025-06-28.13:52:03::SCWMssOS::make -C microblaze_0/libsrc/qspips_v3_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2025-06-28.13:52:03::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqr
+TRACE::2025-06-28.13:52:03::SCWMssOS::t" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:03::SCWMssOS::"Running Make include in microblaze_0/libsrc/spi_v4_7/src"
+
+TRACE::2025-06-28.13:52:03::SCWMssOS::make -C microblaze_0/libsrc/spi_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2025-06-28.13:52:03::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" 
+TRACE::2025-06-28.13:52:03::SCWMssOS::"EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:03::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_3/src"
+
+TRACE::2025-06-28.13:52:03::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2025-06-28.13:52:03::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float
+TRACE::2025-06-28.13:52:03::SCWMssOS::-sqrt" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:03::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_5/src"
+
+TRACE::2025-06-28.13:52:03::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2025-06-28.13:52:03::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-s
+TRACE::2025-06-28.13:52:03::SCWMssOS::qrt" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:03::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartps_v3_10/src"
+
+TRACE::2025-06-28.13:52:03::SCWMssOS::make -C microblaze_0/libsrc/uartps_v3_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2025-06-28.13:52:03::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sq
+TRACE::2025-06-28.13:52:03::SCWMssOS::rt" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:03::SCWMssOS::"Running Make libs in microblaze_0/libsrc/myip_S4e_4reg_v1_0/src"
+
+TRACE::2025-06-28.13:52:03::SCWMssOS::make -C microblaze_0/libsrc/myip_S4e_4reg_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2025-06-28.13:52:03::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float
+TRACE::2025-06-28.13:52:03::SCWMssOS::-sqrt" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:04::SCWMssOS::"Compiling myip_S4e_4reg..."
+
+TRACE::2025-06-28.13:52:05::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2025-06-28.13:52:05::SCWMssOS::make -j --no-print-directory par_libs
+
+TRACE::2025-06-28.13:52:05::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_12/src"
+
+TRACE::2025-06-28.13:52:05::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-06-28.13:52:05::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt"
+TRACE::2025-06-28.13:52:05::SCWMssOS:: "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:05::SCWMssOS::"Running Make include in microblaze_0/libsrc/ddrps_v1_2/src"
+
+TRACE::2025-06-28.13:52:05::SCWMssOS::make -C microblaze_0/libsrc/ddrps_v1_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2025-06-28.13:52:05::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt
+TRACE::2025-06-28.13:52:05::SCWMssOS::" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:05::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpiops_v3_8/src"
+
+TRACE::2025-06-28.13:52:05::SCWMssOS::make -C microblaze_0/libsrc/gpiops_v3_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2025-06-28.13:52:05::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqr
+TRACE::2025-06-28.13:52:05::SCWMssOS::t" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:05::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_7/src"
+
+TRACE::2025-06-28.13:52:05::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-06-28.13:52:05::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt"
+TRACE::2025-06-28.13:52:05::SCWMssOS:: "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:05::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_12/src"
+
+TRACE::2025-06-28.13:52:05::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2025-06-28.13:52:05::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt
+TRACE::2025-06-28.13:52:05::SCWMssOS::" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:05::SCWMssOS::"Running Make include in microblaze_0/libsrc/myip_S4e_4reg_v1_0/src"
+
+TRACE::2025-06-28.13:52:05::SCWMssOS::make -C microblaze_0/libsrc/myip_S4e_4reg_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar"
+TRACE::2025-06-28.13:52:05::SCWMssOS:: "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-fl
+TRACE::2025-06-28.13:52:05::SCWMssOS::oat-sqrt" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:05::SCWMssOS::"Running Make include in microblaze_0/libsrc/qspips_v3_8/src"
+
+TRACE::2025-06-28.13:52:05::SCWMssOS::make -C microblaze_0/libsrc/qspips_v3_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2025-06-28.13:52:05::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqr
+TRACE::2025-06-28.13:52:05::SCWMssOS::t" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:05::SCWMssOS::"Running Make include in microblaze_0/libsrc/spi_v4_7/src"
+
+TRACE::2025-06-28.13:52:05::SCWMssOS::make -C microblaze_0/libsrc/spi_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2025-06-28.13:52:05::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" 
+TRACE::2025-06-28.13:52:05::SCWMssOS::"EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:05::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_3/src"
+
+TRACE::2025-06-28.13:52:05::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2025-06-28.13:52:05::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float
+TRACE::2025-06-28.13:52:05::SCWMssOS::-sqrt" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:06::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_5/src"
+
+TRACE::2025-06-28.13:52:06::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2025-06-28.13:52:06::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-s
+TRACE::2025-06-28.13:52:06::SCWMssOS::qrt" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:06::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartps_v3_10/src"
+
+TRACE::2025-06-28.13:52:06::SCWMssOS::make -C microblaze_0/libsrc/uartps_v3_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2025-06-28.13:52:06::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sq
+TRACE::2025-06-28.13:52:06::SCWMssOS::rt" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:06::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_12/src"
+
+TRACE::2025-06-28.13:52:06::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2025-06-28.13:52:06::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" "E
+TRACE::2025-06-28.13:52:06::SCWMssOS::XTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:06::SCWMssOS::"Running Make libs in microblaze_0/libsrc/ddrps_v1_2/src"
+
+TRACE::2025-06-28.13:52:06::SCWMssOS::make -C microblaze_0/libsrc/ddrps_v1_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2025-06-28.13:52:06::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" "
+TRACE::2025-06-28.13:52:06::SCWMssOS::EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:06::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpiops_v3_8/src"
+
+TRACE::2025-06-28.13:52:06::SCWMssOS::make -C microblaze_0/libsrc/gpiops_v3_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2025-06-28.13:52:06::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" 
+TRACE::2025-06-28.13:52:06::SCWMssOS::"EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:06::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_7/src"
+
+TRACE::2025-06-28.13:52:06::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2025-06-28.13:52:06::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" "E
+TRACE::2025-06-28.13:52:06::SCWMssOS::XTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:06::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_12/src"
+
+TRACE::2025-06-28.13:52:06::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2025-06-28.13:52:06::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" "
+TRACE::2025-06-28.13:52:06::SCWMssOS::EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:06::SCWMssOS::"Running Make libs in microblaze_0/libsrc/qspips_v3_8/src"
+
+TRACE::2025-06-28.13:52:06::SCWMssOS::make -C microblaze_0/libsrc/qspips_v3_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2025-06-28.13:52:06::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" 
+TRACE::2025-06-28.13:52:06::SCWMssOS::"EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:06::SCWMssOS::"Running Make libs in microblaze_0/libsrc/spi_v4_7/src"
+
+TRACE::2025-06-28.13:52:06::SCWMssOS::make -C microblaze_0/libsrc/spi_v4_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_FL
+TRACE::2025-06-28.13:52:06::SCWMssOS::AGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" "EX
+TRACE::2025-06-28.13:52:06::SCWMssOS::TRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:06::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v7_3/src"
+
+TRACE::2025-06-28.13:52:06::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2025-06-28.13:52:06::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sq
+TRACE::2025-06-28.13:52:06::SCWMssOS::rt" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:06::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_5/src"
+
+TRACE::2025-06-28.13:52:06::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2025-06-28.13:52:06::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt
+TRACE::2025-06-28.13:52:06::SCWMssOS::" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:06::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartps_v3_10/src"
+
+TRACE::2025-06-28.13:52:06::SCWMssOS::make -C microblaze_0/libsrc/uartps_v3_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-06-28.13:52:06::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt"
+TRACE::2025-06-28.13:52:06::SCWMssOS:: "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2025-06-28.13:52:06::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2025-06-28.13:52:06::SCWMssOS::make --no-print-directory archive
+
+TRACE::2025-06-28.13:52:06::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/xplatform_info.o microblaze_0/lib/xqspips_options.o microblaze_0/lib/micro
+TRACE::2025-06-28.13:52:06::SCWMssOS::blaze_disable_exceptions.o microblaze_0/lib/print.o microblaze_0/lib/xgpiops_hw.o microblaze_0/lib/xuartps_selftest.o microblaz
+TRACE::2025-06-28.13:52:06::SCWMssOS::e_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_flush_dcache_range.o microblaze_0/lib/microblaze_flush_cache_ex
+TRACE::2025-06-28.13:52:06::SCWMssOS::t.o microblaze_0/lib/xqspips.o microblaze_0/lib/xspi.o microblaze_0/lib/inbyte.o microblaze_0/lib/xil_misc_psreset_api.o microb
+TRACE::2025-06-28.13:52:06::SCWMssOS::laze_0/lib/xspi_selftest.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xil_util.o microblaze_0/lib/xil_testio.o microblaze_0/
+TRACE::2025-06-28.13:52:06::SCWMssOS::lib/microblaze_exception_handler.o microblaze_0/lib/xuartps_options.o microblaze_0/lib/xgpiops_g.o microblaze_0/lib/microblaze_
+TRACE::2025-06-28.13:52:06::SCWMssOS::scrub.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib/micro
+TRACE::2025-06-28.13:52:06::SCWMssOS::blaze_interrupt_handler.o microblaze_0/lib/xgpiops_sinit.o microblaze_0/lib/xintc_g.o microblaze_0/lib/microblaze_disable_icach
+TRACE::2025-06-28.13:52:06::SCWMssOS::e.o microblaze_0/lib/_exit.o microblaze_0/lib/xgpiops_selftest.o microblaze_0/lib/xgpio_g.o microblaze_0/lib/xil_mem.o microbla
+TRACE::2025-06-28.13:52:06::SCWMssOS::ze_0/lib/xuartps_sinit.o microblaze_0/lib/xspi_stats.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/xil
+TRACE::2025-06-28.13:52:06::SCWMssOS::_sleepcommon.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xuartlite.o microblaze_0/lib/xgpiops_intr.o microblaze_0/lib/xint
+TRACE::2025-06-28.13:52:06::SCWMssOS::c_selftest.o microblaze_0/lib/xintc_l.o microblaze_0/lib/outbyte.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/xuartps_
+TRACE::2025-06-28.13:52:06::SCWMssOS::hw.o microblaze_0/lib/xuartps_g.o microblaze_0/lib/xgpio_intr.o microblaze_0/lib/microblaze_invalidate_dcache_range.o microblaz
+TRACE::2025-06-28.13:52:06::SCWMssOS::e_0/lib/xuartlite_l.o microblaze_0/lib/xuartlite_g.o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/microblaze_invalidate_c
+TRACE::2025-06-28.13:52:06::SCWMssOS::ache_ext.o microblaze_0/lib/microblaze_sleep.o microblaze_0/lib/hw_exception_handler.o microblaze_0/lib/xuartlite_selftest.o mi
+TRACE::2025-06-28.13:52:06::SCWMssOS::croblaze_0/lib/xgpio_sinit.o microblaze_0/lib/xuartps_intr.o microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/xil_t
+TRACE::2025-06-28.13:52:06::SCWMssOS::estcache.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_enable
+TRACE::2025-06-28.13:52:06::SCWMssOS::_exceptions.o microblaze_0/lib/xio.o microblaze_0/lib/microblaze_enable_dcache.o microblaze_0/lib/xspi_sinit.o microblaze_0/lib
+TRACE::2025-06-28.13:52:06::SCWMssOS::/microblaze_invalidate_icache_range.o microblaze_0/lib/xqspips_g.o microblaze_0/lib/xgpiops.o microblaze_0/lib/microblaze_init_
+TRACE::2025-06-28.13:52:06::SCWMssOS::dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/xqspips_hw.o microblaze_0/lib/xspi_options.o mi
+TRACE::2025-06-28.13:52:06::SCWMssOS::croblaze_0/lib/errno.o microblaze_0/lib/xintc_options.o microblaze_0/lib/xuartlite_stats.o microblaze_0/lib/microblaze_invalida
+TRACE::2025-06-28.13:52:06::SCWMssOS::te_cache_ext_range.o microblaze_0/lib/xintc_intr.o microblaze_0/lib/xil_exception.o microblaze_0/lib/pvr.o microblaze_0/lib/xgp
+TRACE::2025-06-28.13:52:06::SCWMssOS::io.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/xqspips_selftest.o microblaze_0/lib/microblaze_update_icache.o microblaze_
+TRACE::2025-06-28.13:52:06::SCWMssOS::0/lib/microblaze_flush_dcache.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/xil_assert.o microblaze_0/lib/microblaze_enabl
+TRACE::2025-06-28.13:52:06::SCWMssOS::e_interrupts.o microblaze_0/lib/xgpio_extra.o microblaze_0/lib/xspi_g.o microblaze_0/lib/microblaze_enable_icache.o microblaze_
+TRACE::2025-06-28.13:52:06::SCWMssOS::0/lib/xintc.o microblaze_0/lib/xuartps.o microblaze_0/lib/microblaze_init_icache_range.o microblaze_0/lib/xqspips_sinit.o micro
+TRACE::2025-06-28.13:52:06::SCWMssOS::blaze_0/lib/fcntl.o microblaze_0/lib/xgpio_selftest.o
+
+TRACE::2025-06-28.13:52:07::SCWMssOS::'Finished building libraries'
+
+TRACE::2025-06-28.13:52:07::SCWMssOS::Copying to export directory.
+TRACE::2025-06-28.13:52:07::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2025-06-28.13:52:07::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2025-06-28.13:52:07::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2025-06-28.13:52:07::SCWSystem::Completed Processing the sysconfig main_design_wrapper
+LOG::2025-06-28.13:52:07::SCWPlatform::Completed generating the artifacts for system configuration main_design_wrapper
+TRACE::2025-06-28.13:52:07::SCWPlatform::Started preparing the platform 
+TRACE::2025-06-28.13:52:07::SCWSystem::Writing the bif file for system config main_design_wrapper
+TRACE::2025-06-28.13:52:07::SCWSystem::dir created 
+TRACE::2025-06-28.13:52:07::SCWSystem::Writing the bif 
+TRACE::2025-06-28.13:52:07::SCWPlatform::Started writing the spfm file 
+TRACE::2025-06-28.13:52:07::SCWPlatform::Started writing the xpfm file 
+TRACE::2025-06-28.13:52:07::SCWPlatform::Completed generating the platform
+TRACE::2025-06-28.13:52:07::SCWMssOS::Saving the mss changes C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-28.13:52:07::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-06-28.13:52:07::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-06-28.13:52:07::SCWMssOS::Commit changes completed.
+TRACE::2025-06-28.13:52:07::SCWMssOS::Saving the mss changes C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2025-06-28.13:52:07::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-06-28.13:52:07::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-06-28.13:52:07::SCWMssOS::Commit changes completed.
+TRACE::2025-06-28.13:52:07::SCWPlatform::Trying to open the hw design at C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:52:07::SCWPlatform::DSA given C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:52:07::SCWPlatform::DSA absoulate path C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:52:07::SCWPlatform::DSA directory C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw
+TRACE::2025-06-28.13:52:07::SCWPlatform:: Platform Path C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:52:07::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2025-06-28.13:52:07::SCWPlatform::Trying to set the existing hwdb with name main_design_wrapper
+TRACE::2025-06-28.13:52:07::SCWPlatform::Opened existing hwdb main_design_wrapper
+TRACE::2025-06-28.13:52:07::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-28.13:52:07::SCWMssOS::Checking the sw design at  C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-28.13:52:07::SCWMssOS::DEBUG:  swdes dump  C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-28.13:52:07::SCWMssOS::Sw design exists and opened at  C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-06-28.13:52:07::SCWPlatform::Trying to open the hw design at C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:52:07::SCWPlatform::DSA given C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:52:07::SCWPlatform::DSA absoulate path C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:52:07::SCWPlatform::DSA directory C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw
+TRACE::2025-06-28.13:52:07::SCWPlatform:: Platform Path C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:52:07::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2025-06-28.13:52:07::SCWPlatform::Trying to set the existing hwdb with name main_design_wrapper
+TRACE::2025-06-28.13:52:07::SCWPlatform::Opened existing hwdb main_design_wrapper
+TRACE::2025-06-28.13:52:07::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-28.13:52:07::SCWMssOS::Checking the sw design at  C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2025-06-28.13:52:07::SCWMssOS::DEBUG:  swdes dump  C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-28.13:52:07::SCWMssOS::Sw design exists and opened at  C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2025-06-28.13:52:07::SCWWriter::formatted JSON is {
+	"platformName":	"main_design_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"main_design_wrapper",
+	"platHandOff":	"C:/Users/gabma/ProjetS4/labo1_final/labo1/hw/main_design_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/main_design_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"main_design_wrapper",
+	"systems":	[{
+			"systemName":	"main_design_wrapper",
+			"systemDesc":	"main_design_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"main_design_wrapper",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"43bb8475b032e789273c7ce44359d071",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.4", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"8817f2b4f7957c77aa68c671216d5b11",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2025-06-28.13:52:07::SCWPlatform::updated the xpfm file.
+TRACE::2025-06-28.13:52:07::SCWPlatform::Trying to open the hw design at C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:52:07::SCWPlatform::DSA given C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:52:07::SCWPlatform::DSA absoulate path C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:52:07::SCWPlatform::DSA directory C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw
+TRACE::2025-06-28.13:52:07::SCWPlatform:: Platform Path C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa
+TRACE::2025-06-28.13:52:07::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2025-06-28.13:52:07::SCWPlatform::Trying to set the existing hwdb with name main_design_wrapper
+TRACE::2025-06-28.13:52:07::SCWPlatform::Opened existing hwdb main_design_wrapper
+TRACE::2025-06-28.13:52:07::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-28.13:52:07::SCWMssOS::Checking the sw design at  C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2025-06-28.13:52:07::SCWMssOS::DEBUG:  swdes dump  C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-28.13:52:07::SCWMssOS::Sw design exists and opened at  C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/microblaze_0/standalone_domain/bsp/system.mss
