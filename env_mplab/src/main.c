@@ -326,7 +326,7 @@ int main(void) {
         MAIN_Tasks();
     };
 
-    return 0;
+    return 1;
 }
 
 
