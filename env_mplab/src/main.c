@@ -70,6 +70,7 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 #include "timers.h"
 #include "Adafruit7830.h"
 //#include "output_compare.h"
+//#include "output_compare.h"
 //Moyenne est faite direct sur la MX3 (GestionMoyenne dans accel.c)
 //La switch qui fait afficher Moyenne sur le LCD dans accel.C
 
@@ -139,6 +140,7 @@ void Interupt_ACL_Init(void)
 }
 static bool sw0_old = false;
 static bool sw2_old = false;
+static bool sw4_old = false;
 static uint8_t samples = 128; // Exemple : valeur initiale
 uint32_t sample_buffer = 0;
 
@@ -148,6 +150,7 @@ void ManageSwitches()
 {
     bool sw0_new = SWITCH0StateGet(); // Lire l'état actuel du bouton
     bool sw2_new = SWITCH2StateGet();
+    bool sw4_new = SWITCH4StateGet();
     // Déclencher uniquement sur front montant : 0 -> 1
     if (!sw0_old && sw0_new)
     {
@@ -163,9 +166,19 @@ void ManageSwitches()
         LATACLR=0x00FF;
         samples=128;
     }
+    if (!sw4_old && sw4_new)
+    {
+        
+    }
+    
+        //set_distortion_enabled(0);
+        //set_distortion_level(75);
+        //set_distortion_type(2);
     // Mettre à jour l'état précédent pour la prochaine détection
     sw0_old = sw0_new;
     sw2_old = sw2_new;
+    sw4_old = sw4_new;
+    
 }
 
 void RGB_Task()
@@ -239,6 +252,9 @@ void MAIN_Initialize ( void )
     RGBLED_Init();
     Init_GestionDonnees();
     I2C_Init(100000);
+    set_distortion_enabled(2);
+    set_distortion_level(98);
+    set_distortion_type(0);
     //initialize_timer_interrupt();
     //macro_enable_interrupts();
     

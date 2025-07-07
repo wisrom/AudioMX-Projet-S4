@@ -1423,3 +1423,19 @@ Troubleshooting hints:
 15:39:03 INFO  : Platform repository initialization has completed.
 15:39:03 INFO  : Registering command handlers for Vitis TCF services
 15:39:07 INFO  : Successfully done query RDI_DATADIR 
+20:14:25 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\gabma\ProjetS4\labo_2\labo1\vitis_workspace\temp_xsdb_launch_script.tcl
+20:14:29 INFO  : XSCT server has started successfully.
+20:14:29 INFO  : Successfully done setting XSCT server connection channel  
+20:14:29 INFO  : plnx-install-location is set to ''
+20:14:29 INFO  : Successfully done setting workspace for the tool. 
+20:14:34 INFO  : Platform repository initialization has completed.
+20:14:34 INFO  : Registering command handlers for Vitis TCF services
+20:14:39 INFO  : Successfully done query RDI_DATADIR 
+13:36:01 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\gabma\ProjetS4\labo_2\labo1\vitis_workspace\temp_xsdb_launch_script.tcl
+13:36:05 INFO  : XSCT server has started successfully.
+13:36:05 INFO  : plnx-install-location is set to ''
+13:36:05 INFO  : Successfully done setting XSCT server connection channel  
+13:36:05 INFO  : Successfully done setting workspace for the tool. 
+13:36:09 INFO  : Platform repository initialization has completed.
+13:36:09 INFO  : Registering command handlers for Vitis TCF services
+13:36:14 INFO  : Successfully done query RDI_DATADIR 
