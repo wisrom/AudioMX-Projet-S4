@@ -69,6 +69,7 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 #include <sys/attribs.h>
 #include "timers.h"
 #include "Adafruit7830.h"
+#include "AudioMix.h"
 //#include "output_compare.h"
 //#include "output_compare.h"
 //Moyenne est faite direct sur la MX3 (GestionMoyenne dans accel.c)
@@ -252,8 +253,8 @@ void MAIN_Initialize ( void )
     RGBLED_Init();
     Init_GestionDonnees();
     I2C_Init(100000);
-    set_distortion_enabled(2);
-    set_distortion_level(98);
+    set_distortion_enabled(0);
+    set_distortion_level(99);
     set_distortion_type(0);
     //initialize_timer_interrupt();
     //macro_enable_interrupts();
