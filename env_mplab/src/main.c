@@ -254,8 +254,8 @@ void MAIN_Initialize ( void )
     Init_GestionDonnees();
     I2C_Init(100000);
     set_distortion_enabled(1);
-    set_distortion_level(80);
-    set_distortion_type(1);
+    set_distortion_level(93);
+    set_distortion_type(0);
     //initialize_timer_interrupt();
     //macro_enable_interrupts();
     
