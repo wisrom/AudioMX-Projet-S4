@@ -253,9 +253,9 @@ void MAIN_Initialize ( void )
     RGBLED_Init();
     Init_GestionDonnees();
     I2C_Init(100000);
-    set_distortion_enabled(0);
-    set_distortion_level(99);
-    set_distortion_type(0);
+    set_distortion_enabled(1);
+    set_distortion_level(80);
+    set_distortion_type(1);
     //initialize_timer_interrupt();
     //macro_enable_interrupts();
     

@@ -366,7 +366,7 @@ build/default/debug/_ext/1360937237/main.o: ../src/main.c ../src/main.h \
  ../src/UDP_app.h ../src/led.h ../src/config.h ../src/ssd.h \
  ../src/accel.h ../src/lcd.h ../src/app_commands.h \
  ../src/inputs_outputs.h ../src/adc.h ../src/rgbled.h ../src/timers.h \
- ../src/Adafruit7830.h
+ ../src/Adafruit7830.h ../src/AudioMix.h
 
 ../src/main.h:
 
@@ -1123,3 +1123,5 @@ build/default/debug/_ext/1360937237/main.o: ../src/main.c ../src/main.h \
 ../src/timers.h:
 
 ../src/Adafruit7830.h:
+
+../src/AudioMix.h:
