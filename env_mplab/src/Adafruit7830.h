@@ -79,7 +79,7 @@ char ADC_dB(unsigned char adc_value);
 void Affiche_EXTERN_ADC_LCD(void);
 
 // Détermine le channel à aficher sur le LCD
-unsigned char variation_detectee(char *courant, char *ancien, unsigned char* index);
+unsigned char variation_detectee(unsigned char *courant, unsigned char *ancien, unsigned char* index);
 
 // Itère l'affichage des paramètres du LCD avec BTNU et BTND
 void Affichage_param_audio_button(void);

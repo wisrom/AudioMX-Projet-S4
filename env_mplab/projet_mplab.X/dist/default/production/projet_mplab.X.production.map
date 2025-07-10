@@ -19,95 +19,95 @@ c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(strlen.o)
                               build/default/production/_ext/1360937237/lcd.o (strlen)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
-                              C:\Users\adams\AppData\Local\Temp\ccsGo35V.o (_bootstrap_exception_handler)
+                              C:\Users\adams\AppData\Local\Temp\cc0oT2XD.o (_bootstrap_exception_handler)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
-                              C:\Users\adams\AppData\Local\Temp\ccsGo35V.o (_on_reset)
+                              C:\Users\adams\AppData\Local\Temp\cc0oT2XD.o (_on_reset)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
-                              C:\Users\adams\AppData\Local\Temp\ccsGo35V.o (_on_bootstrap)
+                              C:\Users\adams\AppData\Local\Temp\cc0oT2XD.o (_on_bootstrap)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-nmi-handler.o)
-                              C:\Users\adams\AppData\Local\Temp\ccsGo35V.o (_nmi_handler)
+                              C:\Users\adams\AppData\Local\Temp\cc0oT2XD.o (_nmi_handler)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(pic32_data_init.o)
-                              C:\Users\adams\AppData\Local\Temp\ccsGo35V.o (__pic32_data_init)
+                              C:\Users\adams\AppData\Local\Temp\cc0oT2XD.o (__pic32_data_init)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(general-exception.o)
-                              C:\Users\adams\AppData\Local\Temp\ccsGo35V.o (_general_exception_context)
+                              C:\Users\adams\AppData\Local\Temp\cc0oT2XD.o (_general_exception_context)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector0.o)
-                              C:\Users\adams\AppData\Local\Temp\ccOUIizn.o (__vector_dispatch_0)
+                              C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o (__vector_dispatch_0)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector1.o)
-                              C:\Users\adams\AppData\Local\Temp\ccOUIizn.o (__vector_dispatch_1)
+                              C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o (__vector_dispatch_1)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector2.o)
-                              C:\Users\adams\AppData\Local\Temp\ccOUIizn.o (__vector_dispatch_2)
+                              C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o (__vector_dispatch_2)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector3.o)
-                              C:\Users\adams\AppData\Local\Temp\ccOUIizn.o (__vector_dispatch_3)
+                              C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o (__vector_dispatch_3)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector5.o)
-                              C:\Users\adams\AppData\Local\Temp\ccOUIizn.o (__vector_dispatch_5)
+                              C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o (__vector_dispatch_5)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector6.o)
-                              C:\Users\adams\AppData\Local\Temp\ccOUIizn.o (__vector_dispatch_6)
+                              C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o (__vector_dispatch_6)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector7.o)
-                              C:\Users\adams\AppData\Local\Temp\ccOUIizn.o (__vector_dispatch_7)
+                              C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o (__vector_dispatch_7)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector8.o)
-                              C:\Users\adams\AppData\Local\Temp\ccOUIizn.o (__vector_dispatch_8)
+                              C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o (__vector_dispatch_8)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector9.o)
-                              C:\Users\adams\AppData\Local\Temp\ccOUIizn.o (__vector_dispatch_9)
+                              C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o (__vector_dispatch_9)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector10.o)
-                              C:\Users\adams\AppData\Local\Temp\ccOUIizn.o (__vector_dispatch_10)
+                              C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o (__vector_dispatch_10)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector11.o)
-                              C:\Users\adams\AppData\Local\Temp\ccOUIizn.o (__vector_dispatch_11)
+                              C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o (__vector_dispatch_11)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector12.o)
-                              C:\Users\adams\AppData\Local\Temp\ccOUIizn.o (__vector_dispatch_12)
+                              C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o (__vector_dispatch_12)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector13.o)
-                              C:\Users\adams\AppData\Local\Temp\ccOUIizn.o (__vector_dispatch_13)
+                              C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o (__vector_dispatch_13)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector14.o)
-                              C:\Users\adams\AppData\Local\Temp\ccOUIizn.o (__vector_dispatch_14)
+                              C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o (__vector_dispatch_14)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector15.o)
-                              C:\Users\adams\AppData\Local\Temp\ccOUIizn.o (__vector_dispatch_15)
+                              C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o (__vector_dispatch_15)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector17.o)
-                              C:\Users\adams\AppData\Local\Temp\ccOUIizn.o (__vector_dispatch_17)
+                              C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o (__vector_dispatch_17)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector18.o)
-                              C:\Users\adams\AppData\Local\Temp\ccOUIizn.o (__vector_dispatch_18)
+                              C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o (__vector_dispatch_18)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector21.o)
-                              C:\Users\adams\AppData\Local\Temp\ccOUIizn.o (__vector_dispatch_21)
+                              C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o (__vector_dispatch_21)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector22.o)
-                              C:\Users\adams\AppData\Local\Temp\ccOUIizn.o (__vector_dispatch_22)
+                              C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o (__vector_dispatch_22)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector24.o)
-                              C:\Users\adams\AppData\Local\Temp\ccOUIizn.o (__vector_dispatch_24)
+                              C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o (__vector_dispatch_24)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector25.o)
-                              C:\Users\adams\AppData\Local\Temp\ccOUIizn.o (__vector_dispatch_25)
+                              C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o (__vector_dispatch_25)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector26.o)
-                              C:\Users\adams\AppData\Local\Temp\ccOUIizn.o (__vector_dispatch_26)
+                              C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o (__vector_dispatch_26)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector27.o)
-                              C:\Users\adams\AppData\Local\Temp\ccOUIizn.o (__vector_dispatch_27)
+                              C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o (__vector_dispatch_27)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector28.o)
-                              C:\Users\adams\AppData\Local\Temp\ccOUIizn.o (__vector_dispatch_28)
+                              C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o (__vector_dispatch_28)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector29.o)
-                              C:\Users\adams\AppData\Local\Temp\ccOUIizn.o (__vector_dispatch_29)
+                              C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o (__vector_dispatch_29)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector30.o)
-                              C:\Users\adams\AppData\Local\Temp\ccOUIizn.o (__vector_dispatch_30)
+                              C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o (__vector_dispatch_30)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector31.o)
-                              C:\Users\adams\AppData\Local\Temp\ccOUIizn.o (__vector_dispatch_31)
+                              C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o (__vector_dispatch_31)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector32.o)
-                              C:\Users\adams\AppData\Local\Temp\ccOUIizn.o (__vector_dispatch_32)
+                              C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o (__vector_dispatch_32)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector33.o)
-                              C:\Users\adams\AppData\Local\Temp\ccOUIizn.o (__vector_dispatch_33)
+                              C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o (__vector_dispatch_33)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector34.o)
-                              C:\Users\adams\AppData\Local\Temp\ccOUIizn.o (__vector_dispatch_34)
+                              C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o (__vector_dispatch_34)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector36.o)
-                              C:\Users\adams\AppData\Local\Temp\ccOUIizn.o (__vector_dispatch_36)
+                              C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o (__vector_dispatch_36)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector37.o)
-                              C:\Users\adams\AppData\Local\Temp\ccOUIizn.o (__vector_dispatch_37)
+                              C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o (__vector_dispatch_37)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector38.o)
-                              C:\Users\adams\AppData\Local\Temp\ccOUIizn.o (__vector_dispatch_38)
+                              C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o (__vector_dispatch_38)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector40.o)
-                              C:\Users\adams\AppData\Local\Temp\ccOUIizn.o (__vector_dispatch_40)
+                              C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o (__vector_dispatch_40)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector41.o)
-                              C:\Users\adams\AppData\Local\Temp\ccOUIizn.o (__vector_dispatch_41)
+                              C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o (__vector_dispatch_41)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector42.o)
-                              C:\Users\adams\AppData\Local\Temp\ccOUIizn.o (__vector_dispatch_42)
+                              C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o (__vector_dispatch_42)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector43.o)
-                              C:\Users\adams\AppData\Local\Temp\ccOUIizn.o (__vector_dispatch_43)
+                              C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o (__vector_dispatch_43)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector44.o)
-                              C:\Users\adams\AppData\Local\Temp\ccOUIizn.o (__vector_dispatch_44)
+                              C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o (__vector_dispatch_44)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(vector45.o)
-                              C:\Users\adams\AppData\Local\Temp\ccOUIizn.o (__vector_dispatch_45)
+                              C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o (__vector_dispatch_45)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-general-exception-handler.o)
                               c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(general-exception.o) (_general_exception_handler)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
@@ -332,9 +332,9 @@ section                    address  length [bytes]      (dec)  Description
 .text._UDPsetPacketInfo 0x9d014634           0xf8         248   
 .text._TCPIP_StackSyncF 0x9d01472c           0xf8         248   
 .text._DRV_TMR_ClockSou 0x9d014824           0xf4         244   
-.text.DRV_ENCX24J600_In 0x9d014918           0xf0         240   
-.text.TCPIP_UDP_Disconn 0x9d014a08           0xf0         240   
-.rodata                 0x9d014af8           0xf0         240  Read-only const 
+.rodata                 0x9d014918           0xf0         240  Read-only const 
+.text.DRV_ENCX24J600_In 0x9d014a08           0xf0         240   
+.text.TCPIP_UDP_Disconn 0x9d014af8           0xf0         240   
 .text._mon_getc         0x9d014be8           0xf0         240   
 .text._DRV_ENCX24J600_D 0x9d014cd8           0xec         236   
 .text.SYS_TMR_SystemCou 0x9d014dc4           0xec         236   
@@ -386,8 +386,8 @@ section                    address  length [bytes]      (dec)  Description
 .text.TCPIP_PKT_PacketM 0x9d0171c4           0xa8         168   
 .text._UDP_Commands_Set 0x9d01726c           0xa8         168   
 .text                   0x9d017314           0xa8         168  App's exec code 
-.text.TCPIP_IPV4_Initia 0x9d0173bc           0xa4         164   
-.text.Read_8_channels_A 0x9d017460           0xa4         164   
+.text.Read_8_channels_A 0x9d0173bc           0xa4         164   
+.text.TCPIP_IPV4_Initia 0x9d017460           0xa4         164   
 .text.LCD_WriteStringAt 0x9d017504           0xa0         160   
 .text.Console_UART_Stat 0x9d0175a4           0xa0         160   
 .text.TCPIP_UDP_PutIsRe 0x9d017644           0xa0         160   
@@ -417,10 +417,10 @@ section                    address  length [bytes]      (dec)  Description
 .text.TCPIP_UDP_Close   0x9d018424           0x88         136   
 .text.TCPIP_Helper_Prot 0x9d0184ac           0x88         136   
 .text.ManageSwitches    0x9d018534           0x88         136   
-.text.DRV_ENCX24J600_St 0x9d0185bc           0x84         132   
-.text._DRV_SPI_SYS_QUEU 0x9d018640           0x84         132   
-.text._DRV_TMR_ModuleOb 0x9d0186c4           0x84         132   
-.text.variation_detecte 0x9d018748           0x84         132   
+.text.variation_detecte 0x9d0185bc           0x84         132   
+.text.DRV_ENCX24J600_St 0x9d018640           0x84         132   
+.text._DRV_SPI_SYS_QUEU 0x9d0186c4           0x84         132   
+.text._DRV_TMR_ModuleOb 0x9d018748           0x84         132   
 .text                   0x9d0187cc           0x84         132  App's exec code 
 .text.ReadCommandCharac 0x9d018850           0x80         128   
 .rodata                 0x9d0188d0           0x80         128  Read-only const 
@@ -435,12 +435,12 @@ section                    address  length [bytes]      (dec)  Description
 .text._TCPIP_MacEventCB 0x9d018d38           0x7c         124   
 .text.main              0x9d018db4           0x7c         124   
 .text._snprintf_cdnopsu 0x9d018e30           0x7c         124   
-.text.DRV_ENCX24J600_Ev 0x9d018eac           0x78         120   
-.text.DRV_TMR_CounterVa 0x9d018f24           0x78         120   
-.text.TCPIP_Helper_Prot 0x9d018f9c           0x78         120   
-.text.TCPIP_PKT_Initial 0x9d019014           0x78         120   
-.text._UDP_Commands_Sen 0x9d01908c           0x78         120   
-.text.Affichage_param_a 0x9d019104           0x78         120   
+.text.Affichage_param_a 0x9d018eac           0x78         120   
+.text.DRV_ENCX24J600_Ev 0x9d018f24           0x78         120   
+.text.DRV_TMR_CounterVa 0x9d018f9c           0x78         120   
+.text.TCPIP_Helper_Prot 0x9d019014           0x78         120   
+.text.TCPIP_PKT_Initial 0x9d01908c           0x78         120   
+.text._UDP_Commands_Sen 0x9d019104           0x78         120   
 .text.litodp            0x9d01917c           0x78         120   
 .text.RGBLED_SetValue   0x9d0191f4           0x74         116   
 .text.DRV_ENCX24J600_Ru 0x9d019268           0x74         116   
@@ -813,9 +813,9 @@ section                    address  length [bytes]      (dec)  Description
 .bss                    0xa0009ef8           0x80         128  Uninitialized data 
 .bss                    0xa0009f78           0x34          52  Uninitialized data 
 .data                   0xa0009fac           0x58          88  Initialized data 
-.bss                    0xa000a004           0x44          68  Uninitialized data 
-.bss                    0xa000a048           0x20          32  Uninitialized data 
-.data                   0xa000a068           0x20          32  Initialized data 
+.bss                    0xa000a004           0x24          36  Uninitialized data 
+.data                   0xa000a028           0x20          32  Initialized data 
+.bss                    0xa000a048           0x40          64  Uninitialized data 
 .bss                    0xa000a088           0x30          48  Uninitialized data 
 .bss                    0xa000a0b8           0x30          48  Uninitialized data 
          Total kseg1_data_mem used  :      0xa0d8       41176  31.4% of 0x20000
@@ -929,6 +929,14 @@ Discarded input sections
  .data          0x00000000        0x0 build/default/production/_ext/1360937237/output_compare.o
  .bss           0x00000000        0x0 build/default/production/_ext/1360937237/output_compare.o
  .reginfo       0x00000000       0x18 build/default/production/_ext/1360937237/output_compare.o
+ .text          0x00000000        0x0 build/default/production/_ext/1517938894/Adafruit7830.o
+ .bss           0x00000000        0x0 build/default/production/_ext/1517938894/Adafruit7830.o
+ .reginfo       0x00000000       0x18 build/default/production/_ext/1517938894/Adafruit7830.o
+ .text.ADC_Percentage
+                0x00000000       0x34 build/default/production/_ext/1517938894/Adafruit7830.o
+ .text.ADC_Percentage2
+                0x00000000       0x38 build/default/production/_ext/1517938894/Adafruit7830.o
+ .text.ADC_dB   0x00000000       0x38 build/default/production/_ext/1517938894/Adafruit7830.o
  .text          0x00000000        0x0 build/default/production/_ext/996065237/drv_encx24j600_spi_bus.o
  .data          0x00000000        0x0 build/default/production/_ext/996065237/drv_encx24j600_spi_bus.o
  .bss           0x00000000        0x0 build/default/production/_ext/996065237/drv_encx24j600_spi_bus.o
@@ -1742,27 +1750,19 @@ Discarded input sections
  .reginfo       0x00000000       0x18 build/default/production/_ext/1360937237/main.o
  .text.Interupt_ACL_Init
                 0x00000000       0x6c build/default/production/_ext/1360937237/main.o
- .text          0x00000000        0x0 build/default/production/_ext/1517938894/Adafruit7830.o
- .bss           0x00000000        0x0 build/default/production/_ext/1517938894/Adafruit7830.o
- .reginfo       0x00000000       0x18 build/default/production/_ext/1517938894/Adafruit7830.o
- .text.ADC_Percentage
-                0x00000000       0x34 build/default/production/_ext/1517938894/Adafruit7830.o
- .text.ADC_Percentage2
-                0x00000000       0x38 build/default/production/_ext/1517938894/Adafruit7830.o
- .text.ADC_dB   0x00000000       0x38 build/default/production/_ext/1517938894/Adafruit7830.o
- .text          0x00000000        0x0 C:\Users\adams\AppData\Local\Temp\ccsGo35V.o
- .data          0x00000000        0x0 C:\Users\adams\AppData\Local\Temp\ccsGo35V.o
- .bss           0x00000000        0x0 C:\Users\adams\AppData\Local\Temp\ccsGo35V.o
- .reginfo       0x00000000       0x18 C:\Users\adams\AppData\Local\Temp\ccsGo35V.o
- .text          0x00000000        0x0 C:\Users\adams\AppData\Local\Temp\ccHJcK6x.o
- .data          0x00000000        0x0 C:\Users\adams\AppData\Local\Temp\ccHJcK6x.o
- .bss           0x00000000        0x0 C:\Users\adams\AppData\Local\Temp\ccHJcK6x.o
- .reginfo       0x00000000       0x18 C:\Users\adams\AppData\Local\Temp\ccHJcK6x.o
- .text          0x00000000        0x0 C:\Users\adams\AppData\Local\Temp\ccOUIizn.o
- .data          0x00000000        0x0 C:\Users\adams\AppData\Local\Temp\ccOUIizn.o
- .bss           0x00000000        0x0 C:\Users\adams\AppData\Local\Temp\ccOUIizn.o
- .reginfo       0x00000000       0x18 C:\Users\adams\AppData\Local\Temp\ccOUIizn.o
- .discard       0x00000000       0xb8 C:\Users\adams\AppData\Local\Temp\ccOUIizn.o
+ .text          0x00000000        0x0 C:\Users\adams\AppData\Local\Temp\cc0oT2XD.o
+ .data          0x00000000        0x0 C:\Users\adams\AppData\Local\Temp\cc0oT2XD.o
+ .bss           0x00000000        0x0 C:\Users\adams\AppData\Local\Temp\cc0oT2XD.o
+ .reginfo       0x00000000       0x18 C:\Users\adams\AppData\Local\Temp\cc0oT2XD.o
+ .text          0x00000000        0x0 C:\Users\adams\AppData\Local\Temp\ccCjaVAy.o
+ .data          0x00000000        0x0 C:\Users\adams\AppData\Local\Temp\ccCjaVAy.o
+ .bss           0x00000000        0x0 C:\Users\adams\AppData\Local\Temp\ccCjaVAy.o
+ .reginfo       0x00000000       0x18 C:\Users\adams\AppData\Local\Temp\ccCjaVAy.o
+ .text          0x00000000        0x0 C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o
+ .data          0x00000000        0x0 C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o
+ .bss           0x00000000        0x0 C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o
+ .reginfo       0x00000000       0x18 C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o
+ .discard       0x00000000       0xb8 C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o
  .data          0x00000000        0x0 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\pic32_software_reset.o
  .bss           0x00000000        0x0 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\pic32_software_reset.o
  .reginfo       0x00000000       0x18 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\pic32_software_reset.o
@@ -2217,6 +2217,7 @@ LOAD build/default/production/_ext/1360937237/inputs_outputs.o
 LOAD build/default/production/_ext/1360937237/rgbled.o
 LOAD build/default/production/_ext/1360937237/timers.o
 LOAD build/default/production/_ext/1360937237/output_compare.o
+LOAD build/default/production/_ext/1517938894/Adafruit7830.o
 LOAD build/default/production/_ext/996065237/drv_encx24j600_spi_bus.o
 LOAD build/default/production/_ext/1600828880/drv_encx24j600_closed_state.o
 LOAD build/default/production/_ext/472602724/drv_encx24j600_initialization_state.o
@@ -2275,12 +2276,11 @@ LOAD build/default/production/_ext/1688732426/system_tasks.o
 LOAD build/default/production/_ext/1360937237/app_commands.o
 LOAD build/default/production/_ext/1360937237/UDP_app.o
 LOAD build/default/production/_ext/1360937237/main.o
-LOAD build/default/production/_ext/1517938894/Adafruit7830.o
                 0x00000001                __MPLAB_BUILD = 0x1
                 0x0000afa0                _min_heap_size = 0xafa0
-LOAD C:\Users\adams\AppData\Local\Temp\ccsGo35V.o
-LOAD C:\Users\adams\AppData\Local\Temp\ccHJcK6x.o
-LOAD C:\Users\adams\AppData\Local\Temp\ccOUIizn.o
+LOAD C:\Users\adams\AppData\Local\Temp\cc0oT2XD.o
+LOAD C:\Users\adams\AppData\Local\Temp\ccCjaVAy.o
+LOAD C:\Users\adams\AppData\Local\Temp\ccsNf6rG.o
 LOAD c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\pic32_software_reset.o
                 0x00000400                PROVIDE (_min_stack_size, 0x400)
 START GROUP
@@ -2329,16 +2329,16 @@ END GROUP
 
 .reset          0xbfc00000      0x19c
  *(.reset)
- .reset         0xbfc00000        0x8 C:\Users\adams\AppData\Local\Temp\ccsGo35V.o
+ .reset         0xbfc00000        0x8 C:\Users\adams\AppData\Local\Temp\cc0oT2XD.o
                 0xbfc00000                _reset
  *(.reset.startup)
  .reset.startup
-                0xbfc00008      0x194 C:\Users\adams\AppData\Local\Temp\ccsGo35V.o
+                0xbfc00008      0x194 C:\Users\adams\AppData\Local\Temp\cc0oT2XD.o
                 0xbfc00008                _startup
 
 .bev_excpt      0xbfc00380       0x10
  *(.bev_handler)
- .bev_handler   0xbfc00380       0x10 C:\Users\adams\AppData\Local\Temp\ccsGo35V.o
+ .bev_handler   0xbfc00380       0x10 C:\Users\adams\AppData\Local\Temp\cc0oT2XD.o
 
 .dbg_excpt      0xbfc00480        0x0
                 0xbfc00480                . = (. + DEFINED (_DEBUGGER)?0x8:0x0)
@@ -2348,7 +2348,7 @@ END GROUP
 
 .app_excpt      0x9fc01180       0x10
  *(.gen_handler)
- .gen_handler   0x9fc01180       0x10 C:\Users\adams\AppData\Local\Temp\ccsGo35V.o
+ .gen_handler   0x9fc01180       0x10 C:\Users\adams\AppData\Local\Temp\cc0oT2XD.o
 
 .vector_0       0x9fc01200        0x8
  *(.vector_0)
@@ -2886,40 +2886,40 @@ END GROUP
                 0xa0000098                bColR
  .sbss          0xa000009a        0x2 build/default/production/_ext/1360937237/output_compare.o
                 0xa000009a                read_index
- .sbss          0xa000009c        0x1 build/default/production/_ext/996065237/drv_encx24j600_spi_bus.o
- *fill*         0xa000009d        0x3 
- .sbss          0xa00000a0        0xc build/default/production/_ext/820865379/drv_encx24j600_api.o
- .sbss          0xa00000ac        0x1 build/default/production/_ext/915312864/drv_spi.o
- *fill*         0xa00000ad        0x3 
- .sbss          0xa00000b0        0x4 build/default/production/_ext/1298913485/drv_tmr.o
- .sbss          0xa00000b4        0x2 build/default/production/_ext/327000265/drv_usart_static_buffer_queue.o
- *fill*         0xa00000b6        0x2 
- .sbss          0xa00000b8       0x10 build/default/production/_ext/2001008086/sys_command.o
- .sbss          0xa00000c8        0x8 build/default/production/_ext/340578644/sys_devcon.o
-                0xa00000c8                sysDevconObj
- .sbss          0xa00000d0       0x1c build/default/production/_ext/26143033/ipv4.o
-                0xa00000d0                _IPv4StayAssertLoop
- .sbss          0xa00000ec       0x1c build/default/production/_ext/26143033/udp.o
- .sbss          0xa0000108       0x24 build/default/production/_ext/26143033/tcpip_manager.o
- .sbss          0xa000012c        0x8 build/default/production/_ext/26143033/tcpip_packet.o
- .sbss          0xa0000134        0x8 build/default/production/_ext/1688732426/system_init.o
-                0xa0000134                sysCmdInit
- .sbss          0xa000013c       0x10 build/default/production/_ext/1360937237/app_commands.o
-                0xa000013c                UDP_bytes_received
-                0xa000013e                UDP_bytes_to_send
-                0xa0000140                UDP_Receive_Packet
-                0xa0000141                UDP_Send_Packet
-                0xa0000144                UDP_Port_Buffer
- .sbss          0xa000014c       0x14 build/default/production/_ext/1360937237/main.o
-                0xa000014c                sample_buffer
-                0xa0000158                mainData
- .sbss          0xa0000160       0x14 build/default/production/_ext/1517938894/Adafruit7830.o
-                0xa0000160                btn_pressed
-                0xa0000161                last_btnd
-                0xa0000162                last_btnu
-                0xa0000164                compteur_sans_changement
-                0xa0000168                canal_affiche
-                0xa000016c                last_adc
+ .sbss          0xa000009c       0x14 build/default/production/_ext/1517938894/Adafruit7830.o
+                0xa000009c                btn_pressed
+                0xa000009d                last_btnd
+                0xa000009e                last_btnu
+                0xa00000a0                compteur_sans_changement
+                0xa00000a4                canal_affiche
+                0xa00000a8                last_adc
+ .sbss          0xa00000b0        0x1 build/default/production/_ext/996065237/drv_encx24j600_spi_bus.o
+ *fill*         0xa00000b1        0x3 
+ .sbss          0xa00000b4        0xc build/default/production/_ext/820865379/drv_encx24j600_api.o
+ .sbss          0xa00000c0        0x1 build/default/production/_ext/915312864/drv_spi.o
+ *fill*         0xa00000c1        0x3 
+ .sbss          0xa00000c4        0x4 build/default/production/_ext/1298913485/drv_tmr.o
+ .sbss          0xa00000c8        0x2 build/default/production/_ext/327000265/drv_usart_static_buffer_queue.o
+ *fill*         0xa00000ca        0x2 
+ .sbss          0xa00000cc       0x10 build/default/production/_ext/2001008086/sys_command.o
+ .sbss          0xa00000dc        0x8 build/default/production/_ext/340578644/sys_devcon.o
+                0xa00000dc                sysDevconObj
+ .sbss          0xa00000e4       0x1c build/default/production/_ext/26143033/ipv4.o
+                0xa00000e4                _IPv4StayAssertLoop
+ .sbss          0xa0000100       0x1c build/default/production/_ext/26143033/udp.o
+ .sbss          0xa000011c       0x24 build/default/production/_ext/26143033/tcpip_manager.o
+ .sbss          0xa0000140        0x8 build/default/production/_ext/26143033/tcpip_packet.o
+ .sbss          0xa0000148        0x8 build/default/production/_ext/1688732426/system_init.o
+                0xa0000148                sysCmdInit
+ .sbss          0xa0000150       0x10 build/default/production/_ext/1360937237/app_commands.o
+                0xa0000150                UDP_bytes_received
+                0xa0000152                UDP_bytes_to_send
+                0xa0000154                UDP_Receive_Packet
+                0xa0000155                UDP_Send_Packet
+                0xa0000158                UDP_Port_Buffer
+ .sbss          0xa0000160       0x14 build/default/production/_ext/1360937237/main.o
+                0xa0000160                sample_buffer
+                0xa000016c                mainData
  .sbss          0xa0000174        0x4 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\liblega-c.a(errno.o)
                 0xa0000174                errno
  *(.scommon)
@@ -2965,6 +2965,7 @@ END GROUP
  .mdebug.abi32  0xa0000178        0x0 build/default/production/_ext/1360937237/rgbled.o
  .mdebug.abi32  0xa0000178        0x0 build/default/production/_ext/1360937237/timers.o
  .mdebug.abi32  0xa0000178        0x0 build/default/production/_ext/1360937237/output_compare.o
+ .mdebug.abi32  0xa0000178        0x0 build/default/production/_ext/1517938894/Adafruit7830.o
  .mdebug.abi32  0xa0000178        0x0 build/default/production/_ext/996065237/drv_encx24j600_spi_bus.o
  .mdebug.abi32  0xa0000178        0x0 build/default/production/_ext/1600828880/drv_encx24j600_closed_state.o
  .mdebug.abi32  0xa0000178        0x0 build/default/production/_ext/472602724/drv_encx24j600_initialization_state.o
@@ -3022,7 +3023,6 @@ END GROUP
  .mdebug.abi32  0xa0000178        0x0 build/default/production/_ext/1360937237/app_commands.o
  .mdebug.abi32  0xa0000178        0x0 build/default/production/_ext/1360937237/UDP_app.o
  .mdebug.abi32  0xa0000178        0x0 build/default/production/_ext/1360937237/main.o
- .mdebug.abi32  0xa0000178        0x0 build/default/production/_ext/1517938894/Adafruit7830.o
  .mdebug.abi32  0xa0000178        0x0 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3\libgcc.a(_udivdi3.o)
  .mdebug.abi32  0xa0000178        0x0 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3\libgcc.a(floatunsisf.o)
  .mdebug.abi32  0xa0000178        0x0 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
@@ -3107,6 +3107,7 @@ END GROUP
  .comment       0x00000000       0x3d build/default/production/_ext/1360937237/rgbled.o
  .comment       0x00000000       0x3d build/default/production/_ext/1360937237/timers.o
  .comment       0x00000000       0x3d build/default/production/_ext/1360937237/output_compare.o
+ .comment       0x00000000       0x3d build/default/production/_ext/1517938894/Adafruit7830.o
  .comment       0x00000000       0x3d build/default/production/_ext/996065237/drv_encx24j600_spi_bus.o
  .comment       0x00000000       0x3d build/default/production/_ext/1600828880/drv_encx24j600_closed_state.o
  .comment       0x00000000       0x3d build/default/production/_ext/472602724/drv_encx24j600_initialization_state.o
@@ -3164,7 +3165,6 @@ END GROUP
  .comment       0x00000000       0x3d build/default/production/_ext/1360937237/app_commands.o
  .comment       0x00000000       0x3d build/default/production/_ext/1360937237/UDP_app.o
  .comment       0x00000000       0x3d build/default/production/_ext/1360937237/main.o
- .comment       0x00000000       0x3d build/default/production/_ext/1517938894/Adafruit7830.o
  .comment       0x00000000       0x3d c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3\libgcc.a(_udivdi3.o)
  .comment       0x00000000       0x3d c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3\libgcc.a(floatunsisf.o)
  .comment       0x0000003c       0x18 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(memset.o)
@@ -3256,123 +3256,123 @@ END GROUP
  .debug_aranges
                 0x000002c8       0x28 build/default/production/_ext/1360937237/output_compare.o
  .debug_aranges
-                0x000002f0      0x118 build/default/production/_ext/996065237/drv_encx24j600_spi_bus.o
+                0x000002f0       0x50 build/default/production/_ext/1517938894/Adafruit7830.o
  .debug_aranges
-                0x00000408       0x30 build/default/production/_ext/1600828880/drv_encx24j600_closed_state.o
+                0x00000340      0x118 build/default/production/_ext/996065237/drv_encx24j600_spi_bus.o
  .debug_aranges
-                0x00000438       0x30 build/default/production/_ext/472602724/drv_encx24j600_initialization_state.o
+                0x00000458       0x30 build/default/production/_ext/1600828880/drv_encx24j600_closed_state.o
  .debug_aranges
-                0x00000468       0x30 build/default/production/_ext/472602724/drv_encx24j600_configure_state.o
+                0x00000488       0x30 build/default/production/_ext/472602724/drv_encx24j600_initialization_state.o
  .debug_aranges
-                0x00000498       0x30 build/default/production/_ext/472602724/drv_encx24j600_detect_state.o
+                0x000004b8       0x30 build/default/production/_ext/472602724/drv_encx24j600_configure_state.o
  .debug_aranges
-                0x000004c8       0x30 build/default/production/_ext/472602724/drv_encx24j600_reset_state.o
+                0x000004e8       0x30 build/default/production/_ext/472602724/drv_encx24j600_detect_state.o
  .debug_aranges
-                0x000004f8       0x30 build/default/production/_ext/1728422854/drv_encx24j600_tx_packet.o
+                0x00000518       0x30 build/default/production/_ext/472602724/drv_encx24j600_reset_state.o
  .debug_aranges
-                0x00000528       0x38 build/default/production/_ext/1728422854/drv_encx24j600_rx_packet.o
+                0x00000548       0x30 build/default/production/_ext/1728422854/drv_encx24j600_tx_packet.o
  .debug_aranges
-                0x00000560       0x30 build/default/production/_ext/999618079/drv_encx24j600_running_state.o
+                0x00000578       0x38 build/default/production/_ext/1728422854/drv_encx24j600_rx_packet.o
  .debug_aranges
-                0x00000590       0x30 build/default/production/_ext/999618079/drv_encx24j600_change_duplex_state.o
+                0x000005b0       0x30 build/default/production/_ext/999618079/drv_encx24j600_running_state.o
  .debug_aranges
-                0x000005c0       0x30 build/default/production/_ext/999618079/drv_encx24j600_check_int_state.o
+                0x000005e0       0x30 build/default/production/_ext/999618079/drv_encx24j600_change_duplex_state.o
  .debug_aranges
-                0x000005f0       0x30 build/default/production/_ext/999618079/drv_encx24j600_check_status_state.o
+                0x00000610       0x30 build/default/production/_ext/999618079/drv_encx24j600_check_int_state.o
  .debug_aranges
-                0x00000620       0x30 build/default/production/_ext/999618079/drv_encx24j600_check_tx_status_state.o
+                0x00000640       0x30 build/default/production/_ext/999618079/drv_encx24j600_check_status_state.o
  .debug_aranges
-                0x00000650       0x20 build/default/production/_ext/999618079/drv_encx24j600_reset_rx_state.o
+                0x00000670       0x30 build/default/production/_ext/999618079/drv_encx24j600_check_tx_status_state.o
  .debug_aranges
-                0x00000670       0xd8 build/default/production/_ext/820865379/drv_encx24j600_api.o
+                0x000006a0       0x20 build/default/production/_ext/999618079/drv_encx24j600_reset_rx_state.o
  .debug_aranges
-                0x00000748       0x20 build/default/production/_ext/820865379/drv_encx24j600_main_state.o
+                0x000006c0       0xd8 build/default/production/_ext/820865379/drv_encx24j600_api.o
  .debug_aranges
-                0x00000768       0x28 build/default/production/_ext/820865379/drv_encx24j600_utils.o
+                0x00000798       0x20 build/default/production/_ext/820865379/drv_encx24j600_main_state.o
  .debug_aranges
-                0x00000790       0x20 build/default/production/_ext/977502197/drv_spi_tasks.o
+                0x000007b8       0x28 build/default/production/_ext/820865379/drv_encx24j600_utils.o
  .debug_aranges
-                0x000007b0       0x28 build/default/production/_ext/977502197/drv_spi_api.o
+                0x000007e0       0x20 build/default/production/_ext/977502197/drv_spi_tasks.o
  .debug_aranges
-                0x000007d8       0x28 build/default/production/_ext/977502197/drv_spi_master_ebm_tasks.o
+                0x00000800       0x28 build/default/production/_ext/977502197/drv_spi_api.o
  .debug_aranges
-                0x00000800       0x98 build/default/production/_ext/915312864/drv_spi.o
+                0x00000828       0x28 build/default/production/_ext/977502197/drv_spi_master_ebm_tasks.o
  .debug_aranges
-                0x00000898       0xd8 build/default/production/_ext/2077795248/drv_spi_sys_queue_fifo.o
+                0x00000850       0x98 build/default/production/_ext/915312864/drv_spi.o
  .debug_aranges
-                0x00000970      0x110 build/default/production/_ext/1298913485/drv_tmr.o
+                0x000008e8       0xd8 build/default/production/_ext/2077795248/drv_spi_sys_queue_fifo.o
  .debug_aranges
-                0x00000a80       0xc0 build/default/production/_ext/327000265/drv_usart_mapping.o
+                0x000009c0      0x110 build/default/production/_ext/1298913485/drv_tmr.o
  .debug_aranges
-                0x00000b40       0xa0 build/default/production/_ext/327000265/drv_usart_static.o
+                0x00000ad0       0xc0 build/default/production/_ext/327000265/drv_usart_mapping.o
  .debug_aranges
-                0x00000be0       0x48 build/default/production/_ext/327000265/drv_usart_static_buffer_queue.o
+                0x00000b90       0xa0 build/default/production/_ext/327000265/drv_usart_static.o
  .debug_aranges
-                0x00000c28       0x28 build/default/production/_ext/327000265/drv_usart_static_read_write.o
+                0x00000c30       0x48 build/default/production/_ext/327000265/drv_usart_static_buffer_queue.o
  .debug_aranges
-                0x00000c50       0x50 build/default/production/_ext/639803181/sys_clk_pic32mx.o
+                0x00000c78       0x28 build/default/production/_ext/327000265/drv_usart_static_read_write.o
  .debug_aranges
-                0x00000ca0       0xd0 build/default/production/_ext/2001008086/sys_command.o
+                0x00000ca0       0x50 build/default/production/_ext/639803181/sys_clk_pic32mx.o
  .debug_aranges
-                0x00000d70       0x60 build/default/production/_ext/1544295906/sys_console.o
+                0x00000cf0       0xd0 build/default/production/_ext/2001008086/sys_command.o
  .debug_aranges
-                0x00000dd0       0x60 build/default/production/_ext/1544295906/sys_console_uart.o
+                0x00000dc0       0x60 build/default/production/_ext/1544295906/sys_console.o
  .debug_aranges
-                0x00000e30       0x78 build/default/production/_ext/340578644/sys_devcon.o
+                0x00000e20       0x60 build/default/production/_ext/1544295906/sys_console_uart.o
  .debug_aranges
-                0x00000ea8       0x20 build/default/production/_ext/340578644/sys_devcon_pic32mx.o
+                0x00000e80       0x78 build/default/production/_ext/340578644/sys_devcon.o
  .debug_aranges
-                0x00000ec8       0x48 build/default/production/_ext/1735427962/sys_int_pic32.o
+                0x00000ef8       0x20 build/default/production/_ext/340578644/sys_devcon_pic32mx.o
  .debug_aranges
-                0x00000f10      0x148 build/default/production/_ext/822048611/sys_ports_static.o
+                0x00000f18       0x48 build/default/production/_ext/1735427962/sys_int_pic32.o
  .debug_aranges
-                0x00001058       0x38 build/default/production/_ext/327917790/sys_random.o
+                0x00000f60      0x148 build/default/production/_ext/822048611/sys_ports_static.o
  .debug_aranges
-                0x00001090       0x38 build/default/production/_ext/68765530/sys_reset.o
+                0x000010a8       0x38 build/default/production/_ext/327917790/sys_random.o
  .debug_aranges
-                0x000010c8       0xd0 build/default/production/_ext/1417409628/sys_tmr.o
+                0x000010e0       0x38 build/default/production/_ext/68765530/sys_reset.o
  .debug_aranges
-                0x00001198       0x40 build/default/production/_ext/1881663949/helpers.o
+                0x00001118       0xd0 build/default/production/_ext/1417409628/sys_tmr.o
  .debug_aranges
-                0x000011d8       0xc0 build/default/production/_ext/26143033/ipv4.o
+                0x000011e8       0x40 build/default/production/_ext/1881663949/helpers.o
  .debug_aranges
-                0x00001298      0x1b8 build/default/production/_ext/26143033/udp.o
+                0x00001228       0xc0 build/default/production/_ext/26143033/ipv4.o
  .debug_aranges
-                0x00001450       0x48 build/default/production/_ext/26143033/tcpip_heap_alloc.o
+                0x000012e8      0x1b8 build/default/production/_ext/26143033/udp.o
  .debug_aranges
-                0x00001498       0x68 build/default/production/_ext/26143033/tcpip_heap_internal.o
+                0x000014a0       0x48 build/default/production/_ext/26143033/tcpip_heap_alloc.o
  .debug_aranges
-                0x00001500      0x110 build/default/production/_ext/26143033/arp.o
+                0x000014e8       0x68 build/default/production/_ext/26143033/tcpip_heap_internal.o
  .debug_aranges
-                0x00001610       0x68 build/default/production/_ext/26143033/dns.o
+                0x00001550      0x110 build/default/production/_ext/26143033/arp.o
  .debug_aranges
-                0x00001678       0x28 build/default/production/_ext/26143033/hash_fnv.o
+                0x00001660       0x68 build/default/production/_ext/26143033/dns.o
  .debug_aranges
-                0x000016a0       0x50 build/default/production/_ext/26143033/oahash.o
+                0x000016c8       0x28 build/default/production/_ext/26143033/hash_fnv.o
  .debug_aranges
-                0x000016f0      0x210 build/default/production/_ext/26143033/tcpip_helpers.o
+                0x000016f0       0x50 build/default/production/_ext/26143033/oahash.o
  .debug_aranges
-                0x00001900       0x20 build/default/production/_ext/26143033/tcpip_helper_c32.o
+                0x00001740      0x210 build/default/production/_ext/26143033/tcpip_helpers.o
  .debug_aranges
-                0x00001920      0x378 build/default/production/_ext/26143033/tcpip_manager.o
+                0x00001950       0x20 build/default/production/_ext/26143033/tcpip_helper_c32.o
  .debug_aranges
-                0x00001c98       0x40 build/default/production/_ext/26143033/tcpip_notify.o
+                0x00001970      0x378 build/default/production/_ext/26143033/tcpip_manager.o
  .debug_aranges
-                0x00001cd8       0x78 build/default/production/_ext/26143033/tcpip_packet.o
+                0x00001ce8       0x40 build/default/production/_ext/26143033/tcpip_notify.o
  .debug_aranges
-                0x00001d50       0x28 build/default/production/_ext/1688732426/system_init.o
+                0x00001d28       0x78 build/default/production/_ext/26143033/tcpip_packet.o
  .debug_aranges
-                0x00001d78       0x38 build/default/production/_ext/1688732426/system_interrupt.o
+                0x00001da0       0x28 build/default/production/_ext/1688732426/system_init.o
  .debug_aranges
-                0x00001db0       0x20 build/default/production/_ext/1688732426/system_tasks.o
+                0x00001dc8       0x38 build/default/production/_ext/1688732426/system_interrupt.o
  .debug_aranges
-                0x00001dd0       0x38 build/default/production/_ext/1360937237/app_commands.o
+                0x00001e00       0x20 build/default/production/_ext/1688732426/system_tasks.o
  .debug_aranges
-                0x00001e08       0x40 build/default/production/_ext/1360937237/UDP_app.o
+                0x00001e20       0x38 build/default/production/_ext/1360937237/app_commands.o
  .debug_aranges
-                0x00001e48       0x48 build/default/production/_ext/1360937237/main.o
+                0x00001e58       0x40 build/default/production/_ext/1360937237/UDP_app.o
  .debug_aranges
-                0x00001e90       0x50 build/default/production/_ext/1517938894/Adafruit7830.o
+                0x00001e98       0x48 build/default/production/_ext/1360937237/main.o
  .debug_aranges
                 0x00001ee0       0x20 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3\libgcc.a(_udivdi3.o)
  .debug_aranges
@@ -3413,65 +3413,65 @@ END GROUP
  .debug_info    0x00008ab5     0x1561 build/default/production/_ext/1360937237/rgbled.o
  .debug_info    0x0000a016      0xf46 build/default/production/_ext/1360937237/timers.o
  .debug_info    0x0000af5c      0x703 build/default/production/_ext/1360937237/output_compare.o
- .debug_info    0x0000b65f     0x9da5 build/default/production/_ext/996065237/drv_encx24j600_spi_bus.o
- .debug_info    0x00015404     0x6c23 build/default/production/_ext/1600828880/drv_encx24j600_closed_state.o
- .debug_info    0x0001c027     0x6ef2 build/default/production/_ext/472602724/drv_encx24j600_initialization_state.o
- .debug_info    0x00022f19     0x7347 build/default/production/_ext/472602724/drv_encx24j600_configure_state.o
- .debug_info    0x0002a260     0x6d6a build/default/production/_ext/472602724/drv_encx24j600_detect_state.o
- .debug_info    0x00030fca     0x735f build/default/production/_ext/472602724/drv_encx24j600_reset_state.o
- .debug_info    0x00038329     0x718a build/default/production/_ext/1728422854/drv_encx24j600_tx_packet.o
- .debug_info    0x0003f4b3     0x70b6 build/default/production/_ext/1728422854/drv_encx24j600_rx_packet.o
- .debug_info    0x00046569     0x7302 build/default/production/_ext/999618079/drv_encx24j600_running_state.o
- .debug_info    0x0004d86b     0x6f2c build/default/production/_ext/999618079/drv_encx24j600_change_duplex_state.o
- .debug_info    0x00054797     0x6faa build/default/production/_ext/999618079/drv_encx24j600_check_int_state.o
- .debug_info    0x0005b741     0x6fd0 build/default/production/_ext/999618079/drv_encx24j600_check_status_state.o
- .debug_info    0x00062711     0x6ff2 build/default/production/_ext/999618079/drv_encx24j600_check_tx_status_state.o
- .debug_info    0x00069703     0x72d7 build/default/production/_ext/999618079/drv_encx24j600_reset_rx_state.o
- .debug_info    0x000709da     0x8f6d build/default/production/_ext/820865379/drv_encx24j600_api.o
- .debug_info    0x00079947     0x6dc4 build/default/production/_ext/820865379/drv_encx24j600_main_state.o
- .debug_info    0x0008070b     0x6ccc build/default/production/_ext/820865379/drv_encx24j600_utils.o
- .debug_info    0x000873d7     0x3503 build/default/production/_ext/977502197/drv_spi_tasks.o
- .debug_info    0x0008a8da     0x4e27 build/default/production/_ext/977502197/drv_spi_api.o
- .debug_info    0x0008f701     0x2c26 build/default/production/_ext/977502197/drv_spi_master_ebm_tasks.o
- .debug_info    0x00092327     0x54f6 build/default/production/_ext/915312864/drv_spi.o
- .debug_info    0x0009781d     0x2024 build/default/production/_ext/2077795248/drv_spi_sys_queue_fifo.o
- .debug_info    0x00099841     0x562e build/default/production/_ext/1298913485/drv_tmr.o
- .debug_info    0x0009ee6f     0x2341 build/default/production/_ext/327000265/drv_usart_mapping.o
- .debug_info    0x000a11b0     0x4539 build/default/production/_ext/327000265/drv_usart_static.o
- .debug_info    0x000a56e9     0x2b49 build/default/production/_ext/327000265/drv_usart_static_buffer_queue.o
- .debug_info    0x000a8232     0x1c41 build/default/production/_ext/327000265/drv_usart_static_read_write.o
- .debug_info    0x000a9e73     0x1cbc build/default/production/_ext/639803181/sys_clk_pic32mx.o
- .debug_info    0x000abb2f     0x2fcf build/default/production/_ext/2001008086/sys_command.o
- .debug_info    0x000aeafe      0xe1c build/default/production/_ext/1544295906/sys_console.o
- .debug_info    0x000af91a     0x19f6 build/default/production/_ext/1544295906/sys_console_uart.o
- .debug_info    0x000b1310     0x19c8 build/default/production/_ext/340578644/sys_devcon.o
- .debug_info    0x000b2cd8     0x1aea build/default/production/_ext/340578644/sys_devcon_pic32mx.o
- .debug_info    0x000b47c2     0x1467 build/default/production/_ext/1735427962/sys_int_pic32.o
- .debug_info    0x000b5c29     0x55cf build/default/production/_ext/822048611/sys_ports_static.o
- .debug_info    0x000bb1f8      0x783 build/default/production/_ext/327917790/sys_random.o
- .debug_info    0x000bb97b      0x949 build/default/production/_ext/68765530/sys_reset.o
- .debug_info    0x000bc2c4     0x2c96 build/default/production/_ext/1417409628/sys_tmr.o
- .debug_info    0x000bef5a      0x4a3 build/default/production/_ext/1881663949/helpers.o
- .debug_info    0x000bf3fd     0x6a8e build/default/production/_ext/26143033/ipv4.o
- .debug_info    0x000c5e8b     0x90d4 build/default/production/_ext/26143033/udp.o
- .debug_info    0x000cef5f     0x15c2 build/default/production/_ext/26143033/tcpip_heap_alloc.o
- .debug_info    0x000d0521     0x2633 build/default/production/_ext/26143033/tcpip_heap_internal.o
- .debug_info    0x000d2b54     0x7097 build/default/production/_ext/26143033/arp.o
- .debug_info    0x000d9beb     0x14af build/default/production/_ext/26143033/dns.o
- .debug_info    0x000db09a      0x298 build/default/production/_ext/26143033/hash_fnv.o
- .debug_info    0x000db332      0x8b2 build/default/production/_ext/26143033/oahash.o
- .debug_info    0x000dbbe4     0x5750 build/default/production/_ext/26143033/tcpip_helpers.o
- .debug_info    0x000e1334       0xc7 build/default/production/_ext/26143033/tcpip_helper_c32.o
- .debug_info    0x000e13fb     0xb1ab build/default/production/_ext/26143033/tcpip_manager.o
- .debug_info    0x000ec5a6     0x14f4 build/default/production/_ext/26143033/tcpip_notify.o
- .debug_info    0x000eda9a     0x39a0 build/default/production/_ext/26143033/tcpip_packet.o
- .debug_info    0x000f143a     0x6e2a build/default/production/_ext/1688732426/system_init.o
- .debug_info    0x000f8264     0x1821 build/default/production/_ext/1688732426/system_interrupt.o
- .debug_info    0x000f9a85      0xd1a build/default/production/_ext/1688732426/system_tasks.o
- .debug_info    0x000fa79f     0x1816 build/default/production/_ext/1360937237/app_commands.o
- .debug_info    0x000fbfb5     0x22d2 build/default/production/_ext/1360937237/UDP_app.o
- .debug_info    0x000fe287     0x2117 build/default/production/_ext/1360937237/main.o
- .debug_info    0x0010039e      0xaa9 build/default/production/_ext/1517938894/Adafruit7830.o
+ .debug_info    0x0000b65f      0xaa9 build/default/production/_ext/1517938894/Adafruit7830.o
+ .debug_info    0x0000c108     0x9da5 build/default/production/_ext/996065237/drv_encx24j600_spi_bus.o
+ .debug_info    0x00015ead     0x6c23 build/default/production/_ext/1600828880/drv_encx24j600_closed_state.o
+ .debug_info    0x0001cad0     0x6ef2 build/default/production/_ext/472602724/drv_encx24j600_initialization_state.o
+ .debug_info    0x000239c2     0x7347 build/default/production/_ext/472602724/drv_encx24j600_configure_state.o
+ .debug_info    0x0002ad09     0x6d6a build/default/production/_ext/472602724/drv_encx24j600_detect_state.o
+ .debug_info    0x00031a73     0x735f build/default/production/_ext/472602724/drv_encx24j600_reset_state.o
+ .debug_info    0x00038dd2     0x718a build/default/production/_ext/1728422854/drv_encx24j600_tx_packet.o
+ .debug_info    0x0003ff5c     0x70b6 build/default/production/_ext/1728422854/drv_encx24j600_rx_packet.o
+ .debug_info    0x00047012     0x7302 build/default/production/_ext/999618079/drv_encx24j600_running_state.o
+ .debug_info    0x0004e314     0x6f2c build/default/production/_ext/999618079/drv_encx24j600_change_duplex_state.o
+ .debug_info    0x00055240     0x6faa build/default/production/_ext/999618079/drv_encx24j600_check_int_state.o
+ .debug_info    0x0005c1ea     0x6fd0 build/default/production/_ext/999618079/drv_encx24j600_check_status_state.o
+ .debug_info    0x000631ba     0x6ff2 build/default/production/_ext/999618079/drv_encx24j600_check_tx_status_state.o
+ .debug_info    0x0006a1ac     0x72d7 build/default/production/_ext/999618079/drv_encx24j600_reset_rx_state.o
+ .debug_info    0x00071483     0x8f6d build/default/production/_ext/820865379/drv_encx24j600_api.o
+ .debug_info    0x0007a3f0     0x6dc4 build/default/production/_ext/820865379/drv_encx24j600_main_state.o
+ .debug_info    0x000811b4     0x6ccc build/default/production/_ext/820865379/drv_encx24j600_utils.o
+ .debug_info    0x00087e80     0x3503 build/default/production/_ext/977502197/drv_spi_tasks.o
+ .debug_info    0x0008b383     0x4e27 build/default/production/_ext/977502197/drv_spi_api.o
+ .debug_info    0x000901aa     0x2c26 build/default/production/_ext/977502197/drv_spi_master_ebm_tasks.o
+ .debug_info    0x00092dd0     0x54f6 build/default/production/_ext/915312864/drv_spi.o
+ .debug_info    0x000982c6     0x2024 build/default/production/_ext/2077795248/drv_spi_sys_queue_fifo.o
+ .debug_info    0x0009a2ea     0x562e build/default/production/_ext/1298913485/drv_tmr.o
+ .debug_info    0x0009f918     0x2341 build/default/production/_ext/327000265/drv_usart_mapping.o
+ .debug_info    0x000a1c59     0x4539 build/default/production/_ext/327000265/drv_usart_static.o
+ .debug_info    0x000a6192     0x2b49 build/default/production/_ext/327000265/drv_usart_static_buffer_queue.o
+ .debug_info    0x000a8cdb     0x1c41 build/default/production/_ext/327000265/drv_usart_static_read_write.o
+ .debug_info    0x000aa91c     0x1cbc build/default/production/_ext/639803181/sys_clk_pic32mx.o
+ .debug_info    0x000ac5d8     0x2fcf build/default/production/_ext/2001008086/sys_command.o
+ .debug_info    0x000af5a7      0xe1c build/default/production/_ext/1544295906/sys_console.o
+ .debug_info    0x000b03c3     0x19f6 build/default/production/_ext/1544295906/sys_console_uart.o
+ .debug_info    0x000b1db9     0x19c8 build/default/production/_ext/340578644/sys_devcon.o
+ .debug_info    0x000b3781     0x1aea build/default/production/_ext/340578644/sys_devcon_pic32mx.o
+ .debug_info    0x000b526b     0x1467 build/default/production/_ext/1735427962/sys_int_pic32.o
+ .debug_info    0x000b66d2     0x55cf build/default/production/_ext/822048611/sys_ports_static.o
+ .debug_info    0x000bbca1      0x783 build/default/production/_ext/327917790/sys_random.o
+ .debug_info    0x000bc424      0x949 build/default/production/_ext/68765530/sys_reset.o
+ .debug_info    0x000bcd6d     0x2c96 build/default/production/_ext/1417409628/sys_tmr.o
+ .debug_info    0x000bfa03      0x4a3 build/default/production/_ext/1881663949/helpers.o
+ .debug_info    0x000bfea6     0x6a8e build/default/production/_ext/26143033/ipv4.o
+ .debug_info    0x000c6934     0x90d4 build/default/production/_ext/26143033/udp.o
+ .debug_info    0x000cfa08     0x15c2 build/default/production/_ext/26143033/tcpip_heap_alloc.o
+ .debug_info    0x000d0fca     0x2633 build/default/production/_ext/26143033/tcpip_heap_internal.o
+ .debug_info    0x000d35fd     0x7097 build/default/production/_ext/26143033/arp.o
+ .debug_info    0x000da694     0x14af build/default/production/_ext/26143033/dns.o
+ .debug_info    0x000dbb43      0x298 build/default/production/_ext/26143033/hash_fnv.o
+ .debug_info    0x000dbddb      0x8b2 build/default/production/_ext/26143033/oahash.o
+ .debug_info    0x000dc68d     0x5750 build/default/production/_ext/26143033/tcpip_helpers.o
+ .debug_info    0x000e1ddd       0xc7 build/default/production/_ext/26143033/tcpip_helper_c32.o
+ .debug_info    0x000e1ea4     0xb1ab build/default/production/_ext/26143033/tcpip_manager.o
+ .debug_info    0x000ed04f     0x14f4 build/default/production/_ext/26143033/tcpip_notify.o
+ .debug_info    0x000ee543     0x39a0 build/default/production/_ext/26143033/tcpip_packet.o
+ .debug_info    0x000f1ee3     0x6e2a build/default/production/_ext/1688732426/system_init.o
+ .debug_info    0x000f8d0d     0x1821 build/default/production/_ext/1688732426/system_interrupt.o
+ .debug_info    0x000fa52e      0xd1a build/default/production/_ext/1688732426/system_tasks.o
+ .debug_info    0x000fb248     0x1816 build/default/production/_ext/1360937237/app_commands.o
+ .debug_info    0x000fca5e     0x22d2 build/default/production/_ext/1360937237/UDP_app.o
+ .debug_info    0x000fed30     0x2117 build/default/production/_ext/1360937237/main.o
  .debug_info    0x00100e47      0x74b c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3\libgcc.a(_udivdi3.o)
  .debug_info    0x00101592      0x129 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3\libgcc.a(floatunsisf.o)
  .debug_info    0x001016bb       0xf4 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
@@ -3497,65 +3497,65 @@ END GROUP
  .debug_abbrev  0x00000ca5      0x16c build/default/production/_ext/1360937237/rgbled.o
  .debug_abbrev  0x00000e11       0xc8 build/default/production/_ext/1360937237/timers.o
  .debug_abbrev  0x00000ed9       0xe7 build/default/production/_ext/1360937237/output_compare.o
- .debug_abbrev  0x00000fc0      0x410 build/default/production/_ext/996065237/drv_encx24j600_spi_bus.o
- .debug_abbrev  0x000013d0      0x21e build/default/production/_ext/1600828880/drv_encx24j600_closed_state.o
- .debug_abbrev  0x000015ee      0x26b build/default/production/_ext/472602724/drv_encx24j600_initialization_state.o
- .debug_abbrev  0x00001859      0x292 build/default/production/_ext/472602724/drv_encx24j600_configure_state.o
- .debug_abbrev  0x00001aeb      0x276 build/default/production/_ext/472602724/drv_encx24j600_detect_state.o
- .debug_abbrev  0x00001d61      0x244 build/default/production/_ext/472602724/drv_encx24j600_reset_state.o
- .debug_abbrev  0x00001fa5      0x30f build/default/production/_ext/1728422854/drv_encx24j600_tx_packet.o
- .debug_abbrev  0x000022b4      0x2a3 build/default/production/_ext/1728422854/drv_encx24j600_rx_packet.o
- .debug_abbrev  0x00002557      0x264 build/default/production/_ext/999618079/drv_encx24j600_running_state.o
- .debug_abbrev  0x000027bb      0x22f build/default/production/_ext/999618079/drv_encx24j600_change_duplex_state.o
- .debug_abbrev  0x000029ea      0x276 build/default/production/_ext/999618079/drv_encx24j600_check_int_state.o
- .debug_abbrev  0x00002c60      0x276 build/default/production/_ext/999618079/drv_encx24j600_check_status_state.o
- .debug_abbrev  0x00002ed6      0x286 build/default/production/_ext/999618079/drv_encx24j600_check_tx_status_state.o
- .debug_abbrev  0x0000315c      0x272 build/default/production/_ext/999618079/drv_encx24j600_reset_rx_state.o
- .debug_abbrev  0x000033ce      0x4ab build/default/production/_ext/820865379/drv_encx24j600_api.o
- .debug_abbrev  0x00003879      0x248 build/default/production/_ext/820865379/drv_encx24j600_main_state.o
- .debug_abbrev  0x00003ac1      0x28a build/default/production/_ext/820865379/drv_encx24j600_utils.o
- .debug_abbrev  0x00003d4b      0x305 build/default/production/_ext/977502197/drv_spi_tasks.o
- .debug_abbrev  0x00004050      0x31c build/default/production/_ext/977502197/drv_spi_api.o
- .debug_abbrev  0x0000436c      0x285 build/default/production/_ext/977502197/drv_spi_master_ebm_tasks.o
- .debug_abbrev  0x000045f1      0x4b8 build/default/production/_ext/915312864/drv_spi.o
- .debug_abbrev  0x00004aa9      0x35f build/default/production/_ext/2077795248/drv_spi_sys_queue_fifo.o
- .debug_abbrev  0x00004e08      0x478 build/default/production/_ext/1298913485/drv_tmr.o
- .debug_abbrev  0x00005280      0x289 build/default/production/_ext/327000265/drv_usart_mapping.o
- .debug_abbrev  0x00005509      0x43d build/default/production/_ext/327000265/drv_usart_static.o
- .debug_abbrev  0x00005946      0x373 build/default/production/_ext/327000265/drv_usart_static_buffer_queue.o
- .debug_abbrev  0x00005cb9      0x2a1 build/default/production/_ext/327000265/drv_usart_static_read_write.o
- .debug_abbrev  0x00005f5a      0x26c build/default/production/_ext/639803181/sys_clk_pic32mx.o
- .debug_abbrev  0x000061c6      0x457 build/default/production/_ext/2001008086/sys_command.o
- .debug_abbrev  0x0000661d      0x256 build/default/production/_ext/1544295906/sys_console.o
- .debug_abbrev  0x00006873      0x33f build/default/production/_ext/1544295906/sys_console_uart.o
- .debug_abbrev  0x00006bb2      0x280 build/default/production/_ext/340578644/sys_devcon.o
- .debug_abbrev  0x00006e32      0x207 build/default/production/_ext/340578644/sys_devcon_pic32mx.o
- .debug_abbrev  0x00007039      0x22f build/default/production/_ext/1735427962/sys_int_pic32.o
- .debug_abbrev  0x00007268      0x29d build/default/production/_ext/822048611/sys_ports_static.o
- .debug_abbrev  0x00007505      0x1f6 build/default/production/_ext/327917790/sys_random.o
- .debug_abbrev  0x000076fb      0x163 build/default/production/_ext/68765530/sys_reset.o
- .debug_abbrev  0x0000785e      0x500 build/default/production/_ext/1417409628/sys_tmr.o
- .debug_abbrev  0x00007d5e      0x12e build/default/production/_ext/1881663949/helpers.o
- .debug_abbrev  0x00007e8c      0x52b build/default/production/_ext/26143033/ipv4.o
- .debug_abbrev  0x000083b7      0x620 build/default/production/_ext/26143033/udp.o
- .debug_abbrev  0x000089d7      0x177 build/default/production/_ext/26143033/tcpip_heap_alloc.o
- .debug_abbrev  0x00008b4e      0x3b4 build/default/production/_ext/26143033/tcpip_heap_internal.o
- .debug_abbrev  0x00008f02      0x4f1 build/default/production/_ext/26143033/arp.o
- .debug_abbrev  0x000093f3      0x173 build/default/production/_ext/26143033/dns.o
- .debug_abbrev  0x00009566       0xb5 build/default/production/_ext/26143033/hash_fnv.o
- .debug_abbrev  0x0000961b      0x277 build/default/production/_ext/26143033/oahash.o
- .debug_abbrev  0x00009892      0x4c1 build/default/production/_ext/26143033/tcpip_helpers.o
- .debug_abbrev  0x00009d53       0x14 build/default/production/_ext/26143033/tcpip_helper_c32.o
- .debug_abbrev  0x00009d67      0x63e build/default/production/_ext/26143033/tcpip_manager.o
- .debug_abbrev  0x0000a3a5      0x234 build/default/production/_ext/26143033/tcpip_notify.o
- .debug_abbrev  0x0000a5d9      0x39f build/default/production/_ext/26143033/tcpip_packet.o
- .debug_abbrev  0x0000a978      0x3a2 build/default/production/_ext/1688732426/system_init.o
- .debug_abbrev  0x0000ad1a      0x20c build/default/production/_ext/1688732426/system_interrupt.o
- .debug_abbrev  0x0000af26      0x12d build/default/production/_ext/1688732426/system_tasks.o
- .debug_abbrev  0x0000b053      0x245 build/default/production/_ext/1360937237/app_commands.o
- .debug_abbrev  0x0000b298      0x2c9 build/default/production/_ext/1360937237/UDP_app.o
- .debug_abbrev  0x0000b561      0x365 build/default/production/_ext/1360937237/main.o
- .debug_abbrev  0x0000b8c6      0x1fa build/default/production/_ext/1517938894/Adafruit7830.o
+ .debug_abbrev  0x00000fc0      0x1fa build/default/production/_ext/1517938894/Adafruit7830.o
+ .debug_abbrev  0x000011ba      0x410 build/default/production/_ext/996065237/drv_encx24j600_spi_bus.o
+ .debug_abbrev  0x000015ca      0x21e build/default/production/_ext/1600828880/drv_encx24j600_closed_state.o
+ .debug_abbrev  0x000017e8      0x26b build/default/production/_ext/472602724/drv_encx24j600_initialization_state.o
+ .debug_abbrev  0x00001a53      0x292 build/default/production/_ext/472602724/drv_encx24j600_configure_state.o
+ .debug_abbrev  0x00001ce5      0x276 build/default/production/_ext/472602724/drv_encx24j600_detect_state.o
+ .debug_abbrev  0x00001f5b      0x244 build/default/production/_ext/472602724/drv_encx24j600_reset_state.o
+ .debug_abbrev  0x0000219f      0x30f build/default/production/_ext/1728422854/drv_encx24j600_tx_packet.o
+ .debug_abbrev  0x000024ae      0x2a3 build/default/production/_ext/1728422854/drv_encx24j600_rx_packet.o
+ .debug_abbrev  0x00002751      0x264 build/default/production/_ext/999618079/drv_encx24j600_running_state.o
+ .debug_abbrev  0x000029b5      0x22f build/default/production/_ext/999618079/drv_encx24j600_change_duplex_state.o
+ .debug_abbrev  0x00002be4      0x276 build/default/production/_ext/999618079/drv_encx24j600_check_int_state.o
+ .debug_abbrev  0x00002e5a      0x276 build/default/production/_ext/999618079/drv_encx24j600_check_status_state.o
+ .debug_abbrev  0x000030d0      0x286 build/default/production/_ext/999618079/drv_encx24j600_check_tx_status_state.o
+ .debug_abbrev  0x00003356      0x272 build/default/production/_ext/999618079/drv_encx24j600_reset_rx_state.o
+ .debug_abbrev  0x000035c8      0x4ab build/default/production/_ext/820865379/drv_encx24j600_api.o
+ .debug_abbrev  0x00003a73      0x248 build/default/production/_ext/820865379/drv_encx24j600_main_state.o
+ .debug_abbrev  0x00003cbb      0x28a build/default/production/_ext/820865379/drv_encx24j600_utils.o
+ .debug_abbrev  0x00003f45      0x305 build/default/production/_ext/977502197/drv_spi_tasks.o
+ .debug_abbrev  0x0000424a      0x31c build/default/production/_ext/977502197/drv_spi_api.o
+ .debug_abbrev  0x00004566      0x285 build/default/production/_ext/977502197/drv_spi_master_ebm_tasks.o
+ .debug_abbrev  0x000047eb      0x4b8 build/default/production/_ext/915312864/drv_spi.o
+ .debug_abbrev  0x00004ca3      0x35f build/default/production/_ext/2077795248/drv_spi_sys_queue_fifo.o
+ .debug_abbrev  0x00005002      0x478 build/default/production/_ext/1298913485/drv_tmr.o
+ .debug_abbrev  0x0000547a      0x289 build/default/production/_ext/327000265/drv_usart_mapping.o
+ .debug_abbrev  0x00005703      0x43d build/default/production/_ext/327000265/drv_usart_static.o
+ .debug_abbrev  0x00005b40      0x373 build/default/production/_ext/327000265/drv_usart_static_buffer_queue.o
+ .debug_abbrev  0x00005eb3      0x2a1 build/default/production/_ext/327000265/drv_usart_static_read_write.o
+ .debug_abbrev  0x00006154      0x26c build/default/production/_ext/639803181/sys_clk_pic32mx.o
+ .debug_abbrev  0x000063c0      0x457 build/default/production/_ext/2001008086/sys_command.o
+ .debug_abbrev  0x00006817      0x256 build/default/production/_ext/1544295906/sys_console.o
+ .debug_abbrev  0x00006a6d      0x33f build/default/production/_ext/1544295906/sys_console_uart.o
+ .debug_abbrev  0x00006dac      0x280 build/default/production/_ext/340578644/sys_devcon.o
+ .debug_abbrev  0x0000702c      0x207 build/default/production/_ext/340578644/sys_devcon_pic32mx.o
+ .debug_abbrev  0x00007233      0x22f build/default/production/_ext/1735427962/sys_int_pic32.o
+ .debug_abbrev  0x00007462      0x29d build/default/production/_ext/822048611/sys_ports_static.o
+ .debug_abbrev  0x000076ff      0x1f6 build/default/production/_ext/327917790/sys_random.o
+ .debug_abbrev  0x000078f5      0x163 build/default/production/_ext/68765530/sys_reset.o
+ .debug_abbrev  0x00007a58      0x500 build/default/production/_ext/1417409628/sys_tmr.o
+ .debug_abbrev  0x00007f58      0x12e build/default/production/_ext/1881663949/helpers.o
+ .debug_abbrev  0x00008086      0x52b build/default/production/_ext/26143033/ipv4.o
+ .debug_abbrev  0x000085b1      0x620 build/default/production/_ext/26143033/udp.o
+ .debug_abbrev  0x00008bd1      0x177 build/default/production/_ext/26143033/tcpip_heap_alloc.o
+ .debug_abbrev  0x00008d48      0x3b4 build/default/production/_ext/26143033/tcpip_heap_internal.o
+ .debug_abbrev  0x000090fc      0x4f1 build/default/production/_ext/26143033/arp.o
+ .debug_abbrev  0x000095ed      0x173 build/default/production/_ext/26143033/dns.o
+ .debug_abbrev  0x00009760       0xb5 build/default/production/_ext/26143033/hash_fnv.o
+ .debug_abbrev  0x00009815      0x277 build/default/production/_ext/26143033/oahash.o
+ .debug_abbrev  0x00009a8c      0x4c1 build/default/production/_ext/26143033/tcpip_helpers.o
+ .debug_abbrev  0x00009f4d       0x14 build/default/production/_ext/26143033/tcpip_helper_c32.o
+ .debug_abbrev  0x00009f61      0x63e build/default/production/_ext/26143033/tcpip_manager.o
+ .debug_abbrev  0x0000a59f      0x234 build/default/production/_ext/26143033/tcpip_notify.o
+ .debug_abbrev  0x0000a7d3      0x39f build/default/production/_ext/26143033/tcpip_packet.o
+ .debug_abbrev  0x0000ab72      0x3a2 build/default/production/_ext/1688732426/system_init.o
+ .debug_abbrev  0x0000af14      0x20c build/default/production/_ext/1688732426/system_interrupt.o
+ .debug_abbrev  0x0000b120      0x12d build/default/production/_ext/1688732426/system_tasks.o
+ .debug_abbrev  0x0000b24d      0x245 build/default/production/_ext/1360937237/app_commands.o
+ .debug_abbrev  0x0000b492      0x2c9 build/default/production/_ext/1360937237/UDP_app.o
+ .debug_abbrev  0x0000b75b      0x365 build/default/production/_ext/1360937237/main.o
  .debug_abbrev  0x0000bac0      0x138 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3\libgcc.a(_udivdi3.o)
  .debug_abbrev  0x0000bbf8       0x62 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3\libgcc.a(floatunsisf.o)
  .debug_abbrev  0x0000bc5a       0x28 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
@@ -3581,65 +3581,65 @@ END GROUP
  .debug_line    0x00001363      0x1f0 build/default/production/_ext/1360937237/rgbled.o
  .debug_line    0x00001553      0x18a build/default/production/_ext/1360937237/timers.o
  .debug_line    0x000016dd      0x183 build/default/production/_ext/1360937237/output_compare.o
- .debug_line    0x00001860     0x106a build/default/production/_ext/996065237/drv_encx24j600_spi_bus.o
- .debug_line    0x000028ca      0xa5c build/default/production/_ext/1600828880/drv_encx24j600_closed_state.o
- .debug_line    0x00003326      0xa8a build/default/production/_ext/472602724/drv_encx24j600_initialization_state.o
- .debug_line    0x00003db0      0xb76 build/default/production/_ext/472602724/drv_encx24j600_configure_state.o
- .debug_line    0x00004926      0xaae build/default/production/_ext/472602724/drv_encx24j600_detect_state.o
- .debug_line    0x000053d4      0xb25 build/default/production/_ext/472602724/drv_encx24j600_reset_state.o
- .debug_line    0x00005ef9      0xb68 build/default/production/_ext/1728422854/drv_encx24j600_tx_packet.o
- .debug_line    0x00006a61      0xad5 build/default/production/_ext/1728422854/drv_encx24j600_rx_packet.o
- .debug_line    0x00007536      0xaad build/default/production/_ext/999618079/drv_encx24j600_running_state.o
- .debug_line    0x00007fe3      0xa8c build/default/production/_ext/999618079/drv_encx24j600_change_duplex_state.o
- .debug_line    0x00008a6f      0xaac build/default/production/_ext/999618079/drv_encx24j600_check_int_state.o
- .debug_line    0x0000951b      0xabb build/default/production/_ext/999618079/drv_encx24j600_check_status_state.o
- .debug_line    0x00009fd6      0xaae build/default/production/_ext/999618079/drv_encx24j600_check_tx_status_state.o
- .debug_line    0x0000aa84      0xa9b build/default/production/_ext/999618079/drv_encx24j600_reset_rx_state.o
- .debug_line    0x0000b51f      0xd88 build/default/production/_ext/820865379/drv_encx24j600_api.o
- .debug_line    0x0000c2a7      0xa73 build/default/production/_ext/820865379/drv_encx24j600_main_state.o
- .debug_line    0x0000cd1a      0x9d0 build/default/production/_ext/820865379/drv_encx24j600_utils.o
- .debug_line    0x0000d6ea      0x9ad build/default/production/_ext/977502197/drv_spi_tasks.o
- .debug_line    0x0000e097      0xa8d build/default/production/_ext/977502197/drv_spi_api.o
- .debug_line    0x0000eb24      0x768 build/default/production/_ext/977502197/drv_spi_master_ebm_tasks.o
- .debug_line    0x0000f28c      0xca9 build/default/production/_ext/915312864/drv_spi.o
- .debug_line    0x0000ff35      0x602 build/default/production/_ext/2077795248/drv_spi_sys_queue_fifo.o
- .debug_line    0x00010537      0xfea build/default/production/_ext/1298913485/drv_tmr.o
- .debug_line    0x00011521      0x585 build/default/production/_ext/327000265/drv_usart_mapping.o
- .debug_line    0x00011aa6      0xc0e build/default/production/_ext/327000265/drv_usart_static.o
- .debug_line    0x000126b4      0x7e8 build/default/production/_ext/327000265/drv_usart_static_buffer_queue.o
- .debug_line    0x00012e9c      0x510 build/default/production/_ext/327000265/drv_usart_static_read_write.o
- .debug_line    0x000133ac      0x6c8 build/default/production/_ext/639803181/sys_clk_pic32mx.o
- .debug_line    0x00013a74      0xa3d build/default/production/_ext/2001008086/sys_command.o
- .debug_line    0x000144b1      0x4ae build/default/production/_ext/1544295906/sys_console.o
- .debug_line    0x0001495f      0x65c build/default/production/_ext/1544295906/sys_console_uart.o
- .debug_line    0x00014fbb      0x90b build/default/production/_ext/340578644/sys_devcon.o
- .debug_line    0x000158c6      0x703 build/default/production/_ext/340578644/sys_devcon_pic32mx.o
- .debug_line    0x00015fc9      0x412 build/default/production/_ext/1735427962/sys_int_pic32.o
- .debug_line    0x000163db      0xc54 build/default/production/_ext/822048611/sys_ports_static.o
- .debug_line    0x0001702f      0x3c5 build/default/production/_ext/327917790/sys_random.o
- .debug_line    0x000173f4      0x531 build/default/production/_ext/68765530/sys_reset.o
- .debug_line    0x00017925      0x870 build/default/production/_ext/1417409628/sys_tmr.o
- .debug_line    0x00018195      0x1ed build/default/production/_ext/1881663949/helpers.o
- .debug_line    0x00018382      0xa5e build/default/production/_ext/26143033/ipv4.o
- .debug_line    0x00018de0     0x1059 build/default/production/_ext/26143033/udp.o
- .debug_line    0x00019e39      0x2c0 build/default/production/_ext/26143033/tcpip_heap_alloc.o
- .debug_line    0x0001a0f9      0x6d6 build/default/production/_ext/26143033/tcpip_heap_internal.o
- .debug_line    0x0001a7cf      0xb82 build/default/production/_ext/26143033/arp.o
- .debug_line    0x0001b351      0x2a5 build/default/production/_ext/26143033/dns.o
- .debug_line    0x0001b5f6      0x17d build/default/production/_ext/26143033/hash_fnv.o
- .debug_line    0x0001b773      0x22c build/default/production/_ext/26143033/oahash.o
- .debug_line    0x0001b99f      0xf3b build/default/production/_ext/26143033/tcpip_helpers.o
- .debug_line    0x0001c8da      0x10b build/default/production/_ext/26143033/tcpip_helper_c32.o
- .debug_line    0x0001c9e5     0x1627 build/default/production/_ext/26143033/tcpip_manager.o
- .debug_line    0x0001e00c      0x365 build/default/production/_ext/26143033/tcpip_notify.o
- .debug_line    0x0001e371      0x5d5 build/default/production/_ext/26143033/tcpip_packet.o
- .debug_line    0x0001e946     0x1065 build/default/production/_ext/1688732426/system_init.o
- .debug_line    0x0001f9ab      0x5a1 build/default/production/_ext/1688732426/system_interrupt.o
- .debug_line    0x0001ff4c      0x43b build/default/production/_ext/1688732426/system_tasks.o
- .debug_line    0x00020387      0x3dd build/default/production/_ext/1360937237/app_commands.o
- .debug_line    0x00020764      0x707 build/default/production/_ext/1360937237/UDP_app.o
- .debug_line    0x00020e6b      0x6df build/default/production/_ext/1360937237/main.o
- .debug_line    0x0002154a      0x2ff build/default/production/_ext/1517938894/Adafruit7830.o
+ .debug_line    0x00001860      0x2ff build/default/production/_ext/1517938894/Adafruit7830.o
+ .debug_line    0x00001b5f     0x106a build/default/production/_ext/996065237/drv_encx24j600_spi_bus.o
+ .debug_line    0x00002bc9      0xa5c build/default/production/_ext/1600828880/drv_encx24j600_closed_state.o
+ .debug_line    0x00003625      0xa8a build/default/production/_ext/472602724/drv_encx24j600_initialization_state.o
+ .debug_line    0x000040af      0xb76 build/default/production/_ext/472602724/drv_encx24j600_configure_state.o
+ .debug_line    0x00004c25      0xaae build/default/production/_ext/472602724/drv_encx24j600_detect_state.o
+ .debug_line    0x000056d3      0xb25 build/default/production/_ext/472602724/drv_encx24j600_reset_state.o
+ .debug_line    0x000061f8      0xb68 build/default/production/_ext/1728422854/drv_encx24j600_tx_packet.o
+ .debug_line    0x00006d60      0xad5 build/default/production/_ext/1728422854/drv_encx24j600_rx_packet.o
+ .debug_line    0x00007835      0xaad build/default/production/_ext/999618079/drv_encx24j600_running_state.o
+ .debug_line    0x000082e2      0xa8c build/default/production/_ext/999618079/drv_encx24j600_change_duplex_state.o
+ .debug_line    0x00008d6e      0xaac build/default/production/_ext/999618079/drv_encx24j600_check_int_state.o
+ .debug_line    0x0000981a      0xabb build/default/production/_ext/999618079/drv_encx24j600_check_status_state.o
+ .debug_line    0x0000a2d5      0xaae build/default/production/_ext/999618079/drv_encx24j600_check_tx_status_state.o
+ .debug_line    0x0000ad83      0xa9b build/default/production/_ext/999618079/drv_encx24j600_reset_rx_state.o
+ .debug_line    0x0000b81e      0xd88 build/default/production/_ext/820865379/drv_encx24j600_api.o
+ .debug_line    0x0000c5a6      0xa73 build/default/production/_ext/820865379/drv_encx24j600_main_state.o
+ .debug_line    0x0000d019      0x9d0 build/default/production/_ext/820865379/drv_encx24j600_utils.o
+ .debug_line    0x0000d9e9      0x9ad build/default/production/_ext/977502197/drv_spi_tasks.o
+ .debug_line    0x0000e396      0xa8d build/default/production/_ext/977502197/drv_spi_api.o
+ .debug_line    0x0000ee23      0x768 build/default/production/_ext/977502197/drv_spi_master_ebm_tasks.o
+ .debug_line    0x0000f58b      0xca9 build/default/production/_ext/915312864/drv_spi.o
+ .debug_line    0x00010234      0x602 build/default/production/_ext/2077795248/drv_spi_sys_queue_fifo.o
+ .debug_line    0x00010836      0xfea build/default/production/_ext/1298913485/drv_tmr.o
+ .debug_line    0x00011820      0x585 build/default/production/_ext/327000265/drv_usart_mapping.o
+ .debug_line    0x00011da5      0xc0e build/default/production/_ext/327000265/drv_usart_static.o
+ .debug_line    0x000129b3      0x7e8 build/default/production/_ext/327000265/drv_usart_static_buffer_queue.o
+ .debug_line    0x0001319b      0x510 build/default/production/_ext/327000265/drv_usart_static_read_write.o
+ .debug_line    0x000136ab      0x6c8 build/default/production/_ext/639803181/sys_clk_pic32mx.o
+ .debug_line    0x00013d73      0xa3d build/default/production/_ext/2001008086/sys_command.o
+ .debug_line    0x000147b0      0x4ae build/default/production/_ext/1544295906/sys_console.o
+ .debug_line    0x00014c5e      0x65c build/default/production/_ext/1544295906/sys_console_uart.o
+ .debug_line    0x000152ba      0x90b build/default/production/_ext/340578644/sys_devcon.o
+ .debug_line    0x00015bc5      0x703 build/default/production/_ext/340578644/sys_devcon_pic32mx.o
+ .debug_line    0x000162c8      0x412 build/default/production/_ext/1735427962/sys_int_pic32.o
+ .debug_line    0x000166da      0xc54 build/default/production/_ext/822048611/sys_ports_static.o
+ .debug_line    0x0001732e      0x3c5 build/default/production/_ext/327917790/sys_random.o
+ .debug_line    0x000176f3      0x531 build/default/production/_ext/68765530/sys_reset.o
+ .debug_line    0x00017c24      0x870 build/default/production/_ext/1417409628/sys_tmr.o
+ .debug_line    0x00018494      0x1ed build/default/production/_ext/1881663949/helpers.o
+ .debug_line    0x00018681      0xa5e build/default/production/_ext/26143033/ipv4.o
+ .debug_line    0x000190df     0x1059 build/default/production/_ext/26143033/udp.o
+ .debug_line    0x0001a138      0x2c0 build/default/production/_ext/26143033/tcpip_heap_alloc.o
+ .debug_line    0x0001a3f8      0x6d6 build/default/production/_ext/26143033/tcpip_heap_internal.o
+ .debug_line    0x0001aace      0xb82 build/default/production/_ext/26143033/arp.o
+ .debug_line    0x0001b650      0x2a5 build/default/production/_ext/26143033/dns.o
+ .debug_line    0x0001b8f5      0x17d build/default/production/_ext/26143033/hash_fnv.o
+ .debug_line    0x0001ba72      0x22c build/default/production/_ext/26143033/oahash.o
+ .debug_line    0x0001bc9e      0xf3b build/default/production/_ext/26143033/tcpip_helpers.o
+ .debug_line    0x0001cbd9      0x10b build/default/production/_ext/26143033/tcpip_helper_c32.o
+ .debug_line    0x0001cce4     0x1627 build/default/production/_ext/26143033/tcpip_manager.o
+ .debug_line    0x0001e30b      0x365 build/default/production/_ext/26143033/tcpip_notify.o
+ .debug_line    0x0001e670      0x5d5 build/default/production/_ext/26143033/tcpip_packet.o
+ .debug_line    0x0001ec45     0x1065 build/default/production/_ext/1688732426/system_init.o
+ .debug_line    0x0001fcaa      0x5a1 build/default/production/_ext/1688732426/system_interrupt.o
+ .debug_line    0x0002024b      0x43b build/default/production/_ext/1688732426/system_tasks.o
+ .debug_line    0x00020686      0x3dd build/default/production/_ext/1360937237/app_commands.o
+ .debug_line    0x00020a63      0x707 build/default/production/_ext/1360937237/UDP_app.o
+ .debug_line    0x0002116a      0x6df build/default/production/_ext/1360937237/main.o
  .debug_line    0x00021849       0xf7 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3\libgcc.a(_udivdi3.o)
  .debug_line    0x00021940       0x94 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3\libgcc.a(floatunsisf.o)
  .debug_line    0x000219d4       0xa6 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
@@ -3666,64 +3666,64 @@ END GROUP
  .debug_frame   0x0000058c       0xc0 build/default/production/_ext/1360937237/rgbled.o
  .debug_frame   0x0000064c       0x40 build/default/production/_ext/1360937237/timers.o
  .debug_frame   0x0000068c       0x48 build/default/production/_ext/1360937237/output_compare.o
- .debug_frame   0x000006d4      0x39c build/default/production/_ext/996065237/drv_encx24j600_spi_bus.o
- .debug_frame   0x00000a70       0x4c build/default/production/_ext/1600828880/drv_encx24j600_closed_state.o
- .debug_frame   0x00000abc       0x4c build/default/production/_ext/472602724/drv_encx24j600_initialization_state.o
- .debug_frame   0x00000b08       0x50 build/default/production/_ext/472602724/drv_encx24j600_configure_state.o
- .debug_frame   0x00000b58       0x50 build/default/production/_ext/472602724/drv_encx24j600_detect_state.o
- .debug_frame   0x00000ba8       0x54 build/default/production/_ext/472602724/drv_encx24j600_reset_state.o
- .debug_frame   0x00000bfc       0x54 build/default/production/_ext/1728422854/drv_encx24j600_tx_packet.o
- .debug_frame   0x00000c50       0x6c build/default/production/_ext/1728422854/drv_encx24j600_rx_packet.o
- .debug_frame   0x00000cbc       0x74 build/default/production/_ext/999618079/drv_encx24j600_running_state.o
- .debug_frame   0x00000d30       0x50 build/default/production/_ext/999618079/drv_encx24j600_change_duplex_state.o
- .debug_frame   0x00000d80       0x50 build/default/production/_ext/999618079/drv_encx24j600_check_int_state.o
- .debug_frame   0x00000dd0       0x50 build/default/production/_ext/999618079/drv_encx24j600_check_status_state.o
- .debug_frame   0x00000e20       0x50 build/default/production/_ext/999618079/drv_encx24j600_check_tx_status_state.o
- .debug_frame   0x00000e70       0x30 build/default/production/_ext/999618079/drv_encx24j600_reset_rx_state.o
- .debug_frame   0x00000ea0      0x27c build/default/production/_ext/820865379/drv_encx24j600_api.o
- .debug_frame   0x0000111c       0x2c build/default/production/_ext/820865379/drv_encx24j600_main_state.o
- .debug_frame   0x00001148       0x3c build/default/production/_ext/820865379/drv_encx24j600_utils.o
- .debug_frame   0x00001184       0x3c build/default/production/_ext/977502197/drv_spi_tasks.o
- .debug_frame   0x000011c0       0x44 build/default/production/_ext/977502197/drv_spi_api.o
- .debug_frame   0x00001204       0x30 build/default/production/_ext/977502197/drv_spi_master_ebm_tasks.o
- .debug_frame   0x00001234      0x1e0 build/default/production/_ext/915312864/drv_spi.o
- .debug_frame   0x00001414      0x280 build/default/production/_ext/2077795248/drv_spi_sys_queue_fifo.o
- .debug_frame   0x00001694      0x2f0 build/default/production/_ext/1298913485/drv_tmr.o
- .debug_frame   0x00001984      0x2b4 build/default/production/_ext/327000265/drv_usart_mapping.o
- .debug_frame   0x00001c38      0x19c build/default/production/_ext/327000265/drv_usart_static.o
- .debug_frame   0x00001dd4       0xb4 build/default/production/_ext/327000265/drv_usart_static_buffer_queue.o
- .debug_frame   0x00001e88       0x3c build/default/production/_ext/327000265/drv_usart_static_read_write.o
- .debug_frame   0x00001ec4       0xa4 build/default/production/_ext/639803181/sys_clk_pic32mx.o
- .debug_frame   0x00001f68      0x320 build/default/production/_ext/2001008086/sys_command.o
- .debug_frame   0x00002288      0x110 build/default/production/_ext/1544295906/sys_console.o
- .debug_frame   0x00002398       0xdc build/default/production/_ext/1544295906/sys_console_uart.o
- .debug_frame   0x00002474       0xf4 build/default/production/_ext/340578644/sys_devcon.o
- .debug_frame   0x00002568       0x2c build/default/production/_ext/340578644/sys_devcon_pic32mx.o
- .debug_frame   0x00002594       0xa0 build/default/production/_ext/1735427962/sys_int_pic32.o
- .debug_frame   0x00002634      0x27c build/default/production/_ext/822048611/sys_ports_static.o
- .debug_frame   0x000028b0       0x74 build/default/production/_ext/327917790/sys_random.o
- .debug_frame   0x00002924       0x50 build/default/production/_ext/68765530/sys_reset.o
- .debug_frame   0x00002974      0x284 build/default/production/_ext/1417409628/sys_tmr.o
- .debug_frame   0x00002bf8       0x78 build/default/production/_ext/1881663949/helpers.o
- .debug_frame   0x00002c70      0x298 build/default/production/_ext/26143033/ipv4.o
- .debug_frame   0x00002f08      0x67c build/default/production/_ext/26143033/udp.o
- .debug_frame   0x00003584       0xa8 build/default/production/_ext/26143033/tcpip_heap_alloc.o
- .debug_frame   0x0000362c      0x11c build/default/production/_ext/26143033/tcpip_heap_internal.o
- .debug_frame   0x00003748      0x444 build/default/production/_ext/26143033/arp.o
- .debug_frame   0x00003b8c       0xb0 build/default/production/_ext/26143033/dns.o
- .debug_frame   0x00003c3c       0x30 build/default/production/_ext/26143033/hash_fnv.o
- .debug_frame   0x00003c6c       0xc0 build/default/production/_ext/26143033/oahash.o
- .debug_frame   0x00003d2c      0x6d8 build/default/production/_ext/26143033/tcpip_helpers.o
- .debug_frame   0x00004404      0xa28 build/default/production/_ext/26143033/tcpip_manager.o
- .debug_frame   0x00004e2c       0xa8 build/default/production/_ext/26143033/tcpip_notify.o
- .debug_frame   0x00004ed4      0x160 build/default/production/_ext/26143033/tcpip_packet.o
- .debug_frame   0x00005034       0x50 build/default/production/_ext/1688732426/system_init.o
- .debug_frame   0x00005084      0x174 build/default/production/_ext/1688732426/system_interrupt.o
- .debug_frame   0x000051f8       0x30 build/default/production/_ext/1688732426/system_tasks.o
- .debug_frame   0x00005228       0x94 build/default/production/_ext/1360937237/app_commands.o
- .debug_frame   0x000052bc       0xc8 build/default/production/_ext/1360937237/UDP_app.o
- .debug_frame   0x00005384       0x9c build/default/production/_ext/1360937237/main.o
- .debug_frame   0x00005420       0xa4 build/default/production/_ext/1517938894/Adafruit7830.o
+ .debug_frame   0x000006d4       0xa4 build/default/production/_ext/1517938894/Adafruit7830.o
+ .debug_frame   0x00000778      0x39c build/default/production/_ext/996065237/drv_encx24j600_spi_bus.o
+ .debug_frame   0x00000b14       0x4c build/default/production/_ext/1600828880/drv_encx24j600_closed_state.o
+ .debug_frame   0x00000b60       0x4c build/default/production/_ext/472602724/drv_encx24j600_initialization_state.o
+ .debug_frame   0x00000bac       0x50 build/default/production/_ext/472602724/drv_encx24j600_configure_state.o
+ .debug_frame   0x00000bfc       0x50 build/default/production/_ext/472602724/drv_encx24j600_detect_state.o
+ .debug_frame   0x00000c4c       0x54 build/default/production/_ext/472602724/drv_encx24j600_reset_state.o
+ .debug_frame   0x00000ca0       0x54 build/default/production/_ext/1728422854/drv_encx24j600_tx_packet.o
+ .debug_frame   0x00000cf4       0x6c build/default/production/_ext/1728422854/drv_encx24j600_rx_packet.o
+ .debug_frame   0x00000d60       0x74 build/default/production/_ext/999618079/drv_encx24j600_running_state.o
+ .debug_frame   0x00000dd4       0x50 build/default/production/_ext/999618079/drv_encx24j600_change_duplex_state.o
+ .debug_frame   0x00000e24       0x50 build/default/production/_ext/999618079/drv_encx24j600_check_int_state.o
+ .debug_frame   0x00000e74       0x50 build/default/production/_ext/999618079/drv_encx24j600_check_status_state.o
+ .debug_frame   0x00000ec4       0x50 build/default/production/_ext/999618079/drv_encx24j600_check_tx_status_state.o
+ .debug_frame   0x00000f14       0x30 build/default/production/_ext/999618079/drv_encx24j600_reset_rx_state.o
+ .debug_frame   0x00000f44      0x27c build/default/production/_ext/820865379/drv_encx24j600_api.o
+ .debug_frame   0x000011c0       0x2c build/default/production/_ext/820865379/drv_encx24j600_main_state.o
+ .debug_frame   0x000011ec       0x3c build/default/production/_ext/820865379/drv_encx24j600_utils.o
+ .debug_frame   0x00001228       0x3c build/default/production/_ext/977502197/drv_spi_tasks.o
+ .debug_frame   0x00001264       0x44 build/default/production/_ext/977502197/drv_spi_api.o
+ .debug_frame   0x000012a8       0x30 build/default/production/_ext/977502197/drv_spi_master_ebm_tasks.o
+ .debug_frame   0x000012d8      0x1e0 build/default/production/_ext/915312864/drv_spi.o
+ .debug_frame   0x000014b8      0x280 build/default/production/_ext/2077795248/drv_spi_sys_queue_fifo.o
+ .debug_frame   0x00001738      0x2f0 build/default/production/_ext/1298913485/drv_tmr.o
+ .debug_frame   0x00001a28      0x2b4 build/default/production/_ext/327000265/drv_usart_mapping.o
+ .debug_frame   0x00001cdc      0x19c build/default/production/_ext/327000265/drv_usart_static.o
+ .debug_frame   0x00001e78       0xb4 build/default/production/_ext/327000265/drv_usart_static_buffer_queue.o
+ .debug_frame   0x00001f2c       0x3c build/default/production/_ext/327000265/drv_usart_static_read_write.o
+ .debug_frame   0x00001f68       0xa4 build/default/production/_ext/639803181/sys_clk_pic32mx.o
+ .debug_frame   0x0000200c      0x320 build/default/production/_ext/2001008086/sys_command.o
+ .debug_frame   0x0000232c      0x110 build/default/production/_ext/1544295906/sys_console.o
+ .debug_frame   0x0000243c       0xdc build/default/production/_ext/1544295906/sys_console_uart.o
+ .debug_frame   0x00002518       0xf4 build/default/production/_ext/340578644/sys_devcon.o
+ .debug_frame   0x0000260c       0x2c build/default/production/_ext/340578644/sys_devcon_pic32mx.o
+ .debug_frame   0x00002638       0xa0 build/default/production/_ext/1735427962/sys_int_pic32.o
+ .debug_frame   0x000026d8      0x27c build/default/production/_ext/822048611/sys_ports_static.o
+ .debug_frame   0x00002954       0x74 build/default/production/_ext/327917790/sys_random.o
+ .debug_frame   0x000029c8       0x50 build/default/production/_ext/68765530/sys_reset.o
+ .debug_frame   0x00002a18      0x284 build/default/production/_ext/1417409628/sys_tmr.o
+ .debug_frame   0x00002c9c       0x78 build/default/production/_ext/1881663949/helpers.o
+ .debug_frame   0x00002d14      0x298 build/default/production/_ext/26143033/ipv4.o
+ .debug_frame   0x00002fac      0x67c build/default/production/_ext/26143033/udp.o
+ .debug_frame   0x00003628       0xa8 build/default/production/_ext/26143033/tcpip_heap_alloc.o
+ .debug_frame   0x000036d0      0x11c build/default/production/_ext/26143033/tcpip_heap_internal.o
+ .debug_frame   0x000037ec      0x444 build/default/production/_ext/26143033/arp.o
+ .debug_frame   0x00003c30       0xb0 build/default/production/_ext/26143033/dns.o
+ .debug_frame   0x00003ce0       0x30 build/default/production/_ext/26143033/hash_fnv.o
+ .debug_frame   0x00003d10       0xc0 build/default/production/_ext/26143033/oahash.o
+ .debug_frame   0x00003dd0      0x6d8 build/default/production/_ext/26143033/tcpip_helpers.o
+ .debug_frame   0x000044a8      0xa28 build/default/production/_ext/26143033/tcpip_manager.o
+ .debug_frame   0x00004ed0       0xa8 build/default/production/_ext/26143033/tcpip_notify.o
+ .debug_frame   0x00004f78      0x160 build/default/production/_ext/26143033/tcpip_packet.o
+ .debug_frame   0x000050d8       0x50 build/default/production/_ext/1688732426/system_init.o
+ .debug_frame   0x00005128      0x174 build/default/production/_ext/1688732426/system_interrupt.o
+ .debug_frame   0x0000529c       0x30 build/default/production/_ext/1688732426/system_tasks.o
+ .debug_frame   0x000052cc       0x94 build/default/production/_ext/1360937237/app_commands.o
+ .debug_frame   0x00005360       0xc8 build/default/production/_ext/1360937237/UDP_app.o
+ .debug_frame   0x00005428       0x9c build/default/production/_ext/1360937237/main.o
  .debug_frame   0x000054c4       0x20 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3\libgcc.a(_udivdi3.o)
  .debug_frame   0x000054e4       0x30 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3\libgcc.a(floatunsisf.o)
  .debug_frame   0x00005514       0x2c c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
@@ -3749,64 +3749,64 @@ END GROUP
  .debug_str     0x00000084        0xe build/default/production/_ext/1360937237/rgbled.o
  .debug_str     0x00000092       0x15 build/default/production/_ext/1360937237/timers.o
  .debug_str     0x000000a7        0x0 build/default/production/_ext/1360937237/output_compare.o
- .debug_str     0x000000a7       0xbb build/default/production/_ext/996065237/drv_encx24j600_spi_bus.o
- .debug_str     0x00000162       0x55 build/default/production/_ext/1600828880/drv_encx24j600_closed_state.o
- .debug_str     0x000001b7       0x55 build/default/production/_ext/472602724/drv_encx24j600_initialization_state.o
- .debug_str     0x0000020c       0x55 build/default/production/_ext/472602724/drv_encx24j600_configure_state.o
- .debug_str     0x00000261       0x55 build/default/production/_ext/472602724/drv_encx24j600_detect_state.o
- .debug_str     0x000002b6       0x55 build/default/production/_ext/472602724/drv_encx24j600_reset_state.o
- .debug_str     0x0000030b       0x55 build/default/production/_ext/1728422854/drv_encx24j600_tx_packet.o
- .debug_str     0x00000360       0x55 build/default/production/_ext/1728422854/drv_encx24j600_rx_packet.o
- .debug_str     0x000003b5       0x55 build/default/production/_ext/999618079/drv_encx24j600_running_state.o
- .debug_str     0x0000040a       0x55 build/default/production/_ext/999618079/drv_encx24j600_change_duplex_state.o
- .debug_str     0x0000045f       0x55 build/default/production/_ext/999618079/drv_encx24j600_check_int_state.o
- .debug_str     0x000004b4       0x55 build/default/production/_ext/999618079/drv_encx24j600_check_status_state.o
- .debug_str     0x00000509       0x55 build/default/production/_ext/999618079/drv_encx24j600_check_tx_status_state.o
- .debug_str     0x0000055e       0x55 build/default/production/_ext/999618079/drv_encx24j600_reset_rx_state.o
- .debug_str     0x000005b3       0xaa build/default/production/_ext/820865379/drv_encx24j600_api.o
- .debug_str     0x0000065d       0x55 build/default/production/_ext/820865379/drv_encx24j600_main_state.o
- .debug_str     0x000006b2       0x61 build/default/production/_ext/820865379/drv_encx24j600_utils.o
- .debug_str     0x00000713       0x59 build/default/production/_ext/977502197/drv_spi_tasks.o
- .debug_str     0x0000076c       0xe9 build/default/production/_ext/977502197/drv_spi_api.o
- .debug_str     0x00000855       0x49 build/default/production/_ext/977502197/drv_spi_master_ebm_tasks.o
- .debug_str     0x0000089e      0x178 build/default/production/_ext/915312864/drv_spi.o
- .debug_str     0x00000a16      0x151 build/default/production/_ext/2077795248/drv_spi_sys_queue_fifo.o
- .debug_str     0x00000b67       0xc6 build/default/production/_ext/1298913485/drv_tmr.o
- .debug_str     0x00000c2d       0x40 build/default/production/_ext/327000265/drv_usart_mapping.o
- .debug_str     0x00000c6d       0xed build/default/production/_ext/327000265/drv_usart_static.o
- .debug_str     0x00000d5a       0x4e build/default/production/_ext/327000265/drv_usart_static_buffer_queue.o
- .debug_str     0x00000da8        0xc build/default/production/_ext/327000265/drv_usart_static_read_write.o
- .debug_str     0x00000db4       0x6f build/default/production/_ext/639803181/sys_clk_pic32mx.o
- .debug_str     0x00000e23       0x46 build/default/production/_ext/2001008086/sys_command.o
- .debug_str     0x00000e69        0xd build/default/production/_ext/1544295906/sys_console.o
- .debug_str     0x00000e76       0x18 build/default/production/_ext/1544295906/sys_console_uart.o
- .debug_str     0x00000e8e       0x16 build/default/production/_ext/340578644/sys_devcon.o
- .debug_str     0x00000ea4        0x6 build/default/production/_ext/340578644/sys_devcon_pic32mx.o
- .debug_str     0x00000eaa       0x1d build/default/production/_ext/1735427962/sys_int_pic32.o
- .debug_str     0x00000ec7       0xa1 build/default/production/_ext/822048611/sys_ports_static.o
- .debug_str     0x00000f68       0x1d build/default/production/_ext/327917790/sys_random.o
- .debug_str     0x00000f85        0xd build/default/production/_ext/68765530/sys_reset.o
- .debug_str     0x00000f92       0x7d build/default/production/_ext/1417409628/sys_tmr.o
- .debug_str     0x0000100f        0x0 build/default/production/_ext/1881663949/helpers.o
- .debug_str     0x0000100f       0xf8 build/default/production/_ext/26143033/ipv4.o
- .debug_str     0x00001107      0x157 build/default/production/_ext/26143033/udp.o
- .debug_str     0x0000125e       0x3c build/default/production/_ext/26143033/tcpip_heap_alloc.o
- .debug_str     0x0000129a       0x59 build/default/production/_ext/26143033/tcpip_heap_internal.o
- .debug_str     0x000012f3       0xd0 build/default/production/_ext/26143033/arp.o
- .debug_str     0x000013c3        0x9 build/default/production/_ext/26143033/dns.o
- .debug_str     0x000013cc        0x0 build/default/production/_ext/26143033/hash_fnv.o
- .debug_str     0x000013cc        0xa build/default/production/_ext/26143033/oahash.o
- .debug_str     0x000013d6       0xa6 build/default/production/_ext/26143033/tcpip_helpers.o
- .debug_str     0x0000147c      0x275 build/default/production/_ext/26143033/tcpip_manager.o
- .debug_str     0x000016f1       0x11 build/default/production/_ext/26143033/tcpip_notify.o
- .debug_str     0x00001702        0xa build/default/production/_ext/26143033/tcpip_packet.o
- .debug_str     0x0000170c       0x36 build/default/production/_ext/1688732426/system_init.o
- .debug_str     0x00001742        0x0 build/default/production/_ext/1688732426/system_interrupt.o
- .debug_str     0x00001742        0x0 build/default/production/_ext/1688732426/system_tasks.o
- .debug_str     0x00001742       0x26 build/default/production/_ext/1360937237/app_commands.o
- .debug_str     0x00001768        0x0 build/default/production/_ext/1360937237/UDP_app.o
- .debug_str     0x00001768       0x24 build/default/production/_ext/1360937237/main.o
- .debug_str     0x0000178c        0xa build/default/production/_ext/1517938894/Adafruit7830.o
+ .debug_str     0x000000a7        0xa build/default/production/_ext/1517938894/Adafruit7830.o
+ .debug_str     0x000000b1       0xbb build/default/production/_ext/996065237/drv_encx24j600_spi_bus.o
+ .debug_str     0x0000016c       0x55 build/default/production/_ext/1600828880/drv_encx24j600_closed_state.o
+ .debug_str     0x000001c1       0x55 build/default/production/_ext/472602724/drv_encx24j600_initialization_state.o
+ .debug_str     0x00000216       0x55 build/default/production/_ext/472602724/drv_encx24j600_configure_state.o
+ .debug_str     0x0000026b       0x55 build/default/production/_ext/472602724/drv_encx24j600_detect_state.o
+ .debug_str     0x000002c0       0x55 build/default/production/_ext/472602724/drv_encx24j600_reset_state.o
+ .debug_str     0x00000315       0x55 build/default/production/_ext/1728422854/drv_encx24j600_tx_packet.o
+ .debug_str     0x0000036a       0x55 build/default/production/_ext/1728422854/drv_encx24j600_rx_packet.o
+ .debug_str     0x000003bf       0x55 build/default/production/_ext/999618079/drv_encx24j600_running_state.o
+ .debug_str     0x00000414       0x55 build/default/production/_ext/999618079/drv_encx24j600_change_duplex_state.o
+ .debug_str     0x00000469       0x55 build/default/production/_ext/999618079/drv_encx24j600_check_int_state.o
+ .debug_str     0x000004be       0x55 build/default/production/_ext/999618079/drv_encx24j600_check_status_state.o
+ .debug_str     0x00000513       0x55 build/default/production/_ext/999618079/drv_encx24j600_check_tx_status_state.o
+ .debug_str     0x00000568       0x55 build/default/production/_ext/999618079/drv_encx24j600_reset_rx_state.o
+ .debug_str     0x000005bd       0xaa build/default/production/_ext/820865379/drv_encx24j600_api.o
+ .debug_str     0x00000667       0x55 build/default/production/_ext/820865379/drv_encx24j600_main_state.o
+ .debug_str     0x000006bc       0x61 build/default/production/_ext/820865379/drv_encx24j600_utils.o
+ .debug_str     0x0000071d       0x59 build/default/production/_ext/977502197/drv_spi_tasks.o
+ .debug_str     0x00000776       0xe9 build/default/production/_ext/977502197/drv_spi_api.o
+ .debug_str     0x0000085f       0x49 build/default/production/_ext/977502197/drv_spi_master_ebm_tasks.o
+ .debug_str     0x000008a8      0x178 build/default/production/_ext/915312864/drv_spi.o
+ .debug_str     0x00000a20      0x151 build/default/production/_ext/2077795248/drv_spi_sys_queue_fifo.o
+ .debug_str     0x00000b71       0xc6 build/default/production/_ext/1298913485/drv_tmr.o
+ .debug_str     0x00000c37       0x40 build/default/production/_ext/327000265/drv_usart_mapping.o
+ .debug_str     0x00000c77       0xed build/default/production/_ext/327000265/drv_usart_static.o
+ .debug_str     0x00000d64       0x4e build/default/production/_ext/327000265/drv_usart_static_buffer_queue.o
+ .debug_str     0x00000db2        0xc build/default/production/_ext/327000265/drv_usart_static_read_write.o
+ .debug_str     0x00000dbe       0x6f build/default/production/_ext/639803181/sys_clk_pic32mx.o
+ .debug_str     0x00000e2d       0x46 build/default/production/_ext/2001008086/sys_command.o
+ .debug_str     0x00000e73        0xd build/default/production/_ext/1544295906/sys_console.o
+ .debug_str     0x00000e80       0x18 build/default/production/_ext/1544295906/sys_console_uart.o
+ .debug_str     0x00000e98       0x16 build/default/production/_ext/340578644/sys_devcon.o
+ .debug_str     0x00000eae        0x6 build/default/production/_ext/340578644/sys_devcon_pic32mx.o
+ .debug_str     0x00000eb4       0x1d build/default/production/_ext/1735427962/sys_int_pic32.o
+ .debug_str     0x00000ed1       0xa1 build/default/production/_ext/822048611/sys_ports_static.o
+ .debug_str     0x00000f72       0x1d build/default/production/_ext/327917790/sys_random.o
+ .debug_str     0x00000f8f        0xd build/default/production/_ext/68765530/sys_reset.o
+ .debug_str     0x00000f9c       0x7d build/default/production/_ext/1417409628/sys_tmr.o
+ .debug_str     0x00001019        0x0 build/default/production/_ext/1881663949/helpers.o
+ .debug_str     0x00001019       0xf8 build/default/production/_ext/26143033/ipv4.o
+ .debug_str     0x00001111      0x157 build/default/production/_ext/26143033/udp.o
+ .debug_str     0x00001268       0x3c build/default/production/_ext/26143033/tcpip_heap_alloc.o
+ .debug_str     0x000012a4       0x59 build/default/production/_ext/26143033/tcpip_heap_internal.o
+ .debug_str     0x000012fd       0xd0 build/default/production/_ext/26143033/arp.o
+ .debug_str     0x000013cd        0x9 build/default/production/_ext/26143033/dns.o
+ .debug_str     0x000013d6        0x0 build/default/production/_ext/26143033/hash_fnv.o
+ .debug_str     0x000013d6        0xa build/default/production/_ext/26143033/oahash.o
+ .debug_str     0x000013e0       0xa6 build/default/production/_ext/26143033/tcpip_helpers.o
+ .debug_str     0x00001486      0x275 build/default/production/_ext/26143033/tcpip_manager.o
+ .debug_str     0x000016fb       0x11 build/default/production/_ext/26143033/tcpip_notify.o
+ .debug_str     0x0000170c        0xa build/default/production/_ext/26143033/tcpip_packet.o
+ .debug_str     0x00001716       0x36 build/default/production/_ext/1688732426/system_init.o
+ .debug_str     0x0000174c        0x0 build/default/production/_ext/1688732426/system_interrupt.o
+ .debug_str     0x0000174c        0x0 build/default/production/_ext/1688732426/system_tasks.o
+ .debug_str     0x0000174c       0x26 build/default/production/_ext/1360937237/app_commands.o
+ .debug_str     0x00001772        0x0 build/default/production/_ext/1360937237/UDP_app.o
+ .debug_str     0x00001772       0x24 build/default/production/_ext/1360937237/main.o
  .debug_str     0x00001796        0x0 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3\libgcc.a(_udivdi3.o)
  .debug_str     0x00001796        0x0 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3\libgcc.a(floatunsisf.o)
  .debug_str     0x00001796        0x0 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
@@ -3830,60 +3830,60 @@ END GROUP
  .debug_loc     0x000009d6      0x378 build/default/production/_ext/1360937237/lcd.o
  .debug_loc     0x00000d4e       0x81 build/default/production/_ext/1360937237/adc.o
  .debug_loc     0x00000dcf       0xd8 build/default/production/_ext/1360937237/rgbled.o
- .debug_loc     0x00000ea7     0x10ea build/default/production/_ext/996065237/drv_encx24j600_spi_bus.o
- .debug_loc     0x00001f91       0x34 build/default/production/_ext/1600828880/drv_encx24j600_closed_state.o
- .debug_loc     0x00001fc5       0x78 build/default/production/_ext/472602724/drv_encx24j600_initialization_state.o
- .debug_loc     0x0000203d      0x38e build/default/production/_ext/472602724/drv_encx24j600_configure_state.o
- .debug_loc     0x000023cb       0xf6 build/default/production/_ext/472602724/drv_encx24j600_detect_state.o
- .debug_loc     0x000024c1       0xa4 build/default/production/_ext/472602724/drv_encx24j600_reset_state.o
- .debug_loc     0x00002565      0x198 build/default/production/_ext/1728422854/drv_encx24j600_tx_packet.o
- .debug_loc     0x000026fd      0x1a3 build/default/production/_ext/1728422854/drv_encx24j600_rx_packet.o
- .debug_loc     0x000028a0      0x25f build/default/production/_ext/999618079/drv_encx24j600_running_state.o
- .debug_loc     0x00002aff       0xc7 build/default/production/_ext/999618079/drv_encx24j600_change_duplex_state.o
- .debug_loc     0x00002bc6       0xdb build/default/production/_ext/999618079/drv_encx24j600_check_int_state.o
- .debug_loc     0x00002ca1       0xe6 build/default/production/_ext/999618079/drv_encx24j600_check_status_state.o
- .debug_loc     0x00002d87      0x14b build/default/production/_ext/999618079/drv_encx24j600_check_tx_status_state.o
- .debug_loc     0x00002ed2      0x148 build/default/production/_ext/999618079/drv_encx24j600_reset_rx_state.o
- .debug_loc     0x0000301a      0xa66 build/default/production/_ext/820865379/drv_encx24j600_api.o
- .debug_loc     0x00003a80       0x52 build/default/production/_ext/820865379/drv_encx24j600_main_state.o
- .debug_loc     0x00003ad2       0xaa build/default/production/_ext/820865379/drv_encx24j600_utils.o
- .debug_loc     0x00003b7c      0x823 build/default/production/_ext/977502197/drv_spi_tasks.o
- .debug_loc     0x0000439f      0x9ea build/default/production/_ext/977502197/drv_spi_api.o
- .debug_loc     0x00004d89      0x397 build/default/production/_ext/977502197/drv_spi_master_ebm_tasks.o
- .debug_loc     0x00005120     0x13ac build/default/production/_ext/915312864/drv_spi.o
- .debug_loc     0x000064cc      0xcf2 build/default/production/_ext/2077795248/drv_spi_sys_queue_fifo.o
- .debug_loc     0x000071be     0x18ef build/default/production/_ext/1298913485/drv_tmr.o
- .debug_loc     0x00008aad      0x9ef build/default/production/_ext/327000265/drv_usart_mapping.o
- .debug_loc     0x0000949c      0x567 build/default/production/_ext/327000265/drv_usart_static.o
- .debug_loc     0x00009a03      0x5f5 build/default/production/_ext/327000265/drv_usart_static_buffer_queue.o
- .debug_loc     0x00009ff8      0x260 build/default/production/_ext/327000265/drv_usart_static_read_write.o
- .debug_loc     0x0000a258       0x49 build/default/production/_ext/639803181/sys_clk_pic32mx.o
- .debug_loc     0x0000a2a1     0x107a build/default/production/_ext/2001008086/sys_command.o
- .debug_loc     0x0000b31b      0x390 build/default/production/_ext/1544295906/sys_console.o
- .debug_loc     0x0000b6ab      0x2b2 build/default/production/_ext/1544295906/sys_console_uart.o
- .debug_loc     0x0000b95d       0xf0 build/default/production/_ext/340578644/sys_devcon.o
- .debug_loc     0x0000ba4d       0xda build/default/production/_ext/340578644/sys_devcon_pic32mx.o
- .debug_loc     0x0000bb27       0x7c build/default/production/_ext/1735427962/sys_int_pic32.o
- .debug_loc     0x0000bba3      0x895 build/default/production/_ext/822048611/sys_ports_static.o
- .debug_loc     0x0000c438       0x90 build/default/production/_ext/327917790/sys_random.o
- .debug_loc     0x0000c4c8      0xe68 build/default/production/_ext/1417409628/sys_tmr.o
- .debug_loc     0x0000d330      0x2ff build/default/production/_ext/1881663949/helpers.o
- .debug_loc     0x0000d62f     0x1853 build/default/production/_ext/26143033/ipv4.o
- .debug_loc     0x0000ee82     0x33e7 build/default/production/_ext/26143033/udp.o
- .debug_loc     0x00012269      0x15b build/default/production/_ext/26143033/tcpip_heap_alloc.o
- .debug_loc     0x000123c4      0xb40 build/default/production/_ext/26143033/tcpip_heap_internal.o
- .debug_loc     0x00012f04     0x1ecd build/default/production/_ext/26143033/arp.o
- .debug_loc     0x00014dd1      0x137 build/default/production/_ext/26143033/hash_fnv.o
- .debug_loc     0x00014f08      0x2b1 build/default/production/_ext/26143033/oahash.o
- .debug_loc     0x000151b9     0x3573 build/default/production/_ext/26143033/tcpip_helpers.o
- .debug_loc     0x0001872c     0x360d build/default/production/_ext/26143033/tcpip_manager.o
- .debug_loc     0x0001bd39      0x27a build/default/production/_ext/26143033/tcpip_notify.o
- .debug_loc     0x0001bfb3      0x893 build/default/production/_ext/26143033/tcpip_packet.o
- .debug_loc     0x0001c846       0x21 build/default/production/_ext/1688732426/system_init.o
- .debug_loc     0x0001c867      0x266 build/default/production/_ext/1360937237/app_commands.o
- .debug_loc     0x0001cacd      0x279 build/default/production/_ext/1360937237/UDP_app.o
- .debug_loc     0x0001cd46       0x74 build/default/production/_ext/1360937237/main.o
- .debug_loc     0x0001cdba      0x1fa build/default/production/_ext/1517938894/Adafruit7830.o
+ .debug_loc     0x00000ea7      0x1fa build/default/production/_ext/1517938894/Adafruit7830.o
+ .debug_loc     0x000010a1     0x10ea build/default/production/_ext/996065237/drv_encx24j600_spi_bus.o
+ .debug_loc     0x0000218b       0x34 build/default/production/_ext/1600828880/drv_encx24j600_closed_state.o
+ .debug_loc     0x000021bf       0x78 build/default/production/_ext/472602724/drv_encx24j600_initialization_state.o
+ .debug_loc     0x00002237      0x38e build/default/production/_ext/472602724/drv_encx24j600_configure_state.o
+ .debug_loc     0x000025c5       0xf6 build/default/production/_ext/472602724/drv_encx24j600_detect_state.o
+ .debug_loc     0x000026bb       0xa4 build/default/production/_ext/472602724/drv_encx24j600_reset_state.o
+ .debug_loc     0x0000275f      0x198 build/default/production/_ext/1728422854/drv_encx24j600_tx_packet.o
+ .debug_loc     0x000028f7      0x1a3 build/default/production/_ext/1728422854/drv_encx24j600_rx_packet.o
+ .debug_loc     0x00002a9a      0x25f build/default/production/_ext/999618079/drv_encx24j600_running_state.o
+ .debug_loc     0x00002cf9       0xc7 build/default/production/_ext/999618079/drv_encx24j600_change_duplex_state.o
+ .debug_loc     0x00002dc0       0xdb build/default/production/_ext/999618079/drv_encx24j600_check_int_state.o
+ .debug_loc     0x00002e9b       0xe6 build/default/production/_ext/999618079/drv_encx24j600_check_status_state.o
+ .debug_loc     0x00002f81      0x14b build/default/production/_ext/999618079/drv_encx24j600_check_tx_status_state.o
+ .debug_loc     0x000030cc      0x148 build/default/production/_ext/999618079/drv_encx24j600_reset_rx_state.o
+ .debug_loc     0x00003214      0xa66 build/default/production/_ext/820865379/drv_encx24j600_api.o
+ .debug_loc     0x00003c7a       0x52 build/default/production/_ext/820865379/drv_encx24j600_main_state.o
+ .debug_loc     0x00003ccc       0xaa build/default/production/_ext/820865379/drv_encx24j600_utils.o
+ .debug_loc     0x00003d76      0x823 build/default/production/_ext/977502197/drv_spi_tasks.o
+ .debug_loc     0x00004599      0x9ea build/default/production/_ext/977502197/drv_spi_api.o
+ .debug_loc     0x00004f83      0x397 build/default/production/_ext/977502197/drv_spi_master_ebm_tasks.o
+ .debug_loc     0x0000531a     0x13ac build/default/production/_ext/915312864/drv_spi.o
+ .debug_loc     0x000066c6      0xcf2 build/default/production/_ext/2077795248/drv_spi_sys_queue_fifo.o
+ .debug_loc     0x000073b8     0x18ef build/default/production/_ext/1298913485/drv_tmr.o
+ .debug_loc     0x00008ca7      0x9ef build/default/production/_ext/327000265/drv_usart_mapping.o
+ .debug_loc     0x00009696      0x567 build/default/production/_ext/327000265/drv_usart_static.o
+ .debug_loc     0x00009bfd      0x5f5 build/default/production/_ext/327000265/drv_usart_static_buffer_queue.o
+ .debug_loc     0x0000a1f2      0x260 build/default/production/_ext/327000265/drv_usart_static_read_write.o
+ .debug_loc     0x0000a452       0x49 build/default/production/_ext/639803181/sys_clk_pic32mx.o
+ .debug_loc     0x0000a49b     0x107a build/default/production/_ext/2001008086/sys_command.o
+ .debug_loc     0x0000b515      0x390 build/default/production/_ext/1544295906/sys_console.o
+ .debug_loc     0x0000b8a5      0x2b2 build/default/production/_ext/1544295906/sys_console_uart.o
+ .debug_loc     0x0000bb57       0xf0 build/default/production/_ext/340578644/sys_devcon.o
+ .debug_loc     0x0000bc47       0xda build/default/production/_ext/340578644/sys_devcon_pic32mx.o
+ .debug_loc     0x0000bd21       0x7c build/default/production/_ext/1735427962/sys_int_pic32.o
+ .debug_loc     0x0000bd9d      0x895 build/default/production/_ext/822048611/sys_ports_static.o
+ .debug_loc     0x0000c632       0x90 build/default/production/_ext/327917790/sys_random.o
+ .debug_loc     0x0000c6c2      0xe68 build/default/production/_ext/1417409628/sys_tmr.o
+ .debug_loc     0x0000d52a      0x2ff build/default/production/_ext/1881663949/helpers.o
+ .debug_loc     0x0000d829     0x1853 build/default/production/_ext/26143033/ipv4.o
+ .debug_loc     0x0000f07c     0x33e7 build/default/production/_ext/26143033/udp.o
+ .debug_loc     0x00012463      0x15b build/default/production/_ext/26143033/tcpip_heap_alloc.o
+ .debug_loc     0x000125be      0xb40 build/default/production/_ext/26143033/tcpip_heap_internal.o
+ .debug_loc     0x000130fe     0x1ecd build/default/production/_ext/26143033/arp.o
+ .debug_loc     0x00014fcb      0x137 build/default/production/_ext/26143033/hash_fnv.o
+ .debug_loc     0x00015102      0x2b1 build/default/production/_ext/26143033/oahash.o
+ .debug_loc     0x000153b3     0x3573 build/default/production/_ext/26143033/tcpip_helpers.o
+ .debug_loc     0x00018926     0x360d build/default/production/_ext/26143033/tcpip_manager.o
+ .debug_loc     0x0001bf33      0x27a build/default/production/_ext/26143033/tcpip_notify.o
+ .debug_loc     0x0001c1ad      0x893 build/default/production/_ext/26143033/tcpip_packet.o
+ .debug_loc     0x0001ca40       0x21 build/default/production/_ext/1688732426/system_init.o
+ .debug_loc     0x0001ca61      0x266 build/default/production/_ext/1360937237/app_commands.o
+ .debug_loc     0x0001ccc7      0x279 build/default/production/_ext/1360937237/UDP_app.o
+ .debug_loc     0x0001cf40       0x74 build/default/production/_ext/1360937237/main.o
  .debug_loc     0x0001cfb4      0xa6a c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3\libgcc.a(_udivdi3.o)
  .debug_loc     0x0001da1e       0x74 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3\libgcc.a(floatunsisf.o)
  .debug_loc     0x0001da92       0x2c c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
@@ -3924,64 +3924,64 @@ END GROUP
  .debug_ranges  0x000001d8       0x40 build/default/production/_ext/1360937237/rgbled.o
  .debug_ranges  0x00000218       0x20 build/default/production/_ext/1360937237/timers.o
  .debug_ranges  0x00000238       0x18 build/default/production/_ext/1360937237/output_compare.o
- .debug_ranges  0x00000250      0x108 build/default/production/_ext/996065237/drv_encx24j600_spi_bus.o
- .debug_ranges  0x00000358       0x20 build/default/production/_ext/1600828880/drv_encx24j600_closed_state.o
- .debug_ranges  0x00000378       0x20 build/default/production/_ext/472602724/drv_encx24j600_initialization_state.o
- .debug_ranges  0x00000398       0x20 build/default/production/_ext/472602724/drv_encx24j600_configure_state.o
- .debug_ranges  0x000003b8       0x20 build/default/production/_ext/472602724/drv_encx24j600_detect_state.o
- .debug_ranges  0x000003d8       0x20 build/default/production/_ext/472602724/drv_encx24j600_reset_state.o
- .debug_ranges  0x000003f8       0x68 build/default/production/_ext/1728422854/drv_encx24j600_tx_packet.o
- .debug_ranges  0x00000460       0x28 build/default/production/_ext/1728422854/drv_encx24j600_rx_packet.o
- .debug_ranges  0x00000488       0x48 build/default/production/_ext/999618079/drv_encx24j600_running_state.o
- .debug_ranges  0x000004d0       0x20 build/default/production/_ext/999618079/drv_encx24j600_change_duplex_state.o
- .debug_ranges  0x000004f0       0x20 build/default/production/_ext/999618079/drv_encx24j600_check_int_state.o
- .debug_ranges  0x00000510       0x20 build/default/production/_ext/999618079/drv_encx24j600_check_status_state.o
- .debug_ranges  0x00000530       0x50 build/default/production/_ext/999618079/drv_encx24j600_check_tx_status_state.o
- .debug_ranges  0x00000580       0x10 build/default/production/_ext/999618079/drv_encx24j600_reset_rx_state.o
- .debug_ranges  0x00000590       0xc8 build/default/production/_ext/820865379/drv_encx24j600_api.o
- .debug_ranges  0x00000658       0x10 build/default/production/_ext/820865379/drv_encx24j600_main_state.o
- .debug_ranges  0x00000668       0x18 build/default/production/_ext/820865379/drv_encx24j600_utils.o
- .debug_ranges  0x00000680       0x78 build/default/production/_ext/977502197/drv_spi_tasks.o
- .debug_ranges  0x000006f8       0x18 build/default/production/_ext/977502197/drv_spi_api.o
- .debug_ranges  0x00000710       0x18 build/default/production/_ext/977502197/drv_spi_master_ebm_tasks.o
- .debug_ranges  0x00000728       0xe8 build/default/production/_ext/915312864/drv_spi.o
- .debug_ranges  0x00000810       0xe0 build/default/production/_ext/2077795248/drv_spi_sys_queue_fifo.o
- .debug_ranges  0x000008f0      0x240 build/default/production/_ext/1298913485/drv_tmr.o
- .debug_ranges  0x00000b30       0xb0 build/default/production/_ext/327000265/drv_usart_mapping.o
- .debug_ranges  0x00000be0      0x108 build/default/production/_ext/327000265/drv_usart_static.o
- .debug_ranges  0x00000ce8       0x38 build/default/production/_ext/327000265/drv_usart_static_buffer_queue.o
- .debug_ranges  0x00000d20       0x78 build/default/production/_ext/327000265/drv_usart_static_read_write.o
- .debug_ranges  0x00000d98       0x40 build/default/production/_ext/639803181/sys_clk_pic32mx.o
- .debug_ranges  0x00000dd8      0x1f8 build/default/production/_ext/2001008086/sys_command.o
- .debug_ranges  0x00000fd0       0x50 build/default/production/_ext/1544295906/sys_console.o
- .debug_ranges  0x00001020       0x80 build/default/production/_ext/1544295906/sys_console_uart.o
- .debug_ranges  0x000010a0       0x68 build/default/production/_ext/340578644/sys_devcon.o
- .debug_ranges  0x00001108       0x10 build/default/production/_ext/340578644/sys_devcon_pic32mx.o
- .debug_ranges  0x00001118       0x50 build/default/production/_ext/1735427962/sys_int_pic32.o
- .debug_ranges  0x00001168      0x160 build/default/production/_ext/822048611/sys_ports_static.o
- .debug_ranges  0x000012c8       0x28 build/default/production/_ext/327917790/sys_random.o
- .debug_ranges  0x000012f0       0x28 build/default/production/_ext/68765530/sys_reset.o
- .debug_ranges  0x00001318      0x148 build/default/production/_ext/1417409628/sys_tmr.o
- .debug_ranges  0x00001460       0x30 build/default/production/_ext/1881663949/helpers.o
- .debug_ranges  0x00001490      0x1b0 build/default/production/_ext/26143033/ipv4.o
- .debug_ranges  0x00001640      0x530 build/default/production/_ext/26143033/udp.o
- .debug_ranges  0x00001b70       0x38 build/default/production/_ext/26143033/tcpip_heap_alloc.o
- .debug_ranges  0x00001ba8       0xa0 build/default/production/_ext/26143033/tcpip_heap_internal.o
- .debug_ranges  0x00001c48      0x1c0 build/default/production/_ext/26143033/arp.o
- .debug_ranges  0x00001e08       0x58 build/default/production/_ext/26143033/dns.o
- .debug_ranges  0x00001e60       0x18 build/default/production/_ext/26143033/hash_fnv.o
- .debug_ranges  0x00001e78       0x58 build/default/production/_ext/26143033/oahash.o
- .debug_ranges  0x00001ed0      0x418 build/default/production/_ext/26143033/tcpip_helpers.o
- .debug_ranges  0x000022e8      0x640 build/default/production/_ext/26143033/tcpip_manager.o
- .debug_ranges  0x00002928       0x30 build/default/production/_ext/26143033/tcpip_notify.o
- .debug_ranges  0x00002958       0x68 build/default/production/_ext/26143033/tcpip_packet.o
- .debug_ranges  0x000029c0       0x18 build/default/production/_ext/1688732426/system_init.o
- .debug_ranges  0x000029d8       0x28 build/default/production/_ext/1688732426/system_interrupt.o
- .debug_ranges  0x00002a00       0x10 build/default/production/_ext/1688732426/system_tasks.o
- .debug_ranges  0x00002a10       0x28 build/default/production/_ext/1360937237/app_commands.o
- .debug_ranges  0x00002a38       0x60 build/default/production/_ext/1360937237/UDP_app.o
- .debug_ranges  0x00002a98       0x38 build/default/production/_ext/1360937237/main.o
- .debug_ranges  0x00002ad0       0x40 build/default/production/_ext/1517938894/Adafruit7830.o
+ .debug_ranges  0x00000250       0x40 build/default/production/_ext/1517938894/Adafruit7830.o
+ .debug_ranges  0x00000290      0x108 build/default/production/_ext/996065237/drv_encx24j600_spi_bus.o
+ .debug_ranges  0x00000398       0x20 build/default/production/_ext/1600828880/drv_encx24j600_closed_state.o
+ .debug_ranges  0x000003b8       0x20 build/default/production/_ext/472602724/drv_encx24j600_initialization_state.o
+ .debug_ranges  0x000003d8       0x20 build/default/production/_ext/472602724/drv_encx24j600_configure_state.o
+ .debug_ranges  0x000003f8       0x20 build/default/production/_ext/472602724/drv_encx24j600_detect_state.o
+ .debug_ranges  0x00000418       0x20 build/default/production/_ext/472602724/drv_encx24j600_reset_state.o
+ .debug_ranges  0x00000438       0x68 build/default/production/_ext/1728422854/drv_encx24j600_tx_packet.o
+ .debug_ranges  0x000004a0       0x28 build/default/production/_ext/1728422854/drv_encx24j600_rx_packet.o
+ .debug_ranges  0x000004c8       0x48 build/default/production/_ext/999618079/drv_encx24j600_running_state.o
+ .debug_ranges  0x00000510       0x20 build/default/production/_ext/999618079/drv_encx24j600_change_duplex_state.o
+ .debug_ranges  0x00000530       0x20 build/default/production/_ext/999618079/drv_encx24j600_check_int_state.o
+ .debug_ranges  0x00000550       0x20 build/default/production/_ext/999618079/drv_encx24j600_check_status_state.o
+ .debug_ranges  0x00000570       0x50 build/default/production/_ext/999618079/drv_encx24j600_check_tx_status_state.o
+ .debug_ranges  0x000005c0       0x10 build/default/production/_ext/999618079/drv_encx24j600_reset_rx_state.o
+ .debug_ranges  0x000005d0       0xc8 build/default/production/_ext/820865379/drv_encx24j600_api.o
+ .debug_ranges  0x00000698       0x10 build/default/production/_ext/820865379/drv_encx24j600_main_state.o
+ .debug_ranges  0x000006a8       0x18 build/default/production/_ext/820865379/drv_encx24j600_utils.o
+ .debug_ranges  0x000006c0       0x78 build/default/production/_ext/977502197/drv_spi_tasks.o
+ .debug_ranges  0x00000738       0x18 build/default/production/_ext/977502197/drv_spi_api.o
+ .debug_ranges  0x00000750       0x18 build/default/production/_ext/977502197/drv_spi_master_ebm_tasks.o
+ .debug_ranges  0x00000768       0xe8 build/default/production/_ext/915312864/drv_spi.o
+ .debug_ranges  0x00000850       0xe0 build/default/production/_ext/2077795248/drv_spi_sys_queue_fifo.o
+ .debug_ranges  0x00000930      0x240 build/default/production/_ext/1298913485/drv_tmr.o
+ .debug_ranges  0x00000b70       0xb0 build/default/production/_ext/327000265/drv_usart_mapping.o
+ .debug_ranges  0x00000c20      0x108 build/default/production/_ext/327000265/drv_usart_static.o
+ .debug_ranges  0x00000d28       0x38 build/default/production/_ext/327000265/drv_usart_static_buffer_queue.o
+ .debug_ranges  0x00000d60       0x78 build/default/production/_ext/327000265/drv_usart_static_read_write.o
+ .debug_ranges  0x00000dd8       0x40 build/default/production/_ext/639803181/sys_clk_pic32mx.o
+ .debug_ranges  0x00000e18      0x1f8 build/default/production/_ext/2001008086/sys_command.o
+ .debug_ranges  0x00001010       0x50 build/default/production/_ext/1544295906/sys_console.o
+ .debug_ranges  0x00001060       0x80 build/default/production/_ext/1544295906/sys_console_uart.o
+ .debug_ranges  0x000010e0       0x68 build/default/production/_ext/340578644/sys_devcon.o
+ .debug_ranges  0x00001148       0x10 build/default/production/_ext/340578644/sys_devcon_pic32mx.o
+ .debug_ranges  0x00001158       0x50 build/default/production/_ext/1735427962/sys_int_pic32.o
+ .debug_ranges  0x000011a8      0x160 build/default/production/_ext/822048611/sys_ports_static.o
+ .debug_ranges  0x00001308       0x28 build/default/production/_ext/327917790/sys_random.o
+ .debug_ranges  0x00001330       0x28 build/default/production/_ext/68765530/sys_reset.o
+ .debug_ranges  0x00001358      0x148 build/default/production/_ext/1417409628/sys_tmr.o
+ .debug_ranges  0x000014a0       0x30 build/default/production/_ext/1881663949/helpers.o
+ .debug_ranges  0x000014d0      0x1b0 build/default/production/_ext/26143033/ipv4.o
+ .debug_ranges  0x00001680      0x530 build/default/production/_ext/26143033/udp.o
+ .debug_ranges  0x00001bb0       0x38 build/default/production/_ext/26143033/tcpip_heap_alloc.o
+ .debug_ranges  0x00001be8       0xa0 build/default/production/_ext/26143033/tcpip_heap_internal.o
+ .debug_ranges  0x00001c88      0x1c0 build/default/production/_ext/26143033/arp.o
+ .debug_ranges  0x00001e48       0x58 build/default/production/_ext/26143033/dns.o
+ .debug_ranges  0x00001ea0       0x18 build/default/production/_ext/26143033/hash_fnv.o
+ .debug_ranges  0x00001eb8       0x58 build/default/production/_ext/26143033/oahash.o
+ .debug_ranges  0x00001f10      0x418 build/default/production/_ext/26143033/tcpip_helpers.o
+ .debug_ranges  0x00002328      0x640 build/default/production/_ext/26143033/tcpip_manager.o
+ .debug_ranges  0x00002968       0x30 build/default/production/_ext/26143033/tcpip_notify.o
+ .debug_ranges  0x00002998       0x68 build/default/production/_ext/26143033/tcpip_packet.o
+ .debug_ranges  0x00002a00       0x18 build/default/production/_ext/1688732426/system_init.o
+ .debug_ranges  0x00002a18       0x28 build/default/production/_ext/1688732426/system_interrupt.o
+ .debug_ranges  0x00002a40       0x10 build/default/production/_ext/1688732426/system_tasks.o
+ .debug_ranges  0x00002a50       0x28 build/default/production/_ext/1360937237/app_commands.o
+ .debug_ranges  0x00002a78       0x60 build/default/production/_ext/1360937237/UDP_app.o
+ .debug_ranges  0x00002ad8       0x38 build/default/production/_ext/1360937237/main.o
  .debug_ranges  0x00002b10       0x98 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3\libgcc.a(_udivdi3.o)
  .debug_ranges  0x00002ba8       0x10 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
  .debug_ranges  0x00002bb8       0x10 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
@@ -4018,121 +4018,121 @@ END GROUP
  .gnu.attributes
                 0x00000090       0x10 build/default/production/_ext/1360937237/output_compare.o
  .gnu.attributes
-                0x000000a0       0x10 build/default/production/_ext/996065237/drv_encx24j600_spi_bus.o
+                0x000000a0       0x10 build/default/production/_ext/1517938894/Adafruit7830.o
  .gnu.attributes
-                0x000000b0       0x10 build/default/production/_ext/1600828880/drv_encx24j600_closed_state.o
+                0x000000b0       0x10 build/default/production/_ext/996065237/drv_encx24j600_spi_bus.o
  .gnu.attributes
-                0x000000c0       0x10 build/default/production/_ext/472602724/drv_encx24j600_initialization_state.o
+                0x000000c0       0x10 build/default/production/_ext/1600828880/drv_encx24j600_closed_state.o
  .gnu.attributes
-                0x000000d0       0x10 build/default/production/_ext/472602724/drv_encx24j600_configure_state.o
+                0x000000d0       0x10 build/default/production/_ext/472602724/drv_encx24j600_initialization_state.o
  .gnu.attributes
-                0x000000e0       0x10 build/default/production/_ext/472602724/drv_encx24j600_detect_state.o
+                0x000000e0       0x10 build/default/production/_ext/472602724/drv_encx24j600_configure_state.o
  .gnu.attributes
-                0x000000f0       0x10 build/default/production/_ext/472602724/drv_encx24j600_reset_state.o
+                0x000000f0       0x10 build/default/production/_ext/472602724/drv_encx24j600_detect_state.o
  .gnu.attributes
-                0x00000100       0x10 build/default/production/_ext/1728422854/drv_encx24j600_tx_packet.o
+                0x00000100       0x10 build/default/production/_ext/472602724/drv_encx24j600_reset_state.o
  .gnu.attributes
-                0x00000110       0x10 build/default/production/_ext/1728422854/drv_encx24j600_rx_packet.o
+                0x00000110       0x10 build/default/production/_ext/1728422854/drv_encx24j600_tx_packet.o
  .gnu.attributes
-                0x00000120       0x10 build/default/production/_ext/999618079/drv_encx24j600_running_state.o
+                0x00000120       0x10 build/default/production/_ext/1728422854/drv_encx24j600_rx_packet.o
  .gnu.attributes
-                0x00000130       0x10 build/default/production/_ext/999618079/drv_encx24j600_change_duplex_state.o
+                0x00000130       0x10 build/default/production/_ext/999618079/drv_encx24j600_running_state.o
  .gnu.attributes
-                0x00000140       0x10 build/default/production/_ext/999618079/drv_encx24j600_check_int_state.o
+                0x00000140       0x10 build/default/production/_ext/999618079/drv_encx24j600_change_duplex_state.o
  .gnu.attributes
-                0x00000150       0x10 build/default/production/_ext/999618079/drv_encx24j600_check_status_state.o
+                0x00000150       0x10 build/default/production/_ext/999618079/drv_encx24j600_check_int_state.o
  .gnu.attributes
-                0x00000160       0x10 build/default/production/_ext/999618079/drv_encx24j600_check_tx_status_state.o
+                0x00000160       0x10 build/default/production/_ext/999618079/drv_encx24j600_check_status_state.o
  .gnu.attributes
-                0x00000170       0x10 build/default/production/_ext/999618079/drv_encx24j600_reset_rx_state.o
+                0x00000170       0x10 build/default/production/_ext/999618079/drv_encx24j600_check_tx_status_state.o
  .gnu.attributes
-                0x00000180       0x10 build/default/production/_ext/820865379/drv_encx24j600_api.o
+                0x00000180       0x10 build/default/production/_ext/999618079/drv_encx24j600_reset_rx_state.o
  .gnu.attributes
-                0x00000190       0x10 build/default/production/_ext/820865379/drv_encx24j600_main_state.o
+                0x00000190       0x10 build/default/production/_ext/820865379/drv_encx24j600_api.o
  .gnu.attributes
-                0x000001a0       0x10 build/default/production/_ext/820865379/drv_encx24j600_utils.o
+                0x000001a0       0x10 build/default/production/_ext/820865379/drv_encx24j600_main_state.o
  .gnu.attributes
-                0x000001b0       0x10 build/default/production/_ext/977502197/drv_spi_tasks.o
+                0x000001b0       0x10 build/default/production/_ext/820865379/drv_encx24j600_utils.o
  .gnu.attributes
-                0x000001c0       0x10 build/default/production/_ext/977502197/drv_spi_api.o
+                0x000001c0       0x10 build/default/production/_ext/977502197/drv_spi_tasks.o
  .gnu.attributes
-                0x000001d0       0x10 build/default/production/_ext/977502197/drv_spi_master_ebm_tasks.o
+                0x000001d0       0x10 build/default/production/_ext/977502197/drv_spi_api.o
  .gnu.attributes
-                0x000001e0       0x10 build/default/production/_ext/915312864/drv_spi.o
+                0x000001e0       0x10 build/default/production/_ext/977502197/drv_spi_master_ebm_tasks.o
  .gnu.attributes
-                0x000001f0       0x10 build/default/production/_ext/2077795248/drv_spi_sys_queue_fifo.o
+                0x000001f0       0x10 build/default/production/_ext/915312864/drv_spi.o
  .gnu.attributes
-                0x00000200       0x10 build/default/production/_ext/1298913485/drv_tmr.o
+                0x00000200       0x10 build/default/production/_ext/2077795248/drv_spi_sys_queue_fifo.o
  .gnu.attributes
-                0x00000210       0x10 build/default/production/_ext/327000265/drv_usart_mapping.o
+                0x00000210       0x10 build/default/production/_ext/1298913485/drv_tmr.o
  .gnu.attributes
-                0x00000220       0x10 build/default/production/_ext/327000265/drv_usart_static.o
+                0x00000220       0x10 build/default/production/_ext/327000265/drv_usart_mapping.o
  .gnu.attributes
-                0x00000230       0x10 build/default/production/_ext/327000265/drv_usart_static_buffer_queue.o
+                0x00000230       0x10 build/default/production/_ext/327000265/drv_usart_static.o
  .gnu.attributes
-                0x00000240       0x10 build/default/production/_ext/327000265/drv_usart_static_read_write.o
+                0x00000240       0x10 build/default/production/_ext/327000265/drv_usart_static_buffer_queue.o
  .gnu.attributes
-                0x00000250       0x10 build/default/production/_ext/639803181/sys_clk_pic32mx.o
+                0x00000250       0x10 build/default/production/_ext/327000265/drv_usart_static_read_write.o
  .gnu.attributes
-                0x00000260       0x10 build/default/production/_ext/2001008086/sys_command.o
+                0x00000260       0x10 build/default/production/_ext/639803181/sys_clk_pic32mx.o
  .gnu.attributes
-                0x00000270       0x10 build/default/production/_ext/1544295906/sys_console.o
+                0x00000270       0x10 build/default/production/_ext/2001008086/sys_command.o
  .gnu.attributes
-                0x00000280       0x10 build/default/production/_ext/1544295906/sys_console_uart.o
+                0x00000280       0x10 build/default/production/_ext/1544295906/sys_console.o
  .gnu.attributes
-                0x00000290       0x10 build/default/production/_ext/340578644/sys_devcon.o
+                0x00000290       0x10 build/default/production/_ext/1544295906/sys_console_uart.o
  .gnu.attributes
-                0x000002a0       0x10 build/default/production/_ext/340578644/sys_devcon_pic32mx.o
+                0x000002a0       0x10 build/default/production/_ext/340578644/sys_devcon.o
  .gnu.attributes
-                0x000002b0       0x10 build/default/production/_ext/1735427962/sys_int_pic32.o
+                0x000002b0       0x10 build/default/production/_ext/340578644/sys_devcon_pic32mx.o
  .gnu.attributes
-                0x000002c0       0x10 build/default/production/_ext/822048611/sys_ports_static.o
+                0x000002c0       0x10 build/default/production/_ext/1735427962/sys_int_pic32.o
  .gnu.attributes
-                0x000002d0       0x10 build/default/production/_ext/327917790/sys_random.o
+                0x000002d0       0x10 build/default/production/_ext/822048611/sys_ports_static.o
  .gnu.attributes
-                0x000002e0       0x10 build/default/production/_ext/68765530/sys_reset.o
+                0x000002e0       0x10 build/default/production/_ext/327917790/sys_random.o
  .gnu.attributes
-                0x000002f0       0x10 build/default/production/_ext/1417409628/sys_tmr.o
+                0x000002f0       0x10 build/default/production/_ext/68765530/sys_reset.o
  .gnu.attributes
-                0x00000300       0x10 build/default/production/_ext/1881663949/helpers.o
+                0x00000300       0x10 build/default/production/_ext/1417409628/sys_tmr.o
  .gnu.attributes
-                0x00000310       0x10 build/default/production/_ext/26143033/ipv4.o
+                0x00000310       0x10 build/default/production/_ext/1881663949/helpers.o
  .gnu.attributes
-                0x00000320       0x10 build/default/production/_ext/26143033/udp.o
+                0x00000320       0x10 build/default/production/_ext/26143033/ipv4.o
  .gnu.attributes
-                0x00000330       0x10 build/default/production/_ext/26143033/tcpip_heap_alloc.o
+                0x00000330       0x10 build/default/production/_ext/26143033/udp.o
  .gnu.attributes
-                0x00000340       0x10 build/default/production/_ext/26143033/tcpip_heap_internal.o
+                0x00000340       0x10 build/default/production/_ext/26143033/tcpip_heap_alloc.o
  .gnu.attributes
-                0x00000350       0x10 build/default/production/_ext/26143033/arp.o
+                0x00000350       0x10 build/default/production/_ext/26143033/tcpip_heap_internal.o
  .gnu.attributes
-                0x00000360       0x10 build/default/production/_ext/26143033/dns.o
+                0x00000360       0x10 build/default/production/_ext/26143033/arp.o
  .gnu.attributes
-                0x00000370       0x10 build/default/production/_ext/26143033/hash_fnv.o
+                0x00000370       0x10 build/default/production/_ext/26143033/dns.o
  .gnu.attributes
-                0x00000380       0x10 build/default/production/_ext/26143033/oahash.o
+                0x00000380       0x10 build/default/production/_ext/26143033/hash_fnv.o
  .gnu.attributes
-                0x00000390       0x10 build/default/production/_ext/26143033/tcpip_helpers.o
+                0x00000390       0x10 build/default/production/_ext/26143033/oahash.o
  .gnu.attributes
-                0x000003a0       0x10 build/default/production/_ext/26143033/tcpip_manager.o
+                0x000003a0       0x10 build/default/production/_ext/26143033/tcpip_helpers.o
  .gnu.attributes
-                0x000003b0       0x10 build/default/production/_ext/26143033/tcpip_notify.o
+                0x000003b0       0x10 build/default/production/_ext/26143033/tcpip_manager.o
  .gnu.attributes
-                0x000003c0       0x10 build/default/production/_ext/26143033/tcpip_packet.o
+                0x000003c0       0x10 build/default/production/_ext/26143033/tcpip_notify.o
  .gnu.attributes
-                0x000003d0       0x10 build/default/production/_ext/1688732426/system_init.o
+                0x000003d0       0x10 build/default/production/_ext/26143033/tcpip_packet.o
  .gnu.attributes
-                0x000003e0       0x10 build/default/production/_ext/1688732426/system_interrupt.o
+                0x000003e0       0x10 build/default/production/_ext/1688732426/system_init.o
  .gnu.attributes
-                0x000003f0       0x10 build/default/production/_ext/1688732426/system_tasks.o
+                0x000003f0       0x10 build/default/production/_ext/1688732426/system_interrupt.o
  .gnu.attributes
-                0x00000400       0x10 build/default/production/_ext/1360937237/app_commands.o
+                0x00000400       0x10 build/default/production/_ext/1688732426/system_tasks.o
  .gnu.attributes
-                0x00000410       0x10 build/default/production/_ext/1360937237/UDP_app.o
+                0x00000410       0x10 build/default/production/_ext/1360937237/app_commands.o
  .gnu.attributes
-                0x00000420       0x10 build/default/production/_ext/1360937237/main.o
+                0x00000420       0x10 build/default/production/_ext/1360937237/UDP_app.o
  .gnu.attributes
-                0x00000430       0x10 build/default/production/_ext/1517938894/Adafruit7830.o
+                0x00000430       0x10 build/default/production/_ext/1360937237/main.o
  .gnu.attributes
                 0x00000440       0x10 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3\libgcc.a(_udivdi3.o)
  .gnu.attributes
@@ -4293,19 +4293,19 @@ LOAD data_init
  .data          0xa0009fac       0x30 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\liblega-c.a(rand.o)
  .data          0xa0009fdc       0x28 build/default/production/_ext/915312864/drv_spi.o
 
-.bss            0xa000a004       0x44
+.bss            0xa000a004       0x24
  .bss           0xa000a004       0x24 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(sbrk.o)
                 0xa000a020                _maxbrk
                 0xa000a024                _minbrk
- .bss           0xa000a028       0x20 build/default/production/_ext/327000265/drv_usart_static.o
-                0xa000a028                gDrvUSART0Obj
 
-.bss            0xa000a048       0x20
- .bss           0xa000a048       0x20 build/default/production/_ext/26143033/ipv4.o
+.data           0xa000a028       0x20
+ .data          0xa000a028       0x20 build/default/production/_ext/1517938894/Adafruit7830.o
+                0xa000a028                messages_canaux
 
-.data           0xa000a068       0x20
- .data          0xa000a068       0x20 build/default/production/_ext/1517938894/Adafruit7830.o
-                0xa000a068                messages_canaux
+.bss            0xa000a048       0x40
+ .bss           0xa000a048       0x20 build/default/production/_ext/327000265/drv_usart_static.o
+                0xa000a048                gDrvUSART0Obj
+ .bss           0xa000a068       0x20 build/default/production/_ext/26143033/ipv4.o
 
 .bss            0xa000a088       0x30
  .bss           0xa000a088       0x18 build/default/production/_ext/1544295906/sys_console.o
@@ -5111,20 +5111,20 @@ LOAD data_init
  .text._DRV_TMR_ClockSourceSet
                 0x9d014824       0xf4 build/default/production/_ext/1298913485/drv_tmr.o
 
+.rodata         0x9d014918       0xf0
+ .rodata        0x9d014918       0xf0 build/default/production/_ext/1517938894/Adafruit7830.o
+
 .text.DRV_ENCX24J600_InitStateTask
-                0x9d014918       0xf0
+                0x9d014a08       0xf0
  .text.DRV_ENCX24J600_InitStateTask
-                0x9d014918       0xf0 build/default/production/_ext/472602724/drv_encx24j600_initialization_state.o
-                0x9d014918                DRV_ENCX24J600_InitStateTask
+                0x9d014a08       0xf0 build/default/production/_ext/472602724/drv_encx24j600_initialization_state.o
+                0x9d014a08                DRV_ENCX24J600_InitStateTask
 
 .text.TCPIP_UDP_Disconnect
-                0x9d014a08       0xf0
+                0x9d014af8       0xf0
  .text.TCPIP_UDP_Disconnect
-                0x9d014a08       0xf0 build/default/production/_ext/26143033/udp.o
-                0x9d014a08                TCPIP_UDP_Disconnect
-
-.rodata         0x9d014af8       0xf0
- .rodata        0x9d014af8       0xf0 build/default/production/_ext/1517938894/Adafruit7830.o
+                0x9d014af8       0xf0 build/default/production/_ext/26143033/udp.o
+                0x9d014af8                TCPIP_UDP_Disconnect
 
 .text._mon_getc
                 0x9d014be8       0xf0
@@ -5413,17 +5413,17 @@ LOAD data_init
  .text          0x9d017314       0xa8 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(memset.o)
                 0x9d017314                memset
 
-.text.TCPIP_IPV4_Initialize
-                0x9d0173bc       0xa4
- .text.TCPIP_IPV4_Initialize
-                0x9d0173bc       0xa4 build/default/production/_ext/26143033/ipv4.o
-                0x9d0173bc                TCPIP_IPV4_Initialize
-
 .text.Read_8_channels_Adafruit7830
-                0x9d017460       0xa4
+                0x9d0173bc       0xa4
  .text.Read_8_channels_Adafruit7830
-                0x9d017460       0xa4 build/default/production/_ext/1517938894/Adafruit7830.o
-                0x9d017460                Read_8_channels_Adafruit7830
+                0x9d0173bc       0xa4 build/default/production/_ext/1517938894/Adafruit7830.o
+                0x9d0173bc                Read_8_channels_Adafruit7830
+
+.text.TCPIP_IPV4_Initialize
+                0x9d017460       0xa4
+ .text.TCPIP_IPV4_Initialize
+                0x9d017460       0xa4 build/default/production/_ext/26143033/ipv4.o
+                0x9d017460                TCPIP_IPV4_Initialize
 
 .text.LCD_WriteStringAtPos
                 0x9d017504       0xa0
@@ -5592,28 +5592,28 @@ LOAD data_init
                 0x9d018534       0x88 build/default/production/_ext/1360937237/main.o
                 0x9d018534                ManageSwitches
 
-.text.DRV_ENCX24J600_Status
+.text.variation_detectee
                 0x9d0185bc       0x84
+ .text.variation_detectee
+                0x9d0185bc       0x84 build/default/production/_ext/1517938894/Adafruit7830.o
+                0x9d0185bc                variation_detectee
+
+.text.DRV_ENCX24J600_Status
+                0x9d018640       0x84
  .text.DRV_ENCX24J600_Status
-                0x9d0185bc       0x84 build/default/production/_ext/820865379/drv_encx24j600_api.o
-                0x9d0185bc                DRV_ENCX24J600_Status
+                0x9d018640       0x84 build/default/production/_ext/820865379/drv_encx24j600_api.o
+                0x9d018640                DRV_ENCX24J600_Status
 
 .text._DRV_SPI_SYS_QUEUE_UnlockQueue
-                0x9d018640       0x84
+                0x9d0186c4       0x84
  .text._DRV_SPI_SYS_QUEUE_UnlockQueue
-                0x9d018640       0x84 build/default/production/_ext/2077795248/drv_spi_sys_queue_fifo.o
-                0x9d018640                _DRV_SPI_SYS_QUEUE_UnlockQueue
+                0x9d0186c4       0x84 build/default/production/_ext/2077795248/drv_spi_sys_queue_fifo.o
+                0x9d0186c4                _DRV_SPI_SYS_QUEUE_UnlockQueue
 
 .text._DRV_TMR_ModuleObj
-                0x9d0186c4       0x84
- .text._DRV_TMR_ModuleObj
-                0x9d0186c4       0x84 build/default/production/_ext/1298913485/drv_tmr.o
-
-.text.variation_detectee
                 0x9d018748       0x84
- .text.variation_detectee
-                0x9d018748       0x84 build/default/production/_ext/1517938894/Adafruit7830.o
-                0x9d018748                variation_detectee
+ .text._DRV_TMR_ModuleObj
+                0x9d018748       0x84 build/default/production/_ext/1298913485/drv_tmr.o
 
 .text           0x9d0187cc       0x84
  .text          0x9d0187cc       0x84 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(pic32_data_init.o)
@@ -5688,40 +5688,40 @@ LOAD data_init
                 0x9d018e30       0x7c c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\liblega-c.a(snprintf_cdnopsuxX.eo)
                 0x9d018e30                _snprintf_cdnopsuxX
 
-.text.DRV_ENCX24J600_EventAcknowledge
+.text.Affichage_param_audio_button
                 0x9d018eac       0x78
+ .text.Affichage_param_audio_button
+                0x9d018eac       0x78 build/default/production/_ext/1517938894/Adafruit7830.o
+                0x9d018eac                Affichage_param_audio_button
+
+.text.DRV_ENCX24J600_EventAcknowledge
+                0x9d018f24       0x78
  .text.DRV_ENCX24J600_EventAcknowledge
-                0x9d018eac       0x78 build/default/production/_ext/820865379/drv_encx24j600_api.o
-                0x9d018eac                DRV_ENCX24J600_EventAcknowledge
+                0x9d018f24       0x78 build/default/production/_ext/820865379/drv_encx24j600_api.o
+                0x9d018f24                DRV_ENCX24J600_EventAcknowledge
 
 .text.DRV_TMR_CounterValueGet
-                0x9d018f24       0x78
+                0x9d018f9c       0x78
  .text.DRV_TMR_CounterValueGet
-                0x9d018f24       0x78 build/default/production/_ext/1298913485/drv_tmr.o
-                0x9d018f24                DRV_TMR_CounterValueGet
+                0x9d018f9c       0x78 build/default/production/_ext/1298913485/drv_tmr.o
+                0x9d018f9c                DRV_TMR_CounterValueGet
 
 .text.TCPIP_Helper_ProtectedSingleListDeinitialize
-                0x9d018f9c       0x78
+                0x9d019014       0x78
  .text.TCPIP_Helper_ProtectedSingleListDeinitialize
-                0x9d018f9c       0x78 build/default/production/_ext/26143033/tcpip_helpers.o
-                0x9d018f9c                TCPIP_Helper_ProtectedSingleListDeinitialize
+                0x9d019014       0x78 build/default/production/_ext/26143033/tcpip_helpers.o
+                0x9d019014                TCPIP_Helper_ProtectedSingleListDeinitialize
 
 .text.TCPIP_PKT_Initialize
-                0x9d019014       0x78
+                0x9d01908c       0x78
  .text.TCPIP_PKT_Initialize
-                0x9d019014       0x78 build/default/production/_ext/26143033/tcpip_packet.o
-                0x9d019014                TCPIP_PKT_Initialize
+                0x9d01908c       0x78 build/default/production/_ext/26143033/tcpip_packet.o
+                0x9d01908c                TCPIP_PKT_Initialize
 
 .text._UDP_Commands_SendUDPPacket
-                0x9d01908c       0x78
- .text._UDP_Commands_SendUDPPacket
-                0x9d01908c       0x78 build/default/production/_ext/1360937237/app_commands.o
-
-.text.Affichage_param_audio_button
                 0x9d019104       0x78
- .text.Affichage_param_audio_button
-                0x9d019104       0x78 build/default/production/_ext/1517938894/Adafruit7830.o
-                0x9d019104                Affichage_param_audio_button
+ .text._UDP_Commands_SendUDPPacket
+                0x9d019104       0x78 build/default/production/_ext/1360937237/app_commands.o
 
 .text.litodp    0x9d01917c       0x78
  .text.litodp   0x9d01917c       0x78 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libm.a(litodp.o)
@@ -6066,7 +6066,7 @@ LOAD data_init
 .text.main_entry
                 0x9d01a998       0x54
  .text.main_entry
-                0x9d01a998       0x54 C:\Users\adams\AppData\Local\Temp\ccsGo35V.o
+                0x9d01a998       0x54 C:\Users\adams\AppData\Local\Temp\cc0oT2XD.o
                 0x9d01a9cc                __crt0_exit
 
 .text.DRV_SPI_SYS_QUEUE_Enqueue

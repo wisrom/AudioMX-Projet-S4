@@ -104,7 +104,7 @@ void Read_8_channels_Adafruit7830(unsigned char *adc_values){
 }
 
 // Détermine le channel à aficher sur le LCD
-unsigned char variation_detectee(char *courant, char *ancien, unsigned char* index) {
+unsigned char variation_detectee(unsigned char *courant, unsigned char *ancien, unsigned char* index) {
     unsigned char i; //iterateur
     // Détermine si une variation plus grande que le SEUIL_VARIATION est détecter sur l'un des paramètres audio
     for (i = 0; i < NB_CH - 2; i++) {
