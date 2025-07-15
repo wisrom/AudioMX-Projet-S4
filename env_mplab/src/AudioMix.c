@@ -22,23 +22,29 @@ uint8_t apply_clipping_distortion(uint8_t sample, uint8_t level)
 // Fonction de distorsion overdrive (saturation douce)
 uint8_t apply_overdrive_distortion(uint8_t sample, uint8_t level)
 {
-    int16_t centered_sample = sample - 127;  // Centrer autour de 0
-    int16_t gain = 1 + (level / 25);         // Gain basé sur le niveau
-    
-    // Amplification
-    centered_sample *= gain;
-    
-    // Saturation douce (tanh approximé)
-    if (centered_sample > 100)
-        centered_sample = 100 - (centered_sample - 100) / 4;
-    else if (centered_sample < -100)
-        centered_sample = -100 - (centered_sample + 100) / 4;
-    
-    // Limiter et recentrer
-    if (centered_sample > 127) centered_sample = 127;
-    if (centered_sample < -127) centered_sample = -127;
-    
-    return centered_sample + 127;
+    // Centrer l'échantillon autour de 0 : [0, 255] ? [-127, 128]
+    int16_t centered_sample = (int16_t)sample - 127;
+
+    // Calcul d?un gain entier en fonction de level ? [0,255]
+    // Gain ? [1, 10]  (approximé sans virgule flottante)
+    // gain = 1 + (level * 9) / 255
+    uint8_t gain = 1 + ((uint16_t)level * 9) / 255;
+
+    // Appliquer le gain
+    int16_t amplified = centered_sample * gain;
+
+    // Saturation douce (approximation tanh en entier)
+    if (amplified > 100)
+        amplified = 100 + (amplified - 100) / 4;  // Écrêtage progressif
+    else if (amplified < -100)
+        amplified = -100 + (amplified + 100) / 4;
+
+    // Limiter à l?intervalle [-127, +127]
+    if (amplified > 127) amplified = 127;
+    if (amplified < -127) amplified = -127;
+
+    // Recentrer dans [0, 255]
+    return (uint8_t)(amplified + 127);
 }
 
 // Fonction de distorsion fuzz (distorsion carrée)
