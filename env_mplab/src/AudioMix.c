@@ -19,46 +19,65 @@ uint8_t apply_clipping_distortion(uint8_t sample, uint8_t level)
         return sample;
 }
 
-// Fonction de distorsion overdrive (saturation douce)
+
+
 uint8_t apply_overdrive_distortion(uint8_t sample, uint8_t level)
 {
-    // Centrer l'échantillon autour de 0 : [0, 255] ? [-127, 128]
-    int16_t centered_sample = (int16_t)sample - 127;
-
-    // Calcul d?un gain entier en fonction de level ? [0,255]
-    // Gain ? [1, 10]  (approximé sans virgule flottante)
-    // gain = 1 + (level * 9) / 255
-    uint8_t gain = 1 + ((uint16_t)level * 9) / 255;
-
-    // Appliquer le gain
-    int16_t amplified = centered_sample * gain;
-
-    // Saturation douce (approximation tanh en entier)
-    if (amplified > 100)
-        amplified = 100 + (amplified - 100) / 4;  // Écrêtage progressif
-    else if (amplified < -100)
-        amplified = -100 + (amplified + 100) / 4;
-
-    // Limiter à l?intervalle [-127, +127]
-    if (amplified > 127) amplified = 127;
-    if (amplified < -127) amplified = -127;
-
-    // Recentrer dans [0, 255]
-    return (uint8_t)(amplified + 127);
-}
-
-// Fonction de distorsion fuzz (distorsion carrée)
-uint8_t apply_fuzz_distortion(uint8_t sample, uint8_t level)
-{
-    uint8_t threshold = 255 - level;
-    
-    if (sample > 127 + threshold/4)
-        return 255;
-    else if (sample < 127 - threshold/4)
-        return 0;
-    else
+    // Si est tres bas, le signal ne change pas
+    if (level <= 3)
+    {
         return sample;
+    }
+    
+    // Conversion en signal centré autour de 0 (-128 à +127)
+    int16_t centered_sample = (int16_t)sample - 128;
+    
+    // Calcul du seuil de clipping autour de 0 (entre 2 et 32)
+    int16_t threshold = 32 - ((int32_t)level * 30) / 255;
+    
+    // Application de la distorsion par clipping
+    int16_t distorted;
+    if (centered_sample > threshold)
+    {
+        distorted = threshold;
+    }
+    else if (centered_sample < -threshold)
+    {
+        distorted = -threshold;
+    }
+    else
+    {
+        distorted = centered_sample;
+    }
+    
+    // Calcul de la compensation de volume si aucun clipping
+    uint16_t compensation = 1 << 8; // 1.0 en Q8.8 (aucune compensation)
+    
+    // Calcul de la compensation de volume si clipping
+    if (threshold < 32)
+    {
+        // Compensation inversement proportionnelle au seuil en Q8.8
+        compensation = (32 << 8) / threshold;
+    }
+    
+    // Application de la compensation de volume (et retour a l'echelle normale)
+    distorted = ((int32_t)distorted * compensation) >> 8;
+    
+    // Limites avant débordement
+    if (distorted > 127)
+    {
+        distorted = 127;
+    }
+    else if (distorted < -128)
+    {
+        distorted = -128;
+    }
+    
+    // Reconversion en uint8_t (0-255)
+    return (uint8_t)(distorted + 128);
 }
+
+
 
 // Fonction principale de distorsion
 uint8_t apply_distortion(uint8_t sample)
