@@ -44,6 +44,7 @@
 #define NB_CH 8 // défini le nombre de channel à lire
 #define SEUIL_VARIATION 3// seuil de variation
 #define DELAI_MIXAGE 1500 // délai afin que MIXAGE EN COURS aparraisse sur le LCD
+extern unsigned char extern_adc[NB_CH]; // tableau qui contient les valeurs des 8 channels de l'ADC
 
 /* v. https://cdn-learn.adafruit.com/assets/assets/000/125/826/original/ads7830.pdf?1699028569 section Address Byte, p.13 */
 #define ADS7830_ADDR  0x48    // Default Adress I2C de l'ADC externe Adafruit7830 
