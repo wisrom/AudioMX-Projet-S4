@@ -36,11 +36,14 @@
  
   Changer l'unité d'affichage des différents paramètres
 /* ************************************************************************** */
+
+
 #include <xc.h>
 #include <stdio.h>
 #include "Adafruit7830.h"
 #include "i2c.h"
 #include "lcd.h"
+#include "AudioMix.h"
 
 // Tableau local pour stocker les 8 valeurs ADC lues sur les canaux 0 à 7
 unsigned char extern_adc[NB_CH]; // tableau qui contient les valeurs des 8 channels de l'ADC
