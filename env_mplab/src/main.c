@@ -167,14 +167,9 @@ void ManageSwitches()
         LATACLR=0x00FF;
         samples=128;
     }
-    if (!sw4_old && sw4_new)
-    {
-        
-    }
+   
     
-        //set_distortion_enabled(0);
-        //set_distortion_level(75);
-        //set_distortion_type(2);
+   
     // Mettre à jour l'état précédent pour la prochaine détection
     sw0_old = sw0_new;
     sw2_old = sw2_new;

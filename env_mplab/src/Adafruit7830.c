@@ -224,3 +224,10 @@ void Affiche_EXTERN_ADC_LCD(void)
     // Affiche la deuxième ligne (ligne2) sur la ligne 1 (bas) du LCD à la position 0
     LCD_WriteStringAtPos(ligne2, 1, 0);
 }
+
+uint8_t scale_adc_for_sensor(uint8_t raw)
+{
+    uint16_t scaled = ((uint16_t)raw * 255) / 177;
+    if (scaled > 255) scaled = 255; // sécurité
+    return (uint8_t)scaled;
+}

@@ -44,10 +44,12 @@ void __ISR(_TIMER_4_VECTOR, IPL1AUTO) duty_cyle_update()
     /* Condition de lecture dans le tampon de mémoire A */
     if (buffer_select && buffer_ready)
     {
+        uint8_t adjusted_sample = 0;;
         current_sample = buffer_A[read_index++];
         
         // Application de la distorsion
-        current_sample = apply_overdrive_distortion(current_sample, extern_adc[5]);
+        adjusted_sample = scale_adc_for_sensor(extern_adc[5]);
+        current_sample = apply_overdrive_distortion(current_sample, adjusted_sample);
         // Application du reverb
         uint8_t reverb_audio_sample = reverb(current_sample, extern_adc[1]);
         
@@ -59,9 +61,10 @@ void __ISR(_TIMER_4_VECTOR, IPL1AUTO) duty_cyle_update()
     else if (!buffer_select && buffer_ready)
     {
         current_sample = buffer_B[read_index++];
-        
+        uint8_t adjusted_sample = 0;
         // Application de la distorsion
-        current_sample = apply_overdrive_distortion(current_sample, extern_adc[5]);
+        adjusted_sample = scale_adc_for_sensor(extern_adc[5]);
+        current_sample = apply_overdrive_distortion(current_sample, adjusted_sample);
         uint8_t reverb_audio_sample = reverb(current_sample, extern_adc[1]);
         /* Modification du duty cycle avec l'échantillon distordu */
         OC1RS = (uint16_t)(reverb_audio_sample * (PR2 + 1) / 255);

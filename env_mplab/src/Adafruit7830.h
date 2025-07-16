@@ -85,6 +85,7 @@ unsigned char variation_detectee(unsigned char *courant, unsigned char *ancien, 
 // Itère l'affichage des paramètres du LCD avec BTNU et BTND
 void Affichage_param_audio_button(void);
 
+uint8_t scale_adc_for_sensor(uint8_t raw);
 #endif /*ADAFRUIT7830_H  */
 
 /* *****************************************************************************
