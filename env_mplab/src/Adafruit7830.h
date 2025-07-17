@@ -42,7 +42,7 @@
 #define ADAFRUIT7830_H
 
 #define NB_CH 8 // défini le nombre de channel à lire
-#define SEUIL_VARIATION 3// seuil de variation
+#define SEUIL_VARIATION 5// seuil de variation
 #define DELAI_MIXAGE 1500 // délai afin que MIXAGE EN COURS aparraisse sur le LCD
 extern unsigned char extern_adc[NB_CH]; // tableau qui contient les valeurs des 8 channels de l'ADC
 

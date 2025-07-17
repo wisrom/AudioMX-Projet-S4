@@ -15,7 +15,7 @@
 
 
 
-/* Cette fonction permet d'initialiser et d?marrer le timer 2 ? 120 kHz. */
+/* Cette fonction permet d'initialiser et d?marrer le timer 2 ? 240 kHz. */
 void initialize_timer2()
 {
     /* R?initialisation du registre complet ? 0. */
@@ -26,11 +26,11 @@ void initialize_timer2()
     T2CONbits.TGATE = 0;
     T2CONbits.TCS = 0;
     
-    /* Les valeurs du diviseur N et de PR2 sont respectivement de 1 et 399 pour
-     * obtenir F = Fpbclk / (N(PR3 + 1)) = 48 MHz / (1 * 400) = 120 kHz.
+    /* Les valeurs du diviseur N et de PR2 sont respectivement de 1 et 99 pour
+     * obtenir F = Fpbclk / (N(PR3 + 1)) = 48 MHz / (1 * 100) = 480 kHz.
      * Voir p.174 datasheet PIC32MX. */
     T2CONbits.TCKPS = 0b000; // Diviseur N de 1
-    PR2 = 399;
+    PR2 = 99;
     TMR2 = 0; // Initialisation du compteur ? 0
     
     /* Conditions d'interruptions reli?es au timer 2.
