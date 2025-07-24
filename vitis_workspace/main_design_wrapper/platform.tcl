@@ -1,0 +1,43 @@
+platform generate -domains 
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform active {main_design_wrapper}
+platform config -updatehw {C:/Users/rapha/S4/Projet/Z_20250723/labo1/hw/main_design_wrapper.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/rapha/S4/Projet/Z_20250723/labo1/hw/main_design_wrapper.xsa}
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate

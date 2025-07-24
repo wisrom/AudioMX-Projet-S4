@@ -1,0 +1,28 @@
+Nothing to build in platform 'main_design_wrapper'
+
+13:23:01 **** Incremental Build of configuration Debug for project projet_vitis ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -IC:/Users/rapha/S4/Projet/Z_20250723/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/sw/main_design_wrapper/standalone_domain/bspinclude/include -I"C:\Users\rapha\S4\Projet\Z_20250723\labo1\vitis_workspace\projet_vitis\src" -c -fmessage-length=0 -MT"src/main.o" -IC:/Users/rapha/S4/Projet/Z_20250723/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/sw/main_design_wrapper/standalone_domain/bspinclude/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'systemInit':
+../src/main.c:496:12: warning: variable 'error' set but not used [-Wunused-but-set-variable]
+  496 |    error_t error;
+      |            ^~~~~
+../src/main.c: In function 'uartInit':
+../src/main.c:576:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  576 |  int Status;
+      |      ^~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: projet_vitis.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/rapha/S4/Projet/Z_20250723/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/sw/main_design_wrapper/standalone_domain/bsplib/lib -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "projet_vitis.elf"  ./src/cyclone_tcp/std_services/echo.o  ./src/cyclone_tcp/ipv4/arp.o ./src/cyclone_tcp/ipv4/ipv4.o  ./src/cyclone_tcp/drivers/eth/enc624j600_driver.o  ./src/cyclone_tcp/core/ethernet.o ./src/cyclone_tcp/core/ip.o ./src/cyclone_tcp/core/net.o ./src/cyclone_tcp/core/net_mem.o ./src/cyclone_tcp/core/nic.o ./src/cyclone_tcp/core/socket.o ./src/cyclone_tcp/core/udp.o  ./src/cyclone_tcp/ext_int_driver.o ./src/cyclone_tcp/spi_driver.o  ./src/common/cpu_endian.o ./src/common/date_time.o ./src/common/os_port_none.o  ./src/FIFO_FFT_driver.o ./src/fft.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: projet_vitis.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size projet_vitis.elf  |tee "projet_vitis.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  35940	    592	2099724	2136256	 2098c0	projet_vitis.elf
+'Finished building: projet_vitis.elf.size'
+' '
