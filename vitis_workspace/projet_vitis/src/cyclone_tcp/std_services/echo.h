@@ -32,7 +32,7 @@
 //Dependencies
 #include "cyclone_tcp/core/net.h"
 #include "cyclone_tcp/core/socket.h"
-
+#include "FIFO_FFT_driver.h"
 //Stack size required to run the echo service
 #ifndef ECHO_SERVICE_STACK_SIZE
    #define ECHO_SERVICE_STACK_SIZE 600
@@ -79,7 +79,8 @@ typedef struct
 } EchoServiceContext;
 
 extern EchoServiceContext context;
-
+extern u32 SourceBuffer[MAX_DATA_BUFFER_SIZE];
+extern u32 FFTBuffer[MAX_DATA_BUFFER_SIZE];
 //UDP echo service related functions
 error_t udpEchoStart(void);
 void udpEchoTask(void);

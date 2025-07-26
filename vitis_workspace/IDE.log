@@ -2175,3 +2175,107 @@ con
 15:49:22 INFO  : Result from executing command 'getPlatforms': main_design_wrapper|C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/main_design_wrapper.xpfm
 15:49:22 INFO  : Checking for BSP changes to sync application flags for project 'projet_vitis'...
 16:00:11 INFO  : Disconnected from the channel tcfchan#17.
+16:01:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:01:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:01:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:01:16 INFO  : Jtag cable 'Digilent Zybo Z7 210351B3FE4FA' is selected.
+16:01:16 INFO  : Jtag cable 'Digilent Zybo Z7 210351B3FE4FA' is selected.
+16:01:16 INFO  : Jtag cable 'Digilent Zybo Z7 210351B3FE4FA' is selected.
+16:01:16 INFO  : 'jtag frequency' command is executed.
+16:01:16 INFO  : 'jtag frequency' command is executed.
+16:01:16 INFO  : 'jtag frequency' command is executed.
+16:01:16 INFO  : Context for 'APU' is selected.
+16:01:16 INFO  : Context for 'APU' is selected.
+16:01:16 INFO  : Context for 'APU' is selected.
+16:01:16 INFO  : System reset is completed.
+16:01:16 INFO  : System reset is completed.
+16:01:16 INFO  : System reset is completed.
+16:01:19 INFO  : 'after 3000' command is executed.
+16:01:22 INFO  : 'after 3000' command is executed.
+16:01:25 INFO  : 'after 3000' command is executed.
+16:01:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B3FE4FA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B3FE4FA-13722093-0"}' command is executed.
+16:01:33 INFO  : Device configured successfully with "C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/projet_vitis/_ide/bitstream/main_design_wrapper.bit"
+16:01:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B3FE4FA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B3FE4FA-13722093-0"}' command is executed.
+16:01:36 INFO  : Device configured successfully with "C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/projet_vitis/_ide/bitstream/main_design_wrapper.bit"
+16:34:21 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\gabma\ProjetS4\labo_2\labo1\vitis_workspace\temp_xsdb_launch_script.tcl
+16:34:24 INFO  : XSCT server has started successfully.
+16:34:24 INFO  : plnx-install-location is set to ''
+16:34:24 INFO  : Successfully done setting XSCT server connection channel  
+16:34:24 INFO  : Successfully done setting workspace for the tool. 
+16:34:29 INFO  : Platform repository initialization has completed.
+16:34:29 INFO  : Registering command handlers for Vitis TCF services
+16:34:34 INFO  : Successfully done query RDI_DATADIR 
+16:53:06 INFO  : Result from executing command 'getProjects': main_design_wrapper
+16:53:06 INFO  : Result from executing command 'getPlatforms': main_design_wrapper|C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/main_design_wrapper.xpfm
+16:53:06 INFO  : Checking for BSP changes to sync application flags for project 'projet_vitis'...
+16:55:03 INFO  : Result from executing command 'getProjects': main_design_wrapper
+16:55:03 INFO  : Result from executing command 'getPlatforms': main_design_wrapper|C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/main_design_wrapper.xpfm
+16:55:03 INFO  : Checking for BSP changes to sync application flags for project 'projet_vitis'...
+16:55:59 INFO  : Result from executing command 'getProjects': main_design_wrapper
+16:55:59 INFO  : Result from executing command 'getPlatforms': main_design_wrapper|C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/main_design_wrapper.xpfm
+16:56:00 INFO  : Checking for BSP changes to sync application flags for project 'projet_vitis'...
+16:57:55 INFO  : Result from executing command 'getProjects': main_design_wrapper
+16:57:55 INFO  : Result from executing command 'getPlatforms': main_design_wrapper|C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/main_design_wrapper.xpfm
+16:57:55 INFO  : Checking for BSP changes to sync application flags for project 'projet_vitis'...
+16:58:40 INFO  : Result from executing command 'getProjects': main_design_wrapper
+16:58:40 INFO  : Result from executing command 'getPlatforms': main_design_wrapper|C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/main_design_wrapper.xpfm
+16:58:40 INFO  : Checking for BSP changes to sync application flags for project 'projet_vitis'...
+16:59:45 INFO  : Result from executing command 'getProjects': main_design_wrapper
+16:59:45 INFO  : Result from executing command 'getPlatforms': main_design_wrapper|C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/main_design_wrapper.xpfm
+16:59:45 INFO  : Checking for BSP changes to sync application flags for project 'projet_vitis'...
+17:04:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:04:53 INFO  : Jtag cable 'Digilent Zybo Z7 210351B3FE4FA' is selected.
+17:04:53 INFO  : 'jtag frequency' command is executed.
+17:04:53 INFO  : Context for 'APU' is selected.
+17:04:53 INFO  : System reset is completed.
+17:04:56 INFO  : 'after 3000' command is executed.
+17:04:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B3FE4FA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B3FE4FA-13722093-0"}' command is executed.
+17:04:57 INFO  : Device configured successfully with "C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/projet_vitis/_ide/bitstream/main_design_wrapper.bit"
+17:04:58 INFO  : Context for 'APU' is selected.
+17:04:58 INFO  : Hardware design and registers information is loaded from 'C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/hw/main_design_wrapper.xsa'.
+17:04:58 INFO  : 'configparams force-mem-access 1' command is executed.
+17:04:58 INFO  : Context for 'APU' is selected.
+17:04:58 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:04:58 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+17:04:58 INFO  : The application 'C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/sw/main_design_wrapper/boot/fsbl.elf' is downloaded to processor 'ps7_cortexa9_0'.
+17:04:58 INFO  : 'set bp_4_58_fsbl_bp [bpadd -addr &FsblHandoffJtagExit]' command is executed.
+17:04:59 INFO  : 'con -block -timeout 60' command is executed.
+17:04:59 INFO  : 'bpremove $bp_4_58_fsbl_bp' command is executed.
+17:04:59 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:04:59 INFO  : Context for processor 'microblaze_0' is selected.
+17:05:00 INFO  : The application 'C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/projet_vitis/Debug/projet_vitis.elf' is downloaded to processor 'microblaze_0'.
+17:05:00 INFO  : 'configparams force-mem-access 0' command is executed.
+17:05:00 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B3FE4FA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B3FE4FA-13722093-0"}
+fpga -file C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/projet_vitis/_ide/bitstream/main_design_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/hw/main_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+targets -set -nocase -filter {name =~ "*A9*#0"}
+rst -processor
+dow C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/sw/main_design_wrapper/boot/fsbl.elf
+set bp_4_58_fsbl_bp [bpadd -addr &FsblHandoffJtagExit]
+con -block -timeout 60
+bpremove $bp_4_58_fsbl_bp
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/projet_vitis/Debug/projet_vitis.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+17:05:00 INFO  : Context for processor 'microblaze_0' is selected.
+17:05:00 INFO  : 'con' command is executed.
+17:05:00 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:05:00 INFO  : Launch script is exported to file 'C:\Users\gabma\ProjetS4\labo_2\labo1\vitis_workspace\projet_vitis_system\_ide\scripts\debugger_projet_vitis-default.tcl'
+17:15:28 INFO  : Result from executing command 'getProjects': main_design_wrapper
+17:15:28 INFO  : Result from executing command 'getPlatforms': main_design_wrapper|C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/main_design_wrapper.xpfm
+17:15:28 INFO  : Checking for BSP changes to sync application flags for project 'projet_vitis'...

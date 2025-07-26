@@ -139,7 +139,7 @@ void Interupt_ACL_Init(void)
 }
 static bool sw0_old = false;
 static bool sw2_old = false;
-static uint8_t samples = 128; // Exemple : valeur initiale
+uint8_t samples = 128; // Exemple : valeur initiale
 uint32_t sample_buffer = 0;
 
 
@@ -293,7 +293,7 @@ void MAIN_Tasks ( void )
         case MAIN_STATE_SERVICE_TASKS:
         {
             LedTask(); //toggle LED1 à tout les 500000 cycles
-            accel_tasks(); // 
+            //accel_tasks(); // 
             //RGB_Task();
             UDP_Tasks();
             ManageSwitches();

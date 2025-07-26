@@ -39,7 +39,7 @@
 #include "cyclone_tcp/std_services/echo.h"
 #include "xil_io.h"
 #include "cyclone_tcp/core/socket.h"
-
+#include "fft.h"
 //Check TCP/IP stack configuration
 #if (NET_STATIC_OS_RESOURCES == ENABLED)
 
@@ -48,8 +48,8 @@ static OsTask udpEchoTaskStruct;
 static uint_t udpEchoTaskStack[ECHO_SERVICE_STACK_SIZE];
 
 #endif
-
-
+u32 FFTBuffer[MAX_DATA_BUFFER_SIZE];
+u32 SourceBuffer[MAX_DATA_BUFFER_SIZE];
 /**
  * @brief Start TCP echo service
  * @return Error code
@@ -156,8 +156,9 @@ void udpReceiveTreatment(void){
 	    print("echantillon recu : ");
 	    //printInt(sample);
 	    print("\n\r");
-
-	    sample = sample >> 1;
+	    do_forward_FFT(SourceBuffer, FFTBuffer);
+	    print("\nFFT is done\r");
+	    sample = 0x08;
 
 	    context.buffer[1] = sample;
 	    socketSendTo(context.socket, &ipAddr, port, context.buffer, 2, NULL, 0);

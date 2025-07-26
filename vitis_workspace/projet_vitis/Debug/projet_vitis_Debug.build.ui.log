@@ -1,4 +1,4 @@
-2025-07-26T15:49:22.6450900255-15:49:22 **** Build of configuration Debug for project projet_vitis ****
+2025-07-26T17:15:28.629339700255-17:15:28 **** Build of configuration Debug for project projet_vitis ****
 000-make all 
 000-'Building file: ../src/cyclone_tcp/std_services/echo.c'
 000-'Invoking: MicroBlaze gcc compiler'
@@ -138,9 +138,9 @@
 000-'Invoking: MicroBlaze Print Size'
 000-mb-size projet_vitis.elf  |tee "projet_vitis.elf.size"
 000-   text	   data	    bss	    dec	    hex	filename
-000- 130864	   1892	2102812	2235568	 221cb0	projet_vitis.elf
+000- 131340	   2020	2102816	2236176	 221f10	projet_vitis.elf
 000-'Finished building: projet_vitis.elf.size'
 000-' '
 00255-
-15:49:28 Build Finished (took 5s.537ms)
+17:15:33 Build Finished (took 4s.720ms)
 

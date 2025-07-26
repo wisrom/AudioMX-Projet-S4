@@ -357,7 +357,7 @@ build/default/debug/_ext/1360937237/UDP_app.o: ../src/UDP_app.c \
  ../src/system_config/default/framework/tcpip/tcpip_commands.h \
  ../src/system_config/default/framework/tcpip/tftps.h \
  ../src/system_config/default/framework/driver/ethmac/drv_ethmac.h \
- ../src/main.h ../src/app_commands.h
+ ../src/main.h ../src/app_commands.h ../src/adc.h ../src/config.h
 
 ../src/UDP_app.h:
 
@@ -1080,3 +1080,7 @@ build/default/debug/_ext/1360937237/UDP_app.o: ../src/UDP_app.c \
 ../src/main.h:
 
 ../src/app_commands.h:
+
+../src/adc.h:
+
+../src/config.h:

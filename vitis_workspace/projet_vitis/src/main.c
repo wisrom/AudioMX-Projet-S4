@@ -77,8 +77,8 @@ XGpio outputLED;
 #define MAX_FFT_SIZE 1024
 
 // Buffers principaux (signal et résultat FFT)
-u32 FFTBuffer[MAX_DATA_BUFFER_SIZE];      // Résultat FFT (même format)
-u32 SourceBuffer[MAX_DATA_BUFFER_SIZE];
+extern u32 FFTBuffer[MAX_DATA_BUFFER_SIZE];      // Résultat FFT (même format)
+extern u32 SourceBuffer[MAX_DATA_BUFFER_SIZE];
 u32 iFFTResult[MAX_DATA_BUFFER_SIZE];
 
 //uint32_t SourceBuffer[MAX_FFT_SIZE] = {
@@ -813,8 +813,8 @@ int_t main(void)
 	  		   else
 	  			   {
 	  			   	   udpReceiveTreatment();//udpEchoTask();
-	  			   	   print("\nyooo sa marche presque");
-	  			   	   printInt(0x5);
+	  			   	   //print("\nyooo sa marche presque");
+	  			   	   //printInt(0x5);
 	  			   }
 	  	   }
 	  	   else

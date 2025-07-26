@@ -58,8 +58,10 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 #include "tcpip/tcpip.h"
 
 #include "app_commands.h"
+#include "adc.h"
 #define SERVER_PORT 8080
 int8_t _UDP_PumpDNS(const char * hostname, IPV4_ADDR *ipv4Addr);
+extern volatile uint8_t send_buffer;
 // *****************************************************************************
 // *****************************************************************************
 // Section: Global Data Definitions
@@ -272,9 +274,15 @@ void _UDP_ClientTasks() {
                     else if (received_sample==16)
                         LATAbits.LATA5^=1;
                     else if (received_sample==8)
+                    {
+                        send_buffer = 1;
                         LATAbits.LATA4^=1;
+                    }
                     else
+                    {
+                        send_buffer = 0;
                         LATAbits.LATA3^=1;
+                    }
 
                 }
                 // Pas de fermeture du socket on veux une connection continue

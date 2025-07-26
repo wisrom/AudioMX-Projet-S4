@@ -1,6 +1,6 @@
-15:49:13 **** Build of project main_design_wrapper ****
-buildplatform.bat 49797 main_design_wrapper  
-XSDB Server Channel: tcfchan#37
+17:15:21 **** Build of project main_design_wrapper ****
+buildplatform.bat 50289 main_design_wrapper  
+XSDB Server Channel: tcfchan#15
 Building the zynq_fsbl application.
 make: Entering directory 'C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/zynq_fsbl/zynq_fsbl_bsp'
 
@@ -234,34 +234,38 @@ files -g -Wall -Wextra"
 
 "Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_8/src"
 
-make -C ps7_cortexa9_0/libsrc/qspips_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
-RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
-files -g -Wall -Wextra"
-
 "Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_3/src"
 
 "Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_3/src"
+
+make -C ps7_cortexa9_0/libsrc/qspips_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+files -g -Wall -Wextra"
 
 make -C ps7_cortexa9_0/libsrc/scugic_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
 RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
 files -g -Wall -Wextra"
 
-"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_3/src"
-
 make -C ps7_cortexa9_0/libsrc/scutimer_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
 "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
 rtfiles -g -Wall -Wextra"
+
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_3/src"
+
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_3/src"
 
 make -C ps7_cortexa9_0/libsrc/scuwdt_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
 RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
 files -g -Wall -Wextra"
 
-"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_3/src"
-
 make -C ps7_cortexa9_0/libsrc/standalone_v7_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
 " "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
 tartfiles -g -Wall -Wextra"
 
+In file included from usleep.c:34:
+xtime_l.h:65:9: note: #pragma message: For the sleep routines, Global timer is being used
+   65 | #pragma message ("For the sleep routines, Global timer is being used")
+      |         ^~~~~~~
 "Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_10/src"
 
 make -C ps7_cortexa9_0/libsrc/uartps_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
@@ -270,20 +274,6 @@ tfiles -g -Wall -Wextra"
 
 "Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_5/src"
 
-make -C ps7_cortexa9_0/libsrc/xadcps_v2_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
-RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
-files -g -Wall -Wextra"
-
-"Running Make libs in ps7_cortexa9_0/libsrc/xilffs_v4_4/src"
-
-make -C ps7_cortexa9_0/libsrc/xilffs_v4_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
-RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
-files -g -Wall -Wextra"
-
-In file included from usleep.c:34:
-xtime_l.h:65:9: note: #pragma message: For the sleep routines, Global timer is being used
-   65 | #pragma message ("For the sleep routines, Global timer is being used")
-      |         ^~~~~~~
 In file included from xil_sleeptimer.c:32:
 xtime_l.h:65:9: note: #pragma message: For the sleep routines, Global timer is being used
    65 | #pragma message ("For the sleep routines, Global timer is being used")
@@ -292,6 +282,16 @@ In file included from xtime_l.c:27:
 xtime_l.h:65:9: note: #pragma message: For the sleep routines, Global timer is being used
    65 | #pragma message ("For the sleep routines, Global timer is being used")
       |         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/xilffs_v4_4/src"
+
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+files -g -Wall -Wextra"
+
+make -C ps7_cortexa9_0/libsrc/xilffs_v4_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+files -g -Wall -Wextra"
+
 In file included from sleep.c:31:
 xtime_l.h:65:9: note: #pragma message: For the sleep routines, Global timer is being used
    65 | #pragma message ("For the sleep routines, Global timer is being used")
@@ -480,11 +480,11 @@ XTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
 
 "Running Make libs in microblaze_0/libsrc/intc_v3_12/src"
 
+"Running Make libs in microblaze_0/libsrc/llfifo_v5_5/src"
+
 make -C microblaze_0/libsrc/intc_v3_12/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
 FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" "
 EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
-
-"Running Make libs in microblaze_0/libsrc/llfifo_v5_5/src"
 
 make -C microblaze_0/libsrc/llfifo_v5_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
 _FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" 
@@ -492,27 +492,27 @@ _FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-x
 
 "Running Make libs in microblaze_0/libsrc/qspips_v3_8/src"
 
-make -C microblaze_0/libsrc/qspips_v3_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
-_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" 
-"EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
-
-"Running Make libs in microblaze_0/libsrc/spi_v4_7/src"
-
-make -C microblaze_0/libsrc/spi_v4_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_FL
-AGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" "EX
-TRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
-
 "Running Make libs in microblaze_0/libsrc/standalone_v7_3/src"
 
-make -C microblaze_0/libsrc/standalone_v7_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
-ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sq
-rt" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/spi_v4_7/src"
 
 "Running Make libs in microblaze_0/libsrc/uartlite_v3_5/src"
 
 make -C microblaze_0/libsrc/uartlite_v3_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
 ER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt
 " "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+make -C microblaze_0/libsrc/qspips_v3_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" 
+"EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+make -C microblaze_0/libsrc/spi_v4_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_FL
+AGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" "EX
+TRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+make -C microblaze_0/libsrc/standalone_v7_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sq
+rt" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
 
 "Running Make libs in microblaze_0/libsrc/uartps_v3_10/src"
 
@@ -562,5 +562,5 @@ mb-ar: creating microblaze_0/lib/libxil.a
 'Finished building libraries'
 
 
-15:49:22 Build Finished (took 8s.614ms)
+17:15:28 Build Finished (took 7s.221ms)
 
