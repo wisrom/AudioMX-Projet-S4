@@ -83,7 +83,8 @@ extern EchoServiceContext context;
 //UDP echo service related functions
 error_t udpEchoStart(void);
 void udpEchoTask(void);
-
+void udpReceiveTreatment(void);
+void printInt(uint8_t val);
 //C++ guard
 #ifdef __cplusplus
    }

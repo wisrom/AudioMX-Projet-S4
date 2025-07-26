@@ -1,6 +1,6 @@
 /***************************** Include Files *********************************/
 #include "FIFO_FFT_driver.h"
-
+//#include "cyclone_tcp/ext_int_driver.h"
 
 
 #undef DEBUG
@@ -26,42 +26,14 @@ XLlFifo FifoInstance, FifoInstance2;
 
 //stuff for interrupt management
 XIntc InterruptController; /* Instance of the Interrupt Controller */
-
+//cyclone_tcp/ext_int_driver.c
 void AXIS_InterruptHandler(void *CallbackRef)
 {
 	xil_printf("In interrupt\n\r");
 	FifoHandler(&FifoInstance);
 }
 
-int SetupInterruptSystem()
-{
-	int Status;
 
-	Status = XIntc_Initialize(&InterruptController, XPAR_INTC_0_DEVICE_ID);
-
-	/*
-	 * Connect a device driver handler that will be called when an interrupt
-	 * for the device occurs, the device driver handler performs the
-	 * specific interrupt processing for the device.
-	 */
-	Status = XIntc_Connect(&InterruptController, XPAR_INTC_0_LLFIFO_0_VEC_ID,
-			   (XInterruptHandler)AXIS_InterruptHandler,
-			   (void *)0);
-
-	Status = XIntc_Start(&InterruptController, XIN_REAL_MODE);
-
-	XIntc_Enable(&InterruptController, XPAR_INTC_0_LLFIFO_0_VEC_ID);
-
-	Xil_ExceptionInit();
-
-	Xil_ExceptionRegisterHandler(XIL_EXCEPTION_ID_INT,
-				(Xil_ExceptionHandler)XIntc_InterruptHandler,
-				&InterruptController);
-
-	Xil_ExceptionEnable();
-
-	return XST_SUCCESS;
-}
 
 int XLFifoInit(XLlFifo *InstancePtr, u16 DeviceId){
 

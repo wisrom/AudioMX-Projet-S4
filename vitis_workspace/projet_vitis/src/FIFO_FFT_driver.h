@@ -25,9 +25,9 @@ void FifoRecvHandler(XLlFifo *Fifo);
 void FifoSendHandler(XLlFifo *Fifo);
 void FifoErrorHandler(XLlFifo *InstancePtr, u32 Pending);
 void DisableIntrSystem(XIntc *IntcInstancePtr, u16 FifoIntrId);
-int SetupInterruptSystem();
+//int SetupInterruptSystem();
 int XLFifoInit(XLlFifo *InstancePtr, u16 DeviceId);
-
+void AXIS_InterruptHandler(void *CallbackRef);
 
 //FFT Bloc Parameters
 #define WORD_SIZE 4			/* Size of words in bytes */

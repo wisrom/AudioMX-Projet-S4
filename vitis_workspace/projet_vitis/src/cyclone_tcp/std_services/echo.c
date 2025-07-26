@@ -137,3 +137,58 @@ void udpEchoTask(void)
       }
    }
 }
+void udpReceiveTreatment(void){
+	error_t error;
+	size_t length;
+	uint16_t port;
+	IpAddr ipAddr;
+	uint8_t sample=0;
+
+
+
+	error = socketReceiveFrom(context.socket, &ipAddr, &port,
+	                             context.buffer, ECHO_BUFFER_SIZE, &length, 0);
+
+	if (!error && length == 2) //clé d'identification && context.buffer[0] == 0xAA
+	{
+	    sample = context.buffer[1];
+
+	    print("echantillon recu : ");
+	    //printInt(sample);
+	    print("\n\r");
+
+	    sample = sample >> 1;
+
+	    context.buffer[1] = sample;
+	    socketSendTo(context.socket, &ipAddr, port, context.buffer, 2, NULL, 0);
+	}
+	else{
+
+		print("Salut Alain");
+	}
+
+
+}
+
+//ajout de fonction printint(uint8_t val) pour debug dans vitis serial terminal
+void printInt(uint8_t val)
+{
+    char buffer[4]; // Max 3 chiffres pour un uint8_t (0�255) + '\0'
+    int i = 3;
+    buffer[i] = '\0';
+
+    if (val == 0)
+    {
+        print("0");
+        return;
+    }
+
+    while (val > 0 && i > 0)
+    {
+        i--;
+        buffer[i] = '0' + (val % 10);
+        val /= 10;
+    }
+
+    print(&buffer[i]); // Affiche � partir du premier chiffre utile
+}

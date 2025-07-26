@@ -44,7 +44,7 @@
 #include "cyclone_tcp/ext_int_driver.h"
 #include <stdbool.h>
 #include "fft.h"
-
+#include "FIFO_FFT_driver.h"
 
 //Application configuration
 #define APP_USE_DEFAULT_MAC_ADDR ENABLED
@@ -482,7 +482,6 @@ int16_t twiddleImag[MAX_FFT_SIZE/2] = {
 /**************FFT configuration************/
 
 
-
 unsigned int ReceivedCount = 0;
 
 /**
@@ -724,6 +723,39 @@ void InitProcessedData()
     }
 }
 
+int SetupInterruptSystem()
+{
+	int Status;
+
+	Status = XIntc_Initialize(&InterruptController, XPAR_INTC_0_DEVICE_ID);
+
+	/*
+	 * Connect a device driver handler that will be called when an interrupt
+	 * for the device occurs, the device driver handler performs the
+	 * specific interrupt processing for the device.
+	 */
+	Status = XIntc_Connect(&InterruptController, XPAR_INTC_0_LLFIFO_0_VEC_ID,
+			   (XInterruptHandler)AXIS_InterruptHandler,
+			   (void *)0);
+
+	Status = XIntc_Connect(&InterruptController, XPAR_MICROBLAZE_0_AXI_INTC_SYSTEM_INT_NIC100_INTR,
+				   (XInterruptHandler)ENC_Int_Handler,
+				   (void *)0);
+
+	Status = XIntc_Start(&InterruptController, XIN_REAL_MODE);
+
+	XIntc_Enable(&InterruptController, XPAR_INTC_0_LLFIFO_0_VEC_ID);
+
+	Xil_ExceptionInit();
+
+	Xil_ExceptionRegisterHandler(XIL_EXCEPTION_ID_INT,
+				(Xil_ExceptionHandler)XIntc_InterruptHandler,
+				&InterruptController);
+
+	Xil_ExceptionEnable();
+
+	return XST_SUCCESS;
+}
 
 
 
@@ -749,32 +781,56 @@ int_t main(void)
    initFIFO_FFT();
    //Create user task
    print("\n\rHello World 4\n\r");
-
+   SetupInterruptSystem();
+   systemInit();
+   netTaskInit();
 
    print("\nmerci1");
-   int my_var=1;
+   //int my_var=1;
 //   init_window(MAX_FFT_SIZE);
 //   print("\nwindow ok");
 //   init_twiddles(MAX_FFT_SIZE);
 //   print("\ntwiddles ok");
-//   InitProcessedData();
+   InitProcessedData();
 //   print("\ndata ok");
 
    while(1){
 
 	   blinkTask();
-	   uartTask();
-	   if(ReceivedCount){
-		   print("\nbien recu mageuzx\n");
-		   XUartLite_Send(&UartLite, RecvBuffer , ReceivedCount);
-		   ReceivedCount = 0;
-	   }
+	  	   uartTask();
+	  	   if(ReceivedCount){
+	  		   XUartLite_Send(&UartLite, RecvBuffer , ReceivedCount);
+	  		   //MYIP_S4E_4REG_mWriteReg(MY_IP_BASE_ADDRESS, MYIP_REG_0, counter);
+	  		   print("\nYEss");
+	  		   ReceivedCount = 0;
+	  	   }
+	  	   netTask();
+	  	   if(netInterface[0].linkState == 1){
+	  		   if(!udpSocketUp){
+	  			   	   udpEchoStart();
+	  				   udpSocketUp = true;
+	  		   }
+	  		   else
+	  			   {
+	  			   	   udpReceiveTreatment();//udpEchoTask();
+	  			   	   print("\nyooo sa marche presque");
+	  			   	   printInt(0x5);
+	  			   }
+	  	   }
+	  	   else
+	  	   {
+	  		   if(udpSocketUp){
+	  			   udpSocketUp = false;
+	  		   }
+
+	  	   }
+	  	/*
 	   if(my_var){
 		   print("\nbien recu chef\n");
 		   my_var=0;
 
 		   print("\n\rNew FFT-IFFT cycle\n\r");
-		   			   /* Writing into the FFT CONFIG Port */
+		   			   // Writing into the FFT CONFIG Port
 		   do_forward_FFT(SourceBuffer, FFTBuffer);
 
 		   do_reverse_FFT(FFTBuffer, iFFTResult);
@@ -806,7 +862,9 @@ int_t main(void)
 		   					       if (i < MAX_DATA_BUFFER_SIZE - 1) xil_printf(", ");
 		   					   }
 		   					print("]\n");
+
 	   }
+	   */
 
    }
 

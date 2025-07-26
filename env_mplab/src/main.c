@@ -156,10 +156,15 @@ void ManageSwitches()
         UDP_Send_Buffer[1] = samples;     // valeur à envoyer
         UDP_bytes_to_send = 2;
         UDP_Send_Packet = true;
-        samples = samples>>1;
+        //samples = samples>>1;
     }
     if (!sw2_old && sw2_new)
     {
+        
+        UDP_Send_Buffer[0] = 0xFF;       // identifiant du type : sample
+        UDP_Send_Buffer[1] = samples;     // valeur à envoyer
+        UDP_bytes_to_send = 2;
+        UDP_Send_Packet = true;
         LATACLR=0x00FF;
         samples=128;
     }
@@ -289,7 +294,7 @@ void MAIN_Tasks ( void )
         {
             LedTask(); //toggle LED1 à tout les 500000 cycles
             accel_tasks(); // 
-            RGB_Task();
+            //RGB_Task();
             UDP_Tasks();
             ManageSwitches();
             Affichage_param_audio_button();

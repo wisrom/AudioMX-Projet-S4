@@ -263,7 +263,7 @@ void _UDP_ClientTasks() {
                 {
                     uint16_t received_sample = UDP_Receive_Buffer[1]; // remplacé par uint16_t car 8 bits ce n'étais pas assez
                     SYS_CONSOLE_PRINT("\r\nClient: Received sample = %u\r\n", received_sample);
-
+                    
                     //LATA =received_sample;//allume la del correspondant au received sample
                     if (received_sample==64)
                         LATAbits.LATA7^=1;
