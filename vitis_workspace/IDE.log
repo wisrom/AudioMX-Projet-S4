@@ -2355,3 +2355,95 @@ con
 12:33:14 INFO  : Result from executing command 'getProjects': main_design_wrapper
 12:33:14 INFO  : Result from executing command 'getPlatforms': main_design_wrapper|C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/main_design_wrapper.xpfm
 12:33:14 INFO  : Checking for BSP changes to sync application flags for project 'projet_vitis'...
+17:02:59 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\adams\Desktop\S4\Projet\ProjetS4\Code\AudioMX-Projet-S4\vitis_workspace\temp_xsdb_launch_script.tcl
+17:03:02 INFO  : XSCT server has started successfully.
+17:03:02 INFO  : plnx-install-location is set to ''
+17:03:02 INFO  : Successfully done setting XSCT server connection channel  
+17:03:02 INFO  : Successfully done setting workspace for the tool. 
+17:08:54 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\adams\Desktop\S4\Projet\ProjetS4\Code\AudioMX-Projet-S4\vitis_workspace\temp_xsdb_launch_script.tcl
+17:08:56 INFO  : XSCT server has started successfully.
+17:08:56 INFO  : Successfully done setting XSCT server connection channel  
+17:08:56 INFO  : plnx-install-location is set to ''
+17:08:56 INFO  : Successfully done setting workspace for the tool. 
+17:26:00 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\adams\Desktop\S4\Projet\ProjetS4\Code\AudioMX-Projet-S4\vitis_workspace\temp_xsdb_launch_script.tcl
+17:26:02 INFO  : XSCT server has started successfully.
+17:26:02 INFO  : plnx-install-location is set to ''
+17:26:02 INFO  : Successfully done setting XSCT server connection channel  
+17:26:02 INFO  : Successfully done setting workspace for the tool. 
+17:26:06 INFO  : Platform repository initialization has completed.
+17:26:06 INFO  : Successfully done query RDI_DATADIR 
+17:26:07 INFO  : Registering command handlers for Vitis TCF services
+17:30:44 INFO  : Hardware specification for platform project 'main_design_wrapper' is updated.
+17:31:40 INFO  : Result from executing command 'getProjects': main_design_wrapper
+17:31:40 INFO  : Result from executing command 'getPlatforms': main_design_wrapper|C:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/vitis_workspace/main_design_wrapper/export/main_design_wrapper/main_design_wrapper.xpfm
+17:31:40 INFO  : Checking for BSP changes to sync application flags for project 'projet_vitis'...
+17:31:41 INFO  : Updating application flags with new BSP settings...
+17:31:42 INFO  : Successfully updated application flags for project projet_vitis.
+17:31:42 INFO  : The hardware specfication used by project 'projet_vitis' is out of sync with the platform. Resource files extracted from the hardware specfiication will be updated.
+17:31:42 INFO  : The file 'C:\Users\adams\Desktop\S4\Projet\ProjetS4\Code\AudioMX-Projet-S4\vitis_workspace\projet_vitis\_ide\bitstream\main_design_wrapper.bit' stored in project is removed.
+17:31:42 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\adams\Desktop\S4\Projet\ProjetS4\Code\AudioMX-Projet-S4\vitis_workspace\projet_vitis\_ide\bitstream' in project 'projet_vitis'.
+17:31:42 INFO  : The file 'C:\Users\adams\Desktop\S4\Projet\ProjetS4\Code\AudioMX-Projet-S4\vitis_workspace\projet_vitis\_ide\psinit\ps7_init.tcl' stored in project is removed.
+17:31:47 INFO  : The updated ps init files are copied from platform to folder 'C:\Users\adams\Desktop\S4\Projet\ProjetS4\Code\AudioMX-Projet-S4\vitis_workspace\projet_vitis\_ide\psinit' in project 'projet_vitis'.
+17:32:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:32:06 INFO  : Jtag cable 'Digilent Zybo Z7 210351A78085A' is selected.
+17:32:06 INFO  : 'jtag frequency' command is executed.
+17:32:06 INFO  : Context for 'APU' is selected.
+17:32:06 INFO  : System reset is completed.
+17:32:09 INFO  : 'after 3000' command is executed.
+17:32:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A78085A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A78085A-13722093-0"}' command is executed.
+17:32:11 INFO  : Device configured successfully with "C:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/vitis_workspace/projet_vitis/_ide/bitstream/main_design_wrapper.bit"
+17:32:11 INFO  : Context for 'APU' is selected.
+17:32:11 INFO  : Hardware design and registers information is loaded from 'C:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/vitis_workspace/main_design_wrapper/export/main_design_wrapper/hw/main_design_wrapper.xsa'.
+17:32:11 INFO  : 'configparams force-mem-access 1' command is executed.
+17:32:11 INFO  : Context for 'APU' is selected.
+17:32:11 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:32:11 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+17:32:12 INFO  : The application 'C:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/vitis_workspace/main_design_wrapper/export/main_design_wrapper/sw/main_design_wrapper/boot/fsbl.elf' is downloaded to processor 'ps7_cortexa9_0'.
+17:32:12 INFO  : 'set bp_32_12_fsbl_bp [bpadd -addr &FsblHandoffJtagExit]' command is executed.
+17:32:13 INFO  : 'con -block -timeout 60' command is executed.
+17:32:13 INFO  : 'bpremove $bp_32_12_fsbl_bp' command is executed.
+17:32:13 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:32:13 INFO  : 'configparams force-mem-access 0' command is executed.
+17:32:13 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A78085A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A78085A-13722093-0"}
+fpga -file C:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/vitis_workspace/projet_vitis/_ide/bitstream/main_design_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/vitis_workspace/main_design_wrapper/export/main_design_wrapper/hw/main_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+targets -set -nocase -filter {name =~ "*A9*#0"}
+rst -processor
+dow C:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/vitis_workspace/main_design_wrapper/export/main_design_wrapper/sw/main_design_wrapper/boot/fsbl.elf
+set bp_32_12_fsbl_bp [bpadd -addr &FsblHandoffJtagExit]
+con -block -timeout 60
+bpremove $bp_32_12_fsbl_bp
+configparams mdm-detect-bscan-mask 2
+configparams force-mem-access 0
+----------------End of Script----------------
+
+17:32:13 INFO  : Launch script is exported to file 'C:\Users\adams\Desktop\S4\Projet\ProjetS4\Code\AudioMX-Projet-S4\vitis_workspace\projet_vitis_system\_ide\scripts\debugger_projet_vitis-default.tcl'
+17:32:43 INFO  : Checking for BSP changes to sync application flags for project 'projet_vitis'...
+17:33:12 INFO  : Checking for BSP changes to sync application flags for project 'projet_vitis'...
+17:33:34 INFO  : Checking for BSP changes to sync application flags for project 'projet_vitis'...
+17:33:44 INFO  : Checking for BSP changes to sync application flags for project 'projet_vitis'...
+17:34:07 ERROR : Failed to update hardware specification for project 'main_design_wrapper'.
+Reason: Failed to execute command 'platform config -updatehw {C:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/vitis_workspace/main_design_wrapper/hw/main_design_wrapper.xsa}'. Click on details for more information.
+17:34:14 ERROR : Failed to read platform from project 'main_design_wrapper'.
+Reason: Failed to execute command 'platform read {C:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/vitis_workspace/main_design_wrapper/platform.spr}'. Click on details for more information.
+17:34:18 INFO  : Disconnected from the channel tcfchan#4.
+17:34:46 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\adams\Desktop\S4\Projet\ProjetS4\Code\AudioMX-Projet-S4\vitis_workspace\temp_xsdb_launch_script.tcl
+17:34:48 INFO  : XSCT server has started successfully.
+17:34:48 INFO  : Successfully done setting XSCT server connection channel  
+17:34:48 INFO  : plnx-install-location is set to ''
+17:34:48 INFO  : Successfully done setting workspace for the tool. 
+17:34:50 INFO  : Platform repository initialization has completed.
+17:34:51 INFO  : Successfully done query RDI_DATADIR 
+17:34:51 INFO  : Registering command handlers for Vitis TCF services
+17:34:56 ERROR : Failed to read platform from project 'main_design_wrapper'.
+Reason: Failed to execute command 'platform read {C:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/vitis_workspace/main_design_wrapper/platform.spr}'. Click on details for more information.
+17:40:10 ERROR : Failed to read platform from project 'main_design_wrapper'.
+Reason: Failed to execute command 'platform read {C:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/vitis_workspace/main_design_wrapper/platform.spr}'. Click on details for more information.

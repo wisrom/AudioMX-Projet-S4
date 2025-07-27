@@ -65,6 +65,7 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 #include "app_commands.h"
 #include "inputs_outputs.h"
 #include "adc.h"
+//#include "output_compare.h"
 #include "rgbled.h"
 #include <sys/attribs.h>
 #include "timers.h"
@@ -72,9 +73,6 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 //#include "output_compare.h"
 //Moyenne est faite direct sur la MX3 (GestionMoyenne dans accel.c)
 //La switch qui fait afficher Moyenne sur le LCD dans accel.C
-
-extern volatile uint8_t buffer_A[NB_SAMPLES];
-extern volatile uint8_t buffer_B[NB_SAMPLES];
 
 
 // *****************************************************************************
@@ -117,7 +115,6 @@ MAIN_DATA mainData;
 
 int Intense[3];
 int Last_Intense[3];
-extern volatile uint8_t Send_Pack; 
 /* Application's LED Task Function 
  Fonction qui fait clignoter une LED la LED1 à chaque 20000 execution du code
  */
@@ -250,29 +247,21 @@ void MAIN_Initialize ( void )
     //macro_enable_interrupts();
     
 }
+
+// Maintenant dans la routine d'interruption de l'adc
 void check_pack(void)
-{
-            UDP_Send_Buffer[0] = 0xAA;
-            UDP_Send_Buffer[1] = 0xAA;
-            UDP_bytes_to_send = 2;
-            UDP_Send_Packet = true;
-            Send_Pack = 0;
-            
-    if(Send_Pack == 1)
+{   
+    uint8_t i = 0;
+    if(Compte_Buffer_ready == 4)
     {
-          //UDP_Send_Buffer[0] = 0xAA;       // identifiant du type : sample
-          /*
-            for (uint8_t i = 1; i < 128; i++)
-            {
-                UDP_Send_Buffer[1 + i] = buffer_B[i];
-            }
-           
-            */
-            
-           
+        UDP_Send_Buffer[0] = 0xAA;       // identifiant du type : sample
+        for(i = 0; i < NB_SAMPLES; i++){
+            UDP_Send_Buffer[i + 1] = buffer_B[i];
         }
-        
-    
+        UDP_bytes_to_send = NB_SAMPLES + 1;
+        UDP_Send_Packet = true;
+        Compte_Buffer_ready = 0;
+       }
 }
 
 

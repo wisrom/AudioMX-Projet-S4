@@ -56,7 +56,6 @@ extern uint8_t samples;
 extern uint16_t UDP_bytes_to_send;
 extern bool UDP_Send_Packet;
 
-volatile uint8_t Send_Pack = 0; 
 /* Fonction d'interruption d?clench?e par l'ADC. Cette fonction permet
  * de stocker les donn?es de l'ADC ? 24 kHz. */
 void __ISR(_ADC_VECTOR, IPL6AUTO) adc_interrupt()
@@ -166,16 +165,6 @@ void __ISR(_ADC_VECTOR, IPL6AUTO) adc_interrupt()
         /* Acquisition en m?moire du signal d'entr?e. */
         
         buffer_A[write_index++] = jack_value;
-        
-        
-        /*
-        UDP_Send_Buffer[0] = 0xF3;       // identifiant du type : sample
-        UDP_Send_Buffer[1] = buffer_A[write_index++];     // valeur à envoyer
-        UDP_bytes_to_send = 2;
-        UDP_Send_Packet = true;
-         */
-        //send_buffer = 1;
-        //samples=128;
     }
    
     /* Condition d'?criture dans le tampon de m?moire B */
@@ -184,15 +173,6 @@ void __ISR(_ADC_VECTOR, IPL6AUTO) adc_interrupt()
         /* Acquisition en m?moire du signal d'entr?e. */
         
         buffer_B[write_index++] = jack_value;
-        
-        
-        /*
-        UDP_Send_Buffer[0] = 0xF7;       // identifiant du type : sample
-        UDP_Send_Buffer[1] = buffer_B[write_index++];     // valeur à envoyer
-        UDP_bytes_to_send = 2;
-        UDP_Send_Packet = true;
-         * */
-        
     }
     
     /* Tampon pr?t, r?initialisation de l'index et changement de tampon. */
@@ -202,19 +182,22 @@ void __ISR(_ADC_VECTOR, IPL6AUTO) adc_interrupt()
         write_index = 0;
         Compte_Buffer_ready++;
         buffer_select = !buffer_select;
-        if (Compte_Buffer_ready == 4)
-        {
-            Send_Pack = 1;
-            //UDP_Send_Buffer[0]=0xA;
-            //UDP_bytes_to_send = NB_SAMPLES+1;
-            
-            //UDP_Send_Packet = true;
-            Compte_Buffer_ready = 0;
-        }
-        
     }
     
-    
+    /*
+    // Cette partie peut aussi être dans le main dans la fonction check_pack
+    if(Compte_Buffer_ready == 4)
+    {
+        UDP_Send_Buffer[0] = 0xAA;       // identifiant du type : sample
+        uint8_t i = 0;
+        for(i = 0; i < NB_SAMPLES; i++){
+            UDP_Send_Buffer[i + 1] = buffer_B[i];
+        }
+        UDP_bytes_to_send = NB_SAMPLES + 1;
+        UDP_Send_Packet = true;
+        Compte_Buffer_ready = 0;
+    }
+     */
     IFS0bits.AD1IF = 0; // Retire le fanion d'interruption
 }
 
