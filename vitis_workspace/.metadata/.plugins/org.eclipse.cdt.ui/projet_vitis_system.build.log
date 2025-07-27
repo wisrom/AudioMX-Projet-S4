@@ -1,6 +1,6 @@
-16:07:32 **** Build of configuration Debug for project projet_vitis_system ****
+15:01:04 **** Incremental Build of configuration Debug for project projet_vitis_system ****
 make all 
 Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
 
-16:07:32 Build Finished (took 107ms)
+15:01:04 Build Finished (took 174ms)
 
