@@ -97,19 +97,24 @@ void __ISR(_ADC_VECTOR, IPL6AUTO) adc_interrupt()
     if (decoded_mean >= 6)
     {
         UDP_Send_Buffer[0] = 0xFF;       // identifiant du type : sample
-        UDP_Send_Buffer[1] = samples;     // valeur à envoyer
+        UDP_Send_Buffer[1] = mean;     // valeur à envoyer
         UDP_bytes_to_send = 2;
         UDP_Send_Packet = true;
-        
+        //send_buffer = 1;
         samples=128;
         if(send_buffer == 1)
         {
           rgb_sel = (rgb_sel + 1) % 7;
+          
         }
         else{
             
             //SYS_CONSOLE_MESSAGE("\r\nClient: Starting connection\r\n");
         }
+    }
+    else{
+        //send_buffer = 0;
+        UDP_Send_Packet = false;
     }
     
     /* Ajustement de l'intensit? des DELs RGB selon la moyenne et le mode actuel. */

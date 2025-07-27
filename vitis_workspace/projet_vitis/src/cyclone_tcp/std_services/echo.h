@@ -77,7 +77,9 @@ typedef struct
    Socket *socket;
    char_t buffer[ECHO_BUFFER_SIZE];
 } EchoServiceContext;
-
+#define MAX_FFT_LEN 128
+#define NO_OF_PACKETS 1
+#define MAX_DATA_BUFFER_SIZE NO_OF_PACKETS*MAX_FFT_LEN
 extern EchoServiceContext context;
 extern u32 SourceBuffer[MAX_DATA_BUFFER_SIZE];
 extern u32 FFTBuffer[MAX_DATA_BUFFER_SIZE];

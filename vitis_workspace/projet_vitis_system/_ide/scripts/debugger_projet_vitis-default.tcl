@@ -22,9 +22,9 @@ targets -set -nocase -filter {name =~"APU*"}
 targets -set -nocase -filter {name =~ "*A9*#0"}
 rst -processor
 dow C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/sw/main_design_wrapper/boot/fsbl.elf
-set bp_4_58_fsbl_bp [bpadd -addr &FsblHandoffJtagExit]
+set bp_30_45_fsbl_bp [bpadd -addr &FsblHandoffJtagExit]
 con -block -timeout 60
-bpremove $bp_4_58_fsbl_bp
+bpremove $bp_30_45_fsbl_bp
 configparams mdm-detect-bscan-mask 2
 targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
 dow C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/projet_vitis/Debug/projet_vitis.elf

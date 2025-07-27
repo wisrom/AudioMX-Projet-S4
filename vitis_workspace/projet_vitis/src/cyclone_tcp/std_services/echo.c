@@ -165,7 +165,7 @@ void udpReceiveTreatment(void){
 	}
 	else{
 
-		print("Salut Alain");
+		print("Salut Alain\n");
 	}
 
 
