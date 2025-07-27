@@ -1,6 +1,6 @@
-12:33:03 **** Build of project main_design_wrapper ****
+16:07:19 **** Build of project main_design_wrapper ****
 buildplatform.bat 50073 main_design_wrapper  
-XSDB Server Channel: tcfchan#3
+XSDB Server Channel: tcfchan#38
 Building the zynq_fsbl application.
 make: Entering directory 'C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/zynq_fsbl/zynq_fsbl_bsp'
 
@@ -236,6 +236,12 @@ files -g -Wall -Wextra"
 
 "Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_3/src"
 
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_3/src"
+
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_3/src"
+
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_3/src"
+
 make -C ps7_cortexa9_0/libsrc/qspips_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
 RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
 files -g -Wall -Wextra"
@@ -244,25 +250,19 @@ make -C ps7_cortexa9_0/libsrc/scugic_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm
 RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
 files -g -Wall -Wextra"
 
-"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_3/src"
-
 make -C ps7_cortexa9_0/libsrc/scutimer_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
 "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
 rtfiles -g -Wall -Wextra"
-
-"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_3/src"
 
 make -C ps7_cortexa9_0/libsrc/scuwdt_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
 RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
 files -g -Wall -Wextra"
 
-"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_3/src"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_10/src"
 
 make -C ps7_cortexa9_0/libsrc/standalone_v7_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
 " "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
 tartfiles -g -Wall -Wextra"
-
-"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_10/src"
 
 make -C ps7_cortexa9_0/libsrc/uartps_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
 ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
@@ -520,11 +520,11 @@ make -C microblaze_0/libsrc/uartps_v3_10/src -s libs  "SHELL=CMD" "COMPILER=mb-g
 R_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt"
  "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
 
-"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
-
 microblaze_sleep.c:55:9: note: #pragma message: For the sleep routines, assembly instructions are used
    55 | #pragma message ("For the sleep routines, assembly instructions are used")
       |         ^~~~~~~
+"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
 'Finished building libraries parallelly.'
 
 make --no-print-directory archive
@@ -562,5 +562,5 @@ mb-ar: creating microblaze_0/lib/libxil.a
 'Finished building libraries'
 
 
-12:33:14 Build Finished (took 10s.634ms)
+16:07:26 Build Finished (took 7s.631ms)
 

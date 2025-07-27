@@ -223,7 +223,7 @@ void _UDP_ClientTasks() {
             }
             SYS_CONSOLE_PRINT("Avail %d\r\n", TCPIP_UDP_PutIsReady(appData.clientSocket));
 //modif rb pour send uint_8            UDP_bytes_to_send = strlen(UDP_Send_Buffer);
-            SYS_CONSOLE_PRINT("Client: Sending %s", UDP_Send_Buffer);
+            //SYS_CONSOLE_PRINT("Client: Sending %s", UDP_Send_Buffer);
             TCPIP_UDP_ArrayPut(appData.clientSocket, (uint8_t*)UDP_Send_Buffer, UDP_bytes_to_send);
             
            // Envoie les données (flush = envoie obligatoire des données dans la pile, peu importe la quantité de données)

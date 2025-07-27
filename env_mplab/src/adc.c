@@ -21,6 +21,7 @@
 
 #define MAX_PACKET_SIZE 1536
 
+volatile uint8_t Compte_Buffer_ready = 0;
 /* Tampon de m?moire A de l'enregistrement. NB_SAMPLES = 128. */
 volatile uint8_t buffer_A[NB_SAMPLES] = {0};
 
@@ -54,6 +55,8 @@ extern char UDP_Send_Buffer[MAX_PACKET_SIZE+1];
 extern uint8_t samples; 
 extern uint16_t UDP_bytes_to_send;
 extern bool UDP_Send_Packet;
+
+volatile uint8_t Send_Pack = 0; 
 /* Fonction d'interruption d?clench?e par l'ADC. Cette fonction permet
  * de stocker les donn?es de l'ADC ? 24 kHz. */
 void __ISR(_ADC_VECTOR, IPL6AUTO) adc_interrupt()
@@ -65,7 +68,7 @@ void __ISR(_ADC_VECTOR, IPL6AUTO) adc_interrupt()
     /* Calcul de l'amplitude de l'?chantillon du micro. */
     int8_t signed_mic_value = (int8_t)(mic_value - 128);
     uint8_t mic_amp = abs(signed_mic_value);
-    
+    UDP_Send_Buffer[0]=0xAA;
     /* R?organisation du tampon d'amplitudes du micro et calcul de la moyenne. */
     sum -= mic_buffer[mic_buffer_index];
     mic_buffer[mic_buffer_index] = mic_amp;
@@ -96,17 +99,20 @@ void __ISR(_ADC_VECTOR, IPL6AUTO) adc_interrupt()
     
     if (decoded_mean >= 6)
     {
+        /*
         UDP_Send_Buffer[0] = 0xFF;       // identifiant du type : sample
         UDP_Send_Buffer[1] = mean;     // valeur à envoyer
         UDP_bytes_to_send = 2;
         UDP_Send_Packet = true;
         //send_buffer = 1;
         samples=128;
+         * */
+        
         if(send_buffer == 1)
         {
           rgb_sel = (rgb_sel + 1) % 7;
-          
         }
+         
         else{
             
             //SYS_CONSOLE_MESSAGE("\r\nClient: Starting connection\r\n");
@@ -156,14 +162,37 @@ void __ISR(_ADC_VECTOR, IPL6AUTO) adc_interrupt()
     /* Condition d'?criture dans le tampon de m?moire A. */
     if (!buffer_select)
     {
+        
         /* Acquisition en m?moire du signal d'entr?e. */
+        
         buffer_A[write_index++] = jack_value;
+        
+        
+        /*
+        UDP_Send_Buffer[0] = 0xF3;       // identifiant du type : sample
+        UDP_Send_Buffer[1] = buffer_A[write_index++];     // valeur à envoyer
+        UDP_bytes_to_send = 2;
+        UDP_Send_Packet = true;
+         */
+        //send_buffer = 1;
+        //samples=128;
     }
+   
     /* Condition d'?criture dans le tampon de m?moire B */
     else if (buffer_select)
     {
         /* Acquisition en m?moire du signal d'entr?e. */
+        
         buffer_B[write_index++] = jack_value;
+        
+        
+        /*
+        UDP_Send_Buffer[0] = 0xF7;       // identifiant du type : sample
+        UDP_Send_Buffer[1] = buffer_B[write_index++];     // valeur à envoyer
+        UDP_bytes_to_send = 2;
+        UDP_Send_Packet = true;
+         * */
+        
     }
     
     /* Tampon pr?t, r?initialisation de l'index et changement de tampon. */
@@ -171,9 +200,20 @@ void __ISR(_ADC_VECTOR, IPL6AUTO) adc_interrupt()
     {
         buffer_ready = 1;
         write_index = 0;
+        Compte_Buffer_ready++;
         buffer_select = !buffer_select;
+        if (Compte_Buffer_ready == 4)
+        {
+            Send_Pack = 1;
+            //UDP_Send_Buffer[0]=0xA;
+            //UDP_bytes_to_send = NB_SAMPLES+1;
+            
+            //UDP_Send_Packet = true;
+            Compte_Buffer_ready = 0;
+        }
+        
     }
-
+    
     
     IFS0bits.AD1IF = 0; // Retire le fanion d'interruption
 }

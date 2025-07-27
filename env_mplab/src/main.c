@@ -73,6 +73,8 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 //Moyenne est faite direct sur la MX3 (GestionMoyenne dans accel.c)
 //La switch qui fait afficher Moyenne sur le LCD dans accel.C
 
+extern volatile uint8_t buffer_A[NB_SAMPLES];
+extern volatile uint8_t buffer_B[NB_SAMPLES];
 
 
 // *****************************************************************************
@@ -115,7 +117,7 @@ MAIN_DATA mainData;
 
 int Intense[3];
 int Last_Intense[3];
-
+extern volatile uint8_t Send_Pack; 
 /* Application's LED Task Function 
  Fonction qui fait clignoter une LED la LED1 à chaque 20000 execution du code
  */
@@ -227,7 +229,7 @@ void RGB_Task()
   Remarks:
     See prototype in main.h.
  */
-
+int udp_send_index = 0;
 void MAIN_Initialize ( void )
 {
      
@@ -246,6 +248,30 @@ void MAIN_Initialize ( void )
     I2C_Init(100000);
     //initialize_timer_interrupt();
     //macro_enable_interrupts();
+    
+}
+void check_pack(void)
+{
+            UDP_Send_Buffer[0] = 0xAA;
+            UDP_Send_Buffer[1] = 0xAA;
+            UDP_bytes_to_send = 2;
+            UDP_Send_Packet = true;
+            Send_Pack = 0;
+            
+    if(Send_Pack == 1)
+    {
+          //UDP_Send_Buffer[0] = 0xAA;       // identifiant du type : sample
+          /*
+            for (uint8_t i = 1; i < 128; i++)
+            {
+                UDP_Send_Buffer[1 + i] = buffer_B[i];
+            }
+           
+            */
+            
+           
+        }
+        
     
 }
 
@@ -300,8 +326,10 @@ void MAIN_Tasks ( void )
             Affichage_param_audio_button();
             Affiche_EXTERN_ADC_LCD();
         	JB1Toggle();
-            LED0Toggle();
+            //LED0Toggle();
+            check_pack();
             break;
+            
         }
 
             /* The default state should never be executed. */

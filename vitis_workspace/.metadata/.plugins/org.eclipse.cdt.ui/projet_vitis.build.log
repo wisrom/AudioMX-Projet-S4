@@ -1,4 +1,4 @@
-12:33:14 **** Build of configuration Debug for project projet_vitis ****
+16:07:27 **** Build of configuration Debug for project projet_vitis ****
 make all 
 'Building file: ../src/cyclone_tcp/std_services/echo.c'
 'Invoking: MicroBlaze gcc compiler'
@@ -138,9 +138,9 @@ mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/gabma/ProjetS4/labo_2/labo1/vitis
 'Invoking: MicroBlaze Print Size'
 mb-size projet_vitis.elf  |tee "projet_vitis.elf.size"
    text	   data	    bss	    dec	    hex	filename
- 131344	   2020	2102812	2236176	 221f10	projet_vitis.elf
+ 132896	   2020	2101660	2236576	 2220a0	projet_vitis.elf
 'Finished building: projet_vitis.elf.size'
 ' '
 
-12:33:20 Build Finished (took 5s.995ms)
+16:07:31 Build Finished (took 4s.709ms)
 

@@ -311,3 +311,75 @@ timestamp=[2025-07-27 12:33:03], mode=BUILD, duration=0:00:00.247, duration_ms=2
 timestamp=[2025-07-27 12:33:03], mode=BUILD, duration=0:00:00.171, duration_ms=171, data={name=projet_vitis_system, configuration=Debug, clean_build=true}
 timestamp=[2025-07-27 12:33:14], mode=PLATFORM_GENERATION, duration=0:00:10.730, duration_ms=10730, data={name=main_design_wrapper}
 timestamp=[2025-07-27 12:33:20], mode=BUILD, duration=0:00:06.021, duration_ms=6021, data={name=projet_vitis, configuration=Debug, clean_build=false}
+timestamp=[2025-07-27 14:30:19], mode=PLATFORM_GENERATION, duration=0:00:04.475, duration_ms=4475, data={name=main_design_wrapper}
+timestamp=[2025-07-27 14:30:19], mode=BUILD, duration=0:00:00.171, duration_ms=171, data={name=projet_vitis, configuration=Debug, clean_build=true}
+timestamp=[2025-07-27 14:30:19], mode=BUILD, duration=0:00:00.100, duration_ms=100, data={name=projet_vitis_system, configuration=Debug, clean_build=true}
+timestamp=[2025-07-27 14:30:29], mode=PLATFORM_GENERATION, duration=0:00:09.188, duration_ms=9188, data={name=main_design_wrapper}
+timestamp=[2025-07-27 14:30:34], mode=BUILD, duration=0:00:05.577, duration_ms=5577, data={name=projet_vitis, configuration=Debug, clean_build=false}
+timestamp=[2025-07-27 14:30:35], mode=BUILD, duration=0:00:00.114, duration_ms=114, data={name=projet_vitis_system, configuration=Debug, clean_build=false}
+timestamp=[2025-07-27 14:32:10], mode=PLATFORM_GENERATION, duration=0:00:03.206, duration_ms=3206, data={name=main_design_wrapper}
+timestamp=[2025-07-27 14:32:10], mode=BUILD, duration=0:00:00.174, duration_ms=174, data={name=projet_vitis, configuration=Debug, clean_build=true}
+timestamp=[2025-07-27 14:32:10], mode=BUILD, duration=0:00:00.100, duration_ms=100, data={name=projet_vitis_system, configuration=Debug, clean_build=true}
+timestamp=[2025-07-27 14:32:18], mode=PLATFORM_GENERATION, duration=0:00:07.404, duration_ms=7404, data={name=main_design_wrapper}
+timestamp=[2025-07-27 14:32:23], mode=BUILD, duration=0:00:04.916, duration_ms=4916, data={name=projet_vitis, configuration=Debug, clean_build=false}
+timestamp=[2025-07-27 14:32:23], mode=BUILD, duration=0:00:00.160, duration_ms=160, data={name=projet_vitis_system, configuration=Debug, clean_build=false}
+timestamp=[2025-07-27 14:36:13], mode=PLATFORM_GENERATION, duration=0:00:02.951, duration_ms=2951, data={name=main_design_wrapper}
+timestamp=[2025-07-27 14:36:13], mode=BUILD, duration=0:00:00.176, duration_ms=176, data={name=projet_vitis, configuration=Debug, clean_build=true}
+timestamp=[2025-07-27 14:36:14], mode=BUILD, duration=0:00:00.129, duration_ms=129, data={name=projet_vitis_system, configuration=Debug, clean_build=true}
+timestamp=[2025-07-27 14:36:21], mode=PLATFORM_GENERATION, duration=0:00:07.293, duration_ms=7293, data={name=main_design_wrapper}
+timestamp=[2025-07-27 14:36:26], mode=BUILD, duration=0:00:04.926, duration_ms=4926, data={name=projet_vitis, configuration=Debug, clean_build=false}
+timestamp=[2025-07-27 14:36:26], mode=BUILD, duration=0:00:00.170, duration_ms=170, data={name=projet_vitis_system, configuration=Debug, clean_build=false}
+timestamp=[2025-07-27 15:04:32], mode=PLATFORM_GENERATION, duration=0:00:04.029, duration_ms=4029, data={name=main_design_wrapper}
+timestamp=[2025-07-27 15:04:32], mode=BUILD, duration=0:00:00.236, duration_ms=236, data={name=projet_vitis, configuration=Debug, clean_build=true}
+timestamp=[2025-07-27 15:04:32], mode=BUILD, duration=0:00:00.097, duration_ms=97, data={name=projet_vitis_system, configuration=Debug, clean_build=true}
+timestamp=[2025-07-27 15:04:41], mode=PLATFORM_GENERATION, duration=0:00:08.522, duration_ms=8522, data={name=main_design_wrapper}
+timestamp=[2025-07-27 15:04:46], mode=BUILD, duration=0:00:05.435, duration_ms=5435, data={name=projet_vitis, configuration=Debug, clean_build=false}
+timestamp=[2025-07-27 15:04:46], mode=BUILD, duration=0:00:00.101, duration_ms=101, data={name=projet_vitis_system, configuration=Debug, clean_build=false}
+timestamp=[2025-07-27 15:20:28], mode=PLATFORM_GENERATION, duration=0:00:02.867, duration_ms=2867, data={name=main_design_wrapper}
+timestamp=[2025-07-27 15:20:28], mode=BUILD, duration=0:00:00.174, duration_ms=174, data={name=projet_vitis, configuration=Debug, clean_build=true}
+timestamp=[2025-07-27 15:20:28], mode=BUILD, duration=0:00:00.195, duration_ms=195, data={name=projet_vitis_system, configuration=Debug, clean_build=true}
+timestamp=[2025-07-27 15:20:36], mode=PLATFORM_GENERATION, duration=0:00:07.337, duration_ms=7337, data={name=main_design_wrapper}
+timestamp=[2025-07-27 15:20:41], mode=BUILD, duration=0:00:04.844, duration_ms=4844, data={name=projet_vitis, configuration=Debug, clean_build=false}
+timestamp=[2025-07-27 15:20:41], mode=BUILD, duration=0:00:00.112, duration_ms=112, data={name=projet_vitis_system, configuration=Debug, clean_build=false}
+timestamp=[2025-07-27 15:23:03], mode=PLATFORM_GENERATION, duration=0:00:02.735, duration_ms=2735, data={name=main_design_wrapper}
+timestamp=[2025-07-27 15:23:03], mode=BUILD, duration=0:00:00.188, duration_ms=188, data={name=projet_vitis, configuration=Debug, clean_build=true}
+timestamp=[2025-07-27 15:23:04], mode=BUILD, duration=0:00:00.114, duration_ms=114, data={name=projet_vitis_system, configuration=Debug, clean_build=true}
+timestamp=[2025-07-27 15:23:11], mode=PLATFORM_GENERATION, duration=0:00:07.025, duration_ms=7025, data={name=main_design_wrapper}
+timestamp=[2025-07-27 15:23:15], mode=BUILD, duration=0:00:04.722, duration_ms=4722, data={name=projet_vitis, configuration=Debug, clean_build=false}
+timestamp=[2025-07-27 15:23:16], mode=BUILD, duration=0:00:00.156, duration_ms=156, data={name=projet_vitis_system, configuration=Debug, clean_build=false}
+timestamp=[2025-07-27 15:40:14], mode=PLATFORM_GENERATION, duration=0:00:02.674, duration_ms=2674, data={name=main_design_wrapper}
+timestamp=[2025-07-27 15:40:14], mode=BUILD, duration=0:00:00.170, duration_ms=170, data={name=projet_vitis, configuration=Debug, clean_build=true}
+timestamp=[2025-07-27 15:40:14], mode=BUILD, duration=0:00:00.101, duration_ms=101, data={name=projet_vitis_system, configuration=Debug, clean_build=true}
+timestamp=[2025-07-27 15:40:21], mode=PLATFORM_GENERATION, duration=0:00:07.196, duration_ms=7196, data={name=main_design_wrapper}
+timestamp=[2025-07-27 15:40:26], mode=BUILD, duration=0:00:04.771, duration_ms=4771, data={name=projet_vitis, configuration=Debug, clean_build=false}
+timestamp=[2025-07-27 15:40:26], mode=BUILD, duration=0:00:00.168, duration_ms=168, data={name=projet_vitis_system, configuration=Debug, clean_build=false}
+timestamp=[2025-07-27 15:46:50], mode=PLATFORM_GENERATION, duration=0:00:02.733, duration_ms=2733, data={name=main_design_wrapper}
+timestamp=[2025-07-27 15:46:50], mode=BUILD, duration=0:00:00.158, duration_ms=158, data={name=projet_vitis, configuration=Debug, clean_build=true}
+timestamp=[2025-07-27 15:46:50], mode=BUILD, duration=0:00:00.101, duration_ms=101, data={name=projet_vitis_system, configuration=Debug, clean_build=true}
+timestamp=[2025-07-27 15:46:57], mode=PLATFORM_GENERATION, duration=0:00:07.349, duration_ms=7349, data={name=main_design_wrapper}
+timestamp=[2025-07-27 15:47:02], mode=BUILD, duration=0:00:04.748, duration_ms=4748, data={name=projet_vitis, configuration=Debug, clean_build=false}
+timestamp=[2025-07-27 15:47:02], mode=BUILD, duration=0:00:00.181, duration_ms=181, data={name=projet_vitis_system, configuration=Debug, clean_build=false}
+timestamp=[2025-07-27 15:59:10], mode=PLATFORM_GENERATION, duration=0:00:02.649, duration_ms=2649, data={name=main_design_wrapper}
+timestamp=[2025-07-27 15:59:11], mode=BUILD, duration=0:00:00.173, duration_ms=173, data={name=projet_vitis, configuration=Debug, clean_build=true}
+timestamp=[2025-07-27 15:59:11], mode=BUILD, duration=0:00:00.098, duration_ms=98, data={name=projet_vitis_system, configuration=Debug, clean_build=true}
+timestamp=[2025-07-27 15:59:18], mode=PLATFORM_GENERATION, duration=0:00:06.954, duration_ms=6954, data={name=main_design_wrapper}
+timestamp=[2025-07-27 15:59:22], mode=BUILD, duration=0:00:04.600, duration_ms=4600, data={name=projet_vitis, configuration=Debug, clean_build=false}
+timestamp=[2025-07-27 15:59:23], mode=BUILD, duration=0:00:00.098, duration_ms=98, data={name=projet_vitis_system, configuration=Debug, clean_build=false}
+timestamp=[2025-07-27 16:03:59], mode=PLATFORM_GENERATION, duration=0:00:02.752, duration_ms=2752, data={name=main_design_wrapper}
+timestamp=[2025-07-27 16:03:59], mode=BUILD, duration=0:00:00.175, duration_ms=175, data={name=projet_vitis, configuration=Debug, clean_build=true}
+timestamp=[2025-07-27 16:04:00], mode=BUILD, duration=0:00:00.116, duration_ms=116, data={name=projet_vitis_system, configuration=Debug, clean_build=true}
+timestamp=[2025-07-27 16:04:07], mode=PLATFORM_GENERATION, duration=0:00:06.969, duration_ms=6969, data={name=main_design_wrapper}
+timestamp=[2025-07-27 16:04:11], mode=BUILD, duration=0:00:04.774, duration_ms=4774, data={name=projet_vitis, configuration=Debug, clean_build=false}
+timestamp=[2025-07-27 16:04:12], mode=BUILD, duration=0:00:00.112, duration_ms=112, data={name=projet_vitis_system, configuration=Debug, clean_build=false}
+timestamp=[2025-07-27 16:05:18], mode=PLATFORM_GENERATION, duration=0:00:02.725, duration_ms=2725, data={name=main_design_wrapper}
+timestamp=[2025-07-27 16:05:18], mode=BUILD, duration=0:00:00.174, duration_ms=174, data={name=projet_vitis, configuration=Debug, clean_build=true}
+timestamp=[2025-07-27 16:05:18], mode=BUILD, duration=0:00:00.100, duration_ms=100, data={name=projet_vitis_system, configuration=Debug, clean_build=true}
+timestamp=[2025-07-27 16:05:26], mode=PLATFORM_GENERATION, duration=0:00:07.119, duration_ms=7119, data={name=main_design_wrapper}
+timestamp=[2025-07-27 16:05:31], mode=BUILD, duration=0:00:04.765, duration_ms=4765, data={name=projet_vitis, configuration=Debug, clean_build=false}
+timestamp=[2025-07-27 16:05:31], mode=BUILD, duration=0:00:00.105, duration_ms=105, data={name=projet_vitis_system, configuration=Debug, clean_build=false}
+timestamp=[2025-07-27 16:07:18], mode=PLATFORM_GENERATION, duration=0:00:02.730, duration_ms=2730, data={name=main_design_wrapper}
+timestamp=[2025-07-27 16:07:18], mode=BUILD, duration=0:00:00.174, duration_ms=174, data={name=projet_vitis, configuration=Debug, clean_build=true}
+timestamp=[2025-07-27 16:07:19], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=projet_vitis_system, configuration=Debug, clean_build=true}
+timestamp=[2025-07-27 16:07:26], mode=PLATFORM_GENERATION, duration=0:00:07.831, duration_ms=7831, data={name=main_design_wrapper}
+timestamp=[2025-07-27 16:07:31], mode=BUILD, duration=0:00:04.730, duration_ms=4730, data={name=projet_vitis, configuration=Debug, clean_build=false}
+timestamp=[2025-07-27 16:07:32], mode=BUILD, duration=0:00:00.114, duration_ms=114, data={name=projet_vitis_system, configuration=Debug, clean_build=false}

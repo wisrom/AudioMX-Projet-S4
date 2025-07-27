@@ -47,7 +47,8 @@
 
 //Size of the buffer for input/output operations
 #ifndef ECHO_BUFFER_SIZE
-   #define ECHO_BUFFER_SIZE 1537
+   //#define ECHO_BUFFER_SIZE 1537
+		#define ECHO_BUFFER_SIZE 129
 #elif (ECHO_BUFFER_SIZE < 1)
    #error ECHO_BUFFER_SIZE parameter is not valid
 #endif
@@ -88,6 +89,7 @@ error_t udpEchoStart(void);
 void udpEchoTask(void);
 void udpReceiveTreatment(void);
 void printInt(uint8_t val);
+void compute_fft_magnitude(u32 *fftBuffer, float *magnitudeBuffer);
 //C++ guard
 #ifdef __cplusplus
    }
