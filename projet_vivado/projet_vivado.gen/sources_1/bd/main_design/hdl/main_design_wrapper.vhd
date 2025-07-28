@@ -1,8 +1,8 @@
 --Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
---Date        : Thu Jun  5 15:09:01 2025
---Host        : GabMaltais running 64-bit major release  (build 9200)
+--Date        : Mon Jul 28 16:51:03 2025
+--Host        : HPADAM running 64-bit major release  (build 9200)
 --Command     : generate_target main_design_wrapper.bd
 --Design      : main_design_wrapper
 --Purpose     : IP block netlist
@@ -55,9 +55,8 @@ architecture STRUCTURE of main_design_wrapper is
     LEDS : out STD_LOGIC_VECTOR ( 3 downto 0 );
     reset : in STD_LOGIC;
     sys_clock : in STD_LOGIC;
-    GPIO_0_tri_i : in STD_LOGIC_VECTOR ( 3 downto 0 );
-    GPIO_0_tri_o : out STD_LOGIC_VECTOR ( 3 downto 0 );
-    GPIO_0_tri_t : out STD_LOGIC_VECTOR ( 3 downto 0 );
+    UART_rxd : in STD_LOGIC;
+    UART_txd : out STD_LOGIC;
     Pmod_NIC100_io0_i : in STD_LOGIC;
     Pmod_NIC100_io0_o : out STD_LOGIC;
     Pmod_NIC100_io0_t : out STD_LOGIC;
@@ -70,8 +69,9 @@ architecture STRUCTURE of main_design_wrapper is
     Pmod_NIC100_ss_i : in STD_LOGIC_VECTOR ( 0 to 0 );
     Pmod_NIC100_ss_o : out STD_LOGIC_VECTOR ( 0 to 0 );
     Pmod_NIC100_ss_t : out STD_LOGIC;
-    UART_rxd : in STD_LOGIC;
-    UART_txd : out STD_LOGIC;
+    GPIO_0_tri_i : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    GPIO_0_tri_o : out STD_LOGIC_VECTOR ( 3 downto 0 );
+    GPIO_0_tri_t : out STD_LOGIC_VECTOR ( 3 downto 0 );
     DDR_cas_n : inout STD_LOGIC;
     DDR_cke : inout STD_LOGIC;
     DDR_ck_n : inout STD_LOGIC;

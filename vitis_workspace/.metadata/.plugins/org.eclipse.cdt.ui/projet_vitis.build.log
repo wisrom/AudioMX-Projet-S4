@@ -1,9 +1,21 @@
-13:50:46 **** Incremental Build of configuration Debug for project projet_vitis ****
+16:39:54 **** Incremental Build of configuration Debug for project projet_vitis ****
 make all 
-'Building file: ../src/cyclone_tcp/std_services/echo.c'
+'Building file: ../src/main.c'
 'Invoking: MicroBlaze gcc compiler'
-mb-gcc -Wall -O0 -g3 -IC:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/vitis_workspace/main_design_wrapper/export/main_design_wrapper/sw/main_design_wrapper/standalone_domain/bspinclude/include -I"C:\Users\adams\Desktop\S4\Projet\ProjetS4\Code\AudioMX-Projet-S4\vitis_workspace\projet_vitis\src" -c -fmessage-length=0 -MT"src/cyclone_tcp/std_services/echo.o" -IC:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/vitis_workspace/main_design_wrapper/export/main_design_wrapper/sw/main_design_wrapper/standalone_domain/bspinclude/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/cyclone_tcp/std_services/echo.d" -MT"src/cyclone_tcp/std_services/echo.o" -o "src/cyclone_tcp/std_services/echo.o" "../src/cyclone_tcp/std_services/echo.c"
-'Finished building: ../src/cyclone_tcp/std_services/echo.c'
+mb-gcc -Wall -O0 -g3 -IC:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/vitis_workspace/main_design_wrapper/export/main_design_wrapper/sw/main_design_wrapper/standalone_domain/bspinclude/include -I"C:\Users\adams\Desktop\S4\Projet\ProjetS4\Code\AudioMX-Projet-S4\vitis_workspace\projet_vitis\src" -c -fmessage-length=0 -MT"src/main.o" -IC:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/vitis_workspace/main_design_wrapper/export/main_design_wrapper/sw/main_design_wrapper/standalone_domain/bspinclude/include -mlittle-endian -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'systemInit':
+../src/main.c:496:12: warning: variable 'error' set but not used [-Wunused-but-set-variable]
+  496 |    error_t error;
+      |            ^~~~~
+../src/main.c: In function 'uartInit':
+../src/main.c:576:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  576 |  int Status;
+      |      ^~~~~~
+../src/main.c: In function 'SetupInterruptSystem':
+../src/main.c:730:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  730 |  int Status;
+      |      ^~~~~~
+'Finished building: ../src/main.c'
 ' '
 'Building target: projet_vitis.elf'
 'Invoking: MicroBlaze gcc linker'
@@ -13,9 +25,9 @@ mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/adams/Desktop/S4/Projet/ProjetS4/
 'Invoking: MicroBlaze Print Size'
 mb-size projet_vitis.elf  |tee "projet_vitis.elf.size"
    text	   data	    bss	    dec	    hex	filename
- 119380	   2020	2101664	2223064	 21ebd8	projet_vitis.elf
+ 119384	   2148	2104092	2225624	 21f5d8	projet_vitis.elf
 'Finished building: projet_vitis.elf.size'
 ' '
 
-13:50:47 Build Finished (took 1s.216ms)
+16:39:55 Build Finished (took 972ms)
 

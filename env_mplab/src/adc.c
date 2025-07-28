@@ -16,10 +16,9 @@
 #include "lcd.h"
 #include <xc.h>
 #include "UDP_app.h"
-//#include "app_commands.h"
+#include "app_commands.h"
 #include "rgbled.h"
 
-#define MAX_PACKET_SIZE 1536
 
 volatile uint8_t Compte_Buffer_ready = 0;
 /* Tampon de m?moire A de l'enregistrement. NB_SAMPLES = 128. */
@@ -50,11 +49,7 @@ volatile uint32_t sum = 0;
 /* S?lecteur du mode des DELs RGB (7 options possible de 0 ? 6). */
 volatile uint8_t rgb_sel = 0;
 
-volatile uint8_t send_buffer = 0;
-extern char UDP_Send_Buffer[MAX_PACKET_SIZE+1];
-extern uint8_t samples; 
-extern uint16_t UDP_bytes_to_send;
-extern bool UDP_Send_Packet;
+
 
 /* Fonction d'interruption d?clench?e par l'ADC. Cette fonction permet
  * de stocker les donn?es de l'ADC ? 24 kHz. */
@@ -98,7 +93,7 @@ void __ISR(_ADC_VECTOR, IPL6AUTO) adc_interrupt()
     
     if (decoded_mean >= 6)
     {
-        
+        /*
         if(send_buffer == 1)
         {
           rgb_sel = (rgb_sel + 1) % 7;
@@ -107,6 +102,7 @@ void __ISR(_ADC_VECTOR, IPL6AUTO) adc_interrupt()
             
             //SYS_CONSOLE_MESSAGE("\r\nClient: Starting connection\r\n");
         }
+         */
     }
     else{
         //send_buffer = 0;

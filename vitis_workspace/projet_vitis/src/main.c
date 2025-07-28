@@ -74,7 +74,7 @@ XGpio outputLED;
 #include <stdint.h>
 
 #define PI 3.14159265358979323846
-#define MAX_FFT_SIZE 128
+#define MAX_FFT_SIZE 256
 
 // Buffers principaux (signal et résultat FFT)
 extern u32 FFTBuffer[MAX_DATA_BUFFER_SIZE];      // Résultat FFT (même format)

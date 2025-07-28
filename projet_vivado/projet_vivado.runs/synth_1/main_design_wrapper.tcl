@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "C:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.runs/synth_1/main_design_wrapper.tcl"
+  variable script "C:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.runs/synth_1/main_design_wrapper.tcl"
   variable category "vivado_synth"
 }
 
@@ -77,61 +77,64 @@ set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir {C:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.cache/wt} [current_project]
-set_property parent.project_path {C:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.xpr} [current_project]
+set_property webtalk.parent_dir C:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.cache/wt [current_project]
+set_property parent.project_path C:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.xpr [current_project]
 set_property XPM_LIBRARIES {XPM_CDC XPM_FIFO XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
 set_property board_part digilentinc.com:zybo-z7-10:part0:1.0 [current_project]
-set_property ip_repo_paths {{c:/Users/gabma/Projet S4/labo1_final/labo1/env_vivado/ipdefs}} [current_project]
+set_property ip_repo_paths {
+  c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/ip_repo/CustomIP_1.0
+  c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/env_vivado/ipdefs
+} [current_project]
 update_ip_catalog
-set_property ip_output_repo {c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.cache/ip} [current_project]
+set_property ip_output_repo c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_vhdl -library xil_defaultlib {{c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/hdl/main_design_wrapper.vhd}}
-add_files {{C:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.srcs/sources_1/bd/main_design/main_design.bd}}
-set_property used_in_implementation false [get_files -all {{c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_Delai_1cycle_A_0/main_design_Delai_1cycle_A_0_ooc.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_Delai_2cycle_0/main_design_Delai_2cycle_0_ooc.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_Somme_0/main_design_Somme_0_ooc.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_axi_gpio_0_0/main_design_axi_gpio_0_0_board.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_axi_gpio_0_0/main_design_axi_gpio_0_0_ooc.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_axi_gpio_0_0/main_design_axi_gpio_0_0.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_xbar_0/main_design_xbar_0_ooc.xdc}}]
-set_property used_in_synthesis false [get_files -all {{c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_auto_us_0/main_design_auto_us_0_clocks.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_auto_us_0/main_design_auto_us_0_clocks.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_auto_us_0/main_design_auto_us_0_ooc.xdc}}]
-set_property used_in_synthesis false [get_files -all {{c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_auto_us_1/main_design_auto_us_1_clocks.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_auto_us_1/main_design_auto_us_1_clocks.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_auto_us_1/main_design_auto_us_1_ooc.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_auto_pc_0/main_design_auto_pc_0_ooc.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_axi_quad_spi_0_0/main_design_axi_quad_spi_0_0_board.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_axi_quad_spi_0_0/main_design_axi_quad_spi_0_0.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_axi_quad_spi_0_0/main_design_axi_quad_spi_0_0_ooc.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_axi_quad_spi_0_0/main_design_axi_quad_spi_0_0_clocks.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_axi_uartlite_0_0/main_design_axi_uartlite_0_0_board.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_axi_uartlite_0_0/main_design_axi_uartlite_0_0_ooc.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_axi_uartlite_0_0/main_design_axi_uartlite_0_0.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_clk_wiz_1_0/main_design_clk_wiz_1_0_board.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_clk_wiz_1_0/main_design_clk_wiz_1_0.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_clk_wiz_1_0/main_design_clk_wiz_1_0_ooc.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_mdm_0_0/main_design_mdm_0_0.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_mdm_0_0/main_design_mdm_0_0_ooc_trace.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_microblaze_0_0/main_design_microblaze_0_0.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_microblaze_0_0/main_design_microblaze_0_0_ooc_debug.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_microblaze_0_0/main_design_microblaze_0_0_ooc.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_microblaze_0_axi_intc_0/main_design_microblaze_0_axi_intc_0.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_microblaze_0_axi_intc_0/main_design_microblaze_0_axi_intc_0_clocks.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_microblaze_0_axi_intc_0/main_design_microblaze_0_axi_intc_0_ooc.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_xbar_1/main_design_xbar_1_ooc.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_auto_pc_1/main_design_auto_pc_1_ooc.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_auto_pc_2/main_design_auto_pc_2_ooc.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_processing_system7_0_0/main_design_processing_system7_0_0.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_rst_clk_wiz_1_100M_0/main_design_rst_clk_wiz_1_100M_0_board.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_rst_clk_wiz_1_100M_0/main_design_rst_clk_wiz_1_100M_0.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_rst_clk_wiz_1_100M_0/main_design_rst_clk_wiz_1_100M_0_ooc.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/main_design_ooc.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_microblaze_0_0/data/mb_bootloop_le.elf}}]
+read_vhdl -library xil_defaultlib C:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/hdl/main_design_wrapper.vhd
+add_files C:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.srcs/sources_1/bd/main_design/main_design.bd
+set_property used_in_implementation false [get_files -all c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_axi_gpio_0_0/main_design_axi_gpio_0_0_board.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_axi_gpio_0_0/main_design_axi_gpio_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_axi_gpio_0_0/main_design_axi_gpio_0_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_xbar_0/main_design_xbar_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_axi_quad_spi_0_0/main_design_axi_quad_spi_0_0_board.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_axi_quad_spi_0_0/main_design_axi_quad_spi_0_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_axi_quad_spi_0_0/main_design_axi_quad_spi_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_axi_quad_spi_0_0/main_design_axi_quad_spi_0_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_axi_uartlite_0_0/main_design_axi_uartlite_0_0_board.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_axi_uartlite_0_0/main_design_axi_uartlite_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_axi_uartlite_0_0/main_design_axi_uartlite_0_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_clk_wiz_1_0/main_design_clk_wiz_1_0_board.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_clk_wiz_1_0/main_design_clk_wiz_1_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_clk_wiz_1_0/main_design_clk_wiz_1_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_mdm_0_0/main_design_mdm_0_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_mdm_0_0/main_design_mdm_0_0_ooc_trace.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_microblaze_0_0/main_design_microblaze_0_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_microblaze_0_0/main_design_microblaze_0_0_ooc_debug.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_microblaze_0_0/main_design_microblaze_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_microblaze_0_axi_intc_0/main_design_microblaze_0_axi_intc_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_microblaze_0_axi_intc_0/main_design_microblaze_0_axi_intc_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_microblaze_0_axi_intc_0/main_design_microblaze_0_axi_intc_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_xbar_1/main_design_xbar_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_processing_system7_0_0/main_design_processing_system7_0_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_rst_clk_wiz_1_100M_0/main_design_rst_clk_wiz_1_100M_0_board.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_rst_clk_wiz_1_100M_0/main_design_rst_clk_wiz_1_100M_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_rst_clk_wiz_1_100M_0/main_design_rst_clk_wiz_1_100M_0_ooc.xdc]
+set_property used_in_synthesis false [get_files -all c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_auto_us_0/main_design_auto_us_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_auto_us_0/main_design_auto_us_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_auto_us_0/main_design_auto_us_0_ooc.xdc]
+set_property used_in_synthesis false [get_files -all c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_auto_us_1/main_design_auto_us_1_clocks.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_auto_us_1/main_design_auto_us_1_clocks.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_auto_us_1/main_design_auto_us_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_auto_pc_0/main_design_auto_pc_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_auto_pc_1/main_design_auto_pc_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_auto_pc_2/main_design_auto_pc_2_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_xfft_0_0_1/main_design_xfft_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_axi_fifo_mm_s_0_0_1/main_design_axi_fifo_mm_s_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_axi_fifo_mm_s_1_0_1/main_design_axi_fifo_mm_s_1_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/main_design_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.gen/sources_1/bd/main_design/ip/main_design_microblaze_0_0/data/mb_bootloop_le.elf]
 
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -142,8 +145,8 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc {{c:/Users/gabma/Projet S4/labo1_final/labo1/env_vivado/vhdl/const/main_design_constr.xdc}}
-set_property used_in_implementation false [get_files {{c:/Users/gabma/Projet S4/labo1_final/labo1/env_vivado/vhdl/const/main_design_constr.xdc}}]
+read_xdc C:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/env_vivado/vhdl/const/main_design_constr.xdc
+set_property used_in_implementation false [get_files C:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/env_vivado/vhdl/const/main_design_constr.xdc]
 
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]

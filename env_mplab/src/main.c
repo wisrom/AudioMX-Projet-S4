@@ -140,7 +140,7 @@ static bool sw0_old = false;
 static bool sw2_old = false;
 uint8_t samples = 128; // Exemple : valeur initiale
 uint32_t sample_buffer = 0;
-
+/*
 uint8_t allo[128] = {
     255,254,253,252,251,250,249,248,
     247,246,245,244,243,242,241,240,
@@ -170,9 +170,12 @@ void ManageSwitches()
     if (!sw0_old && sw0_new)
     {
         //memcpy(UDP_Send_Buffer, &samples, sizeof(samples));
-        UDP_Send_Buffer[0] = 0xAA;       // identifiant du type : sample
-        UDP_Send_Buffer[1] = 1;
-        UDP_bytes_to_send = 2;
+        UDP_Send_Buffer[0] = 0xCE;       // identifiant du type : sample
+        uint8_t i = 0;
+        for(i = 0; i < NB_SAMPLES; i++){
+            UDP_Send_Buffer[i+1] = allo[i];
+        }
+        UDP_bytes_to_send = NB_SAMPLES + 1;
         UDP_Send_Packet = true;
     }
     if (!sw2_old && sw2_new)
@@ -189,7 +192,7 @@ void ManageSwitches()
     sw0_old = sw0_new;
     sw2_old = sw2_new;
 }
-
+*/
 void RGB_Task()
 {
     //if(timer_1m) {               // Interruption à chaque 1 ms
@@ -268,7 +271,7 @@ void MAIN_Initialize ( void )
 // Maintenant dans la routine d'interruption de l'adc
 void check_pack(void)
 {   
-    if(Compte_Buffer_ready == 120)
+    if(Compte_Buffer_ready >= 4)
     {
         UDP_Send_Buffer[0] = 0xAA;       // identifiant du type : sample
         uint8_t i = 0;
@@ -328,7 +331,7 @@ void MAIN_Tasks ( void )
             //accel_tasks(); // 
             //RGB_Task();
             UDP_Tasks();
-            ManageSwitches();
+            //ManageSwitches();
             Affichage_param_audio_button();
             Affiche_EXTERN_ADC_LCD();
         	JB1Toggle();

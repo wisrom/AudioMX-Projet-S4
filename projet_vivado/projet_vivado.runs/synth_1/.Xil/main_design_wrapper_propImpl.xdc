@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:{c:/Users/gabma/Projet S4/labo1_final/labo1/env_vivado/vhdl/const/main_design_constr.xdc} rfile:../../../../env_vivado/vhdl/const/main_design_constr.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:C:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/env_vivado/vhdl/const/main_design_constr.xdc rfile:../../../../env_vivado/vhdl/const/main_design_constr.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:3 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN K17   IOSTANDARD LVCMOS33 } [get_ports { sys_clock }]; #IO_L12P_T1_MRCC_35 Sch=sysclk
 set_property src_info {type:XDC file:1 line:7 export:INPUT save:INPUT read:READ} [current_design]

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Jul 28 16:51:12 2025
+# Process ID: 27300
+# Current directory: C:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.runs/main_design_xfft_0_0_synth_1
+# Command line: vivado.exe -log main_design_xfft_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source main_design_xfft_0_0.tcl
+# Log file: C:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.runs/main_design_xfft_0_0_synth_1/main_design_xfft_0_0.vds
+# Journal file: C:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.runs/main_design_xfft_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source main_design_xfft_0_0.tcl -notrace

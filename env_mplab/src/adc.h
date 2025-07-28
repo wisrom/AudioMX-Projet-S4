@@ -8,7 +8,7 @@
 /* Basys MX3 inclut */
 #include "config.h"
 
-#define NB_SAMPLES 128
+#define NB_SAMPLES 256
 #define MIC_BUFFER_SIZE 512
 
 /* Tampon de mémoire A et B */

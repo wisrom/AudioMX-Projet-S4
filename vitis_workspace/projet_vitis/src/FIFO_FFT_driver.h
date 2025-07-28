@@ -31,7 +31,7 @@ void AXIS_InterruptHandler(void *CallbackRef);
 
 //FFT Bloc Parameters
 #define WORD_SIZE 4			/* Size of words in bytes */
-#define MAX_FFT_LEN 128
+#define MAX_FFT_LEN 256
 #define NO_OF_PACKETS 1
 #define MAX_DATA_BUFFER_SIZE NO_OF_PACKETS*MAX_FFT_LEN
 

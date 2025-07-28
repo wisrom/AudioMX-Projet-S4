@@ -48,7 +48,7 @@
 //Size of the buffer for input/output operations
 #ifndef ECHO_BUFFER_SIZE
 	//#define ECHO_BUFFER_SIZE 1537
-	#define ECHO_BUFFER_SIZE 130
+	#define ECHO_BUFFER_SIZE 258
 #elif (ECHO_BUFFER_SIZE < 1)
    #error ECHO_BUFFER_SIZE parameter is not valid
 #endif
@@ -78,7 +78,7 @@ typedef struct
    Socket *socket;
    char_t buffer[ECHO_BUFFER_SIZE];
 } EchoServiceContext;
-#define MAX_FFT_LEN 128
+#define MAX_FFT_LEN 256
 #define NO_OF_PACKETS 1
 #define MAX_DATA_BUFFER_SIZE NO_OF_PACKETS*MAX_FFT_LEN
 extern EchoServiceContext context;

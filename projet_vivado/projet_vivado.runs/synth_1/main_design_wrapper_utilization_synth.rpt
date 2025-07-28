@@ -1,8 +1,8 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-| Date         : Thu Jun  5 15:12:46 2025
-| Host         : GabMaltais running 64-bit major release  (build 9200)
+| Date         : Mon Jul 28 16:53:46 2025
+| Host         : HPADAM running 64-bit major release  (build 9200)
 | Command      : report_utilization -file main_design_wrapper_utilization_synth.rpt -pb main_design_wrapper_utilization_synth.pb
 | Design       : main_design_wrapper
 | Device       : 7z010clg400-1
@@ -158,11 +158,11 @@ Table of Contents
 +-------------------------------------+------+
 |               Ref Name              | Used |
 +-------------------------------------+------+
+| main_design_xfft_0_0                |    1 |
 | main_design_xbar_1                  |    1 |
 | main_design_xbar_0                  |    1 |
 | main_design_rst_clk_wiz_1_100M_0    |    1 |
 | main_design_processing_system7_0_0  |    1 |
-| main_design_myip_S4e_4reg_0_0       |    1 |
 | main_design_microblaze_0_axi_intc_0 |    1 |
 | main_design_microblaze_0_0          |    1 |
 | main_design_mdm_0_0                 |    1 |
@@ -170,14 +170,13 @@ Table of Contents
 | main_design_axi_uartlite_0_0        |    1 |
 | main_design_axi_quad_spi_0_0        |    1 |
 | main_design_axi_gpio_0_0            |    1 |
+| main_design_axi_fifo_mm_s_1_0       |    1 |
+| main_design_axi_fifo_mm_s_0_0       |    1 |
 | main_design_auto_us_1               |    1 |
 | main_design_auto_us_0               |    1 |
 | main_design_auto_pc_2               |    1 |
 | main_design_auto_pc_1               |    1 |
 | main_design_auto_pc_0               |    1 |
-| main_design_Somme_0                 |    1 |
-| main_design_Delai_2cycle_0          |    1 |
-| main_design_Delai_1cycle_A_0        |    1 |
 +-------------------------------------+------+
 
 

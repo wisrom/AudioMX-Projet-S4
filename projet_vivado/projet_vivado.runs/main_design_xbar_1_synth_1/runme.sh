@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/gabma/Projet S4/labo1_final/labo1/projet_vivado/projet_vivado.runs/main_design_xbar_1_synth_1'
+HD_PWD='C:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/projet_vivado/projet_vivado.runs/main_design_xbar_1_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
