@@ -230,7 +230,7 @@ void _UDP_ClientTasks() {
             }
             SYS_CONSOLE_PRINT("\r\n");
             TCPIP_UDP_ArrayPut(appData.clientSocket, (uint8_t*)UDP_Send_Buffer, UDP_bytes_to_send);
-            //SYS_CONSOLE_PRINT("Sent %d bytes\r\n", UDP_bytes_to_send);
+            SYS_CONSOLE_PRINT("Sent %d bytes\r\n", UDP_bytes_to_send);
            // Envoie les données (flush = envoie obligatoire des données dans la pile, peu importe la quantité de données)
             TCPIP_UDP_Flush(appData.clientSocket);
             appData.clientState = UDP_TCPIP_WAIT_FOR_RESPONSE;
@@ -271,7 +271,7 @@ void _UDP_ClientTasks() {
                     uint8_t i = 0;
                     SYS_CONSOLE_PRINT("\rClient: Receiving samples...\r\n");
                     for(i = 0; i < NB_UDP_INFO; i++){
-                        UDP_received_sample[i] = (uint16_t) UDP_Receive_Buffer[i]; // remplacé par uint16_t car 8 bits ce n'étais pas assez
+                        UDP_received_sample[i] = (uint8_t) UDP_Receive_Buffer[i]; // remplacé par uint16_t car 8 bits ce n'étais pas assez
                         SYS_CONSOLE_PRINT("%d ", UDP_received_sample[i]);
                     }
                     SYS_CONSOLE_PRINT("\r\nClient: Stopped receiving samples!\r\n");

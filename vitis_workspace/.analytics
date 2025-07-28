@@ -441,3 +441,12 @@ timestamp=[2025-07-28 14:28:36], mode=PLATFORM_GENERATION, duration=0:00:09.026,
 timestamp=[2025-07-28 14:28:43], mode=BUILD, duration=0:00:05.100, duration_ms=5100, data={name=projet_vitis, configuration=Debug, clean_build=false}
 timestamp=[2025-07-28 14:28:43], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=projet_vitis_system, configuration=Debug, clean_build=false}
 timestamp=[2025-07-28 14:28:44], mode=BUILD, duration=0:00:00.326, duration_ms=326, data={name=projet_vitis, configuration=Debug, clean_build=false}
+timestamp=[2025-07-28 15:42:06], mode=WORKBENCH_START, duration=0:00:11.148, duration_ms=11148, data={}
+timestamp=[2025-07-28 15:42:07], mode=WORKBENCH_UI_INIT, duration=0:00:00.540, duration_ms=540, data={editors_count=7, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,main_design_wrapper,projet_vitis,projet_vitis_system}
+timestamp=[2025-07-28 15:42:07], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.072, duration_ms=72, data={}
+timestamp=[2025-07-28 15:43:23], mode=PLATFORM_GENERATION, duration=0:00:06.159, duration_ms=6159, data={name=main_design_wrapper}
+timestamp=[2025-07-28 15:43:23], mode=BUILD, duration=0:00:00.184, duration_ms=184, data={name=projet_vitis, configuration=Debug, clean_build=true}
+timestamp=[2025-07-28 15:43:23], mode=BUILD, duration=0:00:00.111, duration_ms=111, data={name=projet_vitis_system, configuration=Debug, clean_build=true}
+timestamp=[2025-07-28 15:43:33], mode=PLATFORM_GENERATION, duration=0:00:09.102, duration_ms=9102, data={name=main_design_wrapper}
+timestamp=[2025-07-28 15:43:39], mode=BUILD, duration=0:00:05.026, duration_ms=5026, data={name=projet_vitis, configuration=Debug, clean_build=false}
+timestamp=[2025-07-28 15:43:40], mode=BUILD, duration=0:00:00.098, duration_ms=98, data={name=projet_vitis_system, configuration=Debug, clean_build=false}

@@ -101,7 +101,7 @@ void __ISR(_ADC_VECTOR, IPL6AUTO) adc_interrupt()
         
         if(send_buffer == 1)
         {
-          rgb_sel = (rgb_sel + 1) % 7;
+          rgb_sel = (rgb_sel + 1) % 3;
           send_buffer = 0;
         }
         else{
@@ -119,17 +119,18 @@ void __ISR(_ADC_VECTOR, IPL6AUTO) adc_interrupt()
     {
         /* DEL rouge seulement. */
         case 0:
-            RGBLED_SetValue(UDP_received_sample[0], 0, 0);
+            RGBLED_SetValue(UDP_received_sample[1], UDP_received_sample[3], UDP_received_sample[5]);
             break;
         /* DEL verte seulement. */
         case 1:
-            RGBLED_SetValue(0, UDP_received_sample[1], 0);
+            RGBLED_SetValue(0, UDP_received_sample[1]*mean, 0);
             break;
         /* DEL bleue seulement. */
         case 2:
             RGBLED_SetValue(0, 0, UDP_received_sample[2]*mean);
             break;
         /* DELs rouge et verte. */
+            
         case 3:
             RGBLED_SetValue(UDP_received_sample[0]*mean, UDP_received_sample[1]*mean, 0);
             break;
@@ -146,7 +147,7 @@ void __ISR(_ADC_VECTOR, IPL6AUTO) adc_interrupt()
             RGBLED_SetValue(UDP_received_sample[0]*mean, UDP_received_sample[1]*mean, UDP_received_sample[2]*mean);
             break;
         default:
-            rgb_sel = 0;
+          rgb_sel = 0;
             break;
     }
     
