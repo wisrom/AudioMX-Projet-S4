@@ -1,8 +1,9 @@
-2025-07-28T15:43:24.020304300255-15:43:24 **** Build of project main_design_wrapper ****
-000-buildplatform.bat 49939 main_design_wrapper  
-000-XSDB Server Channel: tcfchan#2
+2025-07-28T18:22:19.637052400255-18:22:19 **** Build of project main_design_wrapper ****
+000-buildplatform.bat 54708 main_design_wrapper  
+000-XSDB Server Channel: tcfchan#3
 000-Building the zynq_fsbl application.
-000-make: Entering directory 'C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/zynq_fsbl/zynq_fsbl_bsp'
+000-make: Entering directory 'C:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/vitis_workspace/main_design_wrapper/
+000-zynq_fsbl/zynq_fsbl_bsp'
 000-
 000-make --no-print-directory seq_libs
 000-
@@ -228,11 +229,11 @@
 000-
 000-"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_8/src"
 000-
+000-"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_8/src"
+000-
 000-make -C ps7_cortexa9_0/libsrc/gpiops_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
 000-RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
 000-files -g -Wall -Wextra"
-000-
-000-"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_8/src"
 000-
 000-make -C ps7_cortexa9_0/libsrc/qspips_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
 000-RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
@@ -240,15 +241,9 @@
 000-
 000-"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_3/src"
 000-
-000-"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_3/src"
-000-
 000-make -C ps7_cortexa9_0/libsrc/scugic_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
 000-RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
 000-files -g -Wall -Wextra"
-000-
-000-make -C ps7_cortexa9_0/libsrc/scutimer_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
-000-"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
-000-rtfiles -g -Wall -Wextra"
 000-
 000-"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_3/src"
 000-
@@ -256,15 +251,21 @@
 000-RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
 000-files -g -Wall -Wextra"
 000-
+000-"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_3/src"
+000-
 000-"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_3/src"
 000-
-000-make -C ps7_cortexa9_0/libsrc/standalone_v7_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
-000-" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
-000-tartfiles -g -Wall -Wextra"
+000-make -C ps7_cortexa9_0/libsrc/scutimer_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+000-"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+000-rtfiles -g -Wall -Wextra"
 000-
 000-"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_10/src"
 000-
 000-"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_5/src"
+000-
+000-make -C ps7_cortexa9_0/libsrc/standalone_v7_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+000-" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+000-tartfiles -g -Wall -Wextra"
 000-
 000-make -C ps7_cortexa9_0/libsrc/uartps_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
 000-ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
@@ -280,19 +281,19 @@
 000-RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
 000-files -g -Wall -Wextra"
 000-
-000-In file included from usleep.c:34:
-000/main_design_wrapper65-1-1#pragma message: For the sleep routines, Global timer is being used0-xtime_l.h:65:9: note: #pragma message: For the sleep routines, Global timer is being used
-000-   65 | #pragma message ("For the sleep routines, Global timer is being used")
-000-      |         ^~~~~~~
 000-In file included from xil_sleeptimer.c:32:
 000/main_design_wrapper65-1-1#pragma message: For the sleep routines, Global timer is being used0-xtime_l.h:65:9: note: #pragma message: For the sleep routines, Global timer is being used
 000-   65 | #pragma message ("For the sleep routines, Global timer is being used")
 000-      |         ^~~~~~~
-000-In file included from sleep.c:31:
+000-In file included from usleep.c:34:
 000/main_design_wrapper65-1-1#pragma message: For the sleep routines, Global timer is being used0-xtime_l.h:65:9: note: #pragma message: For the sleep routines, Global timer is being used
 000-   65 | #pragma message ("For the sleep routines, Global timer is being used")
 000-      |         ^~~~~~~
 000-In file included from xtime_l.c:27:
+000/main_design_wrapper65-1-1#pragma message: For the sleep routines, Global timer is being used0-xtime_l.h:65:9: note: #pragma message: For the sleep routines, Global timer is being used
+000-   65 | #pragma message ("For the sleep routines, Global timer is being used")
+000-      |         ^~~~~~~
+000-In file included from sleep.c:31:
 000/main_design_wrapper65-1-1#pragma message: For the sleep routines, Global timer is being used0-xtime_l.h:65:9: note: #pragma message: For the sleep routines, Global timer is being used
 000-   65 | #pragma message ("For the sleep routines, Global timer is being used")
 000-      |         ^~~~~~~
@@ -329,7 +330,8 @@
 000-arm-none-eabi-ar: creating ps7_cortexa9_0/lib/libxil.a
 000-'Finished building libraries'
 000-
-000-make: Leaving directory 'C:/Users/gabma/ProjetS4/labo_2/labo1/vitis_workspace/main_design_wrapper/zynq_fsbl/zynq_fsbl_bsp'
+000-make: Leaving directory 'C:/Users/adams/Desktop/S4/Projet/ProjetS4/Code/AudioMX-Projet-S4/vitis_workspace/main_design_wrapper/z
+000-ynq_fsbl/zynq_fsbl_bsp'
 000-
 000-arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -O2 -c -c sd.c -o sd.o -Izynq_fsbl_bsp/ps7_cort
 000-exa9_0/include -I.
@@ -490,6 +492,12 @@
 000-_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" 
 000-"EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
 000-
+000-"Running Make libs in microblaze_0/libsrc/uartlite_v3_5/src"
+000-
+000-make -C microblaze_0/libsrc/uartlite_v3_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+000-ER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt
+000-" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+000-
 000-"Running Make libs in microblaze_0/libsrc/qspips_v3_8/src"
 000-
 000-make -C microblaze_0/libsrc/qspips_v3_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
@@ -498,21 +506,15 @@
 000-
 000-"Running Make libs in microblaze_0/libsrc/spi_v4_7/src"
 000-
-000-"Running Make libs in microblaze_0/libsrc/standalone_v7_3/src"
-000-
 000-make -C microblaze_0/libsrc/spi_v4_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_FL
 000-AGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" "EX
 000-TRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
 000-
+000-"Running Make libs in microblaze_0/libsrc/standalone_v7_3/src"
+000-
 000-make -C microblaze_0/libsrc/standalone_v7_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
 000-ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sq
 000-rt" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
-000-
-000-"Running Make libs in microblaze_0/libsrc/uartlite_v3_5/src"
-000-
-000-make -C microblaze_0/libsrc/uartlite_v3_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
-000-ER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt
-000-" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
 000-
 000-"Running Make libs in microblaze_0/libsrc/uartps_v3_10/src"
 000-
@@ -529,38 +531,38 @@
 000-
 000-make --no-print-directory archive
 000-
-000-mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/xil_testcache.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze
-000-_0/lib/outbyte.o microblaze_0/lib/xuartps.o microblaze_0/lib/xspi_sinit.o microblaze_0/lib/xgpio_intr.o microblaze_0/lib/microb
-000-laze_invalidate_dcache_range.o microblaze_0/lib/xgpiops_hw.o microblaze_0/lib/xplatform_info.o microblaze_0/lib/xqspips_hw.o mi
-000-croblaze_0/lib/xqspips_options.o microblaze_0/lib/microblaze_disable_exceptions.o microblaze_0/lib/print.o microblaze_0/lib/xll
-000-fifo_sinit.o microblaze_0/lib/microblaze_invalidate_cache_ext.o microblaze_0/lib/xspi_options.o microblaze_0/lib/microblaze_sle
-000-ep.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/xil_testio.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0
-000-/lib/hw_exception_handler.o microblaze_0/lib/xintc_options.o microblaze_0/lib/microblaze_flush_dcache_range.o microblaze_0/lib/
-000-xil_util.o microblaze_0/lib/xllfifo_g.o microblaze_0/lib/xuartlite_g.o microblaze_0/lib/microblaze_update_dcache.o microblaze_0
-000-/lib/xuartps_hw.o microblaze_0/lib/microblaze_flush_cache_ext.o microblaze_0/lib/xqspips_g.o microblaze_0/lib/microblaze_selfte
-000-st.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/xgpiops.o microblaze_0/lib/xuartlite_stats.o microblaze_0/lib/
-000-microblaze_enable_exceptions.o microblaze_0/lib/xil_mem.o microblaze_0/lib/xllfifo.o microblaze_0/lib/xspi_selftest.o microblaz
-000-e_0/lib/_exit.o microblaze_0/lib/xspi.o microblaze_0/lib/microblaze_enable_dcache.o microblaze_0/lib/xuartlite_selftest.o micro
-000-blaze_0/lib/inbyte.o microblaze_0/lib/xintc_intr.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xuartlite_intr.o mi
-000-croblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/microblaze_invalidate_icache_range.o microblaze_0/lib/xil_assert
-000-.o microblaze_0/lib/xqspips.o microblaze_0/lib/xgpio_g.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/micro
-000-blaze_scrub.o microblaze_0/lib/xuartps_g.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/lib/microblaze_disable_
-000-interrupts.o microblaze_0/lib/errno.o microblaze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/xgpiops_sinit.o microbla
-000-ze_0/lib/xintc_g.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/mic
-000-roblaze_invalidate_cache_ext_range.o microblaze_0/lib/xuartps_selftest.o microblaze_0/lib/xqspips_selftest.o microblaze_0/lib/x
-000-il_exception.o microblaze_0/lib/pvr.o microblaze_0/lib/xgpio.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/xgpio_extra.o mi
-000-croblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/xuartps_intr.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/xgpi
-000-o_sinit.o microblaze_0/lib/xgpiops_selftest.o microblaze_0/lib/xspi_stats.o microblaze_0/lib/microblaze_flush_cache_ext_range.o
-000- microblaze_0/lib/xgpio_selftest.o microblaze_0/lib/xil_cache.o microblaze_0/lib/microblaze_enable_interrupts.o microblaze_0/li
-000-b/xio.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/microblaze_enable_icache.o microblaze_0/lib/xil_printf.o microblaze
-000-_0/lib/xintc.o microblaze_0/lib/xuartlite.o microblaze_0/lib/xgpiops_g.o microblaze_0/lib/xgpiops_intr.o microblaze_0/lib/xuart
-000-lite_l.o microblaze_0/lib/xspi_g.o microblaze_0/lib/xqspips_sinit.o microblaze_0/lib/xuartps_sinit.o microblaze_0/lib/xstreamer
-000-.o microblaze_0/lib/xuartps_options.o microblaze_0/lib/xintc_selftest.o microblaze_0/lib/microblaze_init_icache_range.o microbl
-000-aze_0/lib/xintc_l.o microblaze_0/lib/fcntl.o
+000-mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/xplatform_info.o microblaze_0/lib/xqspips_options.o microblaze_0/lib/micro
+000-blaze_disable_exceptions.o microblaze_0/lib/print.o microblaze_0/lib/xgpiops_hw.o microblaze_0/lib/xil_testio.o microblaze_0/li
+000-b/microblaze_disable_dcache.o microblaze_0/lib/microblaze_flush_dcache_range.o microblaze_0/lib/xllfifo.o microblaze_0/lib/micr
+000-oblaze_flush_cache_ext.o microblaze_0/lib/xqspips.o microblaze_0/lib/xspi.o microblaze_0/lib/xllfifo_g.o microblaze_0/lib/xil_m
+000-isc_psreset_api.o microblaze_0/lib/xspi_selftest.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xil_util.o microblaze_0/lib/in
+000-byte.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/xgpiops_g.o microblaze_0/lib/microblaze_scrub.o microbl
+000-aze_0/lib/microblaze_invalidate_dcache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib/xllfifo_sinit.o micr
+000-oblaze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/xgpiops_sinit.o microblaze_0/lib/xintc_g.o microblaze_0/lib/microb
+000-laze_disable_icache.o microblaze_0/lib/_exit.o microblaze_0/lib/xgpiops_selftest.o microblaze_0/lib/xgpio_g.o microblaze_0/lib/
+000-xil_mem.o microblaze_0/lib/xuartps_sinit.o microblaze_0/lib/xspi_stats.o microblaze_0/lib/microblaze_flush_cache_ext_range.o mi
+000-croblaze_0/lib/xuartps_selftest.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xuartlite.o
+000- microblaze_0/lib/xgpiops_intr.o microblaze_0/lib/xintc_selftest.o microblaze_0/lib/xintc_l.o microblaze_0/lib/outbyte.o microb
+000-laze_0/lib/xuartlite_sinit.o microblaze_0/lib/xuartps_hw.o microblaze_0/lib/xgpio_intr.o microblaze_0/lib/xstreamer.o microblaz
+000-e_0/lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xuartlite_g.o microblaze_0/lib/xua
+000-rtlite_intr.o microblaze_0/lib/microblaze_invalidate_cache_ext.o microblaze_0/lib/microblaze_sleep.o microblaze_0/lib/hw_except
+000-ion_handler.o microblaze_0/lib/xuartlite_selftest.o microblaze_0/lib/xgpio_sinit.o microblaze_0/lib/xuartps_intr.o microblaze_0
+000-/lib/microblaze_update_dcache.o microblaze_0/lib/xil_testcache.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microb
+000-laze_interrupts_g.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/xio.o microblaze_0/lib/microblaze_enable_d
+000-cache.o microblaze_0/lib/xspi_sinit.o microblaze_0/lib/microblaze_invalidate_icache_range.o microblaze_0/lib/xqspips_g.o microb
+000-laze_0/lib/xgpiops.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze
+000-_0/lib/xqspips_hw.o microblaze_0/lib/xspi_options.o microblaze_0/lib/errno.o microblaze_0/lib/xintc_options.o microblaze_0/lib/
+000-xuartlite_stats.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/xintc_intr.o microblaze_0/lib/xil_e
+000-xception.o microblaze_0/lib/pvr.o microblaze_0/lib/xgpio.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/xqspips_selftest.o m
+000-icroblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/xil_clocking.o microblaz
+000-e_0/lib/xil_assert.o microblaze_0/lib/xuartps_g.o microblaze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/xgpio_extra.
+000-o microblaze_0/lib/xspi_g.o microblaze_0/lib/microblaze_enable_icache.o microblaze_0/lib/xintc.o microblaze_0/lib/xuartps.o mic
+000-roblaze_0/lib/microblaze_init_icache_range.o microblaze_0/lib/xqspips_sinit.o microblaze_0/lib/xuartps_options.o microblaze_0/l
+000-ib/fcntl.o microblaze_0/lib/xgpio_selftest.o
 000-
 000-mb-ar: creating microblaze_0/lib/libxil.a
 000-'Finished building libraries'
 000-
 00255-
-15:43:33 Build Finished (took 9s.19ms)
+18:22:30 Build Finished (took 11s.286ms)
 

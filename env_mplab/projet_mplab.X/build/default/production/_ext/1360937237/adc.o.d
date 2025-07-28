@@ -357,7 +357,7 @@ build/default/production/_ext/1360937237/adc.o: ../src/adc.c ../src/adc.h \
  ../src/system_config/default/framework/tcpip/tcpip_commands.h \
  ../src/system_config/default/framework/tcpip/tftps.h \
  ../src/system_config/default/framework/driver/ethmac/drv_ethmac.h \
- ../src/main.h ../src/rgbled.h
+ ../src/main.h ../src/app_commands.h ../src/rgbled.h
 
 ../src/adc.h:
 
@@ -1084,5 +1084,7 @@ build/default/production/_ext/1360937237/adc.o: ../src/adc.c ../src/adc.h \
 ../src/system_config/default/framework/driver/ethmac/drv_ethmac.h:
 
 ../src/main.h:
+
+../src/app_commands.h:
 
 ../src/rgbled.h:

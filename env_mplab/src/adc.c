@@ -16,10 +16,9 @@
 #include "lcd.h"
 #include <xc.h>
 #include "UDP_app.h"
-//#include "app_commands.h"
+#include "app_commands.h"
 #include "rgbled.h"
 
-#define MAX_PACKET_SIZE 1536
 extern volatile uint16_t UDP_received_sample[NB_UDP_INFO];
 volatile uint8_t Compte_Buffer_ready = 0;
 /* Tampon de m?moire A de l'enregistrement. NB_SAMPLES = 128. */
@@ -51,10 +50,7 @@ volatile uint32_t sum = 0;
 volatile uint8_t rgb_sel = 0;
 
 volatile uint8_t send_buffer = 0;
-extern char UDP_Send_Buffer[MAX_PACKET_SIZE+1];
-extern uint8_t samples; 
-extern uint16_t UDP_bytes_to_send;
-extern bool UDP_Send_Packet;
+
 
 /* Fonction d'interruption d?clench?e par l'ADC. Cette fonction permet
  * de stocker les donn?es de l'ADC ? 24 kHz. */
