@@ -242,6 +242,7 @@ void udpReceiveTreatment(void){
 	{
 	    for (unsigned int i = 0; i < MAX_DATA_BUFFER_SIZE; i++){
 	    	SourceBuffer[i] = (uint32_t)context.buffer[i + 1] & 0x000000FF;
+	    	xil_printf("SourceBuffer[%u] = %lu\r\n", i, (unsigned long)SourceBuffer[i]);
 	    }
 	    print("echantillon recu : ");
 	    print("\n\r");
@@ -288,13 +289,10 @@ void udpReceiveTreatment(void){
 	    context.buffer[3] = (uint8_t)(mid_frequencies_avg >> 24) & 0xFF;
 	    context.buffer[4] = (uint8_t)(mid_frequencies_avg >> 16) & 0xFF;
 	    context.buffer[5] = (uint8_t)(high_frequencies_avg >> 24) & 0xFF;
-	    context.buffer[6] = length;//(uint8_t)(high_frequencies_avg >> 16) & 0xFF;
+	    context.buffer[6] = (uint8_t)(high_frequencies_avg >> 16) & 0xFF;
 	    socketSendTo(context.socket, &ipAddr, port, context.buffer, length, NULL, 0);
 	    print("\nFinish!\r");
 	    print("\n\r");
-	}
-	else{
-		print("\n Il y a une erreur gros pas bon!\r");
 	}
 }
 

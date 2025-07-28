@@ -586,7 +586,7 @@ void uartTask(){
 					   TEST_BUFFER_SIZE - ReceivedCount);
 
 }
-
+/*
 // Pré-calculs : à générer hors ligne si possible
 void init_twiddles(uint16_t N) {
     for (uint16_t k = 0; k < N/2; k++) {
@@ -603,6 +603,7 @@ void init_window(uint16_t N) {
     }
 }
 
+ */
 // Génération d’un sinus fenêtré en Q1.15
 //void InitProcessedData() {
 //    const int16_t scale_num = 5;   // approx 5/128
@@ -798,7 +799,7 @@ int_t main(void)
    while(1){
 
 	   blinkTask();
-	  	   uartTask();
+	   uartTask();
 	  	   if(ReceivedCount){
 	  		   XUartLite_Send(&UartLite, RecvBuffer , ReceivedCount);
 	  		   //MYIP_S4E_4REG_mWriteReg(MY_IP_BASE_ADDRESS, MYIP_REG_0, counter);
@@ -810,10 +811,12 @@ int_t main(void)
 	  		   if(!udpSocketUp){
 	  			   	   udpEchoStart();
 	  				   udpSocketUp = true;
+	  				   print("\n11");
 	  		   }
 	  		   else
 	  			   {
 	  			   	   udpReceiveTreatment();
+	  			   	   //print("\n22");
 	  			   	   //udpEchoTask();
 	  			   	   //print("\nyooo sa marche presque");
 	  			   	   //printInt(0x5);
@@ -823,6 +826,7 @@ int_t main(void)
 	  	   {
 	  		   if(udpSocketUp){
 	  			   udpSocketUp = false;
+	  			   print("\n33");
 	  		   }
 
 	  	   }

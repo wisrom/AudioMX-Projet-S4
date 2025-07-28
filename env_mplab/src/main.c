@@ -171,7 +171,7 @@ void ManageSwitches()
     {
         //memcpy(UDP_Send_Buffer, &samples, sizeof(samples));
         UDP_Send_Buffer[0] = 0xAA;       // identifiant du type : sample
-        UDP_Send_Buffer[1] = allo[1];
+        UDP_Send_Buffer[1] = 1;
         UDP_bytes_to_send = 2;
         UDP_Send_Packet = true;
     }
@@ -180,7 +180,7 @@ void ManageSwitches()
         UDP_Send_Buffer[0] = 0xAA;       // identifiant du type : sample
         uint8_t i = 0;
         for(i = 0; i < NB_SAMPLES; i++){
-            UDP_Send_Buffer[i + 1] = allo[i];
+            UDP_Send_Buffer[i+1] = allo[i];
         }
         UDP_bytes_to_send = NB_SAMPLES + 1;
         UDP_Send_Packet = true;
@@ -261,19 +261,19 @@ void MAIN_Initialize ( void )
     RGBLED_Init();
     Init_GestionDonnees();
     I2C_Init(100000);
-    //macro_enable_interrupts();
+    macro_enable_interrupts();
     
 }
 
 // Maintenant dans la routine d'interruption de l'adc
 void check_pack(void)
 {   
-    if(Compte_Buffer_ready == 4)
+    if(Compte_Buffer_ready == 254)
     {
         UDP_Send_Buffer[0] = 0xAA;       // identifiant du type : sample
         uint8_t i = 0;
         for(i = 0; i < NB_SAMPLES; i++){
-            UDP_Send_Buffer[i + 1] = buffer_B[i];
+            UDP_Send_Buffer[i+1] = buffer_B[i];
         }
         UDP_bytes_to_send = NB_SAMPLES + 1;
         UDP_Send_Packet = true;
@@ -333,7 +333,7 @@ void MAIN_Tasks ( void )
             Affiche_EXTERN_ADC_LCD();
         	JB1Toggle();
             //LED0Toggle();
-            //check_pack();
+            check_pack();
             break;
             
         }
