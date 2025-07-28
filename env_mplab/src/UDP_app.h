@@ -59,6 +59,9 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 #include <stdlib.h>
 #include "system_config.h"
 #include "system_definitions.h"
+#include "adc.h"
+#define NB_UDP_INFO 7
+extern volatile uint16_t UDP_received_sample[NB_UDP_INFO];
 
 // *****************************************************************************
 // *****************************************************************************

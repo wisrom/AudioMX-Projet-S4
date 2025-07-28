@@ -62,6 +62,7 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 #define SERVER_PORT 8080
 int8_t _UDP_PumpDNS(const char * hostname, IPV4_ADDR *ipv4Addr);
 extern volatile uint8_t send_buffer;
+volatile uint16_t UDP_received_sample[NB_UDP_INFO] = {0};
 // *****************************************************************************
 // *****************************************************************************
 // Section: Global Data Definitions
@@ -261,11 +262,16 @@ void _UDP_ClientTasks() {
                 }
 //  modif rb              UDP_Receive_Buffer[UDP_bytes_received] = '\0';    //append a null to display strings properly
 // modif rb                SYS_CONSOLE_PRINT("\r\nClient: Client received %s\r\n", UDP_Receive_Buffer);
-                if (UDP_bytes_received == 2)
+                if (UDP_bytes_received == NB_SAMPLES + 1)
                 {
-                    uint16_t received_sample = UDP_Receive_Buffer[1]; // remplacé par uint16_t car 8 bits ce n'étais pas assez
-                    SYS_CONSOLE_PRINT("\r\nClient: Received sample = %u\r\n", received_sample);
-                    
+                    uint8_t i = 0;
+                    SYS_CONSOLE_PRINT("\rClient: Receiving samples...\r\n");
+                    for(i = 0; i < NB_UDP_INFO; i++){
+                        UDP_received_sample[i] = (uint16_t) UDP_Receive_Buffer[i]; // remplacé par uint16_t car 8 bits ce n'étais pas assez
+                        SYS_CONSOLE_PRINT("%u ", UDP_received_sample[i]);
+                    }
+                    SYS_CONSOLE_PRINT("\r\nClient: Stopped receiving samples!\r\n");
+                    /*
                     //LATA =received_sample;//allume la del correspondant au received sample
                     if (received_sample==64)
                         LATAbits.LATA7^=1;
@@ -283,6 +289,7 @@ void _UDP_ClientTasks() {
                         send_buffer = 0;
                         LATAbits.LATA3^=1;
                     }
+                    */
 
                 }
                 // Pas de fermeture du socket on veux une connection continue

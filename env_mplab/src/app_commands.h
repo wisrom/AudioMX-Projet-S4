@@ -64,7 +64,7 @@ extern "C" {
 #endif
 //#define MAX_URL_SIZE 255
 //#define MAX_PACKET_SIZE 1536
-#define MAX_PACKET_SIZE 1024
+#define MAX_PACKET_SIZE 128
 bool UDP_Commands_Init();
 extern char UDP_Hostname_Buffer[MAX_URL_SIZE];
 extern char UDP_Port_Buffer[6];

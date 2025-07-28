@@ -141,31 +141,49 @@ static bool sw2_old = false;
 uint8_t samples = 128; // Exemple : valeur initiale
 uint32_t sample_buffer = 0;
 
+uint8_t allo[128] = {
+    255,254,253,252,251,250,249,248,
+    247,246,245,244,243,242,241,240,
+    239,238,237,236,235,234,233,232,
+    231,230,229,228,227,226,225,224,
+    223,222,221,220,219,218,217,216,
+    215,214,213,212,211,210,209,208,
+    207,206,205,204,203,202,201,200,
+    199,198,197,196,195,194,193,192,
+    191,190,189,188,187,186,185,184,
+    183,182,181,180,179,178,177,176,
+    175,174,173,172,171,170,169,168,
+    167,166,165,164,163,162,161,160,
+    159,158,157,156,155,154,153,152,
+    151,150,149,148,147,146,145,144,
+    143,142,141,140,139,138,137,136,
+    135,134,133,132,131,130,129,128
+};
 
 
 void ManageSwitches()
 {
     bool sw0_new = SWITCH0StateGet(); // Lire l'état actuel du bouton
     bool sw2_new = SWITCH2StateGet();
+            
     // Déclencher uniquement sur front montant : 0 -> 1
     if (!sw0_old && sw0_new)
     {
         //memcpy(UDP_Send_Buffer, &samples, sizeof(samples));
         UDP_Send_Buffer[0] = 0xAA;       // identifiant du type : sample
-        UDP_Send_Buffer[1] = samples;     // valeur à envoyer
+        UDP_Send_Buffer[1] = allo[1];
         UDP_bytes_to_send = 2;
         UDP_Send_Packet = true;
-        //samples = samples>>1;
     }
     if (!sw2_old && sw2_new)
     {
-        
-        UDP_Send_Buffer[0] = 0xFF;       // identifiant du type : sample
-        UDP_Send_Buffer[1] = samples;     // valeur à envoyer
-        UDP_bytes_to_send = 2;
+        UDP_Send_Buffer[0] = 0xAA;       // identifiant du type : sample
+        uint8_t i = 0;
+        for(i = 0; i < NB_SAMPLES; i++){
+            UDP_Send_Buffer[i + 1] = allo[i];
+        }
+        UDP_bytes_to_send = NB_SAMPLES + 1;
         UDP_Send_Packet = true;
-        LATACLR=0x00FF;
-        samples=128;
     }
     // Mettre à jour l'état précédent pour la prochaine détection
     sw0_old = sw0_new;
@@ -243,7 +261,6 @@ void MAIN_Initialize ( void )
     RGBLED_Init();
     Init_GestionDonnees();
     I2C_Init(100000);
-    //initialize_timer_interrupt();
     //macro_enable_interrupts();
     
 }
@@ -251,17 +268,17 @@ void MAIN_Initialize ( void )
 // Maintenant dans la routine d'interruption de l'adc
 void check_pack(void)
 {   
-    uint8_t i = 0;
     if(Compte_Buffer_ready == 4)
     {
         UDP_Send_Buffer[0] = 0xAA;       // identifiant du type : sample
+        uint8_t i = 0;
         for(i = 0; i < NB_SAMPLES; i++){
             UDP_Send_Buffer[i + 1] = buffer_B[i];
         }
         UDP_bytes_to_send = NB_SAMPLES + 1;
         UDP_Send_Packet = true;
         Compte_Buffer_ready = 0;
-       }
+    }
 }
 
 
@@ -316,7 +333,7 @@ void MAIN_Tasks ( void )
             Affiche_EXTERN_ADC_LCD();
         	JB1Toggle();
             //LED0Toggle();
-            check_pack();
+            //check_pack();
             break;
             
         }
