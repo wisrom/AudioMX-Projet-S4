@@ -275,6 +275,7 @@ void _UDP_ClientTasks() {
                         SYS_CONSOLE_PRINT("%d ", UDP_received_sample[i]);
                     }
                     SYS_CONSOLE_PRINT("\r\nClient: Stopped receiving samples!\r\n");
+                    send_buffer = 1;
                     /*
                     //LATA =received_sample;//allume la del correspondant au received sample
                     if (received_sample==64)
