@@ -102,7 +102,7 @@ void __ISR(_ADC_VECTOR, IPL6AUTO) adc_interrupt()
         if(send_buffer == 1)
         {
           rgb_sel = (rgb_sel + 1) % 7;
-          
+          send_buffer = 0;
         }
         else{
             
