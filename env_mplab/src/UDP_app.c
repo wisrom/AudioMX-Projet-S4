@@ -62,7 +62,7 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 #define SERVER_PORT 8080
 int8_t _UDP_PumpDNS(const char * hostname, IPV4_ADDR *ipv4Addr);
 extern volatile uint8_t send_buffer;
-volatile uint16_t UDP_received_sample[NB_UDP_INFO] = {0};
+volatile uint8_t UDP_received_sample[NB_UDP_INFO] = {0};
 // *****************************************************************************
 // *****************************************************************************
 // Section: Global Data Definitions
@@ -226,7 +226,7 @@ void _UDP_ClientTasks() {
 //modif rb pour send uint_8            UDP_bytes_to_send = strlen(UDP_Send_Buffer); 
             uint8_t i = 0;
             for (i = 0; i < UDP_bytes_to_send; i++) {
-                SYS_CONSOLE_PRINT("%d ", UDP_Send_Buffer[i]);
+                SYS_CONSOLE_PRINT("%u ", (uint8_t)UDP_Send_Buffer[i]);
             }
             SYS_CONSOLE_PRINT("\r\n");
             TCPIP_UDP_ArrayPut(appData.clientSocket, (uint8_t*)UDP_Send_Buffer, UDP_bytes_to_send);
@@ -271,7 +271,7 @@ void _UDP_ClientTasks() {
                     uint8_t i = 0;
                     SYS_CONSOLE_PRINT("\rClient: Receiving samples...\r\n");
                     for(i = 0; i < NB_UDP_INFO; i++){
-                        UDP_received_sample[i] = (uint16_t) UDP_Receive_Buffer[i]; // remplacé par uint16_t car 8 bits ce n'étais pas assez
+                        UDP_received_sample[i] = (uint8_t) UDP_Receive_Buffer[i]; // remplacé par uint16_t car 8 bits ce n'étais pas assez
                         SYS_CONSOLE_PRINT("%d ", UDP_received_sample[i]);
                     }
                     SYS_CONSOLE_PRINT("\r\nClient: Stopped receiving samples!\r\n");

@@ -268,7 +268,7 @@ void MAIN_Initialize ( void )
 // Maintenant dans la routine d'interruption de l'adc
 void check_pack(void)
 {   
-    if(Compte_Buffer_ready == 254)
+    if(Compte_Buffer_ready == 120)
     {
         UDP_Send_Buffer[0] = 0xAA;       // identifiant du type : sample
         uint8_t i = 0;
