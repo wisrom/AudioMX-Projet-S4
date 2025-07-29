@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;projet_vitis/src/cyclone_tcp/FIFO_FFT_driver&apos; to &apos;FIFO_FFT_driver.c&apos;" description="Rename resource &apos;FIFO_FFT_driver&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/cyclone_tcp/FIFO_FFT_driver" name="FIFO_FFT_driver.c" stamp="1751132954295" updateReferences="true"/>
-</session>

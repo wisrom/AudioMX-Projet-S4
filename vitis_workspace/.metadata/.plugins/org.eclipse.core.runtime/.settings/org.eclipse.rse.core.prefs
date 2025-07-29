@@ -1,4 +1,3 @@
-activeuserprofiles=GabMaltais;Team
+activeuserprofiles=GabMaltais;HPADAM;Legion_Raph;Team
 eclipse.preferences.version=1
-org.eclipse.rse.systemtype.local.systemType.defaultUserId=gabma
-useridperkey=GabMaltais.Local\=gabma;
+org.eclipse.rse.systemtype.local.systemType.defaultUserId=rapha

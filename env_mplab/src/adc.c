@@ -14,10 +14,13 @@
 #include <stdlib.h>
 #include "adc.h"
 #include "lcd.h"
-//#include "rgbled.h"
+#include <xc.h>
+#include "UDP_app.h"
+#include "app_commands.h"
+#include "rgbled.h"
 
-
-
+extern volatile uint16_t UDP_received_sample[NB_UDP_INFO];
+volatile int Compte_Buffer_ready = 0;
 /* Tampon de m?moire A de l'enregistrement. NB_SAMPLES = 128. */
 volatile uint8_t buffer_A[NB_SAMPLES] = {0};
 
@@ -46,7 +49,7 @@ volatile uint32_t sum = 0;
 /* S?lecteur du mode des DELs RGB (7 options possible de 0 ? 6). */
 volatile uint8_t rgb_sel = 0;
 
-
+volatile uint8_t send_buffer = 0;
 
 
 /* Fonction d'interruption d?clench?e par l'ADC. Cette fonction permet
@@ -60,7 +63,7 @@ void __ISR(_ADC_VECTOR, IPL6AUTO) adc_interrupt()
     /* Calcul de l'amplitude de l'?chantillon du micro. */
     int8_t signed_mic_value = (int8_t)(mic_value - 128);
     uint8_t mic_amp = abs(signed_mic_value);
-    
+    //UDP_Send_Buffer[0]=0xAA;
     /* R?organisation du tampon d'amplitudes du micro et calcul de la moyenne. */
     sum -= mic_buffer[mic_buffer_index];
     mic_buffer[mic_buffer_index] = mic_amp;
@@ -88,57 +91,76 @@ void __ISR(_ADC_VECTOR, IPL6AUTO) adc_interrupt()
     /* Changement du mode des DELs RGB lors d'un son bruyant. Cela cr?era un
      * changement pseudo-al?atoire, car le son durera plus longtemps qu'un
      * cycle d'interruption. */
-    if (decoded_mean >= 6)
-    {
-        rgb_sel = (rgb_sel + 1) % 7;
-    }
     
-    /* Ajustement de l'intensit? des DELs RGB selon la moyenne et le mode actuel. */
-    switch (rgb_sel)
-    {
-        /* DEL rouge seulement. */
-        case 0:
-            RGBLED_SetValue(mean, 0, 0);
-            break;
-        /* DEL verte seulement. */
-        case 1:
-            RGBLED_SetValue(0, mean, 0);
-            break;
-        /* DEL bleue seulement. */
-        case 2:
-            RGBLED_SetValue(0, 0, mean);
-            break;
-        /* DELs rouge et verte. */
-        case 3:
-            RGBLED_SetValue(mean, mean, 0);
-            break;
-        /* DELs rouge et bleue. */
-        case 4:
-            RGBLED_SetValue(mean, 0, mean);
-            break;
-        /* DELs verte et bleue. */
-        case 5:
-            RGBLED_SetValue(0, mean, mean);
-            break;
-        /* DELs rouge, verte et bleue. */
-        case 6:
-            RGBLED_SetValue(mean, mean, mean);
-            break;
-        default:
-            rgb_sel = 0;
-            break;
-    }
+//    if (decoded_mean >= 6)
+//    {
+//        
+//        if(send_buffer == 1)
+//        {
+//          rgb_sel = (rgb_sel + 1) % 3;
+//          send_buffer = 0;
+//        }
+//        else{
+//            
+//            //SYS_CONSOLE_MESSAGE("\r\nClient: Starting connection\r\n");
+//        }
+//    }
+//    else{
+//        //send_buffer = 0;
+//        //UDP_Send_Packet = false;
+//    }
+//    
+//    /* Ajustement de l'intensit? des DELs RGB selon la moyenne et le mode actuel. */
+//    switch (rgb_sel)
+//    {
+//        /* DEL rouge seulement. */
+//        case 0:
+//            RGBLED_SetValue(UDP_received_sample[1], UDP_received_sample[3], UDP_received_sample[5]);
+//            break;
+//        /* DEL verte seulement. */
+//        case 1:
+//            RGBLED_SetValue(0, UDP_received_sample[1]*mean, 0);
+//            break;
+//        /* DEL bleue seulement. */
+//        case 2:
+//            RGBLED_SetValue(0, 0, UDP_received_sample[2]*mean);
+//            break;
+//        /* DELs rouge et verte. */
+//            
+//        case 3:
+//            RGBLED_SetValue(UDP_received_sample[0]*mean, UDP_received_sample[1]*mean, 0);
+//            break;
+//        /* DELs rouge et bleue. */
+//        case 4:
+//            RGBLED_SetValue(UDP_received_sample[0]*mean, 0, UDP_received_sample[2]*mean);
+//            break;
+//        /* DELs verte et bleue. */
+//        case 5:
+//            RGBLED_SetValue(0, UDP_received_sample[1]*mean, UDP_received_sample[2]*mean);
+//            break;
+//        /* DELs rouge, verte et bleue. */
+//        case 6:
+//            RGBLED_SetValue(UDP_received_sample[0]*mean, UDP_received_sample[1]*mean, UDP_received_sample[2]*mean);
+//            break;
+//        default:
+//          rgb_sel = 0;
+//            break;
+//    }
     
     /* Condition d'?criture dans le tampon de m?moire A. */
     if (!buffer_select)
     {
+        
         /* Acquisition en m?moire du signal d'entr?e. */
+        
         buffer_A[write_index++] = jack_value;
     }
+   
     /* Condition d'?criture dans le tampon de m?moire B */
     else if (buffer_select)
     {
         /* Acquisition en m?moire du signal d'entr?e. */
+        
         buffer_B[write_index++] = jack_value;
     }
     
@@ -147,10 +169,10 @@ void __ISR(_ADC_VECTOR, IPL6AUTO) adc_interrupt()
     {
         buffer_ready = 1;
         write_index = 0;
+        Compte_Buffer_ready++;
         buffer_select = !buffer_select;
     }
-
-    
+     
     IFS0bits.AD1IF = 0; // Retire le fanion d'interruption
 }
 

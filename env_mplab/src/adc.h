@@ -14,6 +14,7 @@
 /* Tampon de mémoire A et B */
 extern volatile uint8_t buffer_A[NB_SAMPLES];
 extern volatile uint8_t buffer_B[NB_SAMPLES];
+extern volatile int Compte_Buffer_ready; 
 
 /* Index de l'échantillon */
 extern volatile uint16_t write_index;

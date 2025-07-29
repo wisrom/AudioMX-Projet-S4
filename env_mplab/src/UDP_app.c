@@ -58,8 +58,12 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 #include "tcpip/tcpip.h"
 
 #include "app_commands.h"
+#include "adc.h"
 #define SERVER_PORT 8080
 int8_t _UDP_PumpDNS(const char * hostname, IPV4_ADDR *ipv4Addr);
+extern volatile uint8_t send_buffer;
+volatile uint16_t UDP_received_sample[NB_UDP_INFO] = {0};
+uint8_t RGB_COM[3]= {0,0,0};
 // *****************************************************************************
 // *****************************************************************************
 // Section: Global Data Definitions
@@ -220,14 +224,18 @@ void _UDP_ClientTasks() {
                 break;
             }
             SYS_CONSOLE_PRINT("Avail %d\r\n", TCPIP_UDP_PutIsReady(appData.clientSocket));
-//modif rb pour send uint_8            UDP_bytes_to_send = strlen(UDP_Send_Buffer);
-            SYS_CONSOLE_PRINT("Client: Sending %s", UDP_Send_Buffer);
+//modif rb pour send uint_8            UDP_bytes_to_send = strlen(UDP_Send_Buffer); 
+            int i = 0;
+            for (i = 0; i < UDP_bytes_to_send; i++) {
+                SYS_CONSOLE_PRINT("%d ", UDP_Send_Buffer[i]);
+            }
+            SYS_CONSOLE_PRINT("\r\n");
             TCPIP_UDP_ArrayPut(appData.clientSocket, (uint8_t*)UDP_Send_Buffer, UDP_bytes_to_send);
-            
+            SYS_CONSOLE_PRINT("Sent %d bytes\r\n", UDP_bytes_to_send);
            // Envoie les données (flush = envoie obligatoire des données dans la pile, peu importe la quantité de données)
             TCPIP_UDP_Flush(appData.clientSocket);
             appData.clientState = UDP_TCPIP_WAIT_FOR_RESPONSE;
-            appData.mTimeOut = SYS_TMR_SystemCountGet() + SYS_TMR_SystemCountFrequencyGet();
+            appData.mTimeOut = SYS_TMR_SystemCountGet() + SYS_TMR_SystemCountFrequencyGet()+12000000;
             //SYS_CONSOLE_PRINT("Client: Timeout %lu\n\r", appData.mTimeOut);
         }
         break;
@@ -259,11 +267,38 @@ void _UDP_ClientTasks() {
                 }
 //  modif rb              UDP_Receive_Buffer[UDP_bytes_received] = '\0';    //append a null to display strings properly
 // modif rb                SYS_CONSOLE_PRINT("\r\nClient: Client received %s\r\n", UDP_Receive_Buffer);
-                if (UDP_bytes_received == 2)
+                if (UDP_bytes_received == NB_SAMPLES + 1)
                 {
-                    uint16_t received_sample = UDP_Receive_Buffer[1]; // remplacé par uint16_t car 8 bits ce n'étais pas assez
-                    SYS_CONSOLE_PRINT("\r\nClient: Received sample = %u\r\n", received_sample);
+                    uint8_t i = 0;
+                    SYS_CONSOLE_PRINT("\rClient: Receiving samples...\r\n");
+                    for(i = 0; i < NB_UDP_INFO; i++){
+                        UDP_received_sample[i] = (uint8_t) UDP_Receive_Buffer[i]; // remplacé par uint16_t car 8 bits ce n'étais pas assez
+                        SYS_CONSOLE_PRINT("%d ", UDP_received_sample[i]);
+                    }
+                    uint16_t tmp0, tmp1, tmp2;
 
+                    // Calcul des trois composantes
+                    tmp0 = UDP_Receive_Buffer[2];
+                    tmp1 = (uint16_t)UDP_Receive_Buffer[4] * 3;
+                    tmp2 = (uint16_t)UDP_Receive_Buffer[6] * 13;
+
+                    // Low frequency (pas de scaling)
+                    RGB_COM[0] = (uint8_t)tmp0;
+
+                    // Mid frequency (×2, saturé à 255)
+                    RGB_COM[1] = (tmp1 > 255) ? 255 : (uint8_t)tmp1;
+
+                    // High frequency (×10, saturé à 255)
+                    RGB_COM[2] = (tmp2 > 255) ? 255 : (uint8_t)tmp2;
+                    
+
+                    for (int i = 0; i < 3; i++)
+                        SYS_CONSOLE_PRINT("\ti : %d ", RGB_COM[i]);
+
+                    SYS_CONSOLE_PRINT("\r\nClient: Stopped receiving samples!\r\n");
+
+                    send_buffer = 1;
+                    /*
                     //LATA =received_sample;//allume la del correspondant au received sample
                     if (received_sample==64)
                         LATAbits.LATA7^=1;
@@ -272,9 +307,16 @@ void _UDP_ClientTasks() {
                     else if (received_sample==16)
                         LATAbits.LATA5^=1;
                     else if (received_sample==8)
+                    {
+                        send_buffer = 1;
                         LATAbits.LATA4^=1;
+                    }
                     else
+                    {
+                        send_buffer = 0;
                         LATAbits.LATA3^=1;
+                    }
+                    */
 
                 }
                 // Pas de fermeture du socket on veux une connection continue

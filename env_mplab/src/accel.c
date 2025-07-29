@@ -209,12 +209,12 @@ void GestionDonnees()
         Tram_Send[2] = count_send >> 8 & 0xFF;
         Tram_Send[3] = count_send & 0xFF;
 
-        strcpy(UDP_Send_Buffer, Tram_Send);
-        strcpy(UDP_Send_Buffer+4, accel_tableau_X);
-        strcpy(UDP_Send_Buffer+164, accel_tableau_Y);
-        strcpy(UDP_Send_Buffer+324, accel_tableau_Z);
+//        strcpy(UDP_Send_Buffer, Tram_Send);
+//        strcpy(UDP_Send_Buffer+4, accel_tableau_X);
+//        strcpy(UDP_Send_Buffer+164, accel_tableau_Y);
+//        strcpy(UDP_Send_Buffer+324, accel_tableau_Z);
          
-        UDP_Send_Packet = true;
+//        UDP_Send_Packet = true;
         
         count_tableau = 0;
     }

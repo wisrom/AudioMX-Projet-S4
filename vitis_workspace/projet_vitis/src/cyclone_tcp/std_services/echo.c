@@ -39,7 +39,8 @@
 #include "cyclone_tcp/std_services/echo.h"
 #include "xil_io.h"
 #include "cyclone_tcp/core/socket.h"
-
+#include "fft.h"
+#include <math.h>
 //Check TCP/IP stack configuration
 #if (NET_STATIC_OS_RESOURCES == ENABLED)
 
@@ -48,8 +49,8 @@ static OsTask udpEchoTaskStruct;
 static uint_t udpEchoTaskStack[ECHO_SERVICE_STACK_SIZE];
 
 #endif
-
-
+u32 FFTBuffer[MAX_DATA_BUFFER_SIZE];
+u32 SourceBuffer[MAX_DATA_BUFFER_SIZE];
 /**
  * @brief Start TCP echo service
  * @return Error code
@@ -59,7 +60,8 @@ static uint_t udpEchoTaskStack[ECHO_SERVICE_STACK_SIZE];
  * @brief Start UDP echo service
  * @return Error code
  **/
-
+#define N_FFT_POINTS (MAX_DATA_BUFFER_SIZE / 2) // ex: 512 si 1024 valeurs dans le buffer
+float FFTMagnitude[N_FFT_POINTS];
 EchoServiceContext context;
 
 error_t udpEchoStart(void)
@@ -138,6 +140,20 @@ void udpEchoTask(void)
    }
 }
 
+
+void compute_fft_magnitude(u32 *fftBuffer, float *magnitudeBuffer)
+{
+    for (int k = 0; k < N_FFT_POINTS; k++)
+    {
+        int32_t re = (int32_t)fftBuffer[2 * k];
+        int32_t im = (int32_t)fftBuffer[2 * k + 1];
+
+        // Si vitesse critique : utiliser re*re + im*im seulement
+        //magnitudeBuffer[k] = sqrtf((float)(re * re + im * im));  // magnitude réelle
+        magnitudeBuffer[k] = (float)(re * re + im * im);      // version rapide (puissance spectrale)
+    }
+}
+/*
 void udpReceiveTreatment(void){
 	error_t error;
 	size_t length;
@@ -154,18 +170,30 @@ void udpReceiveTreatment(void){
 	{
 	    sample = context.buffer[1];
 
+
+
 	    print("echantillon recu : ");
 	    //printInt(sample);
 	    print("\n\r");
+	    do_forward_FFT(SourceBuffer, FFTBuffer);
+	    //compute_fft_magnitude(FFTBuffer, FFTMagnitude);
 
-	    sample = sample >> 1;
+
+
+	    print("\nFFT is done\r");
+	    sample = 0x08;
 
 	    context.buffer[1] = sample;
 	    socketSendTo(context.socket, &ipAddr, port, context.buffer, 2, NULL, 0);
 	}
+	else{
+
+		//print("Salut Alain\n");
+	}
+
 
 }
-
+*/
 //ajout de fonction printint(uint8_t val) pour debug dans vitis serial terminal
 void printInt(uint8_t val)
 {
@@ -188,3 +216,97 @@ void printInt(uint8_t val)
 
     print(&buffer[i]); // Affiche � partir du premier chiffre utile
 }
+
+void udpReceiveTreatment(void){
+	error_t error;
+	size_t length;
+	uint16_t port;
+	IpAddr ipAddr;
+
+	/* Variables à renvoyer à la basys */
+	uint8_t low_frequencies_index = 2;
+	uint8_t mid_frequencies_index = 11;
+	uint8_t high_frequencies_index = 53;
+	uint32_t low_frequencies_avg = 0;
+	uint32_t mid_frequencies_avg = 0;
+	uint32_t high_frequencies_avg = 0;
+	int16_t real = 0;
+	int16_t imaginary = 0;
+	uint32_t mag = 0;
+	uint8_t k = 1;
+
+
+	error = socketReceiveFrom(context.socket, &ipAddr, &port,
+	                             context.buffer, ECHO_BUFFER_SIZE, &length, 0);
+
+	if (!error) //clé d'identification && context.buffer[0] == 0xAA
+	{
+		for (unsigned int i = 0; i < MAX_DATA_BUFFER_SIZE; i++){
+//			float window = 0.5 * (1 - cosf(2 * 3.141592 * i / (MAX_DATA_BUFFER_SIZE - 1))); // Hanning
+			int sample = context.buffer[i + 1] & 0xFF;
+//			float windowed = (sample - 127) * window;
+			SourceBuffer[i] = (uint16_t)(sample - 127);
+			//xil_printf("SourceBuffer[%u] = %lu\r\n", i, (unsigned long)SourceBuffer[i]);
+		}
+	    print("echantillon recu : ");
+	    print("\n\r");
+
+	    do_forward_FFT(SourceBuffer, FFTBuffer);
+	    print("\nFFT is done\r");
+
+	    print("\nFFTBuffer = [");
+	    		   for (unsigned int i = 0; i < MAX_DATA_BUFFER_SIZE / 2; i++) {
+	    		       int16_t real = (int16_t)(FFTBuffer[i] & 0xFFFF);
+	    		       int16_t imag = (int16_t)(FFTBuffer[i] >> 16);
+	    		       int32_t amp = real * real + imag * imag;
+	    		       xil_printf("%d", amp);
+	    		       if (i < (MAX_DATA_BUFFER_SIZE / 2) - 1) xil_printf(", ");
+	    		   }
+	    		   print("]\n");
+
+	    // Avec une résolution de fs / FFT_LEN = 24000 / 128 = 187.5 les indices en fréquence n de la fft correspond à n = 187.5*k
+	    // Basse fréquence k = [1, 2] -> n = [187.5, 375] Hz
+	    for (; k <= low_frequencies_index; k++) {
+	    	real = (int16_t)(FFTBuffer[k] & 0xFFFF);
+	    	imaginary = (int16_t)(FFTBuffer[k] >> 16);
+	    	mag = (uint32_t)(real * real + imaginary * imaginary);
+            low_frequencies_avg += mag;
+        }
+	    low_frequencies_avg = low_frequencies_avg / (low_frequencies_index);
+	    print("\nLow frequencies calculation is done\r");
+
+	    // Moyenne fréquence k = [3, 11] -> n = [562.5, 2062.5] Hz
+	    for (; k <= mid_frequencies_index; k++) {
+	    	real = (int16_t)(FFTBuffer[k] & 0xFFFF);
+	    	imaginary = (int16_t)(FFTBuffer[k] >> 16);
+	    	mag = (uint32_t)(real * real + imaginary * imaginary);
+	        mid_frequencies_avg += mag;
+	    }
+	    mid_frequencies_avg = mid_frequencies_avg / (mid_frequencies_index - low_frequencies_index);
+	    print("\nMid frequencies calculation is done\r");
+
+	    // Haute fréquence k = [12, 53] -> n = [2250, 9937.5] Hz
+		for (; k <= high_frequencies_index; k++) {
+			real = (int16_t)(FFTBuffer[k] & 0xFFFF);
+			imaginary = (int16_t)(FFTBuffer[k] >> 16);
+			mag = (uint32_t)(real * real + imaginary * imaginary);
+			high_frequencies_avg += mag;
+		}
+	    high_frequencies_avg = high_frequencies_avg / (high_frequencies_index - mid_frequencies_index);
+	    print("\nHigh frequencies calculation is done\r");
+
+	    print("\nSending back to basys...\r");
+
+	    // normalisation
+	    context.buffer[1] = (uint8_t)(low_frequencies_avg >> 24) & 0xFF;
+	    context.buffer[2] = (uint8_t)(low_frequencies_avg >> 16) & 0xFF;
+	    context.buffer[3] = (uint8_t)(mid_frequencies_avg >> 24) & 0xFF;
+	    context.buffer[4] = (uint8_t)(mid_frequencies_avg >> 16) & 0xFF;
+	    context.buffer[5] = (uint8_t)(high_frequencies_avg >> 24) & 0xFF;
+	    context.buffer[6] = (uint8_t)(high_frequencies_avg >> 16) & 0xFF;
+	    socketSendTo(context.socket, &ipAddr, port, context.buffer, length, NULL, 0);
+	    print("\nFinish!\r");
+	    print("\n\r");
+	}
+}
+

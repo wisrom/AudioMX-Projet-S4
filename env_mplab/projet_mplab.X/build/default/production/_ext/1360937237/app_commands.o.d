@@ -358,7 +358,7 @@ build/default/production/_ext/1360937237/app_commands.o: \
  ../src/system_config/default/framework/driver/encx24j600/drv_encx24j600.h \
  ../src/system_config/default/framework/system/command/sys_command.h \
  ../src/system_config/default/framework/driver/ethmac/drv_ethmac.h \
- ../src/main.h
+ ../src/main.h ../src/adc.h ../src/config.h
 
 ../src/system_config/default/framework/tcpip/tcpip.h:
 
@@ -1081,3 +1081,7 @@ build/default/production/_ext/1360937237/app_commands.o: \
 ../src/system_config/default/framework/driver/ethmac/drv_ethmac.h:
 
 ../src/main.h:
+
+../src/adc.h:
+
+../src/config.h:

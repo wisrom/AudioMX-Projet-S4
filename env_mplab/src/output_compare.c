@@ -58,7 +58,7 @@ void __ISR(_TIMER_4_VECTOR, IPL1AUTO) duty_cyle_update()
 
 /* Cette fonction permet de configurer OC1 pour g?n?rerer le PWM
  * de la sortie audio. */
-void initialize_oc1()
+void initialize_oc1(void)
 {
     /* Liaison du PWM au haut-parleur.
      * Voir section 17.2 datasheet Basys MX3.

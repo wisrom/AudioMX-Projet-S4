@@ -34,7 +34,7 @@ void duty_cycle_update();
 
 /* Cette fonction permet de configurer OC1 pour g?n?rerer le PWM
  * de la sortie audio. */
-void initialize_oc1();
+void initialize_oc1(void);
 
 
 
