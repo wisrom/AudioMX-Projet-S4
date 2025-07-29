@@ -40,6 +40,7 @@
 #include "xil_io.h"
 #include "cyclone_tcp/core/socket.h"
 #include "fft.h"
+#include <math.h>
 //Check TCP/IP stack configuration
 #if (NET_STATIC_OS_RESOURCES == ENABLED)
 
@@ -232,7 +233,7 @@ void udpReceiveTreatment(void){
 	int16_t real = 0;
 	int16_t imaginary = 0;
 	uint32_t mag = 0;
-	uint8_t k = 0;
+	uint8_t k = 1;
 
 
 	error = socketReceiveFrom(context.socket, &ipAddr, &port,
@@ -240,19 +241,32 @@ void udpReceiveTreatment(void){
 
 	if (!error) //clé d'identification && context.buffer[0] == 0xAA
 	{
-	    for (unsigned int i = 0; i < MAX_DATA_BUFFER_SIZE; i++){
-	    	SourceBuffer[i] = (uint32_t)context.buffer[i + 1] & 0x000000FF;
-	    	xil_printf("SourceBuffer[%u] = %lu\r\n", i, (unsigned long)SourceBuffer[i]);
-	    }
+		for (unsigned int i = 0; i < MAX_DATA_BUFFER_SIZE; i++){
+//			float window = 0.5 * (1 - cosf(2 * 3.141592 * i / (MAX_DATA_BUFFER_SIZE - 1))); // Hanning
+			int sample = context.buffer[i + 1] & 0xFF;
+//			float windowed = (sample - 127) * window;
+			SourceBuffer[i] = (uint16_t)(sample - 127);
+			//xil_printf("SourceBuffer[%u] = %lu\r\n", i, (unsigned long)SourceBuffer[i]);
+		}
 	    print("echantillon recu : ");
 	    print("\n\r");
 
 	    do_forward_FFT(SourceBuffer, FFTBuffer);
 	    print("\nFFT is done\r");
 
+	    print("\nFFTBuffer = [");
+	    		   for (unsigned int i = 0; i < MAX_DATA_BUFFER_SIZE / 2; i++) {
+	    		       int16_t real = (int16_t)(FFTBuffer[i] & 0xFFFF);
+	    		       int16_t imag = (int16_t)(FFTBuffer[i] >> 16);
+	    		       int32_t amp = real * real + imag * imag;
+	    		       xil_printf("%d", amp);
+	    		       if (i < (MAX_DATA_BUFFER_SIZE / 2) - 1) xil_printf(", ");
+	    		   }
+	    		   print("]\n");
+
 	    // Avec une résolution de fs / FFT_LEN = 24000 / 128 = 187.5 les indices en fréquence n de la fft correspond à n = 187.5*k
-	    // Basse fréquence k = [0, 2] -> n = [0, 375] Hz
-	    for (; k < low_frequencies_index; k++) {
+	    // Basse fréquence k = [1, 2] -> n = [187.5, 375] Hz
+	    for (; k <= low_frequencies_index; k++) {
 	    	real = (int16_t)(FFTBuffer[k] & 0xFFFF);
 	    	imaginary = (int16_t)(FFTBuffer[k] >> 16);
 	    	mag = (uint32_t)(real * real + imaginary * imaginary);
@@ -262,7 +276,7 @@ void udpReceiveTreatment(void){
 	    print("\nLow frequencies calculation is done\r");
 
 	    // Moyenne fréquence k = [3, 11] -> n = [562.5, 2062.5] Hz
-	    for (; k < mid_frequencies_index; k++) {
+	    for (; k <= mid_frequencies_index; k++) {
 	    	real = (int16_t)(FFTBuffer[k] & 0xFFFF);
 	    	imaginary = (int16_t)(FFTBuffer[k] >> 16);
 	    	mag = (uint32_t)(real * real + imaginary * imaginary);
@@ -272,7 +286,7 @@ void udpReceiveTreatment(void){
 	    print("\nMid frequencies calculation is done\r");
 
 	    // Haute fréquence k = [12, 53] -> n = [2250, 9937.5] Hz
-		for (; k < high_frequencies_index; k++) {
+		for (; k <= high_frequencies_index; k++) {
 			real = (int16_t)(FFTBuffer[k] & 0xFFFF);
 			imaginary = (int16_t)(FFTBuffer[k] >> 16);
 			mag = (uint32_t)(real * real + imaginary * imaginary);

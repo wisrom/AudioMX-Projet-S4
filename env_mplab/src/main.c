@@ -138,6 +138,11 @@ void Interupt_ACL_Init(void)
 }
 static bool sw0_old = false;
 static bool sw2_old = false;
+static bool sw4_old = false;
+static bool sw5_old = false;
+static bool sw6_old = false;
+static bool sw7_old = false;
+
 uint8_t samples = 128; // Exemple : valeur initiale
 uint32_t sample_buffer = 0;
 
@@ -160,11 +165,68 @@ uint8_t allo[128] = {
     135,134,133,132,131,130,129,128
 };
 
+char sinus_187_5hz[128] = {
+    128, 134, 140, 147, 153, 159, 165, 171, 
+    177, 182, 188, 193, 199, 204, 209, 213, 
+    218, 222, 226, 230, 234, 237, 240, 243,
+    245, 248, 250, 251, 253, 254, 254, 255,
+    255, 255, 254, 254, 253, 251, 250, 248,
+    245, 243, 240, 237, 234, 230, 226, 222,
+    218, 213, 209, 204, 199, 193, 188, 182, 
+    177, 171, 165, 159, 153, 147, 140, 134,
+    128, 122, 116, 109, 103, 97, 91, 85, 79,
+    74, 68, 63, 57, 52, 47, 43, 38, 34, 30, 
+    26, 22, 19, 16, 13, 11, 8, 6, 5, 3, 2, 
+    2, 1, 1, 1, 2, 2, 3, 5, 6, 8, 11, 13, 
+    16, 19, 22, 26, 30, 34, 38, 43, 47, 52,
+    57, 63, 68, 74, 79, 85, 91, 97, 103, 109,
+    116, 122
+};
+char sinus_750hz[128] = {
+    128,153,177,199,218,233,245,252,
+    255,252,245,233,218,199,177,153,
+    128,102, 78, 56, 37, 22, 10,  3,
+      0,  3, 10, 22, 37, 56, 78,102,
+    128,153,177,199,218,233,245,252,
+    255,252,245,233,218,199,177,153,
+    128,102, 78, 56, 37, 22, 10,  3,
+      0,  3, 10, 22, 37, 56, 78,102,
+    128,153,177,199,218,233,245,252,
+    255,252,245,233,218,199,177,153,
+    128,102, 78, 56, 37, 22, 10,  3,
+      0,  3, 10, 22, 37, 56, 78,102,
+    128,153,177,199,218,233,245,252,
+    255,252,245,233,218,199,177,153,
+    128,102, 78, 56, 37, 22, 10,  3,
+      0,  3, 10, 22, 37, 56, 78,102
+};
+
+char sinus_3000hz[128] = {
+    128, 218, 255, 218, 128, 38, 1, 38, 128, 218, 255, 218, 
+    128, 38, 1, 38, 128, 218, 255, 218, 128, 38, 1, 38, 128, 
+    218, 255, 218, 128, 38, 1, 38, 128, 218, 255, 218, 128, 
+    38, 1, 38, 128, 218, 255, 218, 128, 38, 1, 38, 128, 218, 
+    255, 218, 128, 38, 1, 38, 128, 218, 255, 218, 128, 38, 1, 
+    38, 128, 218, 255, 218, 128, 38, 1, 38, 128, 218, 255, 218, 
+    128, 38, 1, 38, 128, 218, 255, 218, 128, 38, 1, 38, 128, 218, 
+    255, 218, 128, 38, 1, 38, 128, 218, 255, 218, 128, 38, 1, 38, 
+    128, 218, 255, 218, 128, 38, 1, 38, 128, 218, 255, 218, 128, 
+    38, 1, 38, 128, 218, 255, 218, 128, 38, 1, 38
+};
+char* sinus_switch = sinus_3000hz;
+char sinus_4000_200hz[128] ={
+    128, 191, 194, 139, 83, 87, 149, 211, 215, 159, 103, 106, 168, 230, 233, 176, 120, 122, 183, 244, 246, 189, 131, 133, 193, 253, 254, 195, 137, 137, 196, 255, 255, 195, 136, 135, 193, 251, 249, 189, 128, 126, 183, 240, 238, 176, 115, 112, 168, 224, 221, 159, 97, 93, 149, 205, 201, 139, 76, 73, 128, 183, 180, 117, 55, 51, 107, 163, 159, 97, 35, 32, 88, 144, 141, 80, 18, 16, 73, 130, 128, 67, 7, 5, 63, 121, 120, 61, 1, 1, 60, 119, 119, 61, 2, 3, 63, 123, 125, 67, 10, 12, 73, 134, 136, 80, 23, 26, 88, 150, 153, 97, 41, 45, 107, 169, 173, 117, 62, 65, 128, 191, 194, 139, 83, 87, 149, 211
+};
 
 void ManageSwitches()
 {
     bool sw0_new = SWITCH0StateGet(); // Lire l'état actuel du bouton
     bool sw2_new = SWITCH2StateGet();
+    bool sw4_new = SWITCH4StateGet();
+    bool sw5_new = SWITCH5StateGet();
+    bool sw6_new = SWITCH6StateGet();
+    bool sw7_new = SWITCH7StateGet();
+
             
     // Déclencher uniquement sur front montant : 0 -> 1
     if (!sw0_old && sw0_new)
@@ -185,9 +247,28 @@ void ManageSwitches()
         UDP_bytes_to_send = NB_SAMPLES + 1;
         UDP_Send_Packet = true;
     }
+    if (!sw4_old && sw4_new) {
+    sinus_switch = sinus_187_5hz;  
+    }
+    if (!sw5_old && sw5_new) {
+    sinus_switch = sinus_750hz;  
+    }
+    if (!sw6_old && sw6_new) {
+        sinus_switch = sinus_3000hz;
+    }
+    if (!sw7_old && sw7_new) {
+        sinus_switch = sinus_4000_200hz;
+    }
+
+    
     // Mettre à jour l'état précédent pour la prochaine détection
     sw0_old = sw0_new;
     sw2_old = sw2_new;
+    sw4_old = sw4_new; 
+    sw5_old = sw5_new;
+    sw6_old = sw6_new;
+    sw7_old = sw7_new;
+
 }
 
 void RGB_Task()
@@ -195,39 +276,41 @@ void RGB_Task()
     //if(timer_1m) {               // Interruption à chaque 1 ms
         //timer_1m = 0;            // Reset the compteur to capture the next event
         //Toute pour la Moyenne fait directement dans la MX3 avec la fonction GestionMoyenne dans accel.c
-        Intense[0] = (MoyenneX*255)/2096;
-        Intense[1] = (MoyenneY*255)/2096;
-        Intense[2] = (MoyenneZ*255)/2096;
-
-        if(Intense[0] <= 0)
-        {
-            Intense[0] = Last_Intense[0];
-        }
-        else
-        {
-          Last_Intense[0] = Intense[0];  
-        }
-
-        if(Intense[1] <= 0)
-        {
-            Intense[1] = Last_Intense[1];
-        }
-        else
-        {
-          Last_Intense[0] = Intense[0];  
-        }
-
-        if(Intense[2] <= 0)
-        {
-            Intense[2] = Last_Intense[2];
-        }
-        else
-        {
-          Last_Intense[0] = Intense[0];  
-        }
-
-        RGBLED_SetValue(Intense[0], Intense[1], Intense[2]); 
+//        Intense[0] = (MoyenneX*255)/2096;
+//        Intense[1] = (MoyenneY*255)/2096;
+//        Intense[2] = (MoyenneZ*255)/2096;
+//
+//        if(Intense[0] <= 0)
+//        {
+//            Intense[0] = Last_Intense[0];
+//        }
+//        else
+//        {
+//          Last_Intense[0] = Intense[0];  
+//        }
+//
+//        if(Intense[1] <= 0)
+//        {
+//            Intense[1] = Last_Intense[1];
+//        }
+//        else
+//        {
+//          Last_Intense[0] = Intense[0];  
+//        }
+//
+//        if(Intense[2] <= 0)
+//        {
+//            Intense[2] = Last_Intense[2];
+//        }
+//        else
+//        {
+//          Last_Intense[0] = Intense[0];  
+//        }
+//
+//        RGBLED_SetValue(Intense[0], Intense[1], Intense[2]); 
     //}
+            RGBLED_SetValue(RGB_COM[0], RGB_COM[1], RGB_COM[2]); 
+
 }
 
 
@@ -268,10 +351,10 @@ void MAIN_Initialize ( void )
 // Maintenant dans la routine d'interruption de l'adc
 void check_pack(void)
 {   
-    if(Compte_Buffer_ready == 254)
+    if(Compte_Buffer_ready >= 2)//etait 254
     {
         UDP_Send_Buffer[0] = 0xAA;       // identifiant du type : sample
-        uint8_t i = 0;
+        int i = 0; //modifié en int pour avoir une plus grande plage de valeur
         for(i = 0; i < NB_SAMPLES; i++){
             UDP_Send_Buffer[i+1] = buffer_B[i];
         }
@@ -326,7 +409,7 @@ void MAIN_Tasks ( void )
         {
             LedTask(); //toggle LED1 à tout les 500000 cycles
             //accel_tasks(); // 
-            //RGB_Task();
+            RGB_Task();
             UDP_Tasks();
             ManageSwitches();
             Affichage_param_audio_button();

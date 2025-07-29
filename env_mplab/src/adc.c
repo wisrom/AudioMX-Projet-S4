@@ -20,7 +20,7 @@
 #include "rgbled.h"
 
 extern volatile uint16_t UDP_received_sample[NB_UDP_INFO];
-volatile uint8_t Compte_Buffer_ready = 0;
+volatile int Compte_Buffer_ready = 0;
 /* Tampon de m?moire A de l'enregistrement. NB_SAMPLES = 128. */
 volatile uint8_t buffer_A[NB_SAMPLES] = {0};
 
@@ -92,60 +92,60 @@ void __ISR(_ADC_VECTOR, IPL6AUTO) adc_interrupt()
      * changement pseudo-al?atoire, car le son durera plus longtemps qu'un
      * cycle d'interruption. */
     
-    if (decoded_mean >= 6)
-    {
-        
-        if(send_buffer == 1)
-        {
-          rgb_sel = (rgb_sel + 1) % 3;
-          send_buffer = 0;
-        }
-        else{
-            
-            //SYS_CONSOLE_MESSAGE("\r\nClient: Starting connection\r\n");
-        }
-    }
-    else{
-        //send_buffer = 0;
-        //UDP_Send_Packet = false;
-    }
-    
-    /* Ajustement de l'intensit? des DELs RGB selon la moyenne et le mode actuel. */
-    switch (rgb_sel)
-    {
-        /* DEL rouge seulement. */
-        case 0:
-            RGBLED_SetValue(UDP_received_sample[1], UDP_received_sample[3], UDP_received_sample[5]);
-            break;
-        /* DEL verte seulement. */
-        case 1:
-            RGBLED_SetValue(0, UDP_received_sample[1]*mean, 0);
-            break;
-        /* DEL bleue seulement. */
-        case 2:
-            RGBLED_SetValue(0, 0, UDP_received_sample[2]*mean);
-            break;
-        /* DELs rouge et verte. */
-            
-        case 3:
-            RGBLED_SetValue(UDP_received_sample[0]*mean, UDP_received_sample[1]*mean, 0);
-            break;
-        /* DELs rouge et bleue. */
-        case 4:
-            RGBLED_SetValue(UDP_received_sample[0]*mean, 0, UDP_received_sample[2]*mean);
-            break;
-        /* DELs verte et bleue. */
-        case 5:
-            RGBLED_SetValue(0, UDP_received_sample[1]*mean, UDP_received_sample[2]*mean);
-            break;
-        /* DELs rouge, verte et bleue. */
-        case 6:
-            RGBLED_SetValue(UDP_received_sample[0]*mean, UDP_received_sample[1]*mean, UDP_received_sample[2]*mean);
-            break;
-        default:
-          rgb_sel = 0;
-            break;
-    }
+//    if (decoded_mean >= 6)
+//    {
+//        
+//        if(send_buffer == 1)
+//        {
+//          rgb_sel = (rgb_sel + 1) % 3;
+//          send_buffer = 0;
+//        }
+//        else{
+//            
+//            //SYS_CONSOLE_MESSAGE("\r\nClient: Starting connection\r\n");
+//        }
+//    }
+//    else{
+//        //send_buffer = 0;
+//        //UDP_Send_Packet = false;
+//    }
+//    
+//    /* Ajustement de l'intensit? des DELs RGB selon la moyenne et le mode actuel. */
+//    switch (rgb_sel)
+//    {
+//        /* DEL rouge seulement. */
+//        case 0:
+//            RGBLED_SetValue(UDP_received_sample[1], UDP_received_sample[3], UDP_received_sample[5]);
+//            break;
+//        /* DEL verte seulement. */
+//        case 1:
+//            RGBLED_SetValue(0, UDP_received_sample[1]*mean, 0);
+//            break;
+//        /* DEL bleue seulement. */
+//        case 2:
+//            RGBLED_SetValue(0, 0, UDP_received_sample[2]*mean);
+//            break;
+//        /* DELs rouge et verte. */
+//            
+//        case 3:
+//            RGBLED_SetValue(UDP_received_sample[0]*mean, UDP_received_sample[1]*mean, 0);
+//            break;
+//        /* DELs rouge et bleue. */
+//        case 4:
+//            RGBLED_SetValue(UDP_received_sample[0]*mean, 0, UDP_received_sample[2]*mean);
+//            break;
+//        /* DELs verte et bleue. */
+//        case 5:
+//            RGBLED_SetValue(0, UDP_received_sample[1]*mean, UDP_received_sample[2]*mean);
+//            break;
+//        /* DELs rouge, verte et bleue. */
+//        case 6:
+//            RGBLED_SetValue(UDP_received_sample[0]*mean, UDP_received_sample[1]*mean, UDP_received_sample[2]*mean);
+//            break;
+//        default:
+//          rgb_sel = 0;
+//            break;
+//    }
     
     /* Condition d'?criture dans le tampon de m?moire A. */
     if (!buffer_select)
