@@ -6753,3 +6753,575 @@ dow C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/pro
 ----------------End of Script----------------
 
 10:33:47 ERROR : Cannot stop MicroBlaze. Stalled on instruction fetch. PC=0x1000004
+10:34:50 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\rapha\S4\Projet\ZZ_Github\AudioMX-Projet-S4-RGB\vitis_workspace\temp_xsdb_launch_script.tcl
+10:34:54 INFO  : XSCT server has started successfully.
+10:34:55 INFO  : plnx-install-location is set to ''
+10:34:55 INFO  : Successfully done setting XSCT server connection channel  
+10:34:55 INFO  : Successfully done setting workspace for the tool. 
+10:35:11 INFO  : Registering command handlers for Vitis TCF services
+10:35:11 INFO  : Platform repository initialization has completed.
+10:35:19 INFO  : Successfully done query RDI_DATADIR 
+10:35:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:35:35 INFO  : Jtag cable 'Digilent Zybo Z7 210351A77E51A' is selected.
+10:35:35 INFO  : 'jtag frequency' command is executed.
+10:35:35 INFO  : Context for 'APU' is selected.
+10:35:35 INFO  : System reset is completed.
+10:35:38 INFO  : 'after 3000' command is executed.
+10:35:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A77E51A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A77E51A-13722093-0"}' command is executed.
+10:35:40 INFO  : Device configured successfully with "C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/bitstream/main_design_wrapper.bit"
+10:35:40 INFO  : Context for 'APU' is selected.
+10:35:40 INFO  : Hardware design and registers information is loaded from 'C:/Users/rapha/S4/Projet/Z_20250723/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/hw/main_design_wrapper.xsa'.
+10:35:40 INFO  : 'configparams force-mem-access 1' command is executed.
+10:35:40 INFO  : Context for 'APU' is selected.
+10:35:40 INFO  : Sourcing of 'C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/psinit/ps7_init.tcl' is done.
+10:35:40 INFO  : 'ps7_init' command is executed.
+10:35:40 INFO  : 'ps7_post_config' command is executed.
+10:35:40 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:35:40 INFO  : Context for processor 'microblaze_0' is selected.
+10:35:40 ERROR : Cannot stop MicroBlaze. Stalled on instruction fetch. PC=0x1000004
+10:35:40 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A77E51A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A77E51A-13722093-0"}
+fpga -file C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/bitstream/main_design_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/rapha/S4/Projet/Z_20250723/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/hw/main_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/Debug/projet_vitis.elf
+----------------End of Script----------------
+
+10:35:40 ERROR : Cannot stop MicroBlaze. Stalled on instruction fetch. PC=0x1000004
+10:35:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:35:54 INFO  : Jtag cable 'Digilent Zybo Z7 210351A77E51A' is selected.
+10:35:54 INFO  : 'jtag frequency' command is executed.
+10:35:54 INFO  : Context for 'APU' is selected.
+10:35:54 INFO  : System reset is completed.
+10:35:57 INFO  : 'after 3000' command is executed.
+10:35:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A77E51A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A77E51A-13722093-0"}' command is executed.
+10:35:59 INFO  : Device configured successfully with "C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/bitstream/main_design_wrapper.bit"
+10:35:59 INFO  : Context for 'APU' is selected.
+10:35:59 INFO  : Hardware design and registers information is loaded from 'C:/Users/rapha/S4/Projet/Z_20250723/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/hw/main_design_wrapper.xsa'.
+10:35:59 INFO  : 'configparams force-mem-access 1' command is executed.
+10:35:59 INFO  : Context for 'APU' is selected.
+10:35:59 INFO  : Sourcing of 'C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/psinit/ps7_init.tcl' is done.
+10:35:59 INFO  : 'ps7_init' command is executed.
+10:35:59 INFO  : 'ps7_post_config' command is executed.
+10:35:59 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:35:59 INFO  : Context for processor 'microblaze_0' is selected.
+10:35:59 ERROR : Cannot stop MicroBlaze. Stalled on instruction fetch. PC=0x1000004
+10:35:59 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A77E51A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A77E51A-13722093-0"}
+fpga -file C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/bitstream/main_design_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/rapha/S4/Projet/Z_20250723/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/hw/main_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/Debug/projet_vitis.elf
+----------------End of Script----------------
+
+10:35:59 ERROR : Cannot stop MicroBlaze. Stalled on instruction fetch. PC=0x1000004
+10:36:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:36:13 INFO  : Jtag cable 'Digilent Zybo Z7 210351A77E51A' is selected.
+10:36:13 INFO  : 'jtag frequency' command is executed.
+10:36:13 INFO  : Context for 'APU' is selected.
+10:36:13 INFO  : System reset is completed.
+10:36:16 INFO  : 'after 3000' command is executed.
+10:36:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A77E51A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A77E51A-13722093-0"}' command is executed.
+10:36:18 INFO  : Device configured successfully with "C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/bitstream/main_design_wrapper.bit"
+10:36:18 INFO  : Context for 'APU' is selected.
+10:36:18 INFO  : Hardware design and registers information is loaded from 'C:/Users/rapha/S4/Projet/Z_20250723/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/hw/main_design_wrapper.xsa'.
+10:36:18 INFO  : 'configparams force-mem-access 1' command is executed.
+10:36:18 INFO  : Context for 'APU' is selected.
+10:36:18 INFO  : Sourcing of 'C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/psinit/ps7_init.tcl' is done.
+10:36:19 INFO  : 'ps7_init' command is executed.
+10:36:19 INFO  : 'ps7_post_config' command is executed.
+10:36:19 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:36:19 INFO  : Context for processor 'microblaze_0' is selected.
+10:36:20 INFO  : The application 'C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/Debug/projet_vitis.elf' is downloaded to processor 'microblaze_0'.
+10:36:20 INFO  : 'configparams force-mem-access 0' command is executed.
+10:36:20 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A77E51A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A77E51A-13722093-0"}
+fpga -file C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/bitstream/main_design_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/rapha/S4/Projet/Z_20250723/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/hw/main_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/Debug/projet_vitis.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:36:20 INFO  : Context for processor 'microblaze_0' is selected.
+10:36:20 INFO  : 'con' command is executed.
+10:36:20 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:36:20 INFO  : Launch script is exported to file 'C:\Users\rapha\S4\Projet\ZZ_Github\AudioMX-Projet-S4-RGB\vitis_workspace\projet_vitis_system\_ide\scripts\systemdebugger_projet_vitis_system_standalone.tcl'
+11:05:41 INFO  : Checking for BSP changes to sync application flags for project 'projet_vitis'...
+11:06:08 INFO  : Checking for BSP changes to sync application flags for project 'projet_vitis'...
+11:06:17 INFO  : Disconnected from the channel tcfchan#1.
+11:06:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:06:18 INFO  : Jtag cable 'Digilent Zybo Z7 210351A77E51A' is selected.
+11:06:18 INFO  : 'jtag frequency' command is executed.
+11:06:18 INFO  : Context for 'APU' is selected.
+11:06:18 INFO  : System reset is completed.
+11:06:21 INFO  : 'after 3000' command is executed.
+11:06:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A77E51A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A77E51A-13722093-0"}' command is executed.
+11:06:22 INFO  : Device configured successfully with "C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/bitstream/main_design_wrapper.bit"
+11:06:22 INFO  : Context for 'APU' is selected.
+11:06:24 INFO  : Hardware design and registers information is loaded from 'C:/Users/rapha/S4/Projet/Z_20250723/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/hw/main_design_wrapper.xsa'.
+11:06:24 INFO  : 'configparams force-mem-access 1' command is executed.
+11:06:24 INFO  : Context for 'APU' is selected.
+11:06:24 INFO  : Sourcing of 'C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/psinit/ps7_init.tcl' is done.
+11:06:24 INFO  : 'ps7_init' command is executed.
+11:06:24 INFO  : 'ps7_post_config' command is executed.
+11:06:24 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:06:24 INFO  : Context for processor 'microblaze_0' is selected.
+11:06:25 INFO  : The application 'C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/Debug/projet_vitis.elf' is downloaded to processor 'microblaze_0'.
+11:06:25 INFO  : 'configparams force-mem-access 0' command is executed.
+11:06:25 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A77E51A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A77E51A-13722093-0"}
+fpga -file C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/bitstream/main_design_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/rapha/S4/Projet/Z_20250723/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/hw/main_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/Debug/projet_vitis.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:06:25 INFO  : Context for processor 'microblaze_0' is selected.
+11:06:25 INFO  : 'con' command is executed.
+11:06:25 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:06:25 INFO  : Launch script is exported to file 'C:\Users\rapha\S4\Projet\ZZ_Github\AudioMX-Projet-S4-RGB\vitis_workspace\projet_vitis_system\_ide\scripts\systemdebugger_projet_vitis_system_standalone.tcl'
+11:15:33 INFO  : Checking for BSP changes to sync application flags for project 'projet_vitis'...
+11:15:48 INFO  : Disconnected from the channel tcfchan#2.
+11:15:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:15:48 INFO  : Jtag cable 'Digilent Zybo Z7 210351A77E51A' is selected.
+11:15:48 INFO  : 'jtag frequency' command is executed.
+11:15:48 INFO  : Context for 'APU' is selected.
+11:15:48 INFO  : System reset is completed.
+11:15:51 INFO  : 'after 3000' command is executed.
+11:15:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A77E51A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A77E51A-13722093-0"}' command is executed.
+11:15:52 INFO  : Device configured successfully with "C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/bitstream/main_design_wrapper.bit"
+11:15:52 INFO  : Context for 'APU' is selected.
+11:15:54 INFO  : Hardware design and registers information is loaded from 'C:/Users/rapha/S4/Projet/Z_20250723/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/hw/main_design_wrapper.xsa'.
+11:15:54 INFO  : 'configparams force-mem-access 1' command is executed.
+11:15:54 INFO  : Context for 'APU' is selected.
+11:15:54 INFO  : Sourcing of 'C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/psinit/ps7_init.tcl' is done.
+11:15:54 INFO  : 'ps7_init' command is executed.
+11:15:54 INFO  : 'ps7_post_config' command is executed.
+11:15:54 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:15:54 INFO  : Context for processor 'microblaze_0' is selected.
+11:15:55 INFO  : The application 'C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/Debug/projet_vitis.elf' is downloaded to processor 'microblaze_0'.
+11:15:55 INFO  : 'configparams force-mem-access 0' command is executed.
+11:15:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A77E51A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A77E51A-13722093-0"}
+fpga -file C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/bitstream/main_design_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/rapha/S4/Projet/Z_20250723/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/hw/main_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/Debug/projet_vitis.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:15:55 INFO  : Context for processor 'microblaze_0' is selected.
+11:15:55 INFO  : 'con' command is executed.
+11:15:55 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:15:55 INFO  : Launch script is exported to file 'C:\Users\rapha\S4\Projet\ZZ_Github\AudioMX-Projet-S4-RGB\vitis_workspace\projet_vitis_system\_ide\scripts\systemdebugger_projet_vitis_system_standalone.tcl'
+11:25:06 INFO  : Checking for BSP changes to sync application flags for project 'projet_vitis'...
+11:25:57 INFO  : Disconnected from the channel tcfchan#3.
+11:25:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:25:58 INFO  : Jtag cable 'Digilent Zybo Z7 210351A77E51A' is selected.
+11:25:58 INFO  : 'jtag frequency' command is executed.
+11:25:58 INFO  : Context for 'APU' is selected.
+11:25:58 INFO  : System reset is completed.
+11:26:01 INFO  : 'after 3000' command is executed.
+11:26:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A77E51A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A77E51A-13722093-0"}' command is executed.
+11:26:02 INFO  : Device configured successfully with "C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/bitstream/main_design_wrapper.bit"
+11:26:02 INFO  : Context for 'APU' is selected.
+11:26:05 INFO  : Hardware design and registers information is loaded from 'C:/Users/rapha/S4/Projet/Z_20250723/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/hw/main_design_wrapper.xsa'.
+11:26:05 INFO  : 'configparams force-mem-access 1' command is executed.
+11:26:05 INFO  : Context for 'APU' is selected.
+11:26:05 INFO  : Sourcing of 'C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/psinit/ps7_init.tcl' is done.
+11:26:06 INFO  : 'ps7_init' command is executed.
+11:26:06 INFO  : 'ps7_post_config' command is executed.
+11:26:06 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:26:06 INFO  : Context for processor 'microblaze_0' is selected.
+11:26:07 INFO  : The application 'C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/Debug/projet_vitis.elf' is downloaded to processor 'microblaze_0'.
+11:26:07 INFO  : 'configparams force-mem-access 0' command is executed.
+11:26:07 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A77E51A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A77E51A-13722093-0"}
+fpga -file C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/bitstream/main_design_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/rapha/S4/Projet/Z_20250723/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/hw/main_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/Debug/projet_vitis.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:26:07 INFO  : Context for processor 'microblaze_0' is selected.
+11:26:07 INFO  : 'con' command is executed.
+11:26:07 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:26:07 INFO  : Launch script is exported to file 'C:\Users\rapha\S4\Projet\ZZ_Github\AudioMX-Projet-S4-RGB\vitis_workspace\projet_vitis_system\_ide\scripts\systemdebugger_projet_vitis_system_standalone.tcl'
+12:57:58 INFO  : Disconnected from the channel tcfchan#4.
+14:01:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:01:44 INFO  : Jtag cable 'Digilent Zybo Z7 210351A77E51A' is selected.
+14:01:44 INFO  : 'jtag frequency' command is executed.
+14:01:44 INFO  : Context for 'APU' is selected.
+14:01:44 INFO  : System reset is completed.
+14:01:47 INFO  : 'after 3000' command is executed.
+14:01:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A77E51A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A77E51A-13722093-0"}' command is executed.
+14:01:49 INFO  : Device configured successfully with "C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/bitstream/main_design_wrapper.bit"
+14:01:49 INFO  : Context for 'APU' is selected.
+14:01:51 INFO  : Hardware design and registers information is loaded from 'C:/Users/rapha/S4/Projet/Z_20250723/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/hw/main_design_wrapper.xsa'.
+14:01:51 INFO  : 'configparams force-mem-access 1' command is executed.
+14:01:51 INFO  : Context for 'APU' is selected.
+14:01:51 INFO  : Sourcing of 'C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/psinit/ps7_init.tcl' is done.
+14:01:51 INFO  : 'ps7_init' command is executed.
+14:01:51 INFO  : 'ps7_post_config' command is executed.
+14:01:52 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:01:52 INFO  : Context for processor 'microblaze_0' is selected.
+14:01:52 INFO  : The application 'C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/Debug/projet_vitis.elf' is downloaded to processor 'microblaze_0'.
+14:01:53 INFO  : 'configparams force-mem-access 0' command is executed.
+14:01:53 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A77E51A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A77E51A-13722093-0"}
+fpga -file C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/bitstream/main_design_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/rapha/S4/Projet/Z_20250723/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/hw/main_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/Debug/projet_vitis.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:01:53 INFO  : Context for processor 'microblaze_0' is selected.
+14:01:53 INFO  : 'con' command is executed.
+14:01:53 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:01:53 INFO  : Launch script is exported to file 'C:\Users\rapha\S4\Projet\ZZ_Github\AudioMX-Projet-S4-RGB\vitis_workspace\projet_vitis_system\_ide\scripts\systemdebugger_projet_vitis_system_standalone.tcl'
+14:16:43 INFO  : Checking for BSP changes to sync application flags for project 'projet_vitis'...
+14:16:52 INFO  : Disconnected from the channel tcfchan#5.
+14:16:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:16:52 INFO  : Jtag cable 'Digilent Zybo Z7 210351A77E51A' is selected.
+14:16:52 INFO  : 'jtag frequency' command is executed.
+14:16:52 INFO  : Context for 'APU' is selected.
+14:16:52 INFO  : System reset is completed.
+14:16:55 INFO  : 'after 3000' command is executed.
+14:16:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A77E51A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A77E51A-13722093-0"}' command is executed.
+14:16:57 INFO  : Device configured successfully with "C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/bitstream/main_design_wrapper.bit"
+14:16:57 INFO  : Context for 'APU' is selected.
+14:16:59 INFO  : Hardware design and registers information is loaded from 'C:/Users/rapha/S4/Projet/Z_20250723/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/hw/main_design_wrapper.xsa'.
+14:16:59 INFO  : 'configparams force-mem-access 1' command is executed.
+14:16:59 INFO  : Context for 'APU' is selected.
+14:16:59 INFO  : Sourcing of 'C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/psinit/ps7_init.tcl' is done.
+14:16:59 INFO  : 'ps7_init' command is executed.
+14:16:59 INFO  : 'ps7_post_config' command is executed.
+14:16:59 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:16:59 INFO  : Context for processor 'microblaze_0' is selected.
+14:17:00 INFO  : The application 'C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/Debug/projet_vitis.elf' is downloaded to processor 'microblaze_0'.
+14:17:00 INFO  : 'configparams force-mem-access 0' command is executed.
+14:17:00 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A77E51A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A77E51A-13722093-0"}
+fpga -file C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/bitstream/main_design_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/rapha/S4/Projet/Z_20250723/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/hw/main_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/Debug/projet_vitis.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:17:00 INFO  : Context for processor 'microblaze_0' is selected.
+14:17:00 INFO  : 'con' command is executed.
+14:17:00 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:17:00 INFO  : Launch script is exported to file 'C:\Users\rapha\S4\Projet\ZZ_Github\AudioMX-Projet-S4-RGB\vitis_workspace\projet_vitis_system\_ide\scripts\systemdebugger_projet_vitis_system_standalone.tcl'
+14:21:14 INFO  : Checking for BSP changes to sync application flags for project 'projet_vitis'...
+14:21:22 INFO  : Disconnected from the channel tcfchan#6.
+14:21:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:21:23 INFO  : Jtag cable 'Digilent Zybo Z7 210351A77E51A' is selected.
+14:21:23 INFO  : 'jtag frequency' command is executed.
+14:21:23 INFO  : Context for 'APU' is selected.
+14:21:23 INFO  : System reset is completed.
+14:21:26 INFO  : 'after 3000' command is executed.
+14:21:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A77E51A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A77E51A-13722093-0"}' command is executed.
+14:21:27 INFO  : Device configured successfully with "C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/bitstream/main_design_wrapper.bit"
+14:21:27 INFO  : Context for 'APU' is selected.
+14:21:29 INFO  : Hardware design and registers information is loaded from 'C:/Users/rapha/S4/Projet/Z_20250723/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/hw/main_design_wrapper.xsa'.
+14:21:29 INFO  : 'configparams force-mem-access 1' command is executed.
+14:21:29 INFO  : Context for 'APU' is selected.
+14:21:29 INFO  : Sourcing of 'C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/psinit/ps7_init.tcl' is done.
+14:21:29 INFO  : 'ps7_init' command is executed.
+14:21:29 INFO  : 'ps7_post_config' command is executed.
+14:21:29 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:21:29 INFO  : Context for processor 'microblaze_0' is selected.
+14:21:30 INFO  : The application 'C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/Debug/projet_vitis.elf' is downloaded to processor 'microblaze_0'.
+14:21:30 INFO  : 'configparams force-mem-access 0' command is executed.
+14:21:30 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A77E51A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A77E51A-13722093-0"}
+fpga -file C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/bitstream/main_design_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/rapha/S4/Projet/Z_20250723/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/hw/main_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/Debug/projet_vitis.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:21:30 INFO  : Context for processor 'microblaze_0' is selected.
+14:21:30 INFO  : 'con' command is executed.
+14:21:30 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:21:30 INFO  : Launch script is exported to file 'C:\Users\rapha\S4\Projet\ZZ_Github\AudioMX-Projet-S4-RGB\vitis_workspace\projet_vitis_system\_ide\scripts\systemdebugger_projet_vitis_system_standalone.tcl'
+14:33:41 INFO  : Checking for BSP changes to sync application flags for project 'projet_vitis'...
+14:33:50 INFO  : Disconnected from the channel tcfchan#7.
+14:33:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:33:51 INFO  : Jtag cable 'Digilent Zybo Z7 210351A77E51A' is selected.
+14:33:51 INFO  : 'jtag frequency' command is executed.
+14:33:51 INFO  : Context for 'APU' is selected.
+14:33:51 INFO  : System reset is completed.
+14:33:54 INFO  : 'after 3000' command is executed.
+14:33:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A77E51A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A77E51A-13722093-0"}' command is executed.
+14:33:55 INFO  : Device configured successfully with "C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/bitstream/main_design_wrapper.bit"
+14:33:55 INFO  : Context for 'APU' is selected.
+14:33:57 INFO  : Hardware design and registers information is loaded from 'C:/Users/rapha/S4/Projet/Z_20250723/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/hw/main_design_wrapper.xsa'.
+14:33:57 INFO  : 'configparams force-mem-access 1' command is executed.
+14:33:57 INFO  : Context for 'APU' is selected.
+14:33:57 INFO  : Sourcing of 'C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/psinit/ps7_init.tcl' is done.
+14:33:58 INFO  : 'ps7_init' command is executed.
+14:33:58 INFO  : 'ps7_post_config' command is executed.
+14:33:58 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:33:58 INFO  : Context for processor 'microblaze_0' is selected.
+14:33:59 INFO  : The application 'C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/Debug/projet_vitis.elf' is downloaded to processor 'microblaze_0'.
+14:33:59 INFO  : 'configparams force-mem-access 0' command is executed.
+14:33:59 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A77E51A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A77E51A-13722093-0"}
+fpga -file C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/bitstream/main_design_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/rapha/S4/Projet/Z_20250723/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/hw/main_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/Debug/projet_vitis.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:33:59 INFO  : Context for processor 'microblaze_0' is selected.
+14:33:59 INFO  : 'con' command is executed.
+14:33:59 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:33:59 INFO  : Launch script is exported to file 'C:\Users\rapha\S4\Projet\ZZ_Github\AudioMX-Projet-S4-RGB\vitis_workspace\projet_vitis_system\_ide\scripts\systemdebugger_projet_vitis_system_standalone.tcl'
+14:37:04 INFO  : Checking for BSP changes to sync application flags for project 'projet_vitis'...
+14:37:11 INFO  : Disconnected from the channel tcfchan#8.
+14:37:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:37:12 INFO  : Jtag cable 'Digilent Zybo Z7 210351A77E51A' is selected.
+14:37:12 INFO  : 'jtag frequency' command is executed.
+14:37:12 INFO  : Context for 'APU' is selected.
+14:37:12 INFO  : System reset is completed.
+14:37:15 INFO  : 'after 3000' command is executed.
+14:37:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A77E51A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A77E51A-13722093-0"}' command is executed.
+14:37:16 INFO  : Device configured successfully with "C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/bitstream/main_design_wrapper.bit"
+14:37:16 INFO  : Context for 'APU' is selected.
+14:37:18 INFO  : Hardware design and registers information is loaded from 'C:/Users/rapha/S4/Projet/Z_20250723/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/hw/main_design_wrapper.xsa'.
+14:37:18 INFO  : 'configparams force-mem-access 1' command is executed.
+14:37:18 INFO  : Context for 'APU' is selected.
+14:37:18 INFO  : Sourcing of 'C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/psinit/ps7_init.tcl' is done.
+14:37:18 INFO  : 'ps7_init' command is executed.
+14:37:18 INFO  : 'ps7_post_config' command is executed.
+14:37:18 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:37:18 INFO  : Context for processor 'microblaze_0' is selected.
+14:37:19 INFO  : The application 'C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/Debug/projet_vitis.elf' is downloaded to processor 'microblaze_0'.
+14:37:19 INFO  : 'configparams force-mem-access 0' command is executed.
+14:37:19 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A77E51A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A77E51A-13722093-0"}
+fpga -file C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/bitstream/main_design_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/rapha/S4/Projet/Z_20250723/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/hw/main_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/Debug/projet_vitis.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:37:19 INFO  : Context for processor 'microblaze_0' is selected.
+14:37:19 INFO  : 'con' command is executed.
+14:37:19 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:37:19 INFO  : Launch script is exported to file 'C:\Users\rapha\S4\Projet\ZZ_Github\AudioMX-Projet-S4-RGB\vitis_workspace\projet_vitis_system\_ide\scripts\systemdebugger_projet_vitis_system_standalone.tcl'
+14:47:57 INFO  : Checking for BSP changes to sync application flags for project 'projet_vitis'...
+14:48:37 INFO  : Disconnected from the channel tcfchan#9.
+14:48:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:48:38 INFO  : Jtag cable 'Digilent Zybo Z7 210351A77E51A' is selected.
+14:48:38 INFO  : 'jtag frequency' command is executed.
+14:48:38 INFO  : Context for 'APU' is selected.
+14:48:38 INFO  : System reset is completed.
+14:48:41 INFO  : 'after 3000' command is executed.
+14:48:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A77E51A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A77E51A-13722093-0"}' command is executed.
+14:48:42 INFO  : Device configured successfully with "C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/bitstream/main_design_wrapper.bit"
+14:48:42 INFO  : Context for 'APU' is selected.
+14:48:44 INFO  : Hardware design and registers information is loaded from 'C:/Users/rapha/S4/Projet/Z_20250723/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/hw/main_design_wrapper.xsa'.
+14:48:44 INFO  : 'configparams force-mem-access 1' command is executed.
+14:48:44 INFO  : Context for 'APU' is selected.
+14:48:44 INFO  : Sourcing of 'C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/psinit/ps7_init.tcl' is done.
+14:48:44 INFO  : 'ps7_init' command is executed.
+14:48:44 INFO  : 'ps7_post_config' command is executed.
+14:48:44 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:48:45 INFO  : Context for processor 'microblaze_0' is selected.
+14:48:45 INFO  : The application 'C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/Debug/projet_vitis.elf' is downloaded to processor 'microblaze_0'.
+14:48:45 INFO  : 'configparams force-mem-access 0' command is executed.
+14:48:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A77E51A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A77E51A-13722093-0"}
+fpga -file C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/bitstream/main_design_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/rapha/S4/Projet/Z_20250723/labo1/vitis_workspace/main_design_wrapper/export/main_design_wrapper/hw/main_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/rapha/S4/Projet/ZZ_Github/AudioMX-Projet-S4-RGB/vitis_workspace/projet_vitis/Debug/projet_vitis.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:48:45 INFO  : Context for processor 'microblaze_0' is selected.
+14:48:45 INFO  : 'con' command is executed.
+14:48:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:48:45 INFO  : Launch script is exported to file 'C:\Users\rapha\S4\Projet\ZZ_Github\AudioMX-Projet-S4-RGB\vitis_workspace\projet_vitis_system\_ide\scripts\systemdebugger_projet_vitis_system_standalone.tcl'
