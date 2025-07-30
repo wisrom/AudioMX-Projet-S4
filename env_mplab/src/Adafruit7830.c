@@ -8,9 +8,10 @@
  Adafruit7830.c
 
   @Summary
- COM needs to be floating
- REF needs to be floating
+ COM needs to be connected to GND
+ REF needs to be connected to VDD
  AD0 and AD1 need to be connected to GND
+ CH5 and CH7 need to be connected to GND
  
  * NEED TO HAVE THOSE LINES IMPLEMENTED IN Broche_Init() IN Broche.C
     // AFFICHAGE DES PARAM?TRES AUDIOS SUR LCD //
@@ -31,37 +32,42 @@
   Play with these parameters in Adafruit7830.h
   SEUIL_VARIATION
   DELAI_MIXAGE
+  In LCD.c/LCD.h see delay stoppage and remove them?
  
   Changer l'unit? d'affichage des diff?rents param?tres
 /* ************************************************************************** */
+
+
 #include <xc.h>
 #include <stdio.h>
 #include "Adafruit7830.h"
 #include "i2c.h"
 #include "lcd.h"
+#include "AudioMix.h"
 
-unsigned char last_adc_unity[NB_CH] = {0};  // stocke les anciennes valeurs
+// Tableau local pour stocker les 8 valeurs ADC lues sur les canaux 0 ? 7
+unsigned char extern_adc[NB_CH]; // tableau qui contient les valeurs des 8 channels de l'ADC
+char extern_adc_unity[NB_CH]; // tableau qui contient les valeurs des 8 channels de l'ADC selon l'unit? d?sir?
+unsigned char extern_last_adc[NB_CH] = {0};  // stocke les anciennes valeurs
 unsigned char canal_affiche = 0;// canal actuellement affich?
-unsigned char btnu = 0; // read BTNU
-unsigned char btnd = 0; // read BTND
-unsigned char last_btnu = 0; // read BTNU
-unsigned char last_btnd = 0; // read BTND
-unsigned char btn_pressed = 0; // determine si un bouton est press?
 unsigned int compteur_sans_changement = 0; // compte jusqu'? DELAI_MIXAGE_MS avant de r?afficher le MIXAGE EN COURS
+unsigned char last_btnu = 0;
+unsigned char last_btnd = 0;
+unsigned char btn_pressed = 0; // determine si un bouton est press?
 
-
-const char *messages_canaux[NB_CH] = {
-    " Tonalite (%)   ",//CH0 = adc_unity[0]; ? voir -100% ? 100%
-    " Aigues   (dB)  ",//CH1 = adc_unity[4]; -6 ? 6dB
-    " Moyennes (dB)  ",//CH2 = adc_unity[1]; -6 ? 6dB
-    " Basses   (dB)  ",//CH3 = adc_unity[5]; -6 ? 6dB
-    "Reverberation(%)",//CH4 = adc_unity[2]; 0 ? 100%
-    " Distortion (%) ",//CH5 = adc_unity[6]; 0 ? 100%
-    " RAY BALLER INC", //CH6 = adc_unity[3]; GND
-    " Projet ete S4  " //CH7 = adc_unity[7]; GND
+static const char *messages_canaux[NB_CH] = {
+    " Tonalite (%)   ",//CH0 = adc[0]; ? voir -100% ? 100%
+    "Reverberation(%)",//CH2 = adc[1]; 0 ? 100%
+    " Aigues   (dB)  ",//CH4 = adc[2]; -6 ? 6dB
+    " Moyennes (dB)  ",//CH6 = adc[3]; 0 ? 100%
+    " Basses   (dB)  ",//CH1 = adc[4]; -6 ? 6dB
+    " Distortion (%) ",//CH3 = adc[5]; -6 ? 6dB
+    " RAY BALLER INC ",//CH5 = adc[6]; GND
+    " Projet ete S4  " //CH7 = adc[7]; GND
 };
 
 /* ************************************************************************** */
+
 // Lecture des 8 channels sur l'ADC Externe
 void Read_8_channels_Adafruit7830(unsigned char *adc_values){
     unsigned char status = 0; //D?tection d'erreur
@@ -93,16 +99,22 @@ void Read_8_channels_Adafruit7830(unsigned char *adc_values){
         // s'il y a un erreur dans la communication I2C 
         if (status != 0) {
             adc_values[i] = 0;
+            break;
         }
+        
+       
+
+
     }
+    
 }
 
 // D?termine le channel ? aficher sur le LCD
 unsigned char variation_detectee(unsigned char *courant, unsigned char *ancien, unsigned char* index) {
     unsigned char i; //iterateur
     // D?termine si une variation plus grande que le SEUIL_VARIATION est d?tecter sur l'un des param?tres audio
-    for (i = 0; i < NB_CH; i++) {
-        if (abs((uint8_t)courant[i] - (uint8_t)ancien[i]) >= SEUIL_VARIATION){
+    for (i = 0; i < NB_CH - 2; i++) {
+        if ((abs((uint8_t)courant[i] - (uint8_t)ancien[i]) >= SEUIL_VARIATION)){ // ?vit? le changement auto d'affichage pour les channels inutilis?s
             *index = i;
             return 1; // variation d?tect?e
         }
@@ -114,8 +126,8 @@ unsigned char variation_detectee(unsigned char *courant, unsigned char *ancien, 
 void Affichage_param_audio_button(void){
     // Lecture des boutons
     btn_pressed = 0;
-    btnu = PORTBbits.RB1;
-    btnd = PORTAbits.RA15;
+    unsigned char btnu = PORTBbits.RB1;
+    unsigned char btnd = PORTAbits.RA15;
     // Boutons press? avec debounce
     if (btnu && !last_btnu) {
         canal_affiche = (canal_affiche + 1) % NB_CH;
@@ -131,15 +143,21 @@ void Affichage_param_audio_button(void){
 }
 
 // Transformations des valeurs de l'ADC en pourcentage
-unsigned char ADC_Percentage(unsigned char voltage_value){
+char ADC_Percentage(unsigned char adc_value){
     // ADC 8 bits: [0;255] -> [0;100]%
-    return (unsigned char)((voltage_value * 100) / 255);
+    return (unsigned char)((adc_value * 100) / 255);
 }
 
 // Transformations des valeurs de l'ADC en pourcentage
-unsigned char ADC_dB(unsigned char voltage_value){
+char ADC_Percentage2(unsigned char adc_value){
+    // ADC 8 bits: [0;255] -> [-100;100]%
+    return (unsigned char)((adc_value * 200) / 255) - 100;
+}
+
+// Transformations des valeurs de l'ADC en pourcentage
+char ADC_dB(unsigned char adc_value){
     // ADC 8 bits: 0-255 -> [-6;6]dB
-    return (unsigned char)((voltage_value * 100) / 255);
+    return ((12 * adc_value) / 255) - 6;
 }
 
 
@@ -149,41 +167,39 @@ void Affiche_EXTERN_ADC_LCD(void)
     // D?claration de deux cha?nes de caract?res ? afficher
     char ligne1[17] = {0}; // Ligne 0 du LCD (max de 16 caract?res + '\0')
     char ligne2[17] = {0}; // Ligne 1 du LCD (max de 16 caract?res + '\0')
-    
-    // Tableau local pour stocker les 8 valeurs ADC lues sur les canaux 0 ? 7
-    unsigned char adc[NB_CH]; // tableau qui contient les valeurs des 8 channels de l'ADC
-    unsigned char adc_unity[NB_CH]; // tableau qui contient les valeurs des 8 channels de l'ADC selon l'unit? d?sir?
+
     unsigned char index_change = 0;  // Index du canal qui a chang?
     
-    
     // Lecture des 8 canaux du convertisseur ADC ADS7830, les valeurs sont stock?es dans le tableau `adc`
-    Read_8_channels_Adafruit7830(adc);
+    Read_8_channels_Adafruit7830(extern_adc);
     
     // Mettre l'unit? d?sir?e pour les 8 canaux
-    adc_unity[0] = ADC_Percentage(adc[0]);// CH0 = adc_unity[0]; Tonalit?
-    adc_unity[1] = ADC_dB(adc[1]);        // CH2 = adc_unity[1]; Moyennes
-    adc_unity[2] = ADC_Percentage(adc[2]);// CH4 = adc_unity[2]; R?verb?ration
-    adc_unity[3] = adc[3];                // CH6 = GND
-    adc_unity[4] = ADC_dB(adc[4]);        // CH1 = adc_unity[4]; Aigus
-    adc_unity[5] = ADC_dB(adc[5]);        // CH3 = adc_unity[5]; Basses
-    adc_unity[6] = ADC_Percentage(adc[6]);// CH5 = adc_unity[6]; Distortion
-    adc_unity[7] = adc[7];                // CH7 = GND
+    extern_adc_unity[0] = ADC_Percentage2(extern_adc[0]);// CH0 = adc[0]; Tonalit?
+    extern_adc_unity[1] = ADC_Percentage(extern_adc[1]); // CH2 = adc[1]; Reverberation
+    extern_adc_unity[2] = ADC_dB(extern_adc[2]);         // CH4 = adc[2]; Aigus
+    extern_adc_unity[3] = ADC_dB(extern_adc[3]);         // CH6 = adc[3]; Moyennes
+    extern_adc_unity[4] = ADC_dB(extern_adc[4]);         // CH1 = adc[4]; Basses
+    extern_adc_unity[5] = ADC_Percentage(extern_adc[5]); // CH3 = adc[5]; Distortion
+    extern_adc_unity[6] = extern_adc[6];                 // CH5 = adc[6]; GND
+    extern_adc_unity[7] = extern_adc[7];                 // CH7 = adc[7]; GND
     
     // Affichage du LCD selon une variation ou un boutons press?
-    unsigned char variation_adc = variation_detectee(adc_unity, last_adc_unity, &index_change);
+    unsigned char variation_adc = variation_detectee(extern_adc, extern_last_adc, &index_change);
     if (variation_adc) {
+        //LCD_DisplayClear(); // clear le LCD
         canal_affiche = index_change;
         compteur_sans_changement = 0; // reset le compteur
     } else if (btn_pressed) {
+        //LCD_DisplayClear(); // clear le LCD
         compteur_sans_changement = 0;  // reset le compteur
     } else {
         compteur_sans_changement++; // sinon incr?ment le compteur
     }
     
-    // Stocakage des anciennes valeurs pour l'affichage automatique par v?rification
+    // Stockage des anciennes valeurs pour l'affichage automatique par v?rification
     unsigned char i;
-    for (i = 0 ; i < (NB_CH - 2); i++){
-       last_adc_unity[i] = adc_unity[i]; 
+    for (i = 0 ; i < (NB_CH); i++){
+       extern_last_adc[i] = extern_adc[i]; 
     }
     
     // Affichage selon l'?tat
@@ -201,7 +217,7 @@ void Affiche_EXTERN_ADC_LCD(void)
         // Mode normal - affichage du canal s?lectionn?
         sprintf(ligne1, "%s", messages_canaux[canal_affiche]);
         // Chaque valeur est format?e sur 3 chiffres avec des z?ros en t?te
-        sprintf(ligne2, "      %03d       ", adc_unity[canal_affiche]);
+        sprintf(ligne2, "      %03d       ", extern_adc_unity[canal_affiche]);
     }
     // Affiche la premi?re ligne (ligne1) sur la ligne 0 (haut) du LCD ? la position 0
     LCD_WriteStringAtPos(ligne1, 0, 0);
@@ -209,3 +225,19 @@ void Affiche_EXTERN_ADC_LCD(void)
     LCD_WriteStringAtPos(ligne2, 1, 0);
 }
 
+uint8_t scale_adc_for_sensor(uint8_t raw)
+{
+    int16_t scaled = ((int16_t)raw * 255) / 177;
+    scaled = 2 * (scaled - 128);
+    
+    if (scaled < 0)
+    {
+        scaled = 0; // securite
+    }
+    else if (scaled > 255)
+    {
+        scaled = 255; // s?curit?
+    }
+    
+    return (uint8_t)scaled;
+}

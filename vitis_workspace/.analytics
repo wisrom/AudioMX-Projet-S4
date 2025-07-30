@@ -505,3 +505,13 @@ timestamp=[2025-07-29 14:21:15], mode=BUILD, duration=0:00:01.153, duration_ms=1
 timestamp=[2025-07-29 14:33:42], mode=BUILD, duration=0:00:01.227, duration_ms=1227, data={name=projet_vitis, configuration=Debug, clean_build=false}
 timestamp=[2025-07-29 14:37:05], mode=BUILD, duration=0:00:01.175, duration_ms=1175, data={name=projet_vitis, configuration=Debug, clean_build=false}
 timestamp=[2025-07-29 14:47:59], mode=BUILD, duration=0:00:01.294, duration_ms=1294, data={name=projet_vitis, configuration=Debug, clean_build=false}
+timestamp=[2025-07-29 17:18:09], mode=WORKBENCH_START, duration=0:01:09.163, duration_ms=69163, data={}
+timestamp=[2025-07-29 17:18:14], mode=WORKBENCH_UI_INIT, duration=0:00:04.661, duration_ms=4661, data={editors_count=7, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,main_design_wrapper,projet_vitis,projet_vitis_system}
+timestamp=[2025-07-29 17:18:39], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.290, duration_ms=290, data={}
+timestamp=[2025-07-29 17:20:22], mode=PLATFORM_GENERATION, duration=0:00:18.661, duration_ms=18661, data={name=main_design_wrapper}
+timestamp=[2025-07-29 17:20:23], mode=BUILD, duration=0:00:00.440, duration_ms=440, data={name=projet_vitis, configuration=Debug, clean_build=true}
+timestamp=[2025-07-29 17:20:23], mode=BUILD, duration=0:00:00.481, duration_ms=481, data={name=projet_vitis_system, configuration=Debug, clean_build=true}
+timestamp=[2025-07-29 17:21:07], mode=PLATFORM_GENERATION, duration=0:00:42.328, duration_ms=42328, data={name=main_design_wrapper}
+timestamp=[2025-07-29 17:21:31], mode=BUILD, duration=0:00:15.310, duration_ms=15310, data={name=projet_vitis, configuration=Debug, clean_build=false}
+timestamp=[2025-07-29 17:21:32], mode=BUILD, duration=0:00:00.344, duration_ms=344, data={name=projet_vitis_system, configuration=Debug, clean_build=false}
+timestamp=[2025-07-30 11:08:37], mode=BUILD, duration=0:00:10.365, duration_ms=10365, data={name=projet_vitis, configuration=Debug, clean_build=false}

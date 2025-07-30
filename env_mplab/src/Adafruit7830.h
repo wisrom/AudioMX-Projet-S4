@@ -8,9 +8,10 @@
  Adafruit7830.h
 
   @Summary
- COM needs to be floating
- REF needs to be floating
+ COM needs to be connected to GND
+ REF needs to be connected to VDD
  AD0 and AD1 need to be connected to GND
+ CH5 and CH7 need to be connected to GND
  
  * NEED TO HAVE THOSE LINES IMPLEMENTED IN Broche_Init() IN Broche.C
     // AFFICHAGE DES PARAM?TRES AUDIOS SUR LCD //
@@ -31,6 +32,7 @@
   Play with these parameters in Adafruit7830.h
   SEUIL_VARIATION
   DELAI_MIXAGE
+  In LCD.c/LCD.h see delay stoppage and remove them?
  
   Changer l'unit? d'affichage des diff?rents param?tres
  */
@@ -40,8 +42,9 @@
 #define ADAFRUIT7830_H
 
 #define NB_CH 8 // d?fini le nombre de channel ? lire
-#define SEUIL_VARIATION 2  // seuil de variation en pourcentage
-#define DELAI_MIXAGE 1000 // d?lai afin que MIXAGE EN COURS aparraisse sur le LCD
+#define SEUIL_VARIATION 5// seuil de variation
+#define DELAI_MIXAGE 1500 // d?lai afin que MIXAGE EN COURS aparraisse sur le LCD
+extern unsigned char extern_adc[NB_CH]; // tableau qui contient les valeurs des 8 channels de l'ADC
 
 /* v. https://cdn-learn.adafruit.com/assets/assets/000/125/826/original/ads7830.pdf?1699028569 section Address Byte, p.13 */
 #define ADS7830_ADDR  0x48    // Default Adress I2C de l'ADC externe Adafruit7830 
@@ -52,20 +55,26 @@
                               //   H	L	0x4A
                               //   H	H	0x4B
 /* v. https://cdn-learn.adafruit.com/assets/assets/000/125/826/original/ads7830.pdf?1699028569 section Command Byte, p.13 */
-#define ADS7830_CMD_BASE 0x80  // Bit : 7  6  5  4   3   2  1  0
+#define ADS7830_CMD_BASE 0x8C  // Bit : 7  6  5  4   3   2  1  0
                                //       SD C2 C1 C0 PD1 PD0 X  X
                                // 0b    1  0  0  0   0   0  0  0  = 0x80
                                // SD = Single-ended , CH=000, PD = 00
 
 
+// reset l'adc externe
+void ADC_reset(void);
+
 // Lecture des 8 channels sur l'ADC Externe
 void Read_8_channels_Adafruit7830(unsigned char *adc_values);
 
 // Transformations des valeurs de l'ADC en pourcentage
-unsigned char ADC_Percentage(unsigned char adc_value);
+char ADC_Percentage(unsigned char adc_value);
+
+// Transformations des valeurs de l'ADC en pourcentage
+char ADC_Percentage2(unsigned char adc_value);
 
 // Transformations des valeurs de l'ADC en dB
-unsigned char ADC_dB(unsigned char adc_value);
+char ADC_dB(unsigned char adc_value);
 
 // Affichage des valeurs sur le LCD
 void Affiche_EXTERN_ADC_LCD(void);
@@ -76,6 +85,7 @@ unsigned char variation_detectee(unsigned char *courant, unsigned char *ancien, 
 // It?re l'affichage des param?tres du LCD avec BTNU et BTND
 void Affichage_param_audio_button(void);
 
+uint8_t scale_adc_for_sensor(uint8_t raw);
 #endif /*ADAFRUIT7830_H  */
 
 /* *****************************************************************************

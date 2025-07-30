@@ -54,7 +54,7 @@ volatile uint8_t send_buffer = 0;
 
 /* Fonction d'interruption d?clench?e par l'ADC. Cette fonction permet
  * de stocker les donn?es de l'ADC ? 24 kHz. */
-void __ISR(_ADC_VECTOR, IPL6AUTO) adc_interrupt()
+void __ISR(_ADC_VECTOR, IPL7AUTO) adc_interrupt()
 {
     /* Lecture sur 8 bits des conversions effectu?es. */
     uint8_t mic_value = (uint8_t)(ADC1BUF0 >> 2);
@@ -243,7 +243,7 @@ void initialize_adc()
      * Voir p.64 datasheet PIC32MX. */
     IFS0bits.AD1IF = 0; // Retire le fanion d'interruption
     IEC0bits.AD1IE = 1; // Active les interruptions li?es ? l'ADC
-    IPC5bits.AD1IP = 6; // Priorit? 6 (haute)
+    IPC5bits.AD1IP = 7; // Priorit? 7 (haute)
     IPC5bits.AD1IS = 0; // Sous-priorit? 0
     
     /* ?tape 15 : Initalisation de l'?chantillonnage

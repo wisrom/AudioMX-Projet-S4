@@ -193,6 +193,7 @@
         <itemPath>../src/UDP_app.h</itemPath>
         <itemPath>../src/config.h</itemPath>
         <itemPath>../src/main.h</itemPath>
+        <itemPath>../src/AudioMix.h</itemPath>
       </logicalFolder>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
@@ -365,6 +366,7 @@
         <itemPath>../src/app_commands.c</itemPath>
         <itemPath>../src/UDP_app.c</itemPath>
         <itemPath>../src/main.c</itemPath>
+        <itemPath>../src/AudioMix.c</itemPath>
       </logicalFolder>
     </logicalFolder>
   </logicalFolder>
@@ -385,7 +387,7 @@
         <targetPluginBoard></targetPluginBoard>
         <platformTool>PK3OBPlatformTool</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>4.60</languageToolchainVersion>
+        <languageToolchainVersion>2.50</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
@@ -658,6 +660,7 @@
         <property key="event.recorder.debugger.behavior" value="Running"/>
         <property key="event.recorder.enabled" value="false"/>
         <property key="event.recorder.scvd.files" value=""/>
+        <property key="firmware.download.all" value="false"/>
         <property key="lastid" value=""/>
         <property key="memories.bootflash" value="true"/>
         <property key="memories.configurationmemory" value="true"/>

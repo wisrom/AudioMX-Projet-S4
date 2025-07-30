@@ -20,11 +20,13 @@
 #include "config.h"
 
 #include "adc.h"
-
+#include "AudioMix.h"
+#include "Adafruit7830.h"
 
 
 /* Index de lecture. */
 volatile uint16_t read_index;
+/* Delai maximal d'echantillons en memoire pour la reverberation. */
 
 
 
@@ -34,7 +36,9 @@ void duty_cycle_update();
 
 /* Cette fonction permet de configurer OC1 pour g?n?rerer le PWM
  * de la sortie audio. */
-void initialize_oc1(void);
+void initialize_oc1();
+
+
 
 
 

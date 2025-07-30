@@ -13,52 +13,79 @@
 /* output_compare.c inclut*/
 #include "output_compare.h"
 #include <sys/attribs.h>
-
+#include "AudioMix.h"
 
 /* Index de lecture. */
 volatile uint16_t read_index = 0;
 extern uint32_t sample_buffer; 
 
 
+
+/* Tampon d'echantillons du passe pour la reverberation. */
+extern volatile uint8_t reverb_buffer[MAX_DELAY];
+
+/* Index du tampon de reverberation. */
+extern volatile uint16_t reverb_index ;
+
+/* Derni?re valeur filtr?e des echos en format Q16.16. */
+extern volatile uint32_t last_filtered_echoes ;
+
+// Variables globales pour contr?ler la distorsion
+//uint8_t distortion_enabled = 0;  // 0 = d?sactiv?, 1 = activ?
+//uint8_t distortion_level = 50;   // Niveau de distorsion (0-100)
+//uint8_t distortion_type = 0;     // Type de distorsion (0=clipping, 1=overdrive, 2=fuzz)
+
 /* Fonction d'interruption d?clench?e par le timer 4.
  * Cette fonction est utilis?e pour actualiser le duty cycle du PWM de OC1. */
-void __ISR(_TIMER_4_VECTOR, IPL1AUTO) duty_cyle_update()
-{
-    /* Condition de lecture dans le tampon de m?moire A (contraire d'?criture). */
+void __ISR(_TIMER_4_VECTOR, IPL6AUTO) duty_cyle_update()
+{ 
+     uint8_t current_sample;
+    
+    /* Condition de lecture dans le tampon de m?moire A */
     if (buffer_select && buffer_ready)
     {
-        /* Modification du duty cycle selon l'amplitude des ?chantillons
-         * du tampon A redimensionn?e par rapport au timer 2 */
-        OC1RS = buffer_A[read_index++] * (PR2 + 1) / 255;
-        sample_buffer = buffer_A[read_index] ; 
-        //sample_buffer[read_index++] = buffer_A[read_index++]  ;
+        current_sample = buffer_A[read_index++];
+        
+        // Application de la distorsion
+//        uint8_t adjusted_sample = scale_adc_for_sensor(extern_adc[5]);
+        current_sample = apply_overdrive_distortion(current_sample, extern_adc[5]);
+        // Application du reverb
+        uint8_t reverb_audio_sample = reverb(current_sample, extern_adc[1]);
+        
+        /* Modification du duty cycle avec l'?chantillon distordu */
+        OC1RS = (uint16_t)(reverb_audio_sample * (PR2 + 1) / 255);
+        sample_buffer = current_sample;
     }   
-    /* Condition de lecture dans le tampon de m?moire B (contraire d'?criture). */
+    /* Condition de lecture dans le tampon de m?moire B */
     else if (!buffer_select && buffer_ready)
     {
-        /* Modification du duty cycle selon l'amplitude des ?chantillons
-         * du tampon B redimensionn?e par rapport au timer 2 */
-        OC1RS = buffer_B[read_index++] * (PR2 + 1) / 255;
-        sample_buffer = buffer_A[read_index] ;
-        //sample_buffer[read_index++]= buffer_A[read_index++]  ;
+        current_sample = buffer_B[read_index++];
+        
+        // Application de la distorsion
+//        uint8_t adjusted_sample = scale_adc_for_sensor(extern_adc[5]);
+        current_sample = apply_overdrive_distortion(current_sample, extern_adc[5]);
+        // Application du reverb
+        uint8_t reverb_audio_sample = reverb(current_sample, extern_adc[1]);
+        
+        /* Modification du duty cycle avec l'?chantillon distordu */
+        OC1RS = (uint16_t)(reverb_audio_sample * (PR2 + 1) / 255);
+        sample_buffer = current_sample;
     }
     
-    /* Lecture termin?e et r?initialisation de l'index. */
+    /* Lecture termin?e et r?initialisation de l'index */
     if (read_index >= NB_SAMPLES)
     {
         buffer_ready = 0;
-        read_index = 0; 
-        
+        read_index = 0;
     }
     
     IFS0bits.T4IF = 0; // Retire le fanion d'interruption
 }
 
 
-
 /* Cette fonction permet de configurer OC1 pour g?n?rerer le PWM
  * de la sortie audio. */
-void initialize_oc1(void)
+void initialize_oc1()
 {
     /* Liaison du PWM au haut-parleur.
      * Voir section 17.2 datasheet Basys MX3.

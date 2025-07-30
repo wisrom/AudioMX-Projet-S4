@@ -236,7 +236,7 @@ void _UDP_ClientTasks() {
             TCPIP_UDP_Flush(appData.clientSocket);
             appData.clientState = UDP_TCPIP_WAIT_FOR_RESPONSE;
             appData.mTimeOut = SYS_TMR_SystemCountGet() + SYS_TMR_SystemCountFrequencyGet()+12000000;
-            //SYS_CONSOLE_PRINT("Client: Timeout %lu\n\r", appData.mTimeOut);
+//            SYS_CONSOLE_PRINT("Client: Timeout %lu\n\r", appData.mTimeOut);
         }
         break;
 
@@ -279,7 +279,7 @@ void _UDP_ClientTasks() {
 
                     // Calcul des trois composantes
                     tmp0 = UDP_Receive_Buffer[2];
-                    tmp1 = (uint16_t)UDP_Receive_Buffer[4] * 3;
+                    tmp1 = (uint16_t)UDP_Receive_Buffer[4] * 2;
                     tmp2 = (uint16_t)UDP_Receive_Buffer[6] * 13;
 
                     // Low frequency (pas de scaling)
@@ -292,7 +292,7 @@ void _UDP_ClientTasks() {
                     RGB_COM[2] = (tmp2 > 255) ? 255 : (uint8_t)tmp2;
                     
 
-                    for (int i = 0; i < 3; i++)
+                    for (i = 0; i < 3; i++)
                         SYS_CONSOLE_PRINT("\ti : %d ", RGB_COM[i]);
 
                     SYS_CONSOLE_PRINT("\r\nClient: Stopped receiving samples!\r\n");

@@ -225,7 +225,7 @@ void udpReceiveTreatment(void){
 
 	/* Variables à renvoyer à la basys */
 	uint8_t low_frequencies_index = 2;
-	uint8_t mid_frequencies_index = 11;
+	uint8_t mid_frequencies_index = 7;
 	uint8_t high_frequencies_index = 53;
 	uint32_t low_frequencies_avg = 0;
 	uint32_t mid_frequencies_avg = 0;
@@ -285,7 +285,7 @@ void udpReceiveTreatment(void){
 	    mid_frequencies_avg = mid_frequencies_avg / (mid_frequencies_index - low_frequencies_index);
 	    print("\nMid frequencies calculation is done\r");
 
-	    // Haute fréquence k = [12, 53] -> n = [2250, 9937.5] Hz
+	    // Haute fréquence k = [8, 53] -> n = [1500, 9937.5] Hz
 		for (; k <= high_frequencies_index; k++) {
 			real = (int16_t)(FFTBuffer[k] & 0xFFFF);
 			imaginary = (int16_t)(FFTBuffer[k] >> 16);
