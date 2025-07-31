@@ -48,7 +48,7 @@ void __ISR(_TIMER_4_VECTOR, IPL6AUTO) duty_cyle_update()
         
         // Application de la distorsion
 //        uint8_t adjusted_sample = scale_adc_for_sensor(extern_adc[5]);
-        current_sample = apply_overdrive_distortion(current_sample, extern_adc[5]);
+        current_sample = apply_overdrive_distortion(current_sample, scale_adc_for_sensor(extern_adc[5]));
         // Application du reverb
         uint8_t reverb_audio_sample = reverb(current_sample, extern_adc[1]);
         
@@ -63,7 +63,7 @@ void __ISR(_TIMER_4_VECTOR, IPL6AUTO) duty_cyle_update()
         
         // Application de la distorsion
 //        uint8_t adjusted_sample = scale_adc_for_sensor(extern_adc[5]);
-        current_sample = apply_overdrive_distortion(current_sample, extern_adc[5]);
+        current_sample = apply_overdrive_distortion(current_sample, scale_adc_for_sensor(extern_adc[5]));
         // Application du reverb
         uint8_t reverb_audio_sample = reverb(current_sample, extern_adc[1]);
         

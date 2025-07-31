@@ -7325,3 +7325,59 @@ con
 ----------------End of Script----------------
 
 14:48:45 INFO  : Launch script is exported to file 'C:\Users\rapha\S4\Projet\ZZ_Github\AudioMX-Projet-S4-RGB\vitis_workspace\projet_vitis_system\_ide\scripts\systemdebugger_projet_vitis_system_standalone.tcl'
+16:23:30 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Sacha\Desktop\Projet\AudioMX-Projet-S4\vitis_workspace\temp_xsdb_launch_script.tcl
+16:23:34 INFO  : XSCT server has started successfully.
+16:23:34 INFO  : Successfully done setting XSCT server connection channel  
+16:23:34 INFO  : plnx-install-location is set to ''
+16:23:34 INFO  : Successfully done setting workspace for the tool. 
+16:23:40 INFO  : Platform repository initialization has completed.
+16:23:41 INFO  : Registering command handlers for Vitis TCF services
+16:23:47 INFO  : Successfully done query RDI_DATADIR 
+16:23:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:24:12 INFO  : Jtag cable 'Digilent Zybo Z7 210351A77C98A' is selected.
+16:24:12 INFO  : 'jtag frequency' command is executed.
+16:24:12 INFO  : Context for 'APU' is selected.
+16:24:12 INFO  : System reset is completed.
+16:24:15 INFO  : 'after 3000' command is executed.
+16:24:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A77C98A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A77C98A-13722093-0"}' command is executed.
+16:24:23 INFO  : Device configured successfully with "C:/Users/Sacha/Desktop/Projet/AudioMX-Projet-S4/vitis_workspace/projet_vitis/_ide/bitstream/main_design_wrapper.bit"
+16:24:23 INFO  : Context for 'APU' is selected.
+16:24:23 INFO  : Hardware design and registers information is loaded from 'C:/Users/Sacha/Desktop/Projet/AudioMX-Projet-S4/vitis_workspace/main_design_wrapper/export/main_design_wrapper/hw/main_design_wrapper.xsa'.
+16:24:23 INFO  : 'configparams force-mem-access 1' command is executed.
+16:24:23 INFO  : Context for 'APU' is selected.
+16:24:23 INFO  : Sourcing of 'C:/Users/Sacha/Desktop/Projet/AudioMX-Projet-S4/vitis_workspace/projet_vitis/_ide/psinit/ps7_init.tcl' is done.
+16:24:23 INFO  : 'ps7_init' command is executed.
+16:24:23 INFO  : 'ps7_post_config' command is executed.
+16:24:23 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:24:23 INFO  : Context for processor 'microblaze_0' is selected.
+16:24:24 INFO  : The application 'C:/Users/Sacha/Desktop/Projet/AudioMX-Projet-S4/vitis_workspace/projet_vitis/Debug/projet_vitis.elf' is downloaded to processor 'microblaze_0'.
+16:24:24 INFO  : 'configparams force-mem-access 0' command is executed.
+16:24:24 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A77C98A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A77C98A-13722093-0"}
+fpga -file C:/Users/Sacha/Desktop/Projet/AudioMX-Projet-S4/vitis_workspace/projet_vitis/_ide/bitstream/main_design_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Sacha/Desktop/Projet/AudioMX-Projet-S4/vitis_workspace/main_design_wrapper/export/main_design_wrapper/hw/main_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Sacha/Desktop/Projet/AudioMX-Projet-S4/vitis_workspace/projet_vitis/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Sacha/Desktop/Projet/AudioMX-Projet-S4/vitis_workspace/projet_vitis/Debug/projet_vitis.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:24:24 INFO  : Context for processor 'microblaze_0' is selected.
+16:24:24 INFO  : 'con' command is executed.
+16:24:24 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:24:24 INFO  : Launch script is exported to file 'C:\Users\Sacha\Desktop\Projet\AudioMX-Projet-S4\vitis_workspace\projet_vitis_system\_ide\scripts\systemdebugger_projet_vitis_system_standalone.tcl'
+19:22:51 INFO  : Disconnected from the channel tcfchan#1.

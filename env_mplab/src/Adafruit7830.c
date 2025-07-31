@@ -179,7 +179,7 @@ void Affiche_EXTERN_ADC_LCD(void)
     extern_adc_unity[2] = ADC_dB(extern_adc[2]);         // CH4 = adc[2]; Aigus
     extern_adc_unity[3] = ADC_dB(extern_adc[3]);         // CH6 = adc[3]; Moyennes
     extern_adc_unity[4] = ADC_dB(extern_adc[4]);         // CH1 = adc[4]; Basses
-    extern_adc_unity[5] = ADC_Percentage(extern_adc[5]); // CH3 = adc[5]; Distortion
+    extern_adc_unity[5] = ADC_Percentage(scale_adc_for_sensor(extern_adc[5])); // CH3 = adc[5]; Distortion
     extern_adc_unity[6] = extern_adc[6];                 // CH5 = adc[6]; GND
     extern_adc_unity[7] = extern_adc[7];                 // CH7 = adc[7]; GND
     
@@ -228,7 +228,7 @@ void Affiche_EXTERN_ADC_LCD(void)
 uint8_t scale_adc_for_sensor(uint8_t raw)
 {
     int16_t scaled = ((int16_t)raw * 255) / 177;
-    scaled = 2 * (scaled - 128);
+    scaled = 4 * (scaled - 192);
     
     if (scaled < 0)
     {

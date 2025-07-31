@@ -275,7 +275,7 @@ void udpReceiveTreatment(void){
 	    low_frequencies_avg = low_frequencies_avg / (low_frequencies_index);
 	    print("\nLow frequencies calculation is done\r");
 
-	    // Moyenne fréquence k = [3, 11] -> n = [562.5, 2062.5] Hz
+	    // Moyenne fréquence k = [3, 7] -> n = [562.5, 1500] Hz
 	    for (; k <= mid_frequencies_index; k++) {
 	    	real = (int16_t)(FFTBuffer[k] & 0xFFFF);
 	    	imaginary = (int16_t)(FFTBuffer[k] >> 16);
